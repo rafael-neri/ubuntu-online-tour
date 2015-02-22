@@ -1,0 +1,1512 @@
+﻿<!DOCTYPE html>
+<html lang="tr" dir="ltr">
+	<head>
+		<title>Ubuntu çevrimiçi tur</title>
+		<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+		<meta charset="UTF-8" />
+		<meta name="description" content="Enjoy the simplicity of Ubuntu's stylish, intuitive interface. Take Ubuntu for a test drive with our online tour and download when you're ready!" />
+		<meta name="keywords" content="ubuntu, ubuntu online, ubuntu tour" />
+		<link rel="stylesheet" href="../css/loader.css" type="text/css" />
+		<link rel="stylesheet" href="../css/error.css" type="text/css" />
+		<link rel="stylesheet" href="../css/base.css" type="text/css" />
+		<link rel="stylesheet" href="../css/folder.css" type="text/css" />
+		<link rel="stylesheet" href="../css/firefox.css" type="text/css" />
+		<link rel="stylesheet" href="../css/email.css" type="text/css" />
+		<link rel="stylesheet" href="../css/systemoverlay.css" type="text/css" />
+		<link rel="stylesheet" href="../css/ubuntuone.css" type="text/css" />
+		<link rel="stylesheet" href="../css/shotwell.css" type="text/css" />
+		<link rel="stylesheet" href="../css/tourguide.css" type="text/css" />
+		<link rel="stylesheet" href="../css/welcome.css" type="text/css" />
+		<link rel="stylesheet" href="../css/shutdown.css" type="text/css" />
+		<link rel="stylesheet" href="../css/movieplayer.css" type="text/css" />
+		<link rel="stylesheet" href="../css/libre.css" type="text/css" />
+		<link rel="stylesheet" href="../css/notification.css" type="text/css" />
+		<link rel="stylesheet" href="../css/software-centre.css" type="text/css" />
+		<!--[if IE 8]>
+		<link rel="stylesheet" href="../css/iefix.css" type="text/css" />
+		<![endif]-->
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700' rel='stylesheet' type='text/css' />
+		<script type="text/javascript">
+			WebFontConfig = {
+				google : {
+					families : ['Ubuntu:400,700:latin']
+				}
+			}; (function() {
+				var wf = document.createElement('script');
+				wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+				wf.type = 'text/javascript';
+				wf.async = 'true';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(wf, s);
+			})();
+
+		</script>
+	</head>
+	<body>
+		<div id="loader">
+			<div id="dot-container">
+				<noscript>
+					<p>
+						This demo uses JavaScript. Either your browser doesn't support JavaScript, or it's currently switched off.
+						<br/>
+						<br/>
+						Don't panic. We've got <a href="/ubuntu/take-the-tour-gallery">a non-JavaScript version</a> of the online tour you can view instead. :)
+					</p>
+				</noscript>
+			</div>
+		</div>
+		<div id="top" class="dropShadow">
+			<div id="top-left">
+				<div id="control-buttons">
+					<div id="close"></div>
+					<div id="min"></div>
+					<div id="max"></div>
+				</div>
+				<div id="dash-control-buttons">
+					<div class="close"></div>
+					<div class="min"></div>
+					<div class="max"></div>
+				</div>
+				<div id="title"></div>
+			</div>
+			<div id="top-right">
+				<div id="connection"><img src="../img/top/connection.png" alt=""/>
+					<ul class="drop-down">
+						<li class="disabled">
+							Otomatik eth0
+						</li>
+						<li class="disabled">
+							Bağlantıyı kes
+						</li>
+						<li class="divider"></li>
+						<!--<li class="disabled"><img src="../img/top/wireless-icon.png" alt=""/> My Wireless Connection</li>
+						<li class="disabled">Bağlantıyı kes</li>
+						<li class="divider"></li>-->
+						<li class="disabled">
+							Bağlantı Bilgisi
+						</li>
+						<li class="disabled">
+							Bağlantıları Düzenle...
+						</li>
+					</ul>
+				</div>
+				<div id="bluetooth"><img src="../img/top/bluetooth.png" alt=""/>
+					<ul class="drop-down">
+						<li class="disabled bluetooth">
+							Bluetooth Açık
+						</li>
+						<li>
+							Bluetooth Kapat
+						</li>
+						<li class="divider"></li>
+						<li class="disabled BtOn">
+							Görünür
+						</li>
+						<li class="divider BtOn"></li>
+						<li class="disabled BtOn">
+							Aygıta dosya gönder...
+						</li>
+						<li class="disabled BtOn">
+							Aygıttaki dosyalara gözat...
+						</li>
+						<li class="divider"></li>
+						<li class="disabled BtOn">
+							Yeni aygıt ayarla...
+						</li>
+						<li class="divider BtOn"></li>
+						<li class="disabled">
+							Tercihler
+						</li>
+					</ul>
+				</div>
+				<div id="message"><img src="../img/top/nomessage.jpg" class="message-logo" alt="" />
+					<ul class="drop-down">
+						<li class="system-message"></li>
+					</ul>
+				</div>
+				<div id="speakers"><img src="../img/top/speakers3.png" class="speakers-logo"  alt=""/>
+					<ul class="drop-down">
+						<li>
+							Sessiz
+						</li>
+						<li class="system-volume">
+							<div class="large-icon"></div><div class="small-icon"></div><div class="slider"></div><div class="slider-active"></div>
+						</li>
+						<li class="divider"></li>
+						<li class="disabled"><img src="../img/top/rhythmbox.png" alt=""/> Rhythmbox
+						</li>
+						<li class="banshee">
+							<div class="banshee-rewind"></div><div class="banshee-forward"></div><div class="banshee-play"></div>
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							Ses Ayarları...
+						</li>
+					</ul>
+				</div>
+				<div id="time">
+					<p></p>
+					<ul class="drop-down">
+						<li class="system-calendar"></li>
+					</ul>
+				</div>
+				<div id="power"><img src="../img/top/power.png"  alt=""/>
+					<ul class="drop-down">
+						<li class="disabled">
+							Bu Bilgisayar Hakkında
+						</li>
+						<li class="disabled">
+							Ubuntu Yardım
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							System Settings&hellip;
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							Kilitle <span class="key-combo">Ctrl+Alt+L</span>
+						</li>
+						<li class="disabled user">
+							Misafir Oturumu
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							Oturumu Kapat
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							Askıya al
+						</li>
+						<li class="disabled">
+							Restart&hellip;
+						</li>
+						<li>
+							Bilgisayarı Kapat...
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="tooltip">
+			<div class="shadow-arrow"></div>
+			<div class="arrow-right"></div>
+			<div id="tooltip-text"></div>
+		</div>
+		<div id="menu">
+			<ul>
+				<li class="dash">
+					<span>Ana Seçke</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="home"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Ev Dizini</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="firefox"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Firefox Web Tarayıcısı</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="writer"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>LibreOffice Writer</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="calc"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>LibreOffice Calc</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="impress"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>LibreOffice Impress</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="software"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Ubuntu Yazılım Merkezi</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="amazon"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Amazon</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="settings"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Sistem Ayarları</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="email temp"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""><span>Thunderbird Mail</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt="">
+				</li>
+				<li class="shotwell temp"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Shotwell Fotoğraf Yöneticisi</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="movieplayer temp"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Film Oynatıcı</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<!--<li class="workspace"><span>Workspace Switcher</span></li>-->
+				<li class="rubbish bottom">
+					<span>Çöp kutusu</span>
+				</li>
+			</ul>
+		</div>
+		<div id="systemOverlay">
+			<div class="copyDash"></div>
+			<div id="overlayContents">
+				<input type="text" name="search" value="Search your computer and online sources"/>
+				<div id="display-home" class="app-container">
+					<div class="recent-apps bottom"><img src="../img/overlay/recentapps.png" alt=""/> Uygulamalar <div class="app-list"></div>
+					</div>
+					<div class="recent-files bottom"><img src="../img/overlay/recentfiles.png" alt=""/> Dosya &amp; Klasörler<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-apps" class="app-container">
+					<div class="frequently bottom"><img src="../img/overlay/recentapps.png" alt=""/> Son Kullanılanlar <div class="app-list"></div>
+					</div>
+					<div class="installed"><img src="../img/overlay/installed.png" alt=""/> Yüklenenler<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-find-files" class="app-container">
+					<div class="files bottom"><img src="../img/overlay/recentfiles.png" alt=""/> Son<div class="app-list"></div>
+					</div>
+					<div class="downloads bottom"><img src="../img/overlay/downloaded.png" alt=""/> İndirilenler<div class="app-list"></div>
+					</div>
+					<div class="folders"><img src="../img/overlay/folders.png" alt=""/> Klasörler<div class="app-list"></div>
+					</div>
+
+				</div>
+				<div id="display-find-music" class="app-container">
+					<div class="songs bottom"><img src="../img/overlay/folders.png" alt=""/> Parçalar<div class="app-list"></div>
+					</div>
+					<div class="albums"><img src="../img/overlay/folders.png" alt=""/> Albümler<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-find-video" class="app-container">
+					<div class="videos bottom"><img src="../img/overlay/folders.png" alt=""/> Videolar<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-find-photos" class="app-container">
+					<div class="photos bottom"><img src="../img/overlay/folders.png" alt=""/> My photos<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-chat" class="app-container">
+					<div class="message">
+						<p>Sorry, there is nothing that matches your search</p>
+					</div>
+				</div>
+				<div id="display-search" class="app-container">
+					<div class="applications bottom"><img src="../img/overlay/search-apps-logo.jpg" alt=""/> Uygulamalar<div class="app-list"></div>
+					</div>
+					<div class="files"><img src="../img/overlay/search-files-logo.jpg" alt=""/> Dosya &amp; Klasörler<div class="app-list"></div>
+					</div>
+				</div>
+			</div>
+			<div id="dash-bottom-bar">
+				<div class="bottom-wrapper">
+					<div class="home-icon active"></div>
+					<div class="applications-icon"></div>
+					<div class="files-icon"></div>
+					<div class="music-icon"></div>
+					<div class="video-icon"></div>
+					<div class="photos-icon"></div>
+					<div class="chat-icon last"></div>
+				</div>
+			</div>
+			<div id="preview">
+				<div class="image"></div>
+				<div class="info"></div>
+				<div class="buttons">
+					<a class="email">E-mail</a>
+					<a class="showInFolder">Show in Folder</a>
+					<a class="open">Open</a>
+				</div>
+			</div>
+		</div>
+		<div id="ubuntuone-window" class="uone window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="window-title">
+					Ubuntu One Kontrol Paneli
+				</div>
+			</div>
+			<div class="content">
+				<div class="header"></div>
+				<div class="body">
+					<h1>Kişisel Bulutunuzun Gücü</h1>
+					<div class="features">
+						<div class="files-anywhere">
+							<span class="logo"></span>
+							<div>
+								<h3>Dosyalarınız Hep Sizinle</h3>
+								<p>
+									Dosyalarınızı yedekleyin ve Ubuntu, Windows, Web ya da Mobil cihazınızdan ulaşın
+								</p>
+							</div>
+						</div>
+						<div class="rock-out">
+							<span class="logo"></span>
+							<div>
+								<h3>Müziksiz Kalmayın</h3>
+								<p>
+									Android ve iPhone için müzik yayını sayesinde tüm koleksiyonunuz gittiğiniz her yerde sizinle
+								</p>
+							</div>
+						</div>
+						<div class="keep-connected">
+							<span class="logo"></span>
+							<div>
+								<h3>Bağlı Kalın</h3>
+								<p>
+									Bağlantılarınızı Masaüstü, Mobil cihazınız ve Web arasında birleştirir
+								</p>
+							</div>
+						</div>
+						<div class="stay-productive">
+							<span class="logo"></span>
+							<div>
+								<h3>Verimli Kalın</h3>
+								<p>
+									Firefox yer imlerinizi ve Tomboy notlarınızı eşitler
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="ubuntuone-buttons">
+						<div class="learn-more"><img src="../img/ubuntuone/ubuntuone-logo.jpg" width="47" height="48" alt=""/>
+							<div>
+								Daha Fazla Bilgi Edinin
+							</div>
+						</div>
+						<div class="join-now">
+							<h2>Şimdi katıl</h2>
+						</div>
+						<div class="have-account">
+							Zaten bir hesabım var!
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="libreoffice-calc-window" class="calc window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					İsimsiz 1 - LibreOffice Calc
+				</div>
+			</div>
+			<div class="content">
+
+			</div>
+		</div>
+		<div id="libreoffice-writer-window" class="writer window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					İsimsiz 1 - LibreOffice Writer
+				</div>
+			</div>
+			<div class="content">
+
+			</div>
+		</div>
+		<div id="libreoffice-impress-window" class="impress window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					İsimsiz 1 - LibreOffice Impress
+				</div>
+			</div>
+			<div class="content">
+
+			</div>
+		</div>
+		<div class="error-window window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="window-title"></div>
+			</div>
+			<div class="error-container">
+				<h1>Ubuntu'yu keşfettiğiniz için teşekkürler.</h1>
+				<a class="download"  href="http://www.ubuntu.com/download/ubuntu/download?utm_source=tour&utm_medium=online&utm_campaign=tour" target="_blank">Ubuntu'yu İndir</a>
+				<h2>Unutmayın, bu sadece bir tanıtım. Gerçek bir eğlence deneyimi için Ubuntu'yu indirmelisiniz.</h2>
+			</div>
+		</div>
+		<!--<div id="error-window" class="error-window window">
+		<div class="control">
+		<div class="close"></div>
+		<div class="window-title"></div>
+		</div>
+		<div class="content">
+		<img src="../img/error/warning.jpg"/>
+		<div class="message">
+		<p>Thanks for exploring Ubuntu</p>
+		<p>Unutmayın, bu sadece bir tanıtım. Gerçek bir eğlence deneyimi için Ubuntu'yu indirmelisiniz.</p>
+		</div>
+		<div class="error-buttons"><div class="download highlight">Ubuntu'yu İndir</div></div>
+		</div>
+		</div>-->
+		<!--<div id="workspaces">
+		<div id="void">
+		<div id="workspace-container">
+		<div id="workspace1"><div class="fadedOverlay"></div></div>
+		<div id="workspace2"><div class="fadedOverlay"></div></div>
+		<div id="workspace3"><div class="fadedOverlay"></div></div>
+		<div id="workspace4"><div class="fadedOverlay"></div></div>
+		<div class="reflection" style="clear:both;"></div>
+		<div class="reflection"></div>
+		</div>
+		</div>
+		</div>-->
+		<div id="email-window" class="email-window window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					E-posta
+				</div>
+			</div>
+			<div class="buttons">
+				<div class="email-get-mail">
+					E-Postaları Al
+				</div>
+				<div class="email-divider"></div>
+				<div class="email-write">
+					Yaz
+				</div>
+				<!--<div class="email-address-book"></div>
+				<div class="email-divider"></div>
+				<div class="email-tag"></div>
+				<div class="email-search"><input type="text" name="submitEmailSearch" id="submitEmailSearch"/></div>-->
+			</div>
+			<div style="clear:both;"></div>
+			<div class="email-content">
+				<div class="folder-list">
+					<div class="bottom-buttons">
+						Tüm Klasörler
+					</div>
+					<div style="clear:both;"></div>
+					<div class="list">
+						<div id="folder-inbox" class="selected"><img src="../img/email/inbox.png" alt=""/> Gelen Kutusu
+						</div>
+						<div id="folder-draft"><img src="../img/email/drafts.png" alt=""/> Taslak
+						</div>
+						<div id="folder-sent"><img src="../img/email/sent.png" alt=""/> Gönderilen
+						</div>
+						<div id="folder-archive"><img src="../img/email/archive-logo.png" alt=""/> Arşiv
+						</div>
+						<div id="folder-trash"><img src="../img/email/trash.png" alt=""/> Çöp Kutusu
+						</div>
+					</div>
+				</div>
+				<div class="email-contents">
+					<div class="email-categories">
+						<div><img src="../img/email/t.png" alt=""/>
+						</div>
+						<div><img src="../img/email/star.png" alt=""/>
+						</div>
+						<div><img src="../img/email/clip.png" alt=""/>
+						</div>
+						<div class="subject">
+							Konu
+						</div>
+						<div><img src="../img/email/glasses.png" alt=""/>
+						</div>
+						<div class="from">
+							Kimden
+						</div>
+						<div><img src="../img/email/fire.png" alt=""/>
+						</div>
+						<div class="date">
+							Tarih
+						</div>
+					</div>
+					<div style="clear:both;"></div>
+					<div class="email-list"></div>
+					<div class="email-body">
+						<div class="message-header">
+							<div class="email-buttons">
+								<div>
+									<span class="message-reply">cevapla</span>
+									<span class="message-forward">ilet</span>
+									<span class="message-archive">arşiv</span>
+									<span class="message-junk">gereksiz</span>
+									<span class="message-delete">sil</span>
+								</div>
+							</div>
+							<div style="clear:both;"></div>
+							<div class="date"></div>
+							<dl class="from">
+								<dt>
+									kimden
+								</dt><dd></dd>
+							</dl>
+							<dl class="subject">
+								<dt>
+									konu
+								</dt><dd></dd>
+							</dl>
+							<dl class="to">
+								<dt>
+									kime
+								</dt><dd></dd>
+							</dl>
+							<dl class="cc">
+								<dt>
+									karbon kopya
+								</dt><dd></dd>
+							</dl>
+						</div>
+						<div class="junk-mail-banner"><img src="../img/email/large-fire.jpg" alt=""/> Gereksiz E-posta
+							<div class="not-junk">
+								Gereksiz Değil
+							</div>
+						</div>
+						<div class="message-body"></div>
+					</div>
+				</div>
+				<div style="clear:both;"></div>
+				<div class="emails-info">
+					<div>
+						Okunmamış: <span id="details-unread">1</span> Toplam: <span id="details-total">1</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="email-write" class="email-write window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Yaz: (konu yok)
+				</div>
+			</div>
+			<div class="buttons">
+				<div id="write-send">
+					Gönder
+				</div>
+				<div class="email-divider"></div>
+				<div id="write-attach">
+					Ekle
+				</div>
+			</div>
+			<div style="clear:both;"></div>
+			<div id="write-from">
+				<div>
+					Kimden:
+				</div>
+				<input type="text" name="from" value="You"/>
+			</div>
+			<div id="write-to">
+				<div>
+					Kime:
+				</div>
+				<input type="text" name="to"/>
+			</div>
+			<div id="write-subject">
+				<div>
+					Konu:
+				</div>
+				<input type="text" name="subject"/>
+			</div>
+			<div><img src="../img/email/disabled-format-buttons.jpg" width="853" height="32" alt=""/>
+			</div>
+			<div id="write-body">
+				<textarea name="body"></textarea>
+</div>			<div class="loading-bar">
+				<div class="progress"></div>
+			</div>
+		</div>
+		<div id="software-centre" class="software window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Ubuntu Yazılım Merkezi
+				</div>
+			</div>
+			<div class="top-panel">
+				<div class="back disabled"></div>
+				<div class="forward disabled"></div>
+				<div class="all-software selected"><img src="../img/software-centre/all-software.png" alt=""/>Tüm Yazılımlar
+				</div>
+				<div class="installed"><img src="../img/software-centre/installed.png" alt=""/>Yüklenenler
+				</div>
+				<div class="history"><img src="../img/software-centre/history.png" alt=""/>Geçmiş
+				</div>
+			</div>
+			<div class="container detailed">
+				<div class="title"><img src="../img/software-centre/visolate.png" class="app-image" width="100" alt=""/><h1>Visolate</h1>
+					<p class="subheading">
+						PCB CNC dönüştürücü
+					</p>
+					<p class="rating"><img src="../img/software-centre/rating.jpg" alt="" /> (91 Oylanma)
+					</p>
+				</div>
+				<div class="price">
+					<span class="theprice">Serbest</span><span class="button">Yükle</span>
+					<div class="loading-bar">
+						<div class="progress"></div>
+					</div>
+				</div>
+				<div class="description-container">
+					<div class="description-image"><img src="../img/software-centre/screenshot-blender.jpg" alt="" />
+					</div>
+					<div class="description"><img src="../img/software-centre/screenshot-blender.jpg" alt="" />Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur. Yinelenen bir sayfa içeriğinin okuyucunun dikkatini dağıttığı bilinen bir gerçektir. Lorem Ipsum kullanmanın amacı, sürekli 'buraya metin gelecek, buraya metin gelecek' yazmaya kıyasla daha dengeli bir harf dağılımı sağlayarak okunurluğu artırmasıdır.
+					</div>
+					<div style="clear:both;"></div>
+				</div>
+			</div>
+			<div class="container home">
+				<div class="header-image">
+					<span class="header-title">Yıldızlı uygulamalarımız</span>
+					<span class="header-subtitle">Gelin ve en beğendiklerimizi keşfedin</span>
+				</div>
+				<div class="navigation">
+					<ul>
+						<li>
+							Donatılar
+						</li>
+						<li>
+							Geliştirici Araçları
+						</li>
+						<li>
+							Eğitim
+						</li>
+						<li>
+							Yazı Tipleri
+						</li>
+						<li>
+							Oyunlar
+						</li>
+						<li>
+							Grafik Uygulamaları
+						</li>
+						<li>
+							Internet
+						</li>
+						<li>
+							Ofis
+						</li>
+						<li>
+							Bilim &amp; Mühendislik
+						</li>
+						<li>
+							Ses &amp; Video
+						</li>
+						<li>
+							Sistem
+						</li>
+						<li>
+							Tema &amp; Ayarlar
+						</li>
+					</ul>
+				</div>
+				<div class="whats-new">
+					<h2> Yenilikler</h2>
+					<div class="app-container">
+						<div class="chromium">
+							<h3>Chromium</h3>
+							<p>
+								Internet
+							</p>
+							<p class="cost">
+								Serbest
+							</p>
+						</div>
+						<div class="beep">
+							<h3>BEEP</h3>
+							<p>
+								Oyunlar
+							</p>
+							<p class="cost">
+								9.99 dolar
+							</p>
+						</div>
+						<div class="inkscape">
+							<h3>Inkscape</h3>
+							<p>
+								Grafik Uygulamaları
+							</p>
+							<p class="cost">
+								Serbest
+							</p>
+						</div>
+						<div class="worldofgoo">
+							<h3>World of Goo</h3>
+							<p>
+								Oyunlar
+							</p>
+							<p class="cost">
+								19.99 dolar
+							</p>
+						</div>
+						<div class="blender">
+							<h3>Blender</h3>
+							<p>
+								Grafik Uygulamaları
+							</p>
+							<p class="cost">
+								Serbest
+							</p>
+						</div>
+						<div class="braid">
+							<h3>Braid</h3>
+							<p>
+								Oyunlar
+							</p>
+							<p class="cost">
+								9.99 dolar
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="whats-new">
+					<h2> En Çok Oylananlar</h2>
+					<div class="app-container">
+						<div class="beep">
+							<h3>BEEP</h3>
+							<p>
+								Oyunlar
+							</p>
+							<p class="cost">
+								9.99 dolar
+							</p>
+						</div>
+						<div class="chromium">
+							<h3>Chromium</h3>
+							<p>
+								Internet
+							</p>
+							<p class="cost">
+								Serbest
+							</p>
+						</div>
+						<div class="worldofgoo">
+							<h3>World of Goo</h3>
+							<p>
+								Oyunlar
+							</p>
+							<p class="cost">
+								19.99 dolar
+							</p>
+						</div>
+						<div class="braid">
+							<h3>Braid</h3>
+							<p>
+								Oyunlar
+							</p>
+							<p class="cost">
+								9.99 dolar
+							</p>
+						</div>
+						<div class="inkscape">
+							<h3>Inkscape</h3>
+							<p>
+								Grafik Uygulamaları
+							</p>
+							<p class="cost">
+								Serbest
+							</p>
+						</div>
+						<div class="blender">
+							<h3>Blender</h3>
+							<p>
+								Grafik Uygulamaları
+							</p>
+							<p class="cost">
+								Serbest
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="shotwell" class="shotwell window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Shotwell
+				</div>
+			</div>
+			<div class="sidebar">
+				<div class="nav">
+					<ul>
+						<li class="library">
+							Kütüphane
+						</li>
+					</ul>
+				</div>
+				<div class="details">
+					<div class="overall">
+						<div>
+							Öğeler: <span class="items">16 Fotoğraf</span>
+						</div>
+						<div>
+							Kimden: <span class="from">26 Ekim 2001, Cuma</span>
+						</div>
+						<div>
+							Kime: <span class="to">11 Ekim 2010, Pazartesi</span>
+						</div>
+					</div>
+					<div class="single">
+						<div>
+							Başlık: <span class="title"></span>
+						</div>
+						<div>
+							Tarih: <span class="date"></span>
+						</div>
+						<div>
+							Boyut: <span class="size"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="images"></div>
+				<div class="tools">
+					<div class="jump-image">
+						<div class="next"></div><div class="prev"></div>
+					</div>
+					<div class="slider-container">
+						<div class="small-icon"></div><div class="slider"></div><div class="slider-active"></div><div class="large-icon"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="movieplayer" class="movieplayer window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Film Oynatıcı
+				</div>
+			</div>
+			<div class="container">
+				<div class="video"></div>
+			</div>
+		</div>
+		<div id="firefox-window" class="firefox-window window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Web'de gezinin
+				</div>
+			</div>
+			<div class="buttons">
+				<div class="firefox-back"></div>
+				<div class="firefox-forward"></div>
+				<div class="firefox-url">
+					<input type="text" name="submitURL" id="submitURL" value="http://www.ubuntu.com"/>
+				</div>
+				<div class="firefox-search">
+					<input type="text" name="submitSearch" id="submitSearch" value="Wikipedia" class="fade-text"/>
+				</div>
+			</div>
+			<div style="clear:both;"></div>
+			<div class="firefox-internet">
+				<div class="web-overlay-tran"></div>
+				<div class="theIframe">
+					<iframe src="../http://www.ubuntu.com" id="firefoxInternet" >
+						<p>
+							Tarayıcınız sayfa içi çerçeveleri (iframe) desteklemiyor.
+						</p>
+					</iframe>
+				</div>
+			</div>
+		</div>
+		<div id="shutdown-window" class="window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="window-title">
+					Bilgisayarı Kapat
+				</div>
+			</div>
+			<div class="content">
+				<img src="../img/powerwarning.jpg" alt=""/>
+				<div class="message">
+					<p>
+						Tüm programları sonlandırıp bilgisayarı kapatmak istediğinize emin misiniz?
+					</p>
+				</div>
+				<div class="shutdown-buttons">
+					<div class="shutdown highlight">
+						Bilgisayarı Kapat
+					</div>
+					<div class="cancel">
+						Vazgeç
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="folder-window" class="folder window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title"></div>
+			</div>
+
+			<div class="buttons">
+					<div class="folder-back"></div>
+					<div class="folder-forward"></div>
+				</div>
+				<div class="bottom-buttons"></div>
+				<div style="clear:both;"></div>
+			<div class="folder-list">
+				<div class="list">
+					<p>
+						Konumlar
+					</p>
+					<ul>
+						<li class="home selected" data-folder="home">Ev Dizini</li>
+						<li class="desktop" data-folder="5">Masaüstü</li>
+						<li class="documents" data-folder="0">Belgeler</li>
+						<li class="downloads" data-folder="1">İndirilenler</li>
+						<li class="music" data-folder="2">Müzik</li>
+						<li class="pictures" data-folder="4">Resimler</li>
+						<li class="videos" data-folder="3">Videolar</li>
+						<li class="rubbish" data-folder="bin">Çöp kutusu</li>
+					</ul>
+				</div>
+			</div>
+			<div class="folder-contents">
+				<div class="contents"></div>
+				<div class="selected-details"></div>
+			</div>
+		</div>
+		<div id="welcome">
+			<div id="welcome-screen" class="selected-window">
+				<div class="control">
+					<div class="window-title">Ubuntu turu</div>
+				</div>
+				<div class="welcome-header">
+					<h1>Ubuntu 14.04 turuna hoş geldiniz!</h1>
+					<h2>Çevrimiçi tanıtımımız ile Ubuntu'yu deneyin.</h2>
+				</div>
+				<ul>
+					<li>
+						<a class="browse-files" href="#browse-files">Dosyalara gözat</a>
+					</li>
+					<li>
+						<a class="check-email" href="#check-email">E-postaları kontrol et</a>
+					</li>
+					<li>
+						<a class="surf-the-web" href="#surf-the-web">Web'de gezinin</a>
+					</li>
+					<li>
+						<a class="find-apps" href="#find-apps">Uygulama bul</a>
+					</li>
+					<li>
+						<a class="create-documents" href="#create-documents">Belge Oluştur</a>
+					</li>
+					<li>
+						<a class="view-photos" href="#view-photos">Fotoğrafları Görüntüle</a>
+					</li>
+					<li>
+						<a class="create-presentations" href="#create-presentations">Sunumlar oluşturun</a>
+					</li>
+					<li>
+						<a class="create-spreadsheets" href="#create-spreadsheets">Tablolar oluşturun</a>
+					</li>
+					<li>
+						<a class="watch-video" href="#watch-video">Video İzle</a>
+					</li>
+				</ul>
+				<div class="language-mode">
+					<span class="active">English</span>
+					<a href="/tour/zh-CN/">Chinese</a>
+				</div>
+				<a class="explore-mode primary" href="#">Etrafa bir göz atın.</a>
+				<a class="tour-mode" href="#">Rehber eşliğinde gezinin</a>
+			</div>
+		</div>
+		<div id="tour-guide">
+			<div class="next-button">&rsaquo;</div>
+			<div class="prev-button">&lsaquo;</div>
+			<div class="guide-container welcome">
+				<div class="guide-logo"><img src="../img/tourguide/back-to-welcome.png" /></div>
+				<h3>Ubuntu çevrimiçi tur</h3>
+				<p>
+					Ubuntu çevrimiçi turunu beğendiğinizi umarız. <a href="http://www.ubuntu.com/download/ubuntu/download?utm_source=tour&utm_medium=online&utm_campaign=tour" target="_blank">İndirmeye hazır mısınız?</a> veya <a href="/ubuntu/take-the-tour" >siteye geri dön</a>
+				</p>
+			</div>
+			<div class="guide-container home">
+				<div class="guide-logo"><img src="../img/tourguide/file-small.png" />
+				</div>
+				<h3>Dosyalara gözat</h3>
+				<p>
+					Ubuntu'nun ev dizininden dosya ve dizinlerinize erişmek hızlı ve kolaydır.
+				</p>
+			</div>
+			<div class="guide-container firefox">
+				<div class="guide-logo"><img src="../img/tourguide/firefox-small.png" />
+				</div>
+				<h3>Web'de gezinin</h3>
+				<p>
+					Ubuntu ve Firefox ile web'i hızla ve güvenle gezin.
+				</p>
+			</div>
+			<div class="guide-container email">
+				<div class="guide-logo"><img src="../img/tourguide/mail-small.png" />
+				</div>
+				<h3>E-postaları kontrol et</h3>
+				<p>
+					Thunderbird ile e-posta okuyun, yazın ve gönderin. Kolay ve hızlıdır.
+				</p>
+			</div>
+			<div class="guide-container shotwell">
+				<div class="guide-logo"><img src="../img/tourguide/shotwell-small.png" />
+				</div>
+				<h3>Fotoğrafları Görüntüle</h3>
+				<p>
+					Shotwell ile fotoğraflarınızı Internete yükleyebilir, gruplandırabilir, düzenleyebilir ve paylaşabilirsiniz.
+				</p>
+			</div>
+			<div class="guide-container software">
+				<div class="guide-logo"><img src="../img/tourguide/apps-small.png" />
+				</div>
+				<h3>Uygulama bul</h3>
+				<p>
+					Ubuntu Yazılım Merkezi'nden hızla uygulama arayın ve indirin.
+				</p>
+			</div>
+			<div class="guide-container writer">
+				<div class="guide-logo"><img src="../img/tourguide/document-small.png" />
+				</div>
+				<h3>Belge Oluştur</h3>
+				<p>
+					LibreOffice Writer profesyonel belgeler oluşturmanızı kolaylaştırır.
+				</p>
+			</div>
+			<div class="guide-container calc">
+				<div class="guide-logo"><img src="../img/tourguide/calc-small.png" />
+				</div>
+				<h3>Tablolar oluşturun</h3>
+				<p>
+					LibreOffice Calc, anlaşılır ve doğru hesap tabloları oluşturmak için ihtiyaç duyacağınız her şeye sahiptir.
+				</p>
+			</div>
+			<div class="guide-container impress">
+				<div class="guide-logo"><img src="../img/tourguide/impress-small.png" />
+				</div>
+				<h3>Sunumlar oluşturun</h3>
+				<p>
+					Sezgisel LibreOffice Impress sunum aracıyla güzel bir etki bırakın.
+				</p>
+			</div>
+			<div class="guide-container movieplayer">
+				<div class="guide-logo"><img src="../img/tourguide/video-small.png" />
+				</div>
+				<h3>Video İzle</h3>
+				<p>
+					Tüm favori filmlerinizi ve videolarınızı, DVD'lerinizi, indirdiğiniz ya da kendi oluşturduğunuz filmleri izleyebilirsiniz.
+				</p>
+			</div>
+			<div class=" tour-buttons">
+				<div class="explore-to-welcome">Hoş geldiniz ekranı</div>
+				<div class="explore-to-download">Ubuntu'yu İndir</div>
+				<div class="explore-to-exit">Turdan Çık</div>
+			</div>
+		</div>
+		<div id="Translation-Strings">
+			<!--
+			* Email system
+			-->
+			<p class="_email_1_title_">
+				Erişilebilir
+			</p>
+			<p class="_email_2_title_">
+				Hızlı
+			</p>
+			<p class="_email_3_title_">
+				Uyumlu
+			</p>
+			<p class="_email_4_title_">
+				Güvenli
+			</p>
+			<p class="_email_5_title_">
+				Sizin Ubuntu'nuz, sizin yolunuz
+			</p>
+			<p class="_email_1_body_">
+				Erişilebilirlik Ubuntu felsefesinin merkezidir. Bilgisayar kullanmanın kişinin milliyetine, ırkına, cinsiyetine veya engeline bakmadan herkes için olduğuna inanıyoruz. Tümüyle 38 dile çevrilen Ubuntu ayrıca tamamen ücretsiz olarak zaruri destekleyici teknolojileri de barındırır.
+			</p>
+			<p class="_email_2_body_">
+				Ubuntu herhangi bir bilgisayarda hızla açılır fakat yeni makinelerde süper hızlıdır. Yavaşlatan gereksiz programlar ve deneme sürümü yazılımlar olmadan sistemin önyüklenmesi ve tarayıcının açılması saniyeler alır. Çevrimiçi olmayı beklerken ekrana baktıran diğer iştetim sistemlerinden farklıdır. Ve Ubuntu zamanla yavaşlamayacaktır. Hızlıdır. Ve hızlı kalacaktır.
+			</p>
+			<p class="_email_3_body_">
+				Ubuntu çeşitli aygıtlarla harika bir şekilde çalışır. Mp3 oynatıcısınızı, fotoğraf makinenizi ya da yazıcınızı bağlayın ve doğrudan çalışsın. Kurulum CD'si yok. Telaş yok. Ayrıca Windows ile de uyumlu! Bu sayede Microsoft Office belgelerinizi stressiz olarak açabilir, düzenleyebilir ve paylaşabilirsiniz.
+			</p>
+			<p class="_email_4_body_">
+				Ubuntu ile güvenle gezinebilirsiniz - dosyalarınız ve verilerinizin korumada olacağından emin olabilirsiniz. Yerleşik güvenlik duvarı ve virüs koruması standart olarak gelmektedir. Ve olası bir tehlike belirdiğinde, tek tıklamayla yükleyebileceğiniz otomatik güncellemeler sağlıyoruz. Önemli uygulamalarınızı koruyan ve böylece saldırganların sisteminize erişmesini engelleyen AppArmor ile güvenlik eklenmiştir. Ayrıca Ubuntu'nun kişisel bilgilerinizi gizli tutmasına yardım ettiği için Firefox ve gnome anahtarlığına teşekkürler. Bu sayede banka hesabınıza eriştiğinizde veya hassas verilerinizi arkadaşlarınızla veya meslektaşlarınızla paylaştığınızda, içiniz rahat edecek.
+			</p>
+			<p class="_email_5_body_">
+				Ubuntu'nun şık ve sezgisel arayüzünün sadeliğinin keyfini çıkarın. Hızlı, güvenli ve seçebileceğiniz binlerce uygulama ile Ubuntu size kusursuz ve modern bir deneyim sunar.
+			</p>
+			<p class="_random_reply_">
+				Ubuntu'yu keşfettiğiniz için teşekkürler! Unutmayın, bu sadece bir tanıtım. Gerçek bir eğlence deneyimi için Ubuntu'yu indirmelisiniz.
+				<br/>
+				<br/>
+				<a href="http://www.ubuntu.com/download/ubuntu/download?utm_source=tour&utm_medium=online&utm_campaign=tour" target="_blank">Ubuntu'yu İndir</a>
+			</p>
+			<p class="_write_">
+				Yaz
+			</p>
+			<p class="_no_subject_">
+				başlık yok
+			</p>
+			<p class="_recipient_">
+				Alıcı
+			</p>
+			<p class="_from_">
+				Kimden
+			</p>
+			<p class="_you_">
+				Siz
+			</p>
+			<p class="_on_">
+				Tarih:
+			</p>
+			<p class="_wrote_">
+				yazdı
+			</p>
+			<p class="_original_message_">
+				Özgün ileti
+			</p>
+			<p class="_fwd_">
+				İlet
+			</p>
+			<!--
+			* Folder System
+			-->
+			<p class="_home_folder_">
+				Ev Dizini
+			</p>
+			<p class="_desktop_folder_">
+				Masaüstü
+			</p>
+			<p class="_pictures_folder_">
+				Resimler
+			</p>
+			<p class="_videos_folder_">
+				Videolar
+			</p>
+			<p class="_music_folder_">
+				Müzik
+			</p>
+			<p class="_downloads_folder_">
+				İndirilenler
+			</p>
+			<p class="_documents_folder_">
+				Belgeler
+			</p>
+			<p class="_canonical_folder_">
+				Canonical
+			</p>
+			<p class="_backup_folder_">
+				Yedekle
+			</p>
+			<p class="_local_folder_">
+				Yerel
+			</p>
+			<p class="_work_folder_">
+				iş
+			</p>
+			<p class="_branches_folder_">
+				bölümler
+			</p>
+			<p class="_rubbish_bin_folder_">
+				Çöp kutusu
+			</p>
+			<!--
+			* Software Center System
+			-->
+			<p class="_remove_">
+				Kaldır
+			</p>
+			<p class="_price_free_">
+				Serbest
+			</p>
+			<p class="_installed_">
+				Yüklenenler
+			</p>
+			<p class="_install_">
+				Yükle
+			</p>
+			<p class="_installing_">
+				Yükleniyor
+			</p>
+			<p class="_chromium_app_">
+				Chromium Web Tarayıcı
+			</p>
+			<p class="_chromium_sub_">
+				İnternet'e erişin
+			</p>
+			<p class="_chromium_desc_">
+				Chromium, tüm Internet kullanıcıları için daha güvenli, daha hızlı ve daha kararlı bir web deneyimi hedefleyen açık kaynaklı tarayıcı projesidir.
+				<br/>
+				<br/>
+				Chromium, kullanım izlemesi ve otomatik güncelleme özelliklerini ekleyerek (isim ve simge değişimi ile) yeniden piyasaya sürülen Google Chrome için bir temel oluşturmaktadır.
+				<br/>
+				<br/>
+				Bu paket Chromium tarayıcısını içerir.
+			</p>
+			<p class="_beep_app_">
+				BEEP
+			</p>
+			<p class="_beep_sub_">
+				2 boyutlu, fizik temelli bulmacalı bir platform/nişancı oyunu
+			</p>
+			<p class="_beep_desc_">
+				BEEP, 2 boyutlu, yatay düzlemde hareket edebileceğiniz fizik temelli bir platform oyunudur. Oyunda yer çekimini ortadan kaldıran bir aygıta, jet motoruna ve bir silaha sahip küçük bir robotu yönetiyorsunuz. 6 benzersiz ortama yayılmış 24 seviyede araç kullanın, zıplayın, yüzün ve ateş edin.
+				<br/>
+				<br/>
+				BEEP'in yer çekimini yok eden aygıtını doğrudan fizik temelli çevreleri idare etmek için kullanın. Yer çekimini yok eden aygıt araç ve silah olarak kullanılabilir. Düşman robotlarını parçalamak, kuleler yapmak ve bulmacaları çözmek için kullanın.
+				<br/>
+				<br/>
+				BEEP, Galaksiyi keşfetmek için uzayın derinliklerinde binlerce yıl boyunca gezdi. BEEP mekiğiyle yabancı bir yıldız sisteminde yolculuk yapın ve gezegenlerin yüzeyine robotlar gönderin.
+			</p>
+			<p class="_inkscape_app_">
+				Inkscape Vektörel Grafik Düzenleyici
+			</p>
+			<p class="_inkscape_sub_">
+				Ölçeklenebilir Vektörel Grafik (SVG) resimleri oluştur ve düzenle
+			</p>
+			<p class="_inkscape_desc_">
+				Inkscape, WWW konsorsiyumu tarafından korunan bir standart olan SVG (Ölçeklenebilir Vektör Grafik) biçimini yükler ve kaydeder.
+				<br/>
+				<br/>
+				Inkscape'in kullanıcı arayüzü CorelDraw ve benzeri çizim programlarından tanıdık gelecektir. Dikdörtgenler, elipsler, metin nesneleri, bit eşlem görüntüleri ve serbest eğriler. Sürpriz olarak, bütün vektör ve bit eşlem nesneleri alfa saydamlığı alabilir ve isteğe göre dönüştürülebilir.
+				<br/>
+				<br/>
+				Inkscape birden fazla dosya açmayı ve bir dosya için birden fazla görünümü destekler. Grafikler yazdırılabilir ve png bit eşlem olarak dışa aktarılabilir.
+				<br/>
+				<br/>
+				İçe ve dışa aktarma özelliklerinden bazıları dia, libwmf-bin, pstoedit, skencil, imagemagick, ve perlmagick paketleri kullanılarak sağlanmıştır.
+				<br/>
+				<br/>
+				Diğer uzantılar ruby, libxml-xql-perl, python-numpy ve python-lxml paketlerini kullanır. Tüm eklentileri ve efektleri kullanmak için bu paketler sisteminizde bulunmak zorundadır.
+				<br/>
+				<br/>
+				Yazım denetleyicisini kullanmak istiyorsanız, aspell ve ilgili dil paketini kurmalısınız. Örneğin; aspell-tr ya da aspell-en.
+			</p>
+			<p class="_world_of_goo_app_">
+				World of Goo
+			</p>
+			<p class="_world_of_goo_sub_">
+				Fizik temelli yapboz/inşa oyunu
+			</p>
+			<p class="_world_of_goo_desc_">
+				Sürükle-bırak yaşam biçimi, kıvranan, yapı inşa etmek için konuşan goo damlaları, köprüler, top gülleleri, zeplinler ve dev diller. World of Goo'nun güzel dünyasında yaşayan milyonlarca masum goo topları keşfedilmeyi bekliyor.
+				<br/>
+				<br/>
+				Fakat onlar bir oyunda olduklarını bilmiyor ya da son derece şirin olduklarını. En çok bağımlılık yapan ve dehşet veren bulmaca oyunu sizi hiç unutmayacağınız bir macera içine sürükleyecek.
+			</p>
+			<p class="_blender_app_">
+				Blender
+			</p>
+			<p class="_blender_sub_">
+				Üç boyutlu modeller ve animasyonlar oluşturun ve düzenleyin
+			</p>
+			<p class="_blender_desc_">
+				Blender modelleme, canlandırma, render yapma, üretim sonrası aşamalar, etkileşimli oluşturma ve tekrar oynatma (oyunlar) için bütünleşik 3 boyutlu bir settir. Blender tamamen OpenGL ile yapılmış ve hız için tasarlanmış kendine özgü arayüze sahiptir. Python bağlantıları betik oluşturma için mevcuttur; 3D Studio ve Wavefront Obj gibi popüler dosya biçimleri için içe / dışa aktarma özellikleri topluluk tarafından betik olarak sağlanmıştır. Stiller, canlandırmalar, oyunlar için modeller veya üçüncü parti yazılım motorları ve web eklentisindeki ve/veya bağımsız ikili dosyadaki etkileşimli içerikler Blender'ın yaygın olarak kullanıldığı ürünlerdendir.
+			</p>
+			<p class="_braid_app_">
+				Braid
+			</p>
+			<p class="_braid_sub_">
+				Bulmacaları çözmek için zamanı iyi kullanın
+			</p>
+			<p class="_braid_desc_">
+				Bulmacaları çözmek için zamanı iyi kullanın. Braid  bulmacaları çözmek için zamanı iyi kullanmanız gereken, ışık ve tonlamaya dayanan tarzda bir platform oyunudur. Braid'de bulunan bütün bulmacalar benzersizdir, doldurma değildir.
+				<br/>
+				<br/>
+				Braid zamanınızı ve ilginizi çok değerli buluyor ve size duyuları zenginleştiren bir deneyim vermek için her şeyi yapıyor.
+				<br/>
+				<br/>
+				Oyunun tamamı zamanı kullanma üzerine kuruludur. Zamanın tuhaf ilerlediği evrenlere yolculuk edip gözlemleyecek, öğrenecek ve bu evrenlere hakim olacaksınız.
+			</p>
+			<p class="_rhythmbox_app_">
+				Rhythmbox Ortam Oynatıcısı
+			</p>
+			<p class="_brasero_app_">
+				Brasero Disk Yazma Programı
+			</p>
+			<p class="_movie_player_app_">
+				Film Oynatıcı
+			</p>
+			<p class="_shotwell_app_">
+				Shotwell Fotoğraf Yöneticisi
+			</p>
+			<p class="_pitivi_app_">
+				PiTiVi Video Düzenleyici
+			</p>
+			<p class="_sound_recorder_app_">
+				Ses Kaydedicisi
+			</p>
+			<p class="_empathy_app_">
+				Empathy Sohbet İstemcisi
+			</p>
+			<p class="_thunderbird_app_">
+				Thunderbird E-Posta/Haber
+			</p>
+			<p class="_firefox_app_">
+				Firefox Web Tarayıcısı
+			</p>
+			<p class="_gwibber_app_">
+				Gwibber Topluluk İstemcisi
+			</p>
+			<p class="_remote_desktop_app_">
+				Uzak Masaüstü Görüntüleyici
+			</p>
+			<p class="_terminal_app_">
+				Terminal Sunucu İstemcisi
+			</p>
+			<p class="_ubuntu_one_app_">
+				Ubuntu One
+			</p>
+			<p class="_ubuntu_software_center_app_">
+				Ubuntu Yazılım Merkezi
+			</p>
+			<p class="_ubuntu_one_music_app_">
+				Ubuntu One Müzik
+			</p>
+			<p class="_amazon_app_">
+				Amazon
+			</p>
+			<p class="_about_me_app_">
+				Hakkımda
+			</p>
+			<p class="_additional_drivers_app_">
+				Ek Sürücüler
+			</p>
+			<p class="_aisleroit_app_">
+				AisleRoit Kağıt Oyunu
+			</p>
+			<p class="_appearance_app_">
+				Gürünüm
+			</p>
+			<p class="_bluetooth_app_">
+				Bluetooth
+			</p>
+			<!--
+			* Dash
+			-->
+			<p class="_search_">Bilgisayarınızda ve çevrimiçi kaynaklarda arama yapın</p>
+			<!--
+			* Notifications
+			-->
+			<p class="_turn_off_bluetooth_">
+				Bluetooth Kapat
+			</p>
+			<p class="_turn_on_bluetooth_">
+				Bluetooth Aç
+			</p>
+			<p class="_visible_">
+				Görünür
+			</p>
+			<p class="_mute_">
+				Sessiz
+			</p>
+			<p class="_unmute_">
+				Sesi Aç
+			</p>
+			<p class="_shut_down_">
+				Bilgisayarı Kapat...
+			</p>
+			<!--
+				Files Details - Images
+			-->
+			<p class="_photo_size_">
+				15.2KB
+			</p>
+			<p class="_photo_date_">
+				26 Ekim 2001, Cuma
+			</p>
+			<p class="_buck_off_title_">
+				Antilop
+			</p>
+			<p class="_darkening_clockwork_title_">
+				Saat Düzeneği
+			</p>
+			<p class="_dybbølsbro_station_title_">
+				Dybbølsbro İstasyonu
+			</p>
+			<p class="_federica_miglio_title_">
+				Federica Miglio
+			</p>
+			<p class="_jardin_polar_title_">
+				Jardin Polar
+			</p>
+			<p class="_langelinie_alle_title_">
+				Langelinie Yolu
+			</p>
+			<p class="_momiji_dream_title_">
+				Momiji Rüyası
+			</p>
+			<p class="_mount_snowdon_title_">
+				Snowdon Dağı
+			</p>
+			<p class="_not_alone_title_">
+				Yalnız Değil
+			</p>
+			<p class="_power_of_words_title_">
+				Kelimelerin Gücü
+			</p>
+			<p class="_purple_dancers_title_">
+				Mor Dansçılar
+			</p>
+			<p class="_sand_maze_title_">
+				Kum Labirenti
+			</p>
+			<p class="_small_flowers_title_">
+				Küçük Çiçekler
+			</p>
+			<p class="_stalking_ocelot_title_">
+				Sessizce Yaklaşan Ocelot
+			</p>
+			<p class="_the_grass_aint_greener_title_">
+				The Grass Aint Greener
+			</p>
+			<p class="_wildWheat_title_">
+				Yabani Buğday
+			</p>
+			<!--
+				Files Details - Video
+			-->
+			<p class="_introduction_ubuntu_title_">
+				Ubuntu Tanıtımı
+			</p>
+			<p class="_video_size_">
+				5.3MB
+			</p>
+			<p class="_video_date_">
+				11 Ekim 2010, Pazartesi
+			</p>
+			<!--
+				Files Details - Music
+			-->
+			<p class="_happyness_title_">
+				Mutluluk
+			</p>
+			<p class="_music_size_">
+				3.3MB
+			</p>
+			<p class="_music_date_">
+				14 Ekim 2010, Çarşamba
+			</p>
+		</div>
+		<script type="text/javascript" src="../js/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="../js/lang.js"></script>
+		<script type="text/javascript" src="../js/scripts.js"></script>
+		<script type="text/javascript" src="../js/welcomesystem.js"></script>
+		<script type="text/javascript" src="../js/guidedtoursystem.js"></script>
+		<script type="text/javascript" src="../js/filesystem.js"></script>
+		<script type="text/javascript" src="../js/folders.js"></script>
+		<script type="text/javascript" src="../js/systemoverlay.js"></script>
+		<script type="text/javascript" src="../js/systemmenu.js"></script>
+		<script type="text/javascript" src="../js/internetsystem.js"></script>
+		<script type="text/javascript" src="../js/emailsystem.js"></script>
+		<script type="text/javascript" src="../js/systemsettings.js"></script>
+		<script type="text/javascript" src="../js/email.js"></script>
+		<script type="text/javascript" src="../js/errormessage.js"></script>
+		<script type="text/javascript" src="../js/ubuntuonesystem.js"></script>
+		<script type="text/javascript" src="../js/file.js"></script>
+		<script type="text/javascript" src="../js/shotwellsystem.js"></script>
+		<script type="text/javascript" src="../js/shutdownSystem.js"></script>
+		<script type="text/javascript" src="../js/movieplayersystem.js"></script>
+		<script type="text/javascript" src="../js/libresystem.js"></script>
+		<script type="text/javascript" src="../js/softwaresystem.js"></script>
+		<script type="text/javascript" src="../js/notificationsystem.js"></script>
+		<script type="text/javascript" src="../js/analytics.js"></script>
+	</body>
+</html>

@@ -1,0 +1,1512 @@
+﻿<!DOCTYPE html>
+<html lang="cs" dir="ltr">
+	<head>
+		<title>Online prohlídka Ubuntu</title>
+		<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+		<meta charset="UTF-8" />
+		<meta name="description" content="Enjoy the simplicity of Ubuntu's stylish, intuitive interface. Take Ubuntu for a test drive with our online tour and download when you're ready!" />
+		<meta name="keywords" content="ubuntu, ubuntu online, ubuntu tour" />
+		<link rel="stylesheet" href="../css/loader.css" type="text/css" />
+		<link rel="stylesheet" href="../css/error.css" type="text/css" />
+		<link rel="stylesheet" href="../css/base.css" type="text/css" />
+		<link rel="stylesheet" href="../css/folder.css" type="text/css" />
+		<link rel="stylesheet" href="../css/firefox.css" type="text/css" />
+		<link rel="stylesheet" href="../css/email.css" type="text/css" />
+		<link rel="stylesheet" href="../css/systemoverlay.css" type="text/css" />
+		<link rel="stylesheet" href="../css/ubuntuone.css" type="text/css" />
+		<link rel="stylesheet" href="../css/shotwell.css" type="text/css" />
+		<link rel="stylesheet" href="../css/tourguide.css" type="text/css" />
+		<link rel="stylesheet" href="../css/welcome.css" type="text/css" />
+		<link rel="stylesheet" href="../css/shutdown.css" type="text/css" />
+		<link rel="stylesheet" href="../css/movieplayer.css" type="text/css" />
+		<link rel="stylesheet" href="../css/libre.css" type="text/css" />
+		<link rel="stylesheet" href="../css/notification.css" type="text/css" />
+		<link rel="stylesheet" href="../css/software-centre.css" type="text/css" />
+		<!--[if IE 8]>
+		<link rel="stylesheet" href="../css/iefix.css" type="text/css" />
+		<![endif]-->
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700' rel='stylesheet' type='text/css' />
+		<script type="text/javascript">
+			WebFontConfig = {
+				google : {
+					families : ['Ubuntu:400,700:latin']
+				}
+			}; (function() {
+				var wf = document.createElement('script');
+				wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+				wf.type = 'text/javascript';
+				wf.async = 'true';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(wf, s);
+			})();
+
+		</script>
+	</head>
+	<body>
+		<div id="loader">
+			<div id="dot-container">
+				<noscript>
+					<p>
+						This demo uses JavaScript. Either your browser doesn't support JavaScript, or it's currently switched off.
+						<br/>
+						<br/>
+						Don't panic. We've got <a href="/ubuntu/take-the-tour-gallery">a non-JavaScript version</a> of the online tour you can view instead. :)
+					</p>
+				</noscript>
+			</div>
+		</div>
+		<div id="top" class="dropShadow">
+			<div id="top-left">
+				<div id="control-buttons">
+					<div id="close"></div>
+					<div id="min"></div>
+					<div id="max"></div>
+				</div>
+				<div id="dash-control-buttons">
+					<div class="close"></div>
+					<div class="min"></div>
+					<div class="max"></div>
+				</div>
+				<div id="title"></div>
+			</div>
+			<div id="top-right">
+				<div id="connection"><img src="../img/top/connection.png" alt=""/>
+					<ul class="drop-down">
+						<li class="disabled">
+							Auto eth0
+						</li>
+						<li class="disabled">
+							Odpojit
+						</li>
+						<li class="divider"></li>
+						<!--<li class="disabled"><img src="../img/top/wireless-icon.png" alt=""/> My Wireless Connection</li>
+						<li class="disabled">Odpojit</li>
+						<li class="divider"></li>-->
+						<li class="disabled">
+							Informace o spojení
+						</li>
+						<li class="disabled">
+							Upravit připojení...
+						</li>
+					</ul>
+				</div>
+				<div id="bluetooth"><img src="../img/top/bluetooth.png" alt=""/>
+					<ul class="drop-down">
+						<li class="disabled bluetooth">
+							Bluetooth Zapnuto
+						</li>
+						<li>
+							Vypnout: Bluetooth
+						</li>
+						<li class="divider"></li>
+						<li class="disabled BtOn">
+							Viditelné
+						</li>
+						<li class="divider BtOn"></li>
+						<li class="disabled BtOn">
+							Odeslat soubory do zařízení...
+						</li>
+						<li class="disabled BtOn">
+							Procházet soubory v zařízení...
+						</li>
+						<li class="divider"></li>
+						<li class="disabled BtOn">
+							Nastavit nové zařízení...
+						</li>
+						<li class="divider BtOn"></li>
+						<li class="disabled">
+							Předvolby
+						</li>
+					</ul>
+				</div>
+				<div id="message"><img src="../img/top/nomessage.jpg" class="message-logo" alt="" />
+					<ul class="drop-down">
+						<li class="system-message"></li>
+					</ul>
+				</div>
+				<div id="speakers"><img src="../img/top/speakers3.png" class="speakers-logo"  alt=""/>
+					<ul class="drop-down">
+						<li>
+							Ztlumit
+						</li>
+						<li class="system-volume">
+							<div class="large-icon"></div><div class="small-icon"></div><div class="slider"></div><div class="slider-active"></div>
+						</li>
+						<li class="divider"></li>
+						<li class="disabled"><img src="../img/top/rhythmbox.png" alt=""/> Rhythmbox
+						</li>
+						<li class="banshee">
+							<div class="banshee-rewind"></div><div class="banshee-forward"></div><div class="banshee-play"></div>
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							Předvolby zvuku...
+						</li>
+					</ul>
+				</div>
+				<div id="time">
+					<p></p>
+					<ul class="drop-down">
+						<li class="system-calendar"></li>
+					</ul>
+				</div>
+				<div id="power"><img src="../img/top/power.png"  alt=""/>
+					<ul class="drop-down">
+						<li class="disabled">
+							About This Computer
+						</li>
+						<li class="disabled">
+							Ubuntu Help
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							System Settings&hellip;
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							Lock <span class="key-combo">Ctrl+Alt+L</span>
+						</li>
+						<li class="disabled user">
+							Guest Session
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							Logout
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							Uspat do paměti
+						</li>
+						<li class="disabled">
+							Restart&hellip;
+						</li>
+						<li>
+							Vypnout...
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="tooltip">
+			<div class="shadow-arrow"></div>
+			<div class="arrow-right"></div>
+			<div id="tooltip-text"></div>
+		</div>
+		<div id="menu">
+			<ul>
+				<li class="dash">
+					<span>Hlavní nabídka Dash</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="home"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Domovský adresář</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="firefox"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Firefox Webový prohlížeč</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="writer"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>LibreOffice Writer</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="calc"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>LibreOffice Calc</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="impress"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>LibreOffice Impress</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="software"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Centrum softwaru pro Ubuntu</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="amazon"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Amazon</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="settings"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Nastavení systému</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="email temp"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""><span>Thunderbird Mail</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt="">
+				</li>
+				<li class="shotwell temp"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Správce fotografií Shotwell</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="movieplayer temp"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Přehrávač filmů</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<!--<li class="workspace"><span>Workspace Switcher</span></li>-->
+				<li class="rubbish bottom">
+					<span>Koš</span>
+				</li>
+			</ul>
+		</div>
+		<div id="systemOverlay">
+			<div class="copyDash"></div>
+			<div id="overlayContents">
+				<input type="text" name="search" value="Search your computer and online sources"/>
+				<div id="display-home" class="app-container">
+					<div class="recent-apps bottom"><img src="../img/overlay/recentapps.png" alt=""/> Aplikace <div class="app-list"></div>
+					</div>
+					<div class="recent-files bottom"><img src="../img/overlay/recentfiles.png" alt=""/> Soubory a složky<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-apps" class="app-container">
+					<div class="frequently bottom"><img src="../img/overlay/recentapps.png" alt=""/> Naposledy použité <div class="app-list"></div>
+					</div>
+					<div class="installed"><img src="../img/overlay/installed.png" alt=""/> Nainstalováno<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-find-files" class="app-container">
+					<div class="files bottom"><img src="../img/overlay/recentfiles.png" alt=""/> Nedávné<div class="app-list"></div>
+					</div>
+					<div class="downloads bottom"><img src="../img/overlay/downloaded.png" alt=""/> Stažené<div class="app-list"></div>
+					</div>
+					<div class="folders"><img src="../img/overlay/folders.png" alt=""/> Složky<div class="app-list"></div>
+					</div>
+
+				</div>
+				<div id="display-find-music" class="app-container">
+					<div class="songs bottom"><img src="../img/overlay/folders.png" alt=""/> Skladby<div class="app-list"></div>
+					</div>
+					<div class="albums"><img src="../img/overlay/folders.png" alt=""/> Alba<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-find-video" class="app-container">
+					<div class="videos bottom"><img src="../img/overlay/folders.png" alt=""/> Videa<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-find-photos" class="app-container">
+					<div class="photos bottom"><img src="../img/overlay/folders.png" alt=""/> My photos<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-chat" class="app-container">
+					<div class="message">
+						<p>Sorry, there is nothing that matches your search</p>
+					</div>
+				</div>
+				<div id="display-search" class="app-container">
+					<div class="applications bottom"><img src="../img/overlay/search-apps-logo.jpg" alt=""/> Aplikace<div class="app-list"></div>
+					</div>
+					<div class="files"><img src="../img/overlay/search-files-logo.jpg" alt=""/> Soubory a složky<div class="app-list"></div>
+					</div>
+				</div>
+			</div>
+			<div id="dash-bottom-bar">
+				<div class="bottom-wrapper">
+					<div class="home-icon active"></div>
+					<div class="applications-icon"></div>
+					<div class="files-icon"></div>
+					<div class="music-icon"></div>
+					<div class="video-icon"></div>
+					<div class="photos-icon"></div>
+					<div class="chat-icon last"></div>
+				</div>
+			</div>
+			<div id="preview">
+				<div class="image"></div>
+				<div class="info"></div>
+				<div class="buttons">
+					<a class="email">E-mail</a>
+					<a class="showInFolder">Show in Folder</a>
+					<a class="open">Open</a>
+				</div>
+			</div>
+		</div>
+		<div id="ubuntuone-window" class="uone window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="window-title">
+					Ovládací panel Ubuntu One
+				</div>
+			</div>
+			<div class="content">
+				<div class="header"></div>
+				<div class="body">
+					<h1>Síla vašeho osobního cloudu</h1>
+					<div class="features">
+						<div class="files-anywhere">
+							<span class="logo"></span>
+							<div>
+								<h3>Soubory kdekoli</h3>
+								<p>
+									Zálohujte a přistupujte ke svým souborům z Ubuntu, Windows, webu nebo mobilního telefonu.
+								</p>
+							</div>
+						</div>
+						<div class="rock-out">
+							<span class="logo"></span>
+							<div>
+								<h3>Poslouchejte hudbu</h3>
+								<p>
+									Mějte u sebe celou sbírku díky přesunu hudby do systémů Android a iPhone
+								</p>
+							</div>
+						</div>
+						<div class="keep-connected">
+							<span class="logo"></span>
+							<div>
+								<h3>Zůstaňte ve spojení</h3>
+								<p>
+									Sjednoťte své kontakty mezi počítače, mobilem a webem
+								</p>
+							</div>
+						</div>
+						<div class="stay-productive">
+							<span class="logo"></span>
+							<div>
+								<h3>Buďte produktivní</h3>
+								<p>
+									Mějte své poznámky a záložky synchronizovány
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="ubuntuone-buttons">
+						<div class="learn-more"><img src="../img/ubuntuone/ubuntuone-logo.jpg" width="47" height="48" alt=""/>
+							<div>
+								Více informací
+							</div>
+						</div>
+						<div class="join-now">
+							<h2>Připojte se nyní</h2>
+						</div>
+						<div class="have-account">
+							Již mám účet!
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="libreoffice-calc-window" class="calc window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Bez názvu 1 - LibreOffice Calc
+				</div>
+			</div>
+			<div class="content">
+
+			</div>
+		</div>
+		<div id="libreoffice-writer-window" class="writer window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Bez návzu - LibreOffice Writer
+				</div>
+			</div>
+			<div class="content">
+
+			</div>
+		</div>
+		<div id="libreoffice-impress-window" class="impress window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Bez názvu 1 - LibreOffice Impress
+				</div>
+			</div>
+			<div class="content">
+
+			</div>
+		</div>
+		<div class="error-window window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="window-title"></div>
+			</div>
+			<div class="error-container">
+				<h1>Děkujeme za vyzkoušení Ubuntu</h1>
+				<a class="download"  href="http://www.ubuntu.com/download/ubuntu/download?utm_source=tour&utm_medium=online&utm_campaign=tour" target="_blank">Stáhnout Ubuntu</a>
+				<h2>Nezapomínejte, že, toto je pouze ukázka. Abyste poznali všechny možnosti Ubuntu, musíte si jej stáhnout a nainstalovat.</h2>
+			</div>
+		</div>
+		<!--<div id="error-window" class="error-window window">
+		<div class="control">
+		<div class="close"></div>
+		<div class="window-title"></div>
+		</div>
+		<div class="content">
+		<img src="../img/error/warning.jpg"/>
+		<div class="message">
+		<p>Thanks for exploring Ubuntu</p>
+		<p>Nezapomínejte, že, toto je pouze ukázka. Abyste poznali všechny možnosti Ubuntu, musíte si jej stáhnout a nainstalovat.</p>
+		</div>
+		<div class="error-buttons"><div class="download highlight">Stáhnout Ubuntu</div></div>
+		</div>
+		</div>-->
+		<!--<div id="workspaces">
+		<div id="void">
+		<div id="workspace-container">
+		<div id="workspace1"><div class="fadedOverlay"></div></div>
+		<div id="workspace2"><div class="fadedOverlay"></div></div>
+		<div id="workspace3"><div class="fadedOverlay"></div></div>
+		<div id="workspace4"><div class="fadedOverlay"></div></div>
+		<div class="reflection" style="clear:both;"></div>
+		<div class="reflection"></div>
+		</div>
+		</div>
+		</div>-->
+		<div id="email-window" class="email-window window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Pošta
+				</div>
+			</div>
+			<div class="buttons">
+				<div class="email-get-mail">
+					Přijmout
+				</div>
+				<div class="email-divider"></div>
+				<div class="email-write">
+					Napsat
+				</div>
+				<!--<div class="email-address-book"></div>
+				<div class="email-divider"></div>
+				<div class="email-tag"></div>
+				<div class="email-search"><input type="text" name="submitEmailSearch" id="submitEmailSearch"/></div>-->
+			</div>
+			<div style="clear:both;"></div>
+			<div class="email-content">
+				<div class="folder-list">
+					<div class="bottom-buttons">
+						Všechny složky
+					</div>
+					<div style="clear:both;"></div>
+					<div class="list">
+						<div id="folder-inbox" class="selected"><img src="../img/email/inbox.png" alt=""/> Doručená pošta
+						</div>
+						<div id="folder-draft"><img src="../img/email/drafts.png" alt=""/> Koncepty
+						</div>
+						<div id="folder-sent"><img src="../img/email/sent.png" alt=""/> Odeslaná pošta
+						</div>
+						<div id="folder-archive"><img src="../img/email/archive-logo.png" alt=""/> Archiv
+						</div>
+						<div id="folder-trash"><img src="../img/email/trash.png" alt=""/> Koš
+						</div>
+					</div>
+				</div>
+				<div class="email-contents">
+					<div class="email-categories">
+						<div><img src="../img/email/t.png" alt=""/>
+						</div>
+						<div><img src="../img/email/star.png" alt=""/>
+						</div>
+						<div><img src="../img/email/clip.png" alt=""/>
+						</div>
+						<div class="subject">
+							Předmět
+						</div>
+						<div><img src="../img/email/glasses.png" alt=""/>
+						</div>
+						<div class="from">
+							Od
+						</div>
+						<div><img src="../img/email/fire.png" alt=""/>
+						</div>
+						<div class="date">
+							Datum
+						</div>
+					</div>
+					<div style="clear:both;"></div>
+					<div class="email-list"></div>
+					<div class="email-body">
+						<div class="message-header">
+							<div class="email-buttons">
+								<div>
+									<span class="message-reply">odpovědět</span>
+									<span class="message-forward">přeposlat</span>
+									<span class="message-archive">archivovat</span>
+									<span class="message-junk">nevyžádaná pošta</span>
+									<span class="message-delete">smazat</span>
+								</div>
+							</div>
+							<div style="clear:both;"></div>
+							<div class="date"></div>
+							<dl class="from">
+								<dt>
+									Od
+								</dt><dd></dd>
+							</dl>
+							<dl class="subject">
+								<dt>
+									Předmět
+								</dt><dd></dd>
+							</dl>
+							<dl class="to">
+								<dt>
+									Komu
+								</dt><dd></dd>
+							</dl>
+							<dl class="cc">
+								<dt>
+									Kopie
+								</dt><dd></dd>
+							</dl>
+						</div>
+						<div class="junk-mail-banner"><img src="../img/email/large-fire.jpg" alt=""/> Spam
+							<div class="not-junk">
+								Není nevyžádané
+							</div>
+						</div>
+						<div class="message-body"></div>
+					</div>
+				</div>
+				<div style="clear:both;"></div>
+				<div class="emails-info">
+					<div>
+						Nepřečtené: <span id="details-unread">1</span> Celkem: <span id="details-total">1</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="email-write" class="email-write window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Psaní zprávy: (bez předmětu)
+				</div>
+			</div>
+			<div class="buttons">
+				<div id="write-send">
+					Odeslat
+				</div>
+				<div class="email-divider"></div>
+				<div id="write-attach">
+					Připojit
+				</div>
+			</div>
+			<div style="clear:both;"></div>
+			<div id="write-from">
+				<div>
+					Od:
+				</div>
+				<input type="text" name="from" value="You"/>
+			</div>
+			<div id="write-to">
+				<div>
+					Komu:
+				</div>
+				<input type="text" name="to"/>
+			</div>
+			<div id="write-subject">
+				<div>
+					Předmět:
+				</div>
+				<input type="text" name="subject"/>
+			</div>
+			<div><img src="../img/email/disabled-format-buttons.jpg" width="853" height="32" alt=""/>
+			</div>
+			<div id="write-body">
+				<textarea name="body"></textarea>
+</div>			<div class="loading-bar">
+				<div class="progress"></div>
+			</div>
+		</div>
+		<div id="software-centre" class="software window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Centrum softwaru pro Ubuntu
+				</div>
+			</div>
+			<div class="top-panel">
+				<div class="back disabled"></div>
+				<div class="forward disabled"></div>
+				<div class="all-software selected"><img src="../img/software-centre/all-software.png" alt=""/>Veškerý software
+				</div>
+				<div class="installed"><img src="../img/software-centre/installed.png" alt=""/>Nainstalováno
+				</div>
+				<div class="history"><img src="../img/software-centre/history.png" alt=""/>Historie
+				</div>
+			</div>
+			<div class="container detailed">
+				<div class="title"><img src="../img/software-centre/visolate.png" class="app-image" width="100" alt=""/><h1>Visolate</h1>
+					<p class="subheading">
+						PCB CNC převodník
+					</p>
+					<p class="rating"><img src="../img/software-centre/rating.jpg" alt="" /> (91 hodnocení)
+					</p>
+				</div>
+				<div class="price">
+					<span class="theprice">zdarma</span><span class="button">Nainstalovat</span>
+					<div class="loading-bar">
+						<div class="progress"></div>
+					</div>
+				</div>
+				<div class="description-container">
+					<div class="description-image"><img src="../img/software-centre/screenshot-blender.jpg" alt="" />
+					</div>
+					<div class="description"><img src="../img/software-centre/screenshot-blender.jpg" alt="" />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quam augue, convallis id commodo id, tristique ac mi. Ut dapibus, neque eget elementum pretium, nunc turpis congue eros, et interdum nisi nisi at diam. Duis dictum, justo eget imperdiet pulvinar, dolor est fermentum nisl, luctus imperdiet metus elit a purus. Quisque nisl enim, lacinia ut venenatis in, porttitor eget orci. Quisque non nibh nec risus tincidunt sollicitudin vitae et nisl. Proin odio lacus, vulputate non auctor sit amet, dapibus quis tortor. Donec elit libero, pellentesque quis dictum sed, hendrerit non libero. Aliquam eu diam id leo auctor tincidunt. Phasellus cursus felis at nulla facilisis semper. Cras mauris urna, adipiscing sed scelerisque ut, gravida id neque. Mauris ut vestibulum justo. Curabitur convallis elementum pellentesque. Duis sit amet arcu ac eros pretium scelerisque. Nunc nec nisi nulla.
+					</div>
+					<div style="clear:both;"></div>
+				</div>
+			</div>
+			<div class="container home">
+				<div class="header-image">
+					<span class="header-title">Naše hvězdné aplikace</span>
+					<span class="header-subtitle">Prohlédněte si naše oblíbené</span>
+				</div>
+				<div class="navigation">
+					<ul>
+						<li>
+							Příslušenství
+						</li>
+						<li>
+							Vývojářské nástroje
+						</li>
+						<li>
+							Vzdělávání
+						</li>
+						<li>
+							Písma
+						</li>
+						<li>
+							Hry
+						</li>
+						<li>
+							Grafika
+						</li>
+						<li>
+							Internet
+						</li>
+						<li>
+							Kancelář
+						</li>
+						<li>
+							Věda a inženýrství
+						</li>
+						<li>
+							Zvuk a video
+						</li>
+						<li>
+							Systém
+						</li>
+						<li>
+							Motivy a tweaky
+						</li>
+					</ul>
+				</div>
+				<div class="whats-new">
+					<h2> Co je nového</h2>
+					<div class="app-container">
+						<div class="chromium">
+							<h3>Chromium</h3>
+							<p>
+								Internet
+							</p>
+							<p class="cost">
+								zdarma
+							</p>
+						</div>
+						<div class="beep">
+							<h3>BEEP</h3>
+							<p>
+								Hry
+							</p>
+							<p class="cost">
+								US$ 9.99
+							</p>
+						</div>
+						<div class="inkscape">
+							<h3>Inkscape</h3>
+							<p>
+								Grafika
+							</p>
+							<p class="cost">
+								zdarma
+							</p>
+						</div>
+						<div class="worldofgoo">
+							<h3>World of Goo</h3>
+							<p>
+								Hry
+							</p>
+							<p class="cost">
+								US$ 19.99
+							</p>
+						</div>
+						<div class="blender">
+							<h3>Blender</h3>
+							<p>
+								Grafika
+							</p>
+							<p class="cost">
+								zdarma
+							</p>
+						</div>
+						<div class="braid">
+							<h3>Braid</h3>
+							<p>
+								Hry
+							</p>
+							<p class="cost">
+								US$ 9.99
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="whats-new">
+					<h2> Nejlépe hodnocené</h2>
+					<div class="app-container">
+						<div class="beep">
+							<h3>BEEP</h3>
+							<p>
+								Hry
+							</p>
+							<p class="cost">
+								US$ 9.99
+							</p>
+						</div>
+						<div class="chromium">
+							<h3>Chromium</h3>
+							<p>
+								Internet
+							</p>
+							<p class="cost">
+								zdarma
+							</p>
+						</div>
+						<div class="worldofgoo">
+							<h3>World of Goo</h3>
+							<p>
+								Hry
+							</p>
+							<p class="cost">
+								US$ 19.99
+							</p>
+						</div>
+						<div class="braid">
+							<h3>Braid</h3>
+							<p>
+								Hry
+							</p>
+							<p class="cost">
+								US$ 9.99
+							</p>
+						</div>
+						<div class="inkscape">
+							<h3>Inkscape</h3>
+							<p>
+								Grafika
+							</p>
+							<p class="cost">
+								zdarma
+							</p>
+						</div>
+						<div class="blender">
+							<h3>Blender</h3>
+							<p>
+								Grafika
+							</p>
+							<p class="cost">
+								zdarma
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="shotwell" class="shotwell window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Shotwell
+				</div>
+			</div>
+			<div class="sidebar">
+				<div class="nav">
+					<ul>
+						<li class="library">
+							Knihovna
+						</li>
+					</ul>
+				</div>
+				<div class="details">
+					<div class="overall">
+						<div>
+							Položky: <span class="items">16 fotografií</span>
+						</div>
+						<div>
+							Od: <span class="from">Pátek, 26. října 2001</span>
+						</div>
+						<div>
+							Komu: <span class="to">Pondělí, 11. října 2010</span>
+						</div>
+					</div>
+					<div class="single">
+						<div>
+							Název: <span class="title"></span>
+						</div>
+						<div>
+							Datum: <span class="date"></span>
+						</div>
+						<div>
+							Velikost: <span class="size"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="images"></div>
+				<div class="tools">
+					<div class="jump-image">
+						<div class="next"></div><div class="prev"></div>
+					</div>
+					<div class="slider-container">
+						<div class="small-icon"></div><div class="slider"></div><div class="slider-active"></div><div class="large-icon"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="movieplayer" class="movieplayer window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Přehrávač filmů
+				</div>
+			</div>
+			<div class="container">
+				<div class="video"></div>
+			</div>
+		</div>
+		<div id="firefox-window" class="firefox-window window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Prohlížení Internetu
+				</div>
+			</div>
+			<div class="buttons">
+				<div class="firefox-back"></div>
+				<div class="firefox-forward"></div>
+				<div class="firefox-url">
+					<input type="text" name="submitURL" id="submitURL" value="http://www.ubuntu.com"/>
+				</div>
+				<div class="firefox-search">
+					<input type="text" name="submitSearch" id="submitSearch" value="Wikipedia" class="fade-text"/>
+				</div>
+			</div>
+			<div style="clear:both;"></div>
+			<div class="firefox-internet">
+				<div class="web-overlay-tran"></div>
+				<div class="theIframe">
+					<iframe src="../http://www.ubuntu.com" id="firefoxInternet" >
+						<p>
+							Váš prohlížeč nepodporuje iframy
+						</p>
+					</iframe>
+				</div>
+			</div>
+		</div>
+		<div id="shutdown-window" class="window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="window-title">
+					Vypnout
+				</div>
+			</div>
+			<div class="content">
+				<img src="../img/powerwarning.jpg" alt=""/>
+				<div class="message">
+					<p>
+						Opravdu chcete ukončit všechny programy a vypnout počítač?
+					</p>
+				</div>
+				<div class="shutdown-buttons">
+					<div class="shutdown highlight">
+						Vypnout
+					</div>
+					<div class="cancel">
+						Zrušit
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="folder-window" class="folder window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title"></div>
+			</div>
+
+			<div class="buttons">
+					<div class="folder-back"></div>
+					<div class="folder-forward"></div>
+				</div>
+				<div class="bottom-buttons"></div>
+				<div style="clear:both;"></div>
+			<div class="folder-list">
+				<div class="list">
+					<p>
+						Places
+					</p>
+					<ul>
+						<li class="home selected" data-folder="home">Domů</li>
+						<li class="desktop" data-folder="5">Pracovní plocha</li>
+						<li class="documents" data-folder="0">Dokumenty</li>
+						<li class="downloads" data-folder="1">Stažené</li>
+						<li class="music" data-folder="2">Hudba</li>
+						<li class="pictures" data-folder="4">Obrázky</li>
+						<li class="videos" data-folder="3">Videa</li>
+						<li class="rubbish" data-folder="bin">Koš</li>
+					</ul>
+				</div>
+			</div>
+			<div class="folder-contents">
+				<div class="contents"></div>
+				<div class="selected-details"></div>
+			</div>
+		</div>
+		<div id="welcome">
+			<div id="welcome-screen" class="selected-window">
+				<div class="control">
+					<div class="window-title">Prohlídka Ubuntu</div>
+				</div>
+				<div class="welcome-header">
+					<h1>Welcome to the Ubuntu 14.04 tour!</h1>
+					<h2>Dejte Ubuntu šanci s naší online zkušební verzí.</h2>
+				</div>
+				<ul>
+					<li>
+						<a class="browse-files" href="#browse-files">Procházení souborů</a>
+					</li>
+					<li>
+						<a class="check-email" href="#check-email">Kontrola pošty</a>
+					</li>
+					<li>
+						<a class="surf-the-web" href="#surf-the-web">Prohlížení Internetu</a>
+					</li>
+					<li>
+						<a class="find-apps" href="#find-apps">Instalace aplikací</a>
+					</li>
+					<li>
+						<a class="create-documents" href="#create-documents">Tvorba dokumentů</a>
+					</li>
+					<li>
+						<a class="view-photos" href="#view-photos">Prohlížení fotografií</a>
+					</li>
+					<li>
+						<a class="create-presentations" href="#create-presentations">Tvorba prezentací</a>
+					</li>
+					<li>
+						<a class="create-spreadsheets" href="#create-spreadsheets">Tvorba tabulek</a>
+					</li>
+					<li>
+						<a class="watch-video" href="#watch-video">Sledovat videa</a>
+					</li>
+				</ul>
+				<div class="language-mode">
+					<span class="active">Angličtina</span>
+					<a href="/tour/zh-CN/">中文</a>
+				</div>
+				<a class="explore-mode primary" href="#">Porozhlédnout se sám</a>
+				<a class="tour-mode" href="#">Prohlídka s průvodcem</a>
+			</div>
+		</div>
+		<div id="tour-guide">
+			<div class="next-button">&rsaquo;</div>
+			<div class="prev-button">&lsaquo;</div>
+			<div class="guide-container welcome">
+				<div class="guide-logo"><img src="../img/tourguide/back-to-welcome.png" /></div>
+				<h3>Online prohlídka Ubuntu</h3>
+				<p>
+					Doufáme, že se vám online prohlídka Ubuntu líbila. <a href="http://www.ubuntu.com/download/ubuntu/download?utm_source=tour&utm_medium=online&utm_campaign=tour" target="_blank">Přejete si Ubuntu stáhnout</a> nebo <a href="/ubuntu/take-the-tour" >se raději chcete vrátit na stránky Ubuntu?</a>
+				</p>
+			</div>
+			<div class="guide-container home">
+				<div class="guide-logo"><img src="../img/tourguide/file-small.png" />
+				</div>
+				<h3>Procházení souborů</h3>
+				<p>
+					Ke svým souborům a složkám můžete rychle a jednoduše přistupovat z domovského adresáře.
+				</p>
+			</div>
+			<div class="guide-container firefox">
+				<div class="guide-logo"><img src="../img/tourguide/firefox-small.png" />
+				</div>
+				<h3>Prohlížení Internetu</h3>
+				<p>
+					Procházení Internetu je s Ubuntu a Firefoxem rychlé a bezpečné.
+				</p>
+			</div>
+			<div class="guide-container email">
+				<div class="guide-logo"><img src="../img/tourguide/mail-small.png" />
+				</div>
+				<h3>Kontrola pošty</h3>
+				<p>
+					Čtení, psaní a posílání emailů je s Thunderbirdem jednoduché a rychlé.
+				</p>
+			</div>
+			<div class="guide-container shotwell">
+				<div class="guide-logo"><img src="../img/tourguide/shotwell-small.png" />
+				</div>
+				<h3>Prohlížení fotografií</h3>
+				<p>
+					S aplikací Shotwell můžete nahrávat, organizovat, upravovat a sdílet své fotografie.
+				</p>
+			</div>
+			<div class="guide-container software">
+				<div class="guide-logo"><img src="../img/tourguide/apps-small.png" />
+				</div>
+				<h3>Instalace aplikací</h3>
+				<p>
+					Vyhledávání a instalace aplikací pomocí Centra softwaru pro Ubuntu je rychlá a jednoduchá.
+				</p>
+			</div>
+			<div class="guide-container writer">
+				<div class="guide-logo"><img src="../img/tourguide/document-small.png" />
+				</div>
+				<h3>Tvorba dokumentů</h3>
+				<p>
+					LibreOffice Writer zjednodušuje tvorbu profesionálních dokumentů.
+				</p>
+			</div>
+			<div class="guide-container calc">
+				<div class="guide-logo"><img src="../img/tourguide/calc-small.png" />
+				</div>
+				<h3>Tvorba tabulek</h3>
+				<p>
+					LibreOffice Calc má vše, co potřebujete pro tvorbu přesných a jasných tabulek a grafů.
+				</p>
+			</div>
+			<div class="guide-container impress">
+				<div class="guide-logo"><img src="../img/tourguide/impress-small.png" />
+				</div>
+				<h3>Tvorba prezentací</h3>
+				<p>
+					S intuitivním nástrojem pro tvorbu prezentací LibreOffice Impress vždy uděláte dobrý dojem.
+				</p>
+			</div>
+			<div class="guide-container movieplayer">
+				<div class="guide-logo"><img src="../img/tourguide/video-small.png" />
+				</div>
+				<h3>Sledovat videa</h3>
+				<p>
+					Můžete sledovat všechna vaše oblíbená videa, filmy, DVD nebo věci, které jste vytvořili sami.
+				</p>
+			</div>
+			<div class=" tour-buttons">
+				<div class="explore-to-welcome">Welcome screen</div>
+				<div class="explore-to-download">Stáhnout Ubuntu</div>
+				<div class="explore-to-exit">Exit the Tour</div>
+			</div>
+		</div>
+		<div id="Translation-Strings">
+			<!--
+			* Email system
+			-->
+			<p class="_email_1_title_">
+				Přístupné
+			</p>
+			<p class="_email_2_title_">
+				Rychlé
+			</p>
+			<p class="_email_3_title_">
+				Kompatibilní
+			</p>
+			<p class="_email_4_title_">
+				Bezpečné
+			</p>
+			<p class="_email_5_title_">
+				Vaše Ubuntu, vaše možnosti
+			</p>
+			<p class="_email_1_body_">
+				Přístupnost je pro filosofii Ubuntu ústřední. Věříme, že práce s počítačem je pro všechny nehledě na národnost, rasu, pohlaví či handicap. Ubuntu je kompletně přeloženo do 38 jazyků a obsahuje také základní asistenční technologie, které jsou samozřejmě naprosto zdarma.
+			</p>
+			<p class="_email_2_body_">
+				Ubuntu běží rychle na každém počítači, ale je super rychlé na nových sestavách. Bez zbytečných zpomalujících programů, zabere spuštění počítače a otevření intenetového prohlížeče jen vteřiny. Na rozdíl od jiných operačních systémů, které vás nechají zírat na obrazovku, čekat než se dostanete on-line. A Ubuntu časem nezleniví. Je rychlé. A zůstane rychlé.
+			</p>
+			<p class="_email_3_body_">
+				Ubuntu funguje bezvadně na velkém počtu zařízení. Jednoduše připojte svůj mp3 přehrávač, fotoaparát či tiskárnu a zařízení je připraveno. Bez instalačních CD. Žádné ciráty. Též je kompatibilní s Windows! Takže můžete otevřít, upravit a sdílet dokumenty z Microsoft Office beze strachu.
+			</p>
+			<p class="_email_4_body_">
+				Můžete surfovat bezpečněji s Ubuntu - věřte, že vaše soubory a data zůstanou chráněna. Zabudovaný firewall a antivirová ochrana jsou standardní součástí. Pokud se něco přeci jen dostane skrz, nabízíme automatické záplaty, které lze nainstalovat jediným klikem myši. Dostane se vám zvýšené bezpečnosti s AppArmor, která zvyšuje zabezpečení důležitých aplikací, takže se útočníci nedostanou do vašeho systému. A díky Firefoxu a Klíčence, Ubuntu pomáhá uchovávat vaše soukromé informace soukromé. Takžeať už přistupujete ke svému účtu v bance či sdílíte citlivá data se svými přáteli a kolegy, máte klid v duši, když ho potřebujete nejvíce.
+			</p>
+			<p class="_email_5_body_">
+				Užijte si jednoduchost stylového a intuitivního rozhraní Ubuntu . Rychlé, jednoduché a s tisíci aplikací na výběr vám Ubuntu poskytuje čisté a efektivní prostředí, které si můžete přizpůsobit zcela podle svých představ.
+			</p>
+			<p class="_random_reply_">
+				Děkujeme za vyzkoušení Ubuntu. Nezapomínejte, že, toto je pouze ukázka. Abyste poznali všechny možnosti Ubuntu, musíte si jej stáhnout a nainstalovat.
+				<br/>
+				<br/>
+				<a href="http://www.ubuntu.com/download/ubuntu/download?utm_source=tour&utm_medium=online&utm_campaign=tour" target="_blank">Stáhnout Ubuntu</a>
+			</p>
+			<p class="_write_">
+				Napsat
+			</p>
+			<p class="_no_subject_">
+				bez předmětu
+			</p>
+			<p class="_recipient_">
+				Příjemce
+			</p>
+			<p class="_from_">
+				Od
+			</p>
+			<p class="_you_">
+				Já
+			</p>
+			<p class="_on_">
+				Dne
+			</p>
+			<p class="_wrote_">
+				napsal(a)
+			</p>
+			<p class="_original_message_">
+				Původní zpráva
+			</p>
+			<p class="_fwd_">
+				Fwd
+			</p>
+			<!--
+			* Folder System
+			-->
+			<p class="_home_folder_">
+				Domů
+			</p>
+			<p class="_desktop_folder_">
+				Pracovní plocha
+			</p>
+			<p class="_pictures_folder_">
+				Obrázky
+			</p>
+			<p class="_videos_folder_">
+				Videa
+			</p>
+			<p class="_music_folder_">
+				Hudba
+			</p>
+			<p class="_downloads_folder_">
+				Stažené
+			</p>
+			<p class="_documents_folder_">
+				Dokumenty
+			</p>
+			<p class="_canonical_folder_">
+				Canonical
+			</p>
+			<p class="_backup_folder_">
+				Záloha
+			</p>
+			<p class="_local_folder_">
+				Místní
+			</p>
+			<p class="_work_folder_">
+				work
+			</p>
+			<p class="_branches_folder_">
+				branches
+			</p>
+			<p class="_rubbish_bin_folder_">
+				Koš
+			</p>
+			<!--
+			* Software Center System
+			-->
+			<p class="_remove_">
+				Odstranit
+			</p>
+			<p class="_price_free_">
+				zdarma
+			</p>
+			<p class="_installed_">
+				Nainstalováno
+			</p>
+			<p class="_install_">
+				Nainstalovat
+			</p>
+			<p class="_installing_">
+				Instaluje se
+			</p>
+			<p class="_chromium_app_">
+				Internetový prohlížeč Chromium
+			</p>
+			<p class="_chromium_sub_">
+				Přístup k internetu
+			</p>
+			<p class="_chromium_desc_">
+				Chromium je open-source projekt webového prohlížeče, který si klade za cíl vybudovat bezpečnější, rychlejší a stabilnější cestu pro všechny uživatele internetu k prozkoumávání webu.
+				<br/>
+				<br/>
+				Chromium složí jako základ pro Google Chrome, které je poupravenou verzí Chromia (změna jména a loga) s několika málo přídavnými funkcemi jako je použití sledování a zabudovaný aktualizační systém.
+				<br/>
+				<br/>
+				Balíček obsahuje prohlížeč Chromium
+			</p>
+			<p class="_beep_app_">
+				BEEP
+			</p>
+			<p class="_beep_sub_">
+				2D arkáda/střílečka s fyzikálními hlavolamy
+			</p>
+			<p class="_beep_desc_">
+				BEEP je 2D arkáda s fyzikálními prvky. Ovládáte malého robota vybaveného antigravitačním zařízením, raketovým batohem a zbraní. Proleťte, proskákejte, proplavte a prostřílejte si cestu přes 24 úrovním v šesti různých prostředích.
+				<br/>
+				<br/>
+				Pomocí BEEPova antigravitačního zařízení můžete přímo ovládat fyzikální prostředí. Antigravitační zařízení je jak nástroj tak zbraň. Můžete jej použít ke zničení nepřátelských robotů, stavbu věží nebo řešení úkolů.
+				<br/>
+				<br/>
+				BEEP cestoval tisíce let vesmírem a zkoumal galaxii. Prozkoumejte cizí hvězdnou soustavu s lodí BEEP a pošlete roboty na povrch planet.
+			</p>
+			<p class="_inkscape_app_">
+				Inkscape - editor vektorové grafiky
+			</p>
+			<p class="_inkscape_sub_">
+				Program pro tvorbu a úpravu vektorové grafiky (SVG)
+			</p>
+			<p class="_inkscape_desc_">
+				Inkscape načítá a ukládá do formátu SVG (Scalable Vector Graphics), standardu, který má na starosti konsorcium WWW.
+				<br/>
+				<br/>
+				Rozhraní Inkscape se podobá tomu v CorelDraw a dalších kreslících programů. Obsahuje obdélníky, elipsy, textové položky, bitmapové obrázky i ručně kreslené křivky. Kromě toho je možno vektorovým i bitmapovým objektům přidávat průhlednost a libovolně je transformovat.
+				<br/>
+				<br/>
+				Inkscape podporuje více otevřených souborů najednou a různé pohledy na jeden soubor. Grafiku je možno tisknout i exportovat do formátu png.
+				<br/>
+				<br/>
+				Některé importní a exportní volby jsou zajištěny pomocí balíčků dia, libwmf-bin, pstoedit, skencil, imagemagick a perlmagick.
+				<br/>
+				<br/>
+				Další rozšíření používají ruby, libxml-xql-perl, python-numpy a python-xml. Pokud chcete používat všechny efekty a rozšíření, je potřeba tyto balíčky nainstalovat.
+				<br/>
+				<br/>
+				Pokud chcete použít kontrolu pravopisu, musíte nainstalovat aspell a odpovídající jazykový balík, např. aspell-en nebo aspell-cs.
+			</p>
+			<p class="_world_of_goo_app_">
+				World of Goo
+			</p>
+			<p class="_world_of_goo_sub_">
+				Na fyzice postavená logicko-kontrukční hra
+			</p>
+			<p class="_world_of_goo_desc_">
+				Přetahováním žijících, kroutících se a mluvících koulí bláta stavte struktury, mosty, kanónové koule, vzducholodě nebo obří jazyky. Miliony nevinných koulí bláta žijících v překrásném World of Goo čekají, až je prozkoumáte.
+				<br/>
+				<br/>
+				Nevědí ale, že jsou ve hře ani, že jsou velmi chutné. Tato závislost a úžas vzbuzující hra vás odvede na dobrodružství, které nikdy nezapomenete.
+			</p>
+			<p class="_blender_app_">
+				Blender
+			</p>
+			<p class="_blender_sub_">
+				Vytváření a úprava 3D modelů a animací
+			</p>
+			<p class="_blender_desc_">
+				Blender je integrovaný systém 3D aplikací určených k modelování, animaci, vykreslování, post-produkce, interaktivního vytváření a přehrávání (hry). Blender má své vlastní uživatelské rozhraní, které je kompletně implementováno v OpenGL a vytvořeno tak, aby bylo dostatečně rychlé. K dispozici je rozšíření v Pythonu umožňující skriptování; možnosti importu/exportu pro populární souborové formáty jako je 3D Studio a Wavefrotn Obj. Animace, herní modely a další stroje třetích řad spolu s interaktivním obsahem jsou dostupné ve formě samostatných binárek a/nebo webových modulů.
+			</p>
+			<p class="_braid_app_">
+				Braid
+			</p>
+			<p class="_braid_sub_">
+				Řešte problémy manipulací časem
+			</p>
+			<p class="_braid_desc_">
+				Braid je plošinová hra v kresleném stylu, kde úkoly řešíte pomocí změny toku času. Každý úkol v Braid je unikátní.
+				<br/>
+				<br/>
+				Braid zachází s vaším časem a pozorností jako s pokladem a udělá vše proto, aby vám poskytl ohromující zkušenost.
+				<br/>
+				<br/>
+				Celá hra je založena na manipulaci s časem. Vstupte světů, kde se čas chová divně, pozorujte, učte se a a pak tyto světy ovládněte.
+			</p>
+			<p class="_rhythmbox_app_">
+				Rhythmbox Media Player
+			</p>
+			<p class="_brasero_app_">
+				Vypalovací software Brasero
+			</p>
+			<p class="_movie_player_app_">
+				Přehrávač filmů
+			</p>
+			<p class="_shotwell_app_">
+				Správce fotografií Shotwell
+			</p>
+			<p class="_pitivi_app_">
+				Editor videa PiTiVi
+			</p>
+			<p class="_sound_recorder_app_">
+				Záznamník zvuku
+			</p>
+			<p class="_empathy_app_">
+				Internetový komunikátor Empathy
+			</p>
+			<p class="_thunderbird_app_">
+				Poštovní klient Thunderbird
+			</p>
+			<p class="_firefox_app_">
+				Firefox Webový prohlížeč
+			</p>
+			<p class="_gwibber_app_">
+				Klient pro společenské sítě Gwibber
+			</p>
+			<p class="_remote_desktop_app_">
+				Prohlížeč vzdálené plochy
+			</p>
+			<p class="_terminal_app_">
+				Klient vzdálené pracovní plochy
+			</p>
+			<p class="_ubuntu_one_app_">
+				Ubuntu One
+			</p>
+			<p class="_ubuntu_software_center_app_">
+				Ubuntu Software Center
+			</p>
+			<p class="_ubuntu_one_music_app_">
+				Ubuntu One Music
+			</p>
+			<p class="_amazon_app_">
+				Amazon
+			</p>
+			<p class="_about_me_app_">
+				O mně
+			</p>
+			<p class="_additional_drivers_app_">
+				Dodatečné ovladače
+			</p>
+			<p class="_aisleroit_app_">
+				Solitér AisleRoit
+			</p>
+			<p class="_appearance_app_">
+				Vzhled
+			</p>
+			<p class="_bluetooth_app_">
+				Bluetooth
+			</p>
+			<!--
+			* Dash
+			-->
+			<p class="_search_">Search your computer and online sources</p>
+			<!--
+			* Notifications
+			-->
+			<p class="_turn_off_bluetooth_">
+				Vypnout: Bluetooth
+			</p>
+			<p class="_turn_on_bluetooth_">
+				Zapnout Bluetooth
+			</p>
+			<p class="_visible_">
+				Viditelné
+			</p>
+			<p class="_mute_">
+				Ztlumit
+			</p>
+			<p class="_unmute_">
+				Zrušit ztlumení
+			</p>
+			<p class="_shut_down_">
+				Vypnout...
+			</p>
+			<!--
+				Files Details - Images
+			-->
+			<p class="_photo_size_">
+				15,2 KB
+			</p>
+			<p class="_photo_date_">
+				Pátek, 26. října 2001
+			</p>
+			<p class="_buck_off_title_">
+				Buck Off
+			</p>
+			<p class="_darkening_clockwork_title_">
+				Darkening Clockwork
+			</p>
+			<p class="_dybbølsbro_station_title_">
+				Nádraží Dybbølsbro
+			</p>
+			<p class="_federica_miglio_title_">
+				Federica Miglio
+			</p>
+			<p class="_jardin_polar_title_">
+				Ladovská zima
+			</p>
+			<p class="_langelinie_alle_title_">
+				Langelinie Alle
+			</p>
+			<p class="_momiji_dream_title_">
+				Podzimní snění
+			</p>
+			<p class="_mount_snowdon_title_">
+				Mount Snowdon
+			</p>
+			<p class="_not_alone_title_">
+				Not Alone
+			</p>
+			<p class="_power_of_words_title_">
+				Síla slov
+			</p>
+			<p class="_purple_dancers_title_">
+				Večerní ples
+			</p>
+			<p class="_sand_maze_title_">
+				Písečný labyrint
+			</p>
+			<p class="_small_flowers_title_">
+				Malé květy
+			</p>
+			<p class="_stalking_ocelot_title_">
+				Číhající ocelot
+			</p>
+			<p class="_the_grass_aint_greener_title_">
+				Tráva není zelenější
+			</p>
+			<p class="_wildWheat_title_">
+				Divoká pšenice
+			</p>
+			<!--
+				Files Details - Video
+			-->
+			<p class="_introduction_ubuntu_title_">
+				Představení Ubuntu
+			</p>
+			<p class="_video_size_">
+				5,3 MB
+			</p>
+			<p class="_video_date_">
+				Pondělí, 11. října 2010
+			</p>
+			<!--
+				Files Details - Music
+			-->
+			<p class="_happyness_title_">
+				Happyness
+			</p>
+			<p class="_music_size_">
+				3,3 MB
+			</p>
+			<p class="_music_date_">
+				Středa 14. října 2010
+			</p>
+		</div>
+		<script type="text/javascript" src="../js/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="../js/lang.js"></script>
+		<script type="text/javascript" src="../js/scripts.js"></script>
+		<script type="text/javascript" src="../js/welcomesystem.js"></script>
+		<script type="text/javascript" src="../js/guidedtoursystem.js"></script>
+		<script type="text/javascript" src="../js/filesystem.js"></script>
+		<script type="text/javascript" src="../js/folders.js"></script>
+		<script type="text/javascript" src="../js/systemoverlay.js"></script>
+		<script type="text/javascript" src="../js/systemmenu.js"></script>
+		<script type="text/javascript" src="../js/internetsystem.js"></script>
+		<script type="text/javascript" src="../js/emailsystem.js"></script>
+		<script type="text/javascript" src="../js/systemsettings.js"></script>
+		<script type="text/javascript" src="../js/email.js"></script>
+		<script type="text/javascript" src="../js/errormessage.js"></script>
+		<script type="text/javascript" src="../js/ubuntuonesystem.js"></script>
+		<script type="text/javascript" src="../js/file.js"></script>
+		<script type="text/javascript" src="../js/shotwellsystem.js"></script>
+		<script type="text/javascript" src="../js/shutdownSystem.js"></script>
+		<script type="text/javascript" src="../js/movieplayersystem.js"></script>
+		<script type="text/javascript" src="../js/libresystem.js"></script>
+		<script type="text/javascript" src="../js/softwaresystem.js"></script>
+		<script type="text/javascript" src="../js/notificationsystem.js"></script>
+		<script type="text/javascript" src="../js/analytics.js"></script>
+	</body>
+</html>

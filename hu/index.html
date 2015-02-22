@@ -1,0 +1,1512 @@
+﻿<!DOCTYPE html>
+<html lang="hu" dir="ltr">
+	<head>
+		<title>Ubuntu online bemutató</title>
+		<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+		<meta charset="UTF-8" />
+		<meta name="description" content="Enjoy the simplicity of Ubuntu's stylish, intuitive interface. Take Ubuntu for a test drive with our online tour and download when you're ready!" />
+		<meta name="keywords" content="ubuntu, ubuntu online, ubuntu tour" />
+		<link rel="stylesheet" href="../css/loader.css" type="text/css" />
+		<link rel="stylesheet" href="../css/error.css" type="text/css" />
+		<link rel="stylesheet" href="../css/base.css" type="text/css" />
+		<link rel="stylesheet" href="../css/folder.css" type="text/css" />
+		<link rel="stylesheet" href="../css/firefox.css" type="text/css" />
+		<link rel="stylesheet" href="../css/email.css" type="text/css" />
+		<link rel="stylesheet" href="../css/systemoverlay.css" type="text/css" />
+		<link rel="stylesheet" href="../css/ubuntuone.css" type="text/css" />
+		<link rel="stylesheet" href="../css/shotwell.css" type="text/css" />
+		<link rel="stylesheet" href="../css/tourguide.css" type="text/css" />
+		<link rel="stylesheet" href="../css/welcome.css" type="text/css" />
+		<link rel="stylesheet" href="../css/shutdown.css" type="text/css" />
+		<link rel="stylesheet" href="../css/movieplayer.css" type="text/css" />
+		<link rel="stylesheet" href="../css/libre.css" type="text/css" />
+		<link rel="stylesheet" href="../css/notification.css" type="text/css" />
+		<link rel="stylesheet" href="../css/software-centre.css" type="text/css" />
+		<!--[if IE 8]>
+		<link rel="stylesheet" href="../css/iefix.css" type="text/css" />
+		<![endif]-->
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700' rel='stylesheet' type='text/css' />
+		<script type="text/javascript">
+			WebFontConfig = {
+				google : {
+					families : ['Ubuntu:400,700:latin']
+				}
+			}; (function() {
+				var wf = document.createElement('script');
+				wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+				wf.type = 'text/javascript';
+				wf.async = 'true';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(wf, s);
+			})();
+
+		</script>
+	</head>
+	<body>
+		<div id="loader">
+			<div id="dot-container">
+				<noscript>
+					<p>
+						This demo uses JavaScript. Either your browser doesn't support JavaScript, or it's currently switched off.
+						<br/>
+						<br/>
+						Don't panic. We've got <a href="/ubuntu/take-the-tour-gallery">a non-JavaScript version</a> of the online tour you can view instead. :)
+					</p>
+				</noscript>
+			</div>
+		</div>
+		<div id="top" class="dropShadow">
+			<div id="top-left">
+				<div id="control-buttons">
+					<div id="close"></div>
+					<div id="min"></div>
+					<div id="max"></div>
+				</div>
+				<div id="dash-control-buttons">
+					<div class="close"></div>
+					<div class="min"></div>
+					<div class="max"></div>
+				</div>
+				<div id="title"></div>
+			</div>
+			<div id="top-right">
+				<div id="connection"><img src="../img/top/connection.png" alt=""/>
+					<ul class="drop-down">
+						<li class="disabled">
+							Auto eth0
+						</li>
+						<li class="disabled">
+							Bontás
+						</li>
+						<li class="divider"></li>
+						<!--<li class="disabled"><img src="../img/top/wireless-icon.png" alt=""/> My Wireless Connection</li>
+						<li class="disabled">Bontás</li>
+						<li class="divider"></li>-->
+						<li class="disabled">
+							Kapcsolatinformációk
+						</li>
+						<li class="disabled">
+							Kapcsolatok szerkesztése…
+						</li>
+					</ul>
+				</div>
+				<div id="bluetooth"><img src="../img/top/bluetooth.png" alt=""/>
+					<ul class="drop-down">
+						<li class="disabled bluetooth">
+							Bluetooth: be
+						</li>
+						<li>
+							Bluetooth kikapcsolása
+						</li>
+						<li class="divider"></li>
+						<li class="disabled BtOn">
+							Látható
+						</li>
+						<li class="divider BtOn"></li>
+						<li class="disabled BtOn">
+							Fájlok eszközre küldése…
+						</li>
+						<li class="disabled BtOn">
+							Fájlok tallózása az eszközön…
+						</li>
+						<li class="divider"></li>
+						<li class="disabled BtOn">
+							Új eszköz beállítása…
+						</li>
+						<li class="divider BtOn"></li>
+						<li class="disabled">
+							Beállítások
+						</li>
+					</ul>
+				</div>
+				<div id="message"><img src="../img/top/nomessage.jpg" class="message-logo" alt="" />
+					<ul class="drop-down">
+						<li class="system-message"></li>
+					</ul>
+				</div>
+				<div id="speakers"><img src="../img/top/speakers3.png" class="speakers-logo"  alt=""/>
+					<ul class="drop-down">
+						<li>
+							Némítás
+						</li>
+						<li class="system-volume">
+							<div class="large-icon"></div><div class="small-icon"></div><div class="slider"></div><div class="slider-active"></div>
+						</li>
+						<li class="divider"></li>
+						<li class="disabled"><img src="../img/top/rhythmbox.png" alt=""/> Rhythmbox
+						</li>
+						<li class="banshee">
+							<div class="banshee-rewind"></div><div class="banshee-forward"></div><div class="banshee-play"></div>
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							Hangbeállítások…
+						</li>
+					</ul>
+				</div>
+				<div id="time">
+					<p></p>
+					<ul class="drop-down">
+						<li class="system-calendar"></li>
+					</ul>
+				</div>
+				<div id="power"><img src="../img/top/power.png"  alt=""/>
+					<ul class="drop-down">
+						<li class="disabled">
+							About This Computer
+						</li>
+						<li class="disabled">
+							Ubuntu Help
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							System Settings&hellip;
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							Lock <span class="key-combo">Ctrl+Alt+L</span>
+						</li>
+						<li class="disabled user">
+							Guest Session
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							Logout
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							Felfüggesztés
+						</li>
+						<li class="disabled">
+							Restart&hellip;
+						</li>
+						<li>
+							Leállítás…
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="tooltip">
+			<div class="shadow-arrow"></div>
+			<div class="arrow-right"></div>
+			<div id="tooltip-text"></div>
+		</div>
+		<div id="menu">
+			<ul>
+				<li class="dash">
+					<span>Dash kezdőoldal</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="home"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Saját mappa</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="firefox"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Firefox webböngésző</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="writer"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>LibreOffice Writer</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="calc"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>LibreOffice Calc</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="impress"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>LibreOffice Impress</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="software"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Ubuntu szoftverközpont</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="amazon"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Amazon</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="settings"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Rendszerbeállítások</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="email temp"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""><span>Thunderbird Mail</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt="">
+				</li>
+				<li class="shotwell temp"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Shotwell fotókezelő</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="movieplayer temp"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Médialejátszó</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<!--<li class="workspace"><span>Workspace Switcher</span></li>-->
+				<li class="rubbish bottom">
+					<span>Kuka</span>
+				</li>
+			</ul>
+		</div>
+		<div id="systemOverlay">
+			<div class="copyDash"></div>
+			<div id="overlayContents">
+				<input type="text" name="search" value="Search your computer and online sources"/>
+				<div id="display-home" class="app-container">
+					<div class="recent-apps bottom"><img src="../img/overlay/recentapps.png" alt=""/> Alkalmazások <div class="app-list"></div>
+					</div>
+					<div class="recent-files bottom"><img src="../img/overlay/recentfiles.png" alt=""/> Fájlok és mappák<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-apps" class="app-container">
+					<div class="frequently bottom"><img src="../img/overlay/recentapps.png" alt=""/> Nemrég használt <div class="app-list"></div>
+					</div>
+					<div class="installed"><img src="../img/overlay/installed.png" alt=""/> Telepítve<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-find-files" class="app-container">
+					<div class="files bottom"><img src="../img/overlay/recentfiles.png" alt=""/> Legutóbbi<div class="app-list"></div>
+					</div>
+					<div class="downloads bottom"><img src="../img/overlay/downloaded.png" alt=""/> Letöltések<div class="app-list"></div>
+					</div>
+					<div class="folders"><img src="../img/overlay/folders.png" alt=""/> Mappák<div class="app-list"></div>
+					</div>
+
+				</div>
+				<div id="display-find-music" class="app-container">
+					<div class="songs bottom"><img src="../img/overlay/folders.png" alt=""/> Számok<div class="app-list"></div>
+					</div>
+					<div class="albums"><img src="../img/overlay/folders.png" alt=""/> Albumok<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-find-video" class="app-container">
+					<div class="videos bottom"><img src="../img/overlay/folders.png" alt=""/> Videók<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-find-photos" class="app-container">
+					<div class="photos bottom"><img src="../img/overlay/folders.png" alt=""/> My photos<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-chat" class="app-container">
+					<div class="message">
+						<p>Sorry, there is nothing that matches your search</p>
+					</div>
+				</div>
+				<div id="display-search" class="app-container">
+					<div class="applications bottom"><img src="../img/overlay/search-apps-logo.jpg" alt=""/> Alkalmazások<div class="app-list"></div>
+					</div>
+					<div class="files"><img src="../img/overlay/search-files-logo.jpg" alt=""/> Fájlok és mappák<div class="app-list"></div>
+					</div>
+				</div>
+			</div>
+			<div id="dash-bottom-bar">
+				<div class="bottom-wrapper">
+					<div class="home-icon active"></div>
+					<div class="applications-icon"></div>
+					<div class="files-icon"></div>
+					<div class="music-icon"></div>
+					<div class="video-icon"></div>
+					<div class="photos-icon"></div>
+					<div class="chat-icon last"></div>
+				</div>
+			</div>
+			<div id="preview">
+				<div class="image"></div>
+				<div class="info"></div>
+				<div class="buttons">
+					<a class="email">E-mail</a>
+					<a class="showInFolder">Show in Folder</a>
+					<a class="open">Open</a>
+				</div>
+			</div>
+		</div>
+		<div id="ubuntuone-window" class="uone window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="window-title">
+					Ubuntu One vezérlőpult
+				</div>
+			</div>
+			<div class="content">
+				<div class="header"></div>
+				<div class="body">
+					<h1>A személyes adattároló felhő ereje</h1>
+					<div class="features">
+						<div class="files-anywhere">
+							<span class="logo"></span>
+							<div>
+								<h3>Fájlok bárhol</h3>
+								<p>
+									Mentse és érje el fájljait Ubuntu, Windows, web vagy mobil felületről
+								</p>
+							</div>
+						</div>
+						<div class="rock-out">
+							<span class="logo"></span>
+							<div>
+								<h3>Élvezze a zenét</h3>
+								<p>
+									A zenegyűjteménye mindig Önnel lehet, hála az Android és iPhone alkalmazásnak
+								</p>
+							</div>
+						</div>
+						<div class="keep-connected">
+							<span class="logo"></span>
+							<div>
+								<h3>Maradjon kapcsolatban</h3>
+								<p>
+									Egyesítse névjegyeit a számítógépe, a mobilja és az internet között
+								</p>
+							</div>
+						</div>
+						<div class="stay-productive">
+							<span class="logo"></span>
+							<div>
+								<h3>Maradjon produktív</h3>
+								<p>
+									Tartsa szinkronban Tomboy jegyzeteit
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="ubuntuone-buttons">
+						<div class="learn-more"><img src="../img/ubuntuone/ubuntuone-logo.jpg" width="47" height="48" alt=""/>
+							<div>
+								Tudjon meg többet
+							</div>
+						</div>
+						<div class="join-now">
+							<h2>Csatlakozás most</h2>
+						</div>
+						<div class="have-account">
+							Már van fiókom!
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="libreoffice-calc-window" class="calc window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Névtelen 1 - LibreOffice Calc
+				</div>
+			</div>
+			<div class="content">
+
+			</div>
+		</div>
+		<div id="libreoffice-writer-window" class="writer window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Névtelen 1 - LibreOffice Writer
+				</div>
+			</div>
+			<div class="content">
+
+			</div>
+		</div>
+		<div id="libreoffice-impress-window" class="impress window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Névtelen 1 - LibreOffice Impress
+				</div>
+			</div>
+			<div class="content">
+
+			</div>
+		</div>
+		<div class="error-window window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="window-title"></div>
+			</div>
+			<div class="error-container">
+				<h1>Köszönjük, hogy felfedezi az Ubuntut!</h1>
+				<a class="download"  href="http://www.ubuntu.com/download/ubuntu/download?utm_source=tour&utm_medium=online&utm_campaign=tour" target="_blank">Az Ubuntu letöltése</a>
+				<h2>Ne feledje, hogy ez csak egy bemutató. A valódi rendszer használatához le kell töltenie azt!</h2>
+			</div>
+		</div>
+		<!--<div id="error-window" class="error-window window">
+		<div class="control">
+		<div class="close"></div>
+		<div class="window-title"></div>
+		</div>
+		<div class="content">
+		<img src="../img/error/warning.jpg"/>
+		<div class="message">
+		<p>Thanks for exploring Ubuntu</p>
+		<p>Ne feledje, hogy ez csak egy bemutató. A valódi rendszer használatához le kell töltenie azt!</p>
+		</div>
+		<div class="error-buttons"><div class="download highlight">Az Ubuntu letöltése</div></div>
+		</div>
+		</div>-->
+		<!--<div id="workspaces">
+		<div id="void">
+		<div id="workspace-container">
+		<div id="workspace1"><div class="fadedOverlay"></div></div>
+		<div id="workspace2"><div class="fadedOverlay"></div></div>
+		<div id="workspace3"><div class="fadedOverlay"></div></div>
+		<div id="workspace4"><div class="fadedOverlay"></div></div>
+		<div class="reflection" style="clear:both;"></div>
+		<div class="reflection"></div>
+		</div>
+		</div>
+		</div>-->
+		<div id="email-window" class="email-window window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					E-mail
+				</div>
+			</div>
+			<div class="buttons">
+				<div class="email-get-mail">
+					Letöltés
+				</div>
+				<div class="email-divider"></div>
+				<div class="email-write">
+					Új üzenet
+				</div>
+				<!--<div class="email-address-book"></div>
+				<div class="email-divider"></div>
+				<div class="email-tag"></div>
+				<div class="email-search"><input type="text" name="submitEmailSearch" id="submitEmailSearch"/></div>-->
+			</div>
+			<div style="clear:both;"></div>
+			<div class="email-content">
+				<div class="folder-list">
+					<div class="bottom-buttons">
+						Minden mappa
+					</div>
+					<div style="clear:both;"></div>
+					<div class="list">
+						<div id="folder-inbox" class="selected"><img src="../img/email/inbox.png" alt=""/> Beérkezett üzenetek
+						</div>
+						<div id="folder-draft"><img src="../img/email/drafts.png" alt=""/> Piszkozat
+						</div>
+						<div id="folder-sent"><img src="../img/email/sent.png" alt=""/> Elküldött elemek
+						</div>
+						<div id="folder-archive"><img src="../img/email/archive-logo.png" alt=""/> Archívum
+						</div>
+						<div id="folder-trash"><img src="../img/email/trash.png" alt=""/> Törölt elemek
+						</div>
+					</div>
+				</div>
+				<div class="email-contents">
+					<div class="email-categories">
+						<div><img src="../img/email/t.png" alt=""/>
+						</div>
+						<div><img src="../img/email/star.png" alt=""/>
+						</div>
+						<div><img src="../img/email/clip.png" alt=""/>
+						</div>
+						<div class="subject">
+							Tárgy
+						</div>
+						<div><img src="../img/email/glasses.png" alt=""/>
+						</div>
+						<div class="from">
+							Feladó
+						</div>
+						<div><img src="../img/email/fire.png" alt=""/>
+						</div>
+						<div class="date">
+							Dátum
+						</div>
+					</div>
+					<div style="clear:both;"></div>
+					<div class="email-list"></div>
+					<div class="email-body">
+						<div class="message-header">
+							<div class="email-buttons">
+								<div>
+									<span class="message-reply">válasz</span>
+									<span class="message-forward">továbbítás</span>
+									<span class="message-archive">archiválás</span>
+									<span class="message-junk">szemét</span>
+									<span class="message-delete">törlés</span>
+								</div>
+							</div>
+							<div style="clear:both;"></div>
+							<div class="date"></div>
+							<dl class="from">
+								<dt>
+									Feladó:
+								</dt><dd></dd>
+							</dl>
+							<dl class="subject">
+								<dt>
+									Tárgy:
+								</dt><dd></dd>
+							</dl>
+							<dl class="to">
+								<dt>
+									Címzett:
+								</dt><dd></dd>
+							</dl>
+							<dl class="cc">
+								<dt>
+									másolat
+								</dt><dd></dd>
+							</dl>
+						</div>
+						<div class="junk-mail-banner"><img src="../img/email/large-fire.jpg" alt=""/> Szemét
+							<div class="not-junk">
+								Nem szemét
+							</div>
+						</div>
+						<div class="message-body"></div>
+					</div>
+				</div>
+				<div style="clear:both;"></div>
+				<div class="emails-info">
+					<div>
+						Olvasatlan: <span id="details-unread">1</span> Összesen: <span id="details-total">1</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="email-write" class="email-write window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Írás: (nincs tárgy)
+				</div>
+			</div>
+			<div class="buttons">
+				<div id="write-send">
+					Küldés
+				</div>
+				<div class="email-divider"></div>
+				<div id="write-attach">
+					Melléklet
+				</div>
+			</div>
+			<div style="clear:both;"></div>
+			<div id="write-from">
+				<div>
+					Ettől:
+				</div>
+				<input type="text" name="from" value="You"/>
+			</div>
+			<div id="write-to">
+				<div>
+					Eddig:
+				</div>
+				<input type="text" name="to"/>
+			</div>
+			<div id="write-subject">
+				<div>
+					Tárgy:
+				</div>
+				<input type="text" name="subject"/>
+			</div>
+			<div><img src="../img/email/disabled-format-buttons.jpg" width="853" height="32" alt=""/>
+			</div>
+			<div id="write-body">
+				<textarea name="body"></textarea>
+</div>			<div class="loading-bar">
+				<div class="progress"></div>
+			</div>
+		</div>
+		<div id="software-centre" class="software window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Ubuntu szoftverközpont
+				</div>
+			</div>
+			<div class="top-panel">
+				<div class="back disabled"></div>
+				<div class="forward disabled"></div>
+				<div class="all-software selected"><img src="../img/software-centre/all-software.png" alt=""/>Minden szoftver
+				</div>
+				<div class="installed"><img src="../img/software-centre/installed.png" alt=""/>Telepítve
+				</div>
+				<div class="history"><img src="../img/software-centre/history.png" alt=""/>Előzmények
+				</div>
+			</div>
+			<div class="container detailed">
+				<div class="title"><img src="../img/software-centre/visolate.png" class="app-image" width="100" alt=""/><h1>Visolate</h1>
+					<p class="subheading">
+						PCB CNC átalakító
+					</p>
+					<p class="rating"><img src="../img/software-centre/rating.jpg" alt="" /> (91 értékelés)
+					</p>
+				</div>
+				<div class="price">
+					<span class="theprice">Ingyenes</span><span class="button">Telepítés</span>
+					<div class="loading-bar">
+						<div class="progress"></div>
+					</div>
+				</div>
+				<div class="description-container">
+					<div class="description-image"><img src="../img/software-centre/screenshot-blender.jpg" alt="" />
+					</div>
+					<div class="description"><img src="../img/software-centre/screenshot-blender.jpg" alt="" />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quam augue, convallis id commodo id, tristique ac mi. Ut dapibus, neque eget elementum pretium, nunc turpis congue eros, et interdum nisi nisi at diam. Duis dictum, justo eget imperdiet pulvinar, dolor est fermentum nisl, luctus imperdiet metus elit a purus. Quisque nisl enim, lacinia ut venenatis in, porttitor eget orci. Quisque non nibh nec risus tincidunt sollicitudin vitae et nisl. Proin odio lacus, vulputate non auctor sit amet, dapibus quis tortor. Donec elit libero, pellentesque quis dictum sed, hendrerit non libero. Aliquam eu diam id leo auctor tincidunt. Phasellus cursus felis at nulla facilisis semper. Cras mauris urna, adipiscing sed scelerisque ut, gravida id neque. Mauris ut vestibulum justo. Curabitur convallis elementum pellentesque. Duis sit amet arcu ac eros pretium scelerisque. Nunc nec nisi nulla.
+					</div>
+					<div style="clear:both;"></div>
+				</div>
+			</div>
+			<div class="container home">
+				<div class="header-image">
+					<span class="header-title">Legjobb alkalmazásaink</span>
+					<span class="header-subtitle">Fedezze fel kedvenceinket</span>
+				</div>
+				<div class="navigation">
+					<ul>
+						<li>
+							Kellékek
+						</li>
+						<li>
+							Fejlesztőeszközök
+						</li>
+						<li>
+							Oktatás
+						</li>
+						<li>
+							Betűkészletek
+						</li>
+						<li>
+							Játékok
+						</li>
+						<li>
+							Grafika
+						</li>
+						<li>
+							Internet
+						</li>
+						<li>
+							Iroda
+						</li>
+						<li>
+							Tudomány és műszaki tervezés
+						</li>
+						<li>
+							Hang és videó
+						</li>
+						<li>
+							Rendszer
+						</li>
+						<li>
+							Témák és finomhangolás
+						</li>
+					</ul>
+				</div>
+				<div class="whats-new">
+					<h2> Újdonságok</h2>
+					<div class="app-container">
+						<div class="chromium">
+							<h3>Chromium</h3>
+							<p>
+								Internet
+							</p>
+							<p class="cost">
+								Ingyenes
+							</p>
+						</div>
+						<div class="beep">
+							<h3>BEEP</h3>
+							<p>
+								Játékok
+							</p>
+							<p class="cost">
+								$9.99
+							</p>
+						</div>
+						<div class="inkscape">
+							<h3>Inkscape</h3>
+							<p>
+								Grafika
+							</p>
+							<p class="cost">
+								Ingyenes
+							</p>
+						</div>
+						<div class="worldofgoo">
+							<h3>World of Goo</h3>
+							<p>
+								Játékok
+							</p>
+							<p class="cost">
+								$19.99
+							</p>
+						</div>
+						<div class="blender">
+							<h3>Blender</h3>
+							<p>
+								Grafika
+							</p>
+							<p class="cost">
+								Ingyenes
+							</p>
+						</div>
+						<div class="braid">
+							<h3>Braid</h3>
+							<p>
+								Játékok
+							</p>
+							<p class="cost">
+								$9.99
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="whats-new">
+					<h2> Legjobbra értékelt</h2>
+					<div class="app-container">
+						<div class="beep">
+							<h3>BEEP</h3>
+							<p>
+								Játékok
+							</p>
+							<p class="cost">
+								$9.99
+							</p>
+						</div>
+						<div class="chromium">
+							<h3>Chromium</h3>
+							<p>
+								Internet
+							</p>
+							<p class="cost">
+								Ingyenes
+							</p>
+						</div>
+						<div class="worldofgoo">
+							<h3>World of Goo</h3>
+							<p>
+								Játékok
+							</p>
+							<p class="cost">
+								$19.99
+							</p>
+						</div>
+						<div class="braid">
+							<h3>Braid</h3>
+							<p>
+								Játékok
+							</p>
+							<p class="cost">
+								$9.99
+							</p>
+						</div>
+						<div class="inkscape">
+							<h3>Inkscape</h3>
+							<p>
+								Grafika
+							</p>
+							<p class="cost">
+								Ingyenes
+							</p>
+						</div>
+						<div class="blender">
+							<h3>Blender</h3>
+							<p>
+								Grafika
+							</p>
+							<p class="cost">
+								Ingyenes
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="shotwell" class="shotwell window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Shotwell
+				</div>
+			</div>
+			<div class="sidebar">
+				<div class="nav">
+					<ul>
+						<li class="library">
+							Gyűjtemény
+						</li>
+					</ul>
+				</div>
+				<div class="details">
+					<div class="overall">
+						<div>
+							Elemek: <span class="items">16 fénykép</span>
+						</div>
+						<div>
+							Ettől: <span class="from">2001 Okt. 26. Pé</span>
+						</div>
+						<div>
+							Eddig: <span class="to">2010. Okt. 11. Hé.</span>
+						</div>
+					</div>
+					<div class="single">
+						<div>
+							Cím: <span class="title"></span>
+						</div>
+						<div>
+							Dátum: <span class="date"></span>
+						</div>
+						<div>
+							Méret: <span class="size"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="images"></div>
+				<div class="tools">
+					<div class="jump-image">
+						<div class="next"></div><div class="prev"></div>
+					</div>
+					<div class="slider-container">
+						<div class="small-icon"></div><div class="slider"></div><div class="slider-active"></div><div class="large-icon"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="movieplayer" class="movieplayer window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Médialejátszó
+				</div>
+			</div>
+			<div class="container">
+				<div class="video"></div>
+			</div>
+		</div>
+		<div id="firefox-window" class="firefox-window window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					A világháló böngészése
+				</div>
+			</div>
+			<div class="buttons">
+				<div class="firefox-back"></div>
+				<div class="firefox-forward"></div>
+				<div class="firefox-url">
+					<input type="text" name="submitURL" id="submitURL" value="http://www.ubuntu.com"/>
+				</div>
+				<div class="firefox-search">
+					<input type="text" name="submitSearch" id="submitSearch" value="Wikipedia" class="fade-text"/>
+				</div>
+			</div>
+			<div style="clear:both;"></div>
+			<div class="firefox-internet">
+				<div class="web-overlay-tran"></div>
+				<div class="theIframe">
+					<iframe src="../http://www.ubuntu.com" id="firefoxInternet" >
+						<p>
+							A böngészője nem támogatja az iframeket.
+						</p>
+					</iframe>
+				</div>
+			</div>
+		</div>
+		<div id="shutdown-window" class="window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="window-title">
+					Leállítás
+				</div>
+			</div>
+			<div class="content">
+				<img src="../img/powerwarning.jpg" alt=""/>
+				<div class="message">
+					<p>
+						Biztos benne, hogy bezárja az összes programot, és leállítja a számítógépet?
+					</p>
+				</div>
+				<div class="shutdown-buttons">
+					<div class="shutdown highlight">
+						Leállítás
+					</div>
+					<div class="cancel">
+						Mégse
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="folder-window" class="folder window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title"></div>
+			</div>
+
+			<div class="buttons">
+					<div class="folder-back"></div>
+					<div class="folder-forward"></div>
+				</div>
+				<div class="bottom-buttons"></div>
+				<div style="clear:both;"></div>
+			<div class="folder-list">
+				<div class="list">
+					<p>
+						Places
+					</p>
+					<ul>
+						<li class="home selected" data-folder="home">Saját mappa</li>
+						<li class="desktop" data-folder="5">Asztal</li>
+						<li class="documents" data-folder="0">Dokumentumok</li>
+						<li class="downloads" data-folder="1">Letöltések</li>
+						<li class="music" data-folder="2">Zene</li>
+						<li class="pictures" data-folder="4">Képek</li>
+						<li class="videos" data-folder="3">Videók</li>
+						<li class="rubbish" data-folder="bin">Kuka</li>
+					</ul>
+				</div>
+			</div>
+			<div class="folder-contents">
+				<div class="contents"></div>
+				<div class="selected-details"></div>
+			</div>
+		</div>
+		<div id="welcome">
+			<div id="welcome-screen" class="selected-window">
+				<div class="control">
+					<div class="window-title">Ubuntu tour</div>
+				</div>
+				<div class="welcome-header">
+					<h1>Welcome to the Ubuntu 14.04 tour!</h1>
+					<h2>Vigye el az Ubuntut egy próbakörre az online bemutatónkkal.</h2>
+				</div>
+				<ul>
+					<li>
+						<a class="browse-files" href="#browse-files">Fájlok tallózása</a>
+					</li>
+					<li>
+						<a class="check-email" href="#check-email">E-mailek ellenőrzése</a>
+					</li>
+					<li>
+						<a class="surf-the-web" href="#surf-the-web">A világháló böngészése</a>
+					</li>
+					<li>
+						<a class="find-apps" href="#find-apps">Alkalmazások keresése</a>
+					</li>
+					<li>
+						<a class="create-documents" href="#create-documents">Dokumentumok létrehozása</a>
+					</li>
+					<li>
+						<a class="view-photos" href="#view-photos">Fotók megtekintése</a>
+					</li>
+					<li>
+						<a class="create-presentations" href="#create-presentations">Bemutatók létrehozása</a>
+					</li>
+					<li>
+						<a class="create-spreadsheets" href="#create-spreadsheets">Táblázatok létrehozása</a>
+					</li>
+					<li>
+						<a class="watch-video" href="#watch-video">Watch videos</a>
+					</li>
+				</ul>
+				<div class="language-mode">
+					<span class="active">Angol</span>
+					<a href="/tour/zh-CN/">中文</a>
+				</div>
+				<a class="explore-mode primary" href="#">Önállóan fedezem fel</a>
+				<a class="tour-mode" href="#">Irányított bemutató</a>
+			</div>
+		</div>
+		<div id="tour-guide">
+			<div class="next-button">&rsaquo;</div>
+			<div class="prev-button">&lsaquo;</div>
+			<div class="guide-container welcome">
+				<div class="guide-logo"><img src="../img/tourguide/back-to-welcome.png" /></div>
+				<h3>Ubuntu online bemutató</h3>
+				<p>
+					Reméljük tetszett az Ubuntu bemutató. <a href="http://www.ubuntu.com/download/ubuntu/download?utm_source=tour&utm_medium=online&utm_campaign=tour" target="_blank">Kész a letöltésre?</a> vagy <a href="/ubuntu/take-the-tour" >vissza az oldalra</a>
+				</p>
+			</div>
+			<div class="guide-container home">
+				<div class="guide-logo"><img src="../img/tourguide/file-small.png" />
+				</div>
+				<h3>Fájlok tallózása</h3>
+				<p>
+					Az ubuntus saját mappájából gyorsan és egyszerűen érheti el mappáit és fájljait.
+				</p>
+			</div>
+			<div class="guide-container firefox">
+				<div class="guide-logo"><img src="../img/tourguide/firefox-small.png" />
+				</div>
+				<h3>A világháló böngészése</h3>
+				<p>
+					A web böngészése gyors és biztonságos az Ubuntuval és a Firefoxszal.
+				</p>
+			</div>
+			<div class="guide-container email">
+				<div class="guide-logo"><img src="../img/tourguide/mail-small.png" />
+				</div>
+				<h3>E-mailek ellenőrzése</h3>
+				<p>
+					Írjon, olvasson és küldjön e-maileket a Thunderbirddel – egyszerű és gyors.
+				</p>
+			</div>
+			<div class="guide-container shotwell">
+				<div class="guide-logo"><img src="../img/tourguide/shotwell-small.png" />
+				</div>
+				<h3>Fotók megtekintése</h3>
+				<p>
+					Feltöltheti, rendszerezheti, szerkesztheti és megoszthatja fényképeit a Shotwellel.
+				</p>
+			</div>
+			<div class="guide-container software">
+				<div class="guide-logo"><img src="../img/tourguide/apps-small.png" />
+				</div>
+				<h3>Alkalmazások keresése</h3>
+				<p>
+					Keressen és töltsön le alkalmazásokat gyorsan az Ubuntu szoftverközpontban
+				</p>
+			</div>
+			<div class="guide-container writer">
+				<div class="guide-logo"><img src="../img/tourguide/document-small.png" />
+				</div>
+				<h3>Dokumentumok létrehozása</h3>
+				<p>
+					A LibreOffice Writer egyszerűvé teszi profi dokumentumok felvázolását.
+				</p>
+			</div>
+			<div class="guide-container calc">
+				<div class="guide-logo"><img src="../img/tourguide/calc-small.png" />
+				</div>
+				<h3>Táblázatok létrehozása</h3>
+				<p>
+					A LibreOffice Calc mindent tud a világos és pontos táblázatok létrehozásához.
+				</p>
+			</div>
+			<div class="guide-container impress">
+				<div class="guide-logo"><img src="../img/tourguide/impress-small.png" />
+				</div>
+				<h3>Bemutatók létrehozása</h3>
+				<p>
+					Tegyen jó benyomást az intuitív LibreOffice Impress bemutatókészítővel.
+				</p>
+			</div>
+			<div class="guide-container movieplayer">
+				<div class="guide-logo"><img src="../img/tourguide/video-small.png" />
+				</div>
+				<h3>Watch videos</h3>
+				<p>
+					You can watch all your favourite films and videos, DVDs, downloads or movies you've created yourself.
+				</p>
+			</div>
+			<div class=" tour-buttons">
+				<div class="explore-to-welcome">Welcome screen</div>
+				<div class="explore-to-download">Az Ubuntu letöltése</div>
+				<div class="explore-to-exit">Exit the Tour</div>
+			</div>
+		</div>
+		<div id="Translation-Strings">
+			<!--
+			* Email system
+			-->
+			<p class="_email_1_title_">
+				Akadálymentes
+			</p>
+			<p class="_email_2_title_">
+				Gyors
+			</p>
+			<p class="_email_3_title_">
+				Kompatibilis
+			</p>
+			<p class="_email_4_title_">
+				Biztonságos
+			</p>
+			<p class="_email_5_title_">
+				Az Ön Ubuntuja, az Ön útja
+			</p>
+			<p class="_email_1_body_">
+				Az akadálymentesítés az Ubuntu filozófia központi eleme. Hiszünk abban, hogy a számítástechnika mindenkié, tekintet nélkül nemzetiségükre, fajukra, nemükre vagy fogyatékosságukra. A 38 nyelvre teljesen lefordított Ubuntu alapvető akadálymentesítési technológiákat is tartalmaz, amelyek természetesen teljesen szabad szoftverek.
+			</p>
+			<p class="_email_2_body_">
+				Az Ubuntu bármely számítógépen gyorsan betöltődik, de az újabb gépeken szupergyors. Nincsenek rajta fölöslegesen lassító programok és próbaverziók, a rendszer elindítása és egy böngésző megnyitása csak pár másodpercig tart. Más operációs rendszerekkel ellentétben, amelyeken sokkal tovább tart az internetre fellépni. Az Ubuntu később sem fog belassulni, ugyanolyan gyors marad.
+			</p>
+			<p class="_email_3_body_">
+				Az Ubuntu rengeteg eszközzel nagyszerűen működik együtt. Csak csatlakoztassa mp3 lejátszóját, fényképezőgépét vagy nyomtatóját, és azonnal használhatja is azokat. Nincs telepítő CD, nincs vesződség. És Windows-kompatibilis is, így gond nélkül megnyithatja, szerkesztheti és megoszthatja Microsoft Office dokumentumait.
+			</p>
+			<p class="_email_4_body_">
+				Az Ubuntuval biztonságosan internetezhet – bízhat fájljai és adatai védelmében. A beépített tűzfal és vírusvédelem az alaptelepítés része. Ha pedig felbukkan egy lehetséges fenyegetés, automatikus frissítéseket biztosítunk, amelyeket egy kattintással telepíthet. Az AppArmor további biztonságot nyújt, megvédve fontos alkalmazásait, így a támadók nem érhetik el rendszerét. A Firefox és a gnome-keyring használatával az Ubuntu segít a személyes információk titkosságát megőrizni. Akár bankszámláját éri el, vagy érzékeny adatokat oszt meg barátaival vagy kollégáival, mindig nyugodtan alhat.
+			</p>
+			<p class="_email_5_body_">
+				Élvezze az Ubuntu stílusos, intuitív felületének egyszerűségét. A gyors, biztonságos és több ezer alkalmazást tartalmazó Ubuntu letisztult és áramvonalasított élményt kínál, amelyet igazán a saját ízléséhez igazíthat.
+			</p>
+			<p class="_random_reply_">
+				Köszönjük, hogy felfedezi az Ubuntut! Ne feledje, hogy ez csak egy bemutató. A valódi rendszer használatához le kell töltenie azt!
+				<br/>
+				<br/>
+				<a href="http://www.ubuntu.com/download/ubuntu/download?utm_source=tour&utm_medium=online&utm_campaign=tour" target="_blank">Az Ubuntu letöltése</a>
+			</p>
+			<p class="_write_">
+				Új üzenet
+			</p>
+			<p class="_no_subject_">
+				nincs tárgy
+			</p>
+			<p class="_recipient_">
+				Címzett
+			</p>
+			<p class="_from_">
+				Feladó
+			</p>
+			<p class="_you_">
+				Ön
+			</p>
+			<p class="_on_">
+				ekkor
+			</p>
+			<p class="_wrote_">
+				írta
+			</p>
+			<p class="_original_message_">
+				Eredeti üzenet
+			</p>
+			<p class="_fwd_">
+				Fwd
+			</p>
+			<!--
+			* Folder System
+			-->
+			<p class="_home_folder_">
+				Saját mappa
+			</p>
+			<p class="_desktop_folder_">
+				Asztal
+			</p>
+			<p class="_pictures_folder_">
+				Képek
+			</p>
+			<p class="_videos_folder_">
+				Videók
+			</p>
+			<p class="_music_folder_">
+				Zene
+			</p>
+			<p class="_downloads_folder_">
+				Letöltések
+			</p>
+			<p class="_documents_folder_">
+				Dokumentumok
+			</p>
+			<p class="_canonical_folder_">
+				Canonical
+			</p>
+			<p class="_backup_folder_">
+				Biztonsági mentés
+			</p>
+			<p class="_local_folder_">
+				Helyi
+			</p>
+			<p class="_work_folder_">
+				munkahelyi
+			</p>
+			<p class="_branches_folder_">
+				ágak
+			</p>
+			<p class="_rubbish_bin_folder_">
+				Kuka
+			</p>
+			<!--
+			* Software Center System
+			-->
+			<p class="_remove_">
+				Eltávolítás
+			</p>
+			<p class="_price_free_">
+				Ingyenes
+			</p>
+			<p class="_installed_">
+				Telepítve
+			</p>
+			<p class="_install_">
+				Telepítés
+			</p>
+			<p class="_installing_">
+				Telepítés
+			</p>
+			<p class="_chromium_app_">
+				Chromium webböngésző
+			</p>
+			<p class="_chromium_sub_">
+				Az internet elérése
+			</p>
+			<p class="_chromium_desc_">
+				A Chromium egy nyílt forrású böngészőprojekt, amely a gyorsaságot, a biztonságot és a még jobb stabilitást tűzte ki célul.
+				<br/>
+				<br/>
+				A Chromium a Google Chrome alapjául szolgál, amely a Chromium átcímkézett változata (név és logó), néhány bővítéssel, például felhasználáskövetéssel és automatikus frissítőrendszerrel.
+				<br/>
+				<br/>
+				A csomag a Chromium böngészőt tartalmazza
+			</p>
+			<p class="_beep_app_">
+				BEEP
+			</p>
+			<p class="_beep_sub_">
+				2D ügyességi/lövöldözős játék fizikai alapú rejtvényekkel
+			</p>
+			<p class="_beep_desc_">
+				A BEEP egy 2D oldalra gördülő ügyességi játék fizikára épülő játékmenettel. Egy kis robotot irányít, amely egy antigravitációs eszközzel, egy hátirakétával és egy fegyverrel van felszerelve. Vezessen, ugorjon, repüljön, ússzon és lőjön utat a 6 egyedi környezetben szétszórt 24 szinten.
+				<br/>
+				<br/>
+				Használja BEEP antigravitációs eszközét a fizikai alapú környezetek közvetlen manipulálására. Az antigravitációs eszköz egyszerre eszköz és fegyver is. Használja ellenséges robotok szétzúzására, tornyok építésére és rejtvények megfejtéséhez.
+				<br/>
+				<br/>
+				BEEP több ezer évig utazott a mélyűrön át, hogy felfedezze a Galaxist. Járjon be egy idegen csillagrendszert a BEEP-hajóval, és küldjön robotokat a bolygók felszínére.
+			</p>
+			<p class="_inkscape_app_">
+				Inkscape vektorgrafikai szerkesztő
+			</p>
+			<p class="_inkscape_sub_">
+				Scalable Vector Graphics (méretezhető vektorgrafika, SVG) képek létrehozása és szerkesztése
+			</p>
+			<p class="_inkscape_desc_">
+				Az Inkscape alapvetően az SVG (Scalable Vector Graphics) képeket kezeli, amely szabványt a WWW konzorcium tartja karban.
+				<br/>
+				<br/>
+				Az Inkscape felülete a CorelDraw és az ehhez hasonló rajzprogramokból lehet ismerős. Rendelkezésre állnak négyszögek, ellipszisek, szövegelemek, bitképek és szabadkézi görbék. Továbbá, mind a vektor, mind pedig a bitképobjektumokhoz rendelhető átlátszóság (alpha-transparency) és tetszőlegesen megváltoztatható.
+				<br/>
+				<br/>
+				Az Inkscape egyszerre több fájl megnyitását és fájlonként több nézetet is támogat. A grafikák kinyomtathatók és png bittérképes fájlokban is exportálhatók.
+				<br/>
+				<br/>
+				Egyes import és export képességeket a dia, libwmf-bin, pstoedit, skencil, imagemagick, és perlmagick csomagok segítségével valósít meg.
+				<br/>
+				<br/>
+				Egyes további bővítmények a ruby, libxml-xql-perl, python-numpy, és python-lxml csomagokat használják. Ezekkel már minden kiegészítő és effekt használható.
+				<br/>
+				<br/>
+				A helyesírás-ellenőrző használatához telepítse az aspell, és a megfelelő nyelvi csomagot, például aspell-en vagy aspell-hu.
+			</p>
+			<p class="_world_of_goo_app_">
+				World of Goo
+			</p>
+			<p class="_world_of_goo_sub_">
+				Fizikára épülő logikai/építkezős játék
+			</p>
+			<p class="_world_of_goo_desc_">
+				Húzzon és ejtsen élő, visító, beszélgető trutymócseppeket épületek, hidak, ágyúgolyók, léghajók és óriási nyelvek építéséhez. A World of Goo-t lakó milliónyi ártatlan trutymógolyó felfedezésekre vágyik.
+				<br/>
+				<br/>
+				De nem tudják, hogy egy játék részei, vagy hogy különösen finomak. A legaddiktívabb és leginkább csodálatot keltő logikai játék egy felejthetetlen kalandra hívja!
+			</p>
+			<p class="_blender_app_">
+				Blender
+			</p>
+			<p class="_blender_sub_">
+				3D modellek és animációk létrehozása és szerkesztése
+			</p>
+			<p class="_blender_desc_">
+				A Blender egy összetett 3D alkalmazás modellezéshez, animációhoz, megjelenítéshez, utómunkához, interaktív szerkesztéshez és lejátszáshoz (játékok). A Blendernek saját egyedi felhasználói felülete van, mely teljes mértékben OpenGL-el készült és a gyors használatot tűzte ki céljául. Python-kötések is elérhetőek parancsfájlok használatához: az importálási/exportálási funkciók népszerű fájlformátumokhoz mint a 3D Studio és Wavefront Obj, a közösség által készített parancsfájlok segítségével vannak megvalósítva. Állóképek, animációk, modellek játékokhoz vagy más harmadik féltől származó motorokhoz és interaktív tartalom egyedi binárisok és/vagy web-bővítmények formájában a Blender általános használatához tartoznak.
+			</p>
+			<p class="_braid_app_">
+				Braid
+			</p>
+			<p class="_braid_sub_">
+				Manipulálja az idő múlását a rejtvények megoldásához
+			</p>
+			<p class="_braid_desc_">
+				Manipulálja az idő folyását a Braid feladványainak megfejtéséhez. A Braid egy festői stílusú grafikát használó ügyességi játék, amelyben az idő folyását manipulálva oldhat meg feladványokat. A Braid minden feladványa egyedi, nincs kitöltő szint.
+				<br/>
+				<br/>
+				A Braid értékesnek tekinti idejét, és mindent megtesz a gondolatébresztő élmény nyújtásához.
+				<br/>
+				<br/>
+				A játékmenet az idő manipulálására épül. Utazzon olyan világokba, ahol az idő furán viselkedik; figyelje meg, ismerje meg, majd hódítsa meg ezeket a világokat.
+			</p>
+			<p class="_rhythmbox_app_">
+				Rhythmbox Media Player
+			</p>
+			<p class="_brasero_app_">
+				Brasero lemezíró
+			</p>
+			<p class="_movie_player_app_">
+				Médialejátszó
+			</p>
+			<p class="_shotwell_app_">
+				Shotwell fotókezelő
+			</p>
+			<p class="_pitivi_app_">
+				PiTiVi videoszerkesztő
+			</p>
+			<p class="_sound_recorder_app_">
+				Hangrögzítő
+			</p>
+			<p class="_empathy_app_">
+				Empathy üzenetküldő
+			</p>
+			<p class="_thunderbird_app_">
+				Thunderbird levél- és hírolvasó
+			</p>
+			<p class="_firefox_app_">
+				Firefox webböngésző
+			</p>
+			<p class="_gwibber_app_">
+				Gwibber közösségi kliens
+			</p>
+			<p class="_remote_desktop_app_">
+				Távoli asztalok megjelenítése
+			</p>
+			<p class="_terminal_app_">
+				Távoli asztali kapcsolat
+			</p>
+			<p class="_ubuntu_one_app_">
+				Ubuntu One
+			</p>
+			<p class="_ubuntu_software_center_app_">
+				Ubuntu Software Center
+			</p>
+			<p class="_ubuntu_one_music_app_">
+				Ubuntu One Music
+			</p>
+			<p class="_amazon_app_">
+				Amazon
+			</p>
+			<p class="_about_me_app_">
+				A névjegyem
+			</p>
+			<p class="_additional_drivers_app_">
+				További illesztőprogramok
+			</p>
+			<p class="_aisleroit_app_">
+				AisleRoit pasziánsz
+			</p>
+			<p class="_appearance_app_">
+				Megjelenés
+			</p>
+			<p class="_bluetooth_app_">
+				Bluetooth
+			</p>
+			<!--
+			* Dash
+			-->
+			<p class="_search_">Search your computer and online sources</p>
+			<!--
+			* Notifications
+			-->
+			<p class="_turn_off_bluetooth_">
+				Bluetooth kikapcsolása
+			</p>
+			<p class="_turn_on_bluetooth_">
+				Bluetooth bekapcsolása
+			</p>
+			<p class="_visible_">
+				Látható
+			</p>
+			<p class="_mute_">
+				Némítás
+			</p>
+			<p class="_unmute_">
+				Visszahangosítás
+			</p>
+			<p class="_shut_down_">
+				Leállítás…
+			</p>
+			<!--
+				Files Details - Images
+			-->
+			<p class="_photo_size_">
+				15.2 KB
+			</p>
+			<p class="_photo_date_">
+				2001 Okt. 26. Pé
+			</p>
+			<p class="_buck_off_title_">
+				Buck Off
+			</p>
+			<p class="_darkening_clockwork_title_">
+				Darkening Clockwork
+			</p>
+			<p class="_dybbølsbro_station_title_">
+				Dybbølsbro Station
+			</p>
+			<p class="_federica_miglio_title_">
+				Federica Miglio
+			</p>
+			<p class="_jardin_polar_title_">
+				Jardin Polar
+			</p>
+			<p class="_langelinie_alle_title_">
+				Langelinie Alle
+			</p>
+			<p class="_momiji_dream_title_">
+				Momiji Dream
+			</p>
+			<p class="_mount_snowdon_title_">
+				Mount Snowdon
+			</p>
+			<p class="_not_alone_title_">
+				Not Alone
+			</p>
+			<p class="_power_of_words_title_">
+				Power Of Words
+			</p>
+			<p class="_purple_dancers_title_">
+				Purple Dancers
+			</p>
+			<p class="_sand_maze_title_">
+				Sand Maze
+			</p>
+			<p class="_small_flowers_title_">
+				Small Flowers
+			</p>
+			<p class="_stalking_ocelot_title_">
+				Stalking Ocelot
+			</p>
+			<p class="_the_grass_aint_greener_title_">
+				The Grass Aint Greener
+			</p>
+			<p class="_wildWheat_title_">
+				WildWheat
+			</p>
+			<!--
+				Files Details - Video
+			-->
+			<p class="_introduction_ubuntu_title_">
+				Az Ubuntu bemutatása
+			</p>
+			<p class="_video_size_">
+				5.3 MB
+			</p>
+			<p class="_video_date_">
+				2010. Okt. 11. Hé.
+			</p>
+			<!--
+				Files Details - Music
+			-->
+			<p class="_happyness_title_">
+				Boldogság
+			</p>
+			<p class="_music_size_">
+				3.3MB
+			</p>
+			<p class="_music_date_">
+				2010. október 14. Sze.
+			</p>
+		</div>
+		<script type="text/javascript" src="../js/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="../js/lang.js"></script>
+		<script type="text/javascript" src="../js/scripts.js"></script>
+		<script type="text/javascript" src="../js/welcomesystem.js"></script>
+		<script type="text/javascript" src="../js/guidedtoursystem.js"></script>
+		<script type="text/javascript" src="../js/filesystem.js"></script>
+		<script type="text/javascript" src="../js/folders.js"></script>
+		<script type="text/javascript" src="../js/systemoverlay.js"></script>
+		<script type="text/javascript" src="../js/systemmenu.js"></script>
+		<script type="text/javascript" src="../js/internetsystem.js"></script>
+		<script type="text/javascript" src="../js/emailsystem.js"></script>
+		<script type="text/javascript" src="../js/systemsettings.js"></script>
+		<script type="text/javascript" src="../js/email.js"></script>
+		<script type="text/javascript" src="../js/errormessage.js"></script>
+		<script type="text/javascript" src="../js/ubuntuonesystem.js"></script>
+		<script type="text/javascript" src="../js/file.js"></script>
+		<script type="text/javascript" src="../js/shotwellsystem.js"></script>
+		<script type="text/javascript" src="../js/shutdownSystem.js"></script>
+		<script type="text/javascript" src="../js/movieplayersystem.js"></script>
+		<script type="text/javascript" src="../js/libresystem.js"></script>
+		<script type="text/javascript" src="../js/softwaresystem.js"></script>
+		<script type="text/javascript" src="../js/notificationsystem.js"></script>
+		<script type="text/javascript" src="../js/analytics.js"></script>
+	</body>
+</html>

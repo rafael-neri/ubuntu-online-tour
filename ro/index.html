@@ -1,0 +1,1512 @@
+﻿<!DOCTYPE html>
+<html lang="ro" dir="ltr">
+	<head>
+		<title>Prezentare online Ubuntu</title>
+		<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+		<meta charset="UTF-8" />
+		<meta name="description" content="Enjoy the simplicity of Ubuntu's stylish, intuitive interface. Take Ubuntu for a test drive with our online tour and download when you're ready!" />
+		<meta name="keywords" content="ubuntu, ubuntu online, ubuntu tour" />
+		<link rel="stylesheet" href="../css/loader.css" type="text/css" />
+		<link rel="stylesheet" href="../css/error.css" type="text/css" />
+		<link rel="stylesheet" href="../css/base.css" type="text/css" />
+		<link rel="stylesheet" href="../css/folder.css" type="text/css" />
+		<link rel="stylesheet" href="../css/firefox.css" type="text/css" />
+		<link rel="stylesheet" href="../css/email.css" type="text/css" />
+		<link rel="stylesheet" href="../css/systemoverlay.css" type="text/css" />
+		<link rel="stylesheet" href="../css/ubuntuone.css" type="text/css" />
+		<link rel="stylesheet" href="../css/shotwell.css" type="text/css" />
+		<link rel="stylesheet" href="../css/tourguide.css" type="text/css" />
+		<link rel="stylesheet" href="../css/welcome.css" type="text/css" />
+		<link rel="stylesheet" href="../css/shutdown.css" type="text/css" />
+		<link rel="stylesheet" href="../css/movieplayer.css" type="text/css" />
+		<link rel="stylesheet" href="../css/libre.css" type="text/css" />
+		<link rel="stylesheet" href="../css/notification.css" type="text/css" />
+		<link rel="stylesheet" href="../css/software-centre.css" type="text/css" />
+		<!--[if IE 8]>
+		<link rel="stylesheet" href="../css/iefix.css" type="text/css" />
+		<![endif]-->
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700' rel='stylesheet' type='text/css' />
+		<script type="text/javascript">
+			WebFontConfig = {
+				google : {
+					families : ['Ubuntu:400,700:latin']
+				}
+			}; (function() {
+				var wf = document.createElement('script');
+				wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+				wf.type = 'text/javascript';
+				wf.async = 'true';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(wf, s);
+			})();
+
+		</script>
+	</head>
+	<body>
+		<div id="loader">
+			<div id="dot-container">
+				<noscript>
+					<p>
+						This demo uses JavaScript. Either your browser doesn't support JavaScript, or it's currently switched off.
+						<br/>
+						<br/>
+						Don't panic. We've got <a href="/ubuntu/take-the-tour-gallery">a non-JavaScript version</a> of the online tour you can view instead. :)
+					</p>
+				</noscript>
+			</div>
+		</div>
+		<div id="top" class="dropShadow">
+			<div id="top-left">
+				<div id="control-buttons">
+					<div id="close"></div>
+					<div id="min"></div>
+					<div id="max"></div>
+				</div>
+				<div id="dash-control-buttons">
+					<div class="close"></div>
+					<div class="min"></div>
+					<div class="max"></div>
+				</div>
+				<div id="title"></div>
+			</div>
+			<div id="top-right">
+				<div id="connection"><img src="../img/top/connection.png" alt=""/>
+					<ul class="drop-down">
+						<li class="disabled">
+							Auto eth0
+						</li>
+						<li class="disabled">
+							Deconectează
+						</li>
+						<li class="divider"></li>
+						<!--<li class="disabled"><img src="../img/top/wireless-icon.png" alt=""/> My Wireless Connection</li>
+						<li class="disabled">Deconectează</li>
+						<li class="divider"></li>-->
+						<li class="disabled">
+							Informații conexiune
+						</li>
+						<li class="disabled">
+							Editare conexiuni...
+						</li>
+					</ul>
+				</div>
+				<div id="bluetooth"><img src="../img/top/bluetooth.png" alt=""/>
+					<ul class="drop-down">
+						<li class="disabled bluetooth">
+							Bluetooth pornit
+						</li>
+						<li>
+							Oprește Bluetooth
+						</li>
+						<li class="divider"></li>
+						<li class="disabled BtOn">
+							Vizibil
+						</li>
+						<li class="divider BtOn"></li>
+						<li class="disabled BtOn">
+							Trimite fișiere la dispozitiv...
+						</li>
+						<li class="disabled BtOn">
+							Navigare fișiere de pe dispozitiv...
+						</li>
+						<li class="divider"></li>
+						<li class="disabled BtOn">
+							Configurare dispozitive noi...
+						</li>
+						<li class="divider BtOn"></li>
+						<li class="disabled">
+							Preferințe
+						</li>
+					</ul>
+				</div>
+				<div id="message"><img src="../img/top/nomessage.jpg" class="message-logo" alt="" />
+					<ul class="drop-down">
+						<li class="system-message"></li>
+					</ul>
+				</div>
+				<div id="speakers"><img src="../img/top/speakers3.png" class="speakers-logo"  alt=""/>
+					<ul class="drop-down">
+						<li>
+							Mut
+						</li>
+						<li class="system-volume">
+							<div class="large-icon"></div><div class="small-icon"></div><div class="slider"></div><div class="slider-active"></div>
+						</li>
+						<li class="divider"></li>
+						<li class="disabled"><img src="../img/top/rhythmbox.png" alt=""/> Rhythmbox
+						</li>
+						<li class="banshee">
+							<div class="banshee-rewind"></div><div class="banshee-forward"></div><div class="banshee-play"></div>
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							Configurări sunet...
+						</li>
+					</ul>
+				</div>
+				<div id="time">
+					<p></p>
+					<ul class="drop-down">
+						<li class="system-calendar"></li>
+					</ul>
+				</div>
+				<div id="power"><img src="../img/top/power.png"  alt=""/>
+					<ul class="drop-down">
+						<li class="disabled">
+							About This Computer
+						</li>
+						<li class="disabled">
+							Ubuntu Help
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							System Settings&hellip;
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							Lock <span class="key-combo">Ctrl+Alt+L</span>
+						</li>
+						<li class="disabled user">
+							Guest Session
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							Logout
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							Suspendare
+						</li>
+						<li class="disabled">
+							Restart&hellip;
+						</li>
+						<li>
+							Oprire…
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="tooltip">
+			<div class="shadow-arrow"></div>
+			<div class="arrow-right"></div>
+			<div id="tooltip-text"></div>
+		</div>
+		<div id="menu">
+			<ul>
+				<li class="dash">
+					<span>Panou principal</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="home"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Dosar personal</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="firefox"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Navigatorul Web Firefox</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="writer"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>LibreOffice Writer</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="calc"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>LibreOffice Calc</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="impress"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>LibreOffice Impress</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="software"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Centrul software Ubuntu</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="amazon"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Amazon</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="settings"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>System Settings</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="email temp"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""><span>Thunderbird Mail</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt="">
+				</li>
+				<li class="shotwell temp"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Shotwell - Administrator fotografii</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="movieplayer temp"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Player pentru filme</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<!--<li class="workspace"><span>Workspace Switcher</span></li>-->
+				<li class="rubbish bottom">
+					<span>Coș de gunoi</span>
+				</li>
+			</ul>
+		</div>
+		<div id="systemOverlay">
+			<div class="copyDash"></div>
+			<div id="overlayContents">
+				<input type="text" name="search" value="Search your computer and online sources"/>
+				<div id="display-home" class="app-container">
+					<div class="recent-apps bottom"><img src="../img/overlay/recentapps.png" alt=""/> Aplicații <div class="app-list"></div>
+					</div>
+					<div class="recent-files bottom"><img src="../img/overlay/recentfiles.png" alt=""/> Fișiere &amp; Dosare<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-apps" class="app-container">
+					<div class="frequently bottom"><img src="../img/overlay/recentapps.png" alt=""/> Utilizate recent <div class="app-list"></div>
+					</div>
+					<div class="installed"><img src="../img/overlay/installed.png" alt=""/> Instalate<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-find-files" class="app-container">
+					<div class="files bottom"><img src="../img/overlay/recentfiles.png" alt=""/> Recente<div class="app-list"></div>
+					</div>
+					<div class="downloads bottom"><img src="../img/overlay/downloaded.png" alt=""/> Descărcări<div class="app-list"></div>
+					</div>
+					<div class="folders"><img src="../img/overlay/folders.png" alt=""/> Dosare<div class="app-list"></div>
+					</div>
+
+				</div>
+				<div id="display-find-music" class="app-container">
+					<div class="songs bottom"><img src="../img/overlay/folders.png" alt=""/> Piese muzicale<div class="app-list"></div>
+					</div>
+					<div class="albums"><img src="../img/overlay/folders.png" alt=""/> Albume<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-find-video" class="app-container">
+					<div class="videos bottom"><img src="../img/overlay/folders.png" alt=""/> Clipuri video<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-find-photos" class="app-container">
+					<div class="photos bottom"><img src="../img/overlay/folders.png" alt=""/> My photos<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-chat" class="app-container">
+					<div class="message">
+						<p>Sorry, there is nothing that matches your search</p>
+					</div>
+				</div>
+				<div id="display-search" class="app-container">
+					<div class="applications bottom"><img src="../img/overlay/search-apps-logo.jpg" alt=""/> Aplicații<div class="app-list"></div>
+					</div>
+					<div class="files"><img src="../img/overlay/search-files-logo.jpg" alt=""/> Fișiere &amp; Dosare<div class="app-list"></div>
+					</div>
+				</div>
+			</div>
+			<div id="dash-bottom-bar">
+				<div class="bottom-wrapper">
+					<div class="home-icon active"></div>
+					<div class="applications-icon"></div>
+					<div class="files-icon"></div>
+					<div class="music-icon"></div>
+					<div class="video-icon"></div>
+					<div class="photos-icon"></div>
+					<div class="chat-icon last"></div>
+				</div>
+			</div>
+			<div id="preview">
+				<div class="image"></div>
+				<div class="info"></div>
+				<div class="buttons">
+					<a class="email">E-mail</a>
+					<a class="showInFolder">Show in Folder</a>
+					<a class="open">Open</a>
+				</div>
+			</div>
+		</div>
+		<div id="ubuntuone-window" class="uone window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="window-title">
+					Panoul de control Ubuntu One
+				</div>
+			</div>
+			<div class="content">
+				<div class="header"></div>
+				<div class="body">
+					<h1>Puterea norului dumneavoastră personal</h1>
+					<div class="features">
+						<div class="files-anywhere">
+							<span class="logo"></span>
+							<div>
+								<h3>Fișiere oriunde</h3>
+								<p>
+									Creați copii de siguranță pentru fișiere și accesați-vă fișierele din Ubuntu, Windows, Web sau dispozitive mobile
+								</p>
+							</div>
+						</div>
+						<div class="rock-out">
+							<span class="logo"></span>
+							<div>
+								<h3>Rock Out</h3>
+								<p>
+									Întreaga colecție de muzică vă urmează oriunde, cu funcția de difuzare pentru dispozitivele Android și iPhone
+								</p>
+							</div>
+						</div>
+						<div class="keep-connected">
+							<span class="logo"></span>
+							<div>
+								<h3>Rămâneți conectat</h3>
+								<p>
+									Unificați-vă contactele de pe calculator cu cele de pe dispozitivele mobile, păstrându-le și pe web
+								</p>
+							</div>
+						</div>
+						<div class="stay-productive">
+							<span class="logo"></span>
+							<div>
+								<h3>Fiți mereu productivi</h3>
+								<p>
+									Sincronizați semnele de carte din Firefox și notițele Tomboy
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="ubuntuone-buttons">
+						<div class="learn-more"><img src="../img/ubuntuone/ubuntuone-logo.jpg" width="47" height="48" alt=""/>
+							<div>
+								Aflați mai multe
+							</div>
+						</div>
+						<div class="join-now">
+							<h2>Alăturați-vă acum</h2>
+						</div>
+						<div class="have-account">
+							Am deja un cont!
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="libreoffice-calc-window" class="calc window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Neintitulat 1 - LibreOffice Calc
+				</div>
+			</div>
+			<div class="content">
+
+			</div>
+		</div>
+		<div id="libreoffice-writer-window" class="writer window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Neintitulat 1 - LibreOffice Writer
+				</div>
+			</div>
+			<div class="content">
+
+			</div>
+		</div>
+		<div id="libreoffice-impress-window" class="impress window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Neintitulat 1 - LibreOffice Impress
+				</div>
+			</div>
+			<div class="content">
+
+			</div>
+		</div>
+		<div class="error-window window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="window-title"></div>
+			</div>
+			<div class="error-container">
+				<h1>Vă mulțumim pentru că explorați Ubuntu!</h1>
+				<a class="download"  href="http://www.ubuntu.com/download/ubuntu/download?utm_source=tour&utm_medium=online&utm_campaign=tour" target="_blank">Descărcați Ubuntu</a>
+				<h2>Rețineți, această prezentare este demonstrativă. Trebuie să descărcați Ubuntu pentru a vă bucura de original!</h2>
+			</div>
+		</div>
+		<!--<div id="error-window" class="error-window window">
+		<div class="control">
+		<div class="close"></div>
+		<div class="window-title"></div>
+		</div>
+		<div class="content">
+		<img src="../img/error/warning.jpg"/>
+		<div class="message">
+		<p>Thanks for exploring Ubuntu</p>
+		<p>Rețineți, această prezentare este demonstrativă. Trebuie să descărcați Ubuntu pentru a vă bucura de original!</p>
+		</div>
+		<div class="error-buttons"><div class="download highlight">Descărcați Ubuntu</div></div>
+		</div>
+		</div>-->
+		<!--<div id="workspaces">
+		<div id="void">
+		<div id="workspace-container">
+		<div id="workspace1"><div class="fadedOverlay"></div></div>
+		<div id="workspace2"><div class="fadedOverlay"></div></div>
+		<div id="workspace3"><div class="fadedOverlay"></div></div>
+		<div id="workspace4"><div class="fadedOverlay"></div></div>
+		<div class="reflection" style="clear:both;"></div>
+		<div class="reflection"></div>
+		</div>
+		</div>
+		</div>-->
+		<div id="email-window" class="email-window window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Email
+				</div>
+			</div>
+			<div class="buttons">
+				<div class="email-get-mail">
+					Primire mesaje
+				</div>
+				<div class="email-divider"></div>
+				<div class="email-write">
+					Scrie
+				</div>
+				<!--<div class="email-address-book"></div>
+				<div class="email-divider"></div>
+				<div class="email-tag"></div>
+				<div class="email-search"><input type="text" name="submitEmailSearch" id="submitEmailSearch"/></div>-->
+			</div>
+			<div style="clear:both;"></div>
+			<div class="email-content">
+				<div class="folder-list">
+					<div class="bottom-buttons">
+						Toate dosarele
+					</div>
+					<div style="clear:both;"></div>
+					<div class="list">
+						<div id="folder-inbox" class="selected"><img src="../img/email/inbox.png" alt=""/> Primite
+						</div>
+						<div id="folder-draft"><img src="../img/email/drafts.png" alt=""/> Ciornă
+						</div>
+						<div id="folder-sent"><img src="../img/email/sent.png" alt=""/> Trimise
+						</div>
+						<div id="folder-archive"><img src="../img/email/archive-logo.png" alt=""/> Arhivă
+						</div>
+						<div id="folder-trash"><img src="../img/email/trash.png" alt=""/> Coș de gunoi
+						</div>
+					</div>
+				</div>
+				<div class="email-contents">
+					<div class="email-categories">
+						<div><img src="../img/email/t.png" alt=""/>
+						</div>
+						<div><img src="../img/email/star.png" alt=""/>
+						</div>
+						<div><img src="../img/email/clip.png" alt=""/>
+						</div>
+						<div class="subject">
+							Subiect
+						</div>
+						<div><img src="../img/email/glasses.png" alt=""/>
+						</div>
+						<div class="from">
+							De la
+						</div>
+						<div><img src="../img/email/fire.png" alt=""/>
+						</div>
+						<div class="date">
+							Dată
+						</div>
+					</div>
+					<div style="clear:both;"></div>
+					<div class="email-list"></div>
+					<div class="email-body">
+						<div class="message-header">
+							<div class="email-buttons">
+								<div>
+									<span class="message-reply">răspuns</span>
+									<span class="message-forward">înainte</span>
+									<span class="message-archive">arhivă</span>
+									<span class="message-junk">junk</span>
+									<span class="message-delete">șterge</span>
+								</div>
+							</div>
+							<div style="clear:both;"></div>
+							<div class="date"></div>
+							<dl class="from">
+								<dt>
+									de la
+								</dt><dd></dd>
+							</dl>
+							<dl class="subject">
+								<dt>
+									subiect
+								</dt><dd></dd>
+							</dl>
+							<dl class="to">
+								<dt>
+									către
+								</dt><dd></dd>
+							</dl>
+							<dl class="cc">
+								<dt>
+									cc
+								</dt><dd></dd>
+							</dl>
+						</div>
+						<div class="junk-mail-banner"><img src="../img/email/large-fire.jpg" alt=""/> Spam
+							<div class="not-junk">
+								Nu este spam
+							</div>
+						</div>
+						<div class="message-body"></div>
+					</div>
+				</div>
+				<div style="clear:both;"></div>
+				<div class="emails-info">
+					<div>
+						Necitite: <span id="details-unread">1</span> Total: <span id="details-total">1</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="email-write" class="email-write window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Scrie: (fără subiect)
+				</div>
+			</div>
+			<div class="buttons">
+				<div id="write-send">
+					Trimite
+				</div>
+				<div class="email-divider"></div>
+				<div id="write-attach">
+					Atașează
+				</div>
+			</div>
+			<div style="clear:both;"></div>
+			<div id="write-from">
+				<div>
+					De la:
+				</div>
+				<input type="text" name="from" value="You"/>
+			</div>
+			<div id="write-to">
+				<div>
+					Către:
+				</div>
+				<input type="text" name="to"/>
+			</div>
+			<div id="write-subject">
+				<div>
+					Subiect:
+				</div>
+				<input type="text" name="subject"/>
+			</div>
+			<div><img src="../img/email/disabled-format-buttons.jpg" width="853" height="32" alt=""/>
+			</div>
+			<div id="write-body">
+				<textarea name="body"></textarea>
+</div>			<div class="loading-bar">
+				<div class="progress"></div>
+			</div>
+		</div>
+		<div id="software-centre" class="software window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Centrul software Ubuntu
+				</div>
+			</div>
+			<div class="top-panel">
+				<div class="back disabled"></div>
+				<div class="forward disabled"></div>
+				<div class="all-software selected"><img src="../img/software-centre/all-software.png" alt=""/>Toate aplicațiile
+				</div>
+				<div class="installed"><img src="../img/software-centre/installed.png" alt=""/>Instalate
+				</div>
+				<div class="history"><img src="../img/software-centre/history.png" alt=""/>Istoric
+				</div>
+			</div>
+			<div class="container detailed">
+				<div class="title"><img src="../img/software-centre/visolate.png" class="app-image" width="100" alt=""/><h1>Visolate</h1>
+					<p class="subheading">
+						Convertor PCB CNC
+					</p>
+					<p class="rating"><img src="../img/software-centre/rating.jpg" alt="" /> (91 aprecieri)
+					</p>
+				</div>
+				<div class="price">
+					<span class="theprice">Liber</span><span class="button">Instalează</span>
+					<div class="loading-bar">
+						<div class="progress"></div>
+					</div>
+				</div>
+				<div class="description-container">
+					<div class="description-image"><img src="../img/software-centre/screenshot-blender.jpg" alt="" />
+					</div>
+					<div class="description"><img src="../img/software-centre/screenshot-blender.jpg" alt="" />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quam augue, convallis id commodo id, tristique ac mi. Ut dapibus, neque eget elementum pretium, nunc turpis congue eros, et interdum nisi nisi at diam. Duis dictum, justo eget imperdiet pulvinar, dolor est fermentum nisl, luctus imperdiet metus elit a purus. Quisque nisl enim, lacinia ut venenatis in, porttitor eget orci. Quisque non nibh nec risus tincidunt sollicitudin vitae et nisl. Proin odio lacus, vulputate non auctor sit amet, dapibus quis tortor. Donec elit libero, pellentesque quis dictum sed, hendrerit non libero. Aliquam eu diam id leo auctor tincidunt. Phasellus cursus felis at nulla facilisis semper. Cras mauris urna, adipiscing sed scelerisque ut, gravida id neque. Mauris ut vestibulum justo. Curabitur convallis elementum pellentesque. Duis sit amet arcu ac eros pretium scelerisque. Nunc nec nisi nulla.
+					</div>
+					<div style="clear:both;"></div>
+				</div>
+			</div>
+			<div class="container home">
+				<div class="header-image">
+					<span class="header-title">Aplicații alese de noi</span>
+					<span class="header-subtitle">Explorați favoritele noastre</span>
+				</div>
+				<div class="navigation">
+					<ul>
+						<li>
+							Accesorii
+						</li>
+						<li>
+							Instrumente pentru programatori
+						</li>
+						<li>
+							Educație
+						</li>
+						<li>
+							Fonturi
+						</li>
+						<li>
+							Jocuri
+						</li>
+						<li>
+							Grafică
+						</li>
+						<li>
+							Internet
+						</li>
+						<li>
+							Aplicații de birou
+						</li>
+						<li>
+							Știință și inginerie
+						</li>
+						<li>
+							Muzică și filme
+						</li>
+						<li>
+							Sistem
+						</li>
+						<li>
+							Teme și personalizări
+						</li>
+					</ul>
+				</div>
+				<div class="whats-new">
+					<h2> Ce este nou</h2>
+					<div class="app-container">
+						<div class="chromium">
+							<h3>Chromium</h3>
+							<p>
+								Internet
+							</p>
+							<p class="cost">
+								Liber
+							</p>
+						</div>
+						<div class="beep">
+							<h3>BEEP</h3>
+							<p>
+								Jocuri
+							</p>
+							<p class="cost">
+								$9.99
+							</p>
+						</div>
+						<div class="inkscape">
+							<h3>Inkscape</h3>
+							<p>
+								Grafică
+							</p>
+							<p class="cost">
+								Liber
+							</p>
+						</div>
+						<div class="worldofgoo">
+							<h3>World of Goo</h3>
+							<p>
+								Jocuri
+							</p>
+							<p class="cost">
+								$19.99
+							</p>
+						</div>
+						<div class="blender">
+							<h3>Blender</h3>
+							<p>
+								Grafică
+							</p>
+							<p class="cost">
+								Liber
+							</p>
+						</div>
+						<div class="braid">
+							<h3>Braid</h3>
+							<p>
+								Jocuri
+							</p>
+							<p class="cost">
+								$9.99
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="whats-new">
+					<h2> Cele mai apreciate</h2>
+					<div class="app-container">
+						<div class="beep">
+							<h3>BEEP</h3>
+							<p>
+								Jocuri
+							</p>
+							<p class="cost">
+								$9.99
+							</p>
+						</div>
+						<div class="chromium">
+							<h3>Chromium</h3>
+							<p>
+								Internet
+							</p>
+							<p class="cost">
+								Liber
+							</p>
+						</div>
+						<div class="worldofgoo">
+							<h3>World of Goo</h3>
+							<p>
+								Jocuri
+							</p>
+							<p class="cost">
+								$19.99
+							</p>
+						</div>
+						<div class="braid">
+							<h3>Braid</h3>
+							<p>
+								Jocuri
+							</p>
+							<p class="cost">
+								$9.99
+							</p>
+						</div>
+						<div class="inkscape">
+							<h3>Inkscape</h3>
+							<p>
+								Grafică
+							</p>
+							<p class="cost">
+								Liber
+							</p>
+						</div>
+						<div class="blender">
+							<h3>Blender</h3>
+							<p>
+								Grafică
+							</p>
+							<p class="cost">
+								Liber
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="shotwell" class="shotwell window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Shotwell
+				</div>
+			</div>
+			<div class="sidebar">
+				<div class="nav">
+					<ul>
+						<li class="library">
+							Bibliotecă
+						</li>
+					</ul>
+				</div>
+				<div class="details">
+					<div class="overall">
+						<div>
+							Elemente: <span class="items">16 fotografii</span>
+						</div>
+						<div>
+							De la: <span class="from">Vin 26 oct, 2001</span>
+						</div>
+						<div>
+							Către: <span class="to">Lun 11 oct, 2010</span>
+						</div>
+					</div>
+					<div class="single">
+						<div>
+							Nume: <span class="title"></span>
+						</div>
+						<div>
+							Dată: <span class="date"></span>
+						</div>
+						<div>
+							Dimensiune: <span class="size"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="images"></div>
+				<div class="tools">
+					<div class="jump-image">
+						<div class="next"></div><div class="prev"></div>
+					</div>
+					<div class="slider-container">
+						<div class="small-icon"></div><div class="slider"></div><div class="slider-active"></div><div class="large-icon"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="movieplayer" class="movieplayer window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Player pentru filme
+				</div>
+			</div>
+			<div class="container">
+				<div class="video"></div>
+			</div>
+		</div>
+		<div id="firefox-window" class="firefox-window window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Navigați pe Internet
+				</div>
+			</div>
+			<div class="buttons">
+				<div class="firefox-back"></div>
+				<div class="firefox-forward"></div>
+				<div class="firefox-url">
+					<input type="text" name="submitURL" id="submitURL" value="http://www.ubuntu.com"/>
+				</div>
+				<div class="firefox-search">
+					<input type="text" name="submitSearch" id="submitSearch" value="Wikipedia" class="fade-text"/>
+				</div>
+			</div>
+			<div style="clear:both;"></div>
+			<div class="firefox-internet">
+				<div class="web-overlay-tran"></div>
+				<div class="theIframe">
+					<iframe src="../http://www.ubuntu.com" id="firefoxInternet" >
+						<p>
+							Navigatorul dumneavoastră nu suportă iframes.
+						</p>
+					</iframe>
+				</div>
+			</div>
+		</div>
+		<div id="shutdown-window" class="window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="window-title">
+					Oprire
+				</div>
+			</div>
+			<div class="content">
+				<img src="../img/powerwarning.jpg" alt=""/>
+				<div class="message">
+					<p>
+						Sigur doriți să închideți toate aplicațiile și să închideți calculatorul?
+					</p>
+				</div>
+				<div class="shutdown-buttons">
+					<div class="shutdown highlight">
+						Oprire
+					</div>
+					<div class="cancel">
+						Anulează
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="folder-window" class="folder window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title"></div>
+			</div>
+
+			<div class="buttons">
+					<div class="folder-back"></div>
+					<div class="folder-forward"></div>
+				</div>
+				<div class="bottom-buttons"></div>
+				<div style="clear:both;"></div>
+			<div class="folder-list">
+				<div class="list">
+					<p>
+						Places
+					</p>
+					<ul>
+						<li class="home selected" data-folder="home">Dosar personal</li>
+						<li class="desktop" data-folder="5">Desktop</li>
+						<li class="documents" data-folder="0">Documente</li>
+						<li class="downloads" data-folder="1">Descărcări</li>
+						<li class="music" data-folder="2">Muzică</li>
+						<li class="pictures" data-folder="4">Fotografii</li>
+						<li class="videos" data-folder="3">Clipuri video</li>
+						<li class="rubbish" data-folder="bin">Coș de gunoi</li>
+					</ul>
+				</div>
+			</div>
+			<div class="folder-contents">
+				<div class="contents"></div>
+				<div class="selected-details"></div>
+			</div>
+		</div>
+		<div id="welcome">
+			<div id="welcome-screen" class="selected-window">
+				<div class="control">
+					<div class="window-title">Ubuntu tour</div>
+				</div>
+				<div class="welcome-header">
+					<h1>Welcome to the Ubuntu 14.04 tour!</h1>
+					<h2>Porniți Ubuntu pentru un test bazat pe prezentarea noastră online.</h2>
+				</div>
+				<ul>
+					<li>
+						<a class="browse-files" href="#browse-files">Navigare fișiere</a>
+					</li>
+					<li>
+						<a class="check-email" href="#check-email">Verifică pentru mesaje e-mail</a>
+					</li>
+					<li>
+						<a class="surf-the-web" href="#surf-the-web">Navigați pe  web</a>
+					</li>
+					<li>
+						<a class="find-apps" href="#find-apps">Căutare aplicații</a>
+					</li>
+					<li>
+						<a class="create-documents" href="#create-documents">Creează documente</a>
+					</li>
+					<li>
+						<a class="view-photos" href="#view-photos">Vizualizare fotografii</a>
+					</li>
+					<li>
+						<a class="create-presentations" href="#create-presentations">Creează prezentări</a>
+					</li>
+					<li>
+						<a class="create-spreadsheets" href="#create-spreadsheets">Creează foi de calcul</a>
+					</li>
+					<li>
+						<a class="watch-video" href="#watch-video">Watch videos</a>
+					</li>
+				</ul>
+				<div class="language-mode">
+					<span class="active">Engleză</span>
+					<a href="/tour/zh-CN/">中文</a>
+				</div>
+				<a class="explore-mode primary" href="#">Faceți-vă simțită prezența</a>
+				<a class="tour-mode" href="#">Deschideți prezentarea</a>
+			</div>
+		</div>
+		<div id="tour-guide">
+			<div class="next-button">&rsaquo;</div>
+			<div class="prev-button">&lsaquo;</div>
+			<div class="guide-container welcome">
+				<div class="guide-logo"><img src="../img/tourguide/back-to-welcome.png" /></div>
+				<h3>Prezentare online Ubuntu</h3>
+				<p>
+					Sperăm că turul online Ubuntu v-a încântat. <a href="http://www.ubuntu.com/download/ubuntu/download?utm_source=tour&utm_medium=online&utm_campaign=tour" target="_blank">Gata pentru descărcare?</a> sau <a href="/ubuntu/take-the-tour" >înapoi la site</a>
+				</p>
+			</div>
+			<div class="guide-container home">
+				<div class="guide-logo"><img src="../img/tourguide/file-small.png" />
+				</div>
+				<h3>Navigare fișiere</h3>
+				<p>
+					Accesarea dosarelor și fișierelor din dosarul personal se face rapid și ușor.
+				</p>
+			</div>
+			<div class="guide-container firefox">
+				<div class="guide-logo"><img src="../img/tourguide/firefox-small.png" />
+				</div>
+				<h3>Navigați pe  web</h3>
+				<p>
+					Navigarea pe internet este rapidă și sigură cu Ubuntu și Firefox.
+				</p>
+			</div>
+			<div class="guide-container email">
+				<div class="guide-logo"><img src="../img/tourguide/mail-small.png" />
+				</div>
+				<h3>Verifică pentru mesaje e-mail</h3>
+				<p>
+					Citiți, scrieți și trimiteți mesaje e-mail cu Thunderbird. Este ușor de folosit și rapid.
+				</p>
+			</div>
+			<div class="guide-container shotwell">
+				<div class="guide-logo"><img src="../img/tourguide/shotwell-small.png" />
+				</div>
+				<h3>Vizualizare fotografii</h3>
+				<p>
+					Puteți încărca, organiza, edita și partaja fotografiile dumneavoastră folosind Shotwell.
+				</p>
+			</div>
+			<div class="guide-container software">
+				<div class="guide-logo"><img src="../img/tourguide/apps-small.png" />
+				</div>
+				<h3>Căutare aplicații</h3>
+				<p>
+					Căutați și descărcați rapid aplicații din Centrul software Ubuntu.
+				</p>
+			</div>
+			<div class="guide-container writer">
+				<div class="guide-logo"><img src="../img/tourguide/document-small.png" />
+				</div>
+				<h3>Creează documente</h3>
+				<p>
+					LibreOffice Writer vă ajută să realizați cu ușurință documente profesionale.
+				</p>
+			</div>
+			<div class="guide-container calc">
+				<div class="guide-logo"><img src="../img/tourguide/calc-small.png" />
+				</div>
+				<h3>Creează foi de calcul</h3>
+				<p>
+					LibreOffice Calc are tot ce vă trebuie pentru a crea foi de calcul cuprinzătoare și precise.
+				</p>
+			</div>
+			<div class="guide-container impress">
+				<div class="guide-logo"><img src="../img/tourguide/impress-small.png" />
+				</div>
+				<h3>Creează prezentări</h3>
+				<p>
+					Faceți o impresie bună utilizând utilitarul pentru realizarea de prezentări LibreOffice Impress.
+				</p>
+			</div>
+			<div class="guide-container movieplayer">
+				<div class="guide-logo"><img src="../img/tourguide/video-small.png" />
+				</div>
+				<h3>Watch videos</h3>
+				<p>
+					You can watch all your favourite films and videos, DVDs, downloads or movies you've created yourself.
+				</p>
+			</div>
+			<div class=" tour-buttons">
+				<div class="explore-to-welcome">Welcome screen</div>
+				<div class="explore-to-download">Descărcați Ubuntu</div>
+				<div class="explore-to-exit">Exit the Tour</div>
+			</div>
+		</div>
+		<div id="Translation-Strings">
+			<!--
+			* Email system
+			-->
+			<p class="_email_1_title_">
+				Accesibil
+			</p>
+			<p class="_email_2_title_">
+				Rapid
+			</p>
+			<p class="_email_3_title_">
+				Compatibil
+			</p>
+			<p class="_email_4_title_">
+				Sigură
+			</p>
+			<p class="_email_5_title_">
+				Ubuntu tău, așa cum vrei tu
+			</p>
+			<p class="_email_1_body_">
+				Accesibilitatea este o trăsătură centrală a filosofiei Ubuntu. Noi credem cu tărie că toată lumea ar trebui să aibă acces la calculator, indiferent de naționalitate, rasă, gen sau dizabilități. Tradus complet în 38 de limbi, Ubuntu include și tehnologii de asistență care sunt, desigur, gratuite în întregime.
+			</p>
+			<p class="_email_2_body_">
+				Ubuntu se încarcă rapid pe orice calculator, dar pe sistemele mai noi este super-rapid. Deoarece nu este încetinit de programe care nu sunt necesare sau software în sistem trial (de încercare), timpul pentru pornirea sistemului și deschiderea unui navigator de Internet este măsurat în secunde. Așadar nu ca alte sisteme de operare în care vă holbați la ecranul monitorului, așteptând să primiți acces la rețea. Mai mult, Ubuntu nu devine mai încet odată cu trecerea timpului. Este rapid. Și rămâne rapid.
+			</p>
+			<p class="_email_3_body_">
+				Ubuntu lucrează strălucit cu o serie de dispozitive. Doar conectați-vă player-ul mp3, camera sau imprimanta și veți fi gata de lucru. Fără CD-uri de instalare. Fără complicații. Și este compatibil cu Windows-ul! Puteți deschide, edita și partaja documente Microsoft Office, fără probleme.
+			</p>
+			<p class="_email_4_body_">
+				Puteți naviga sigur cu Ubuntu - încrezător că toate fișierele și datele dumneavoastră vor fi protejate. Un firewall inclus și protecția împotriva virușilor vin ca standarde. Iar dacă apare o amenințare, vă furnizăm actualizări automate pe care le puteți instala printr-un singur clic de mouse. Aveți securitate sporită prin AppArmor, care vă protejează aplicațiile importante de atacatori care doresc să obțină acces la sistemul dumneavoastră. Și mulțumită Firefox și aplicației gnome-keyring ) inelul de chei), Ubuntu vă ajută să păstrați informațiile private numai pentru dumneavoastră. Așadar, dacă accesați conturile bancare online sau dacă partajați date importante cu prietenii sau colegii, le faceți în siguranță.
+			</p>
+			<p class="_email_5_body_">
+				Bucurați-vă de simplitatea stilată a interfeței Ubuntu. Rapid, sigur, cu mii de aplicații din care puteți alege, Ubuntu vă asigură un mediu curat și echilibrat, pe care-l puteți transforma într-o manieră personală.
+			</p>
+			<p class="_random_reply_">
+				Vă mulțumim pentru că explorați Ubuntu! Rețineți, această prezentare este demonstrativă. Trebuie să-l descărcați pentru a vă bucura de original!
+				<br/>
+				<br/>
+				<a href="http://www.ubuntu.com/download/ubuntu/download?utm_source=tour&utm_medium=online&utm_campaign=tour" target="_blank">Descărcați Ubuntu</a>
+			</p>
+			<p class="_write_">
+				Scrie
+			</p>
+			<p class="_no_subject_">
+				fără subiect
+			</p>
+			<p class="_recipient_">
+				Destinatar
+			</p>
+			<p class="_from_">
+				De la
+			</p>
+			<p class="_you_">
+				Dumneavoastră
+			</p>
+			<p class="_on_">
+				Activat
+			</p>
+			<p class="_wrote_">
+				a scris
+			</p>
+			<p class="_original_message_">
+				Mesaj original
+			</p>
+			<p class="_fwd_">
+				Înaintează
+			</p>
+			<!--
+			* Folder System
+			-->
+			<p class="_home_folder_">
+				Dosar personal
+			</p>
+			<p class="_desktop_folder_">
+				Desktop
+			</p>
+			<p class="_pictures_folder_">
+				Fotografii
+			</p>
+			<p class="_videos_folder_">
+				Clipuri video
+			</p>
+			<p class="_music_folder_">
+				Muzică
+			</p>
+			<p class="_downloads_folder_">
+				Descărcări
+			</p>
+			<p class="_documents_folder_">
+				Documente
+			</p>
+			<p class="_canonical_folder_">
+				Canonical
+			</p>
+			<p class="_backup_folder_">
+				Copie de siguranță
+			</p>
+			<p class="_local_folder_">
+				Local
+			</p>
+			<p class="_work_folder_">
+				muncă
+			</p>
+			<p class="_branches_folder_">
+				ramuri
+			</p>
+			<p class="_rubbish_bin_folder_">
+				Coș de gunoi
+			</p>
+			<!--
+			* Software Center System
+			-->
+			<p class="_remove_">
+				Șterge
+			</p>
+			<p class="_price_free_">
+				Liber
+			</p>
+			<p class="_installed_">
+				Instalate
+			</p>
+			<p class="_install_">
+				Instalează
+			</p>
+			<p class="_installing_">
+				Se instalează
+			</p>
+			<p class="_chromium_app_">
+				Navigator Internet Chromium
+			</p>
+			<p class="_chromium_sub_">
+				Accesați Internetul
+			</p>
+			<p class="_chromium_desc_">
+				Chromium este un proiect cu sursă publică pentru un navigator de Internet care se dorește a fi o cale mai sigură, mai rapidă și mai stabilă pentru explorarea web-ului de către toți utilizatorii de Internet.
+				<br/>
+				<br/>
+				Chromium serveşte ca o bază pentru Google Chrome, care este de fapt un produs rezultat din Chromium, cu brand propriu (nume și logo), și care conține foarte puține adăugiri cum ar fi utilizarea urmăririi și un sistem de actualizare automată.
+				<br/>
+				<br/>
+				Acest pachet conține navigatorul Chromium
+			</p>
+			<p class="_beep_app_">
+				BEEP
+			</p>
+			<p class="_beep_sub_">
+				Un joc 2D tip platformă/shooter cu puzzle-uri bazate pe fizică
+			</p>
+			<p class="_beep_desc_">
+				BEEP este un joc 2D tip platformă care este bazat pe fenomene fizice. Controlați un robot mic echipat cu un dispozitiv antigravitațional, un dispozitiv de zbor reactiv individual (jet-pack) și o armă. Conduceți-l, săriți, zburați, înotați și împușcați tot ce mișcă străbătând cele 24 de nivele desfășurate pe 6 medii unice.
+				<br/>
+				<br/>
+				Utilizați dispozitivul antigravitațional BEEP pentru a manipula direct mediile bazate pe fizică. Dispozitivul antigravitațional este atât o unealtă, cât și o armă. Utilizați-l pentru a zdrobi roboți inamici, pentru a construi turnuri și pentru a rezolva puzzle-uri.
+				<br/>
+				<br/>
+				BEEP a călătorit mii de ani prin spațiul îndepărtat pentru a explora galaxia. Traversați un sistem solar străin cu nava BEEP și trimiteți roboți pe suprafața planetelor.
+			</p>
+			<p class="_inkscape_app_">
+				Inskape - Editor de grafică vectorială
+			</p>
+			<p class="_inkscape_sub_">
+				Creați și editați imagini în format Scalable Vector Graphics
+			</p>
+			<p class="_inkscape_desc_">
+				Inskape poate deschide și salva un subset al formatului SVG (Scalable Vector Graphics), standard întreținut de WWW consortium.
+				<br/>
+				<br/>
+				Interfața Inskape ar trebui să fie familiară celor care au utilizat CorelDraw sau programe similare. Există dreptunghiuri, elipse, elemente de text, imagini bitmap (hartă raster) și curbe libere. Ca bonus, atât obiectele vectoriale cât și cele raster pot avea transparență alfa și pot fi transformate arbitrar.
+				<br/>
+				<br/>
+				Inkscape suportă multe fișiere deschise și multe vizualizări pe fișier. Graficele pot fi tipărite și exportate ca bitmap-uri (hărți raster) png.
+				<br/>
+				<br/>
+				Unele din funcțiile de import - export sunt posibile prin utilizarea unor pachete precum dia, libwmf-bin, pstoedit, skencil, imagemagick și perlmagick.
+				<br/>
+				<br/>
+				Alte extensii folosesc ruby, libxml-xql-perl, python-numpy și python-lxml. Trebuie să aveți aceste pachete pentru a utiliza la întreaga capacitate toate extensiile și efectele.
+				<br/>
+				<br/>
+				Dacă doriți să utilizați un corector ortografic, trebuie să instalați aspell și pachetul de limbă corespunzător, de ex. aspell-en sau aspell-ro.
+			</p>
+			<p class="_world_of_goo_app_">
+				World of Goo
+			</p>
+			<p class="_world_of_goo_sub_">
+				Joc de construcție, tip puzzle, bazat pe fizică
+			</p>
+			<p class="_world_of_goo_desc_">
+				Trageți și plasați globurile goo vii, vorbitoare, agitate, pentru a construi structuri, poduri, tunuri, zepeline și limbi gigantice. Milioanele de globuri inocente care trăiesc în lumea minunată a lui Goo sunt curioase și doresc să exploreze.
+				<br/>
+				<br/>
+				Dar ei nu știu că acestea sunt într-un joc, sau că acestea sunt foarte delicioase. Cel mai captivant joc de puzzle, și vă asigurăm că este unul uimitor, vă va transporta într-o aventură pe care nu o veți uita!
+			</p>
+			<p class="_blender_app_">
+				Blender
+			</p>
+			<p class="_blender_sub_">
+				Creați și editați modele 3D și animații
+			</p>
+			<p class="_blender_desc_">
+				Blender este o suită integrată pentru modelare 3D, animație, randare, post-producție, creație interactivă și redare (jocuri). Blender dispune de o interfață cu utilizatorul proprie, implementată în întregime cu OpenGL și proiectată avându-se în vedere viteza. Sunt disponibile legături Python pentru scripting; importul și exportul de formate mai utilizate, precum cele ale 3D Studio și ale Wavefront Obj, sunt implementate prin scripturi scrise de comunitate. Imagini statice, animații, modelări pentru jocuri sau motoare ale altor producători și conținut interactiv sub forma executabilelor de sien stătătoare sau module web - toate acestea sunt arii de utilizare pentru aplicația Blend.
+			</p>
+			<p class="_braid_app_">
+				Braid
+			</p>
+			<p class="_braid_sub_">
+				Manipulați curgerea timpului pentru a rezolva puzzle-uri
+			</p>
+			<p class="_braid_desc_">
+				Manipulați curgerea timpului pentru a rezolva puzzle-uri. Braid este un joc tip platformă în stil pictural, în care puteți manipula curgerea timpului pentru a rezolva puzzle-uri. Fiecare puzzle Braid este unic; nu există rezolvator.
+				<br/>
+				<br/>
+				Braid tratează timpul și atenția dumneavoastră cu atenție și face tot ce se poate pentru a vă oferi prilejul de a vă îmbogăți cunoștințele.
+				<br/>
+				<br/>
+				Tot jocul se bazează pe manipularea timpului. Călătoriți între lumi în care timpul se comportă ciudat; observați, învățați și apoi stăpâniți aceste lumi.
+			</p>
+			<p class="_rhythmbox_app_">
+				Rhythmbox Media Player
+			</p>
+			<p class="_brasero_app_">
+				Brasero, program pentru scriere discuri
+			</p>
+			<p class="_movie_player_app_">
+				Player pentru filme
+			</p>
+			<p class="_shotwell_app_">
+				Shotwell - Administrator fotografii
+			</p>
+			<p class="_pitivi_app_">
+				Editorul video PiTiVi
+			</p>
+			<p class="_sound_recorder_app_">
+				Înregistrare sunet
+			</p>
+			<p class="_empathy_app_">
+				Empathy - mesagerie în timp real
+			</p>
+			<p class="_thunderbird_app_">
+				Thunderbird Mail/News
+			</p>
+			<p class="_firefox_app_">
+				Navigatorul Web Firefox
+			</p>
+			<p class="_gwibber_app_">
+				Gwibber - Client social
+			</p>
+			<p class="_remote_desktop_app_">
+				Vizualizare desktop la distanță
+			</p>
+			<p class="_terminal_app_">
+				Terminal Server Client
+			</p>
+			<p class="_ubuntu_one_app_">
+				Ubuntu One
+			</p>
+			<p class="_ubuntu_software_center_app_">
+				Ubuntu Software Center
+			</p>
+			<p class="_ubuntu_one_music_app_">
+				Ubuntu One Music
+			</p>
+			<p class="_amazon_app_">
+				Amazon
+			</p>
+			<p class="_about_me_app_">
+				Despre mine
+			</p>
+			<p class="_additional_drivers_app_">
+				Drivere adiționale
+			</p>
+			<p class="_aisleroit_app_">
+				AisleRoit Solitaire
+			</p>
+			<p class="_appearance_app_">
+				Aspect
+			</p>
+			<p class="_bluetooth_app_">
+				Bluetooth
+			</p>
+			<!--
+			* Dash
+			-->
+			<p class="_search_">Search your computer and online sources</p>
+			<!--
+			* Notifications
+			-->
+			<p class="_turn_off_bluetooth_">
+				Oprește Bluetooth
+			</p>
+			<p class="_turn_on_bluetooth_">
+				Pornește Bluetooth
+			</p>
+			<p class="_visible_">
+				Vizibil
+			</p>
+			<p class="_mute_">
+				Mut
+			</p>
+			<p class="_unmute_">
+				Activează sunetul
+			</p>
+			<p class="_shut_down_">
+				Oprire…
+			</p>
+			<!--
+				Files Details - Images
+			-->
+			<p class="_photo_size_">
+				15.2KO
+			</p>
+			<p class="_photo_date_">
+				Vin 26 oct, 2001
+			</p>
+			<p class="_buck_off_title_">
+				Buck Off
+			</p>
+			<p class="_darkening_clockwork_title_">
+				Mecanism de ceas
+			</p>
+			<p class="_dybbølsbro_station_title_">
+				Gara Dybbølsbro
+			</p>
+			<p class="_federica_miglio_title_">
+				Federica Miglio
+			</p>
+			<p class="_jardin_polar_title_">
+				Grădina polară
+			</p>
+			<p class="_langelinie_alle_title_">
+				Langelinie Alle
+			</p>
+			<p class="_momiji_dream_title_">
+				Momiji Dream
+			</p>
+			<p class="_mount_snowdon_title_">
+				Muntele Snowdon
+			</p>
+			<p class="_not_alone_title_">
+				Not Alone
+			</p>
+			<p class="_power_of_words_title_">
+				Puterea cuvintelor
+			</p>
+			<p class="_purple_dancers_title_">
+				Dansatori purpurii
+			</p>
+			<p class="_sand_maze_title_">
+				Sand Maze
+			</p>
+			<p class="_small_flowers_title_">
+				Small Flowers
+			</p>
+			<p class="_stalking_ocelot_title_">
+				Ocelot la pândă
+			</p>
+			<p class="_the_grass_aint_greener_title_">
+				Iarba nu este mai verde
+			</p>
+			<p class="_wildWheat_title_">
+				WildWheat
+			</p>
+			<!--
+				Files Details - Video
+			-->
+			<p class="_introduction_ubuntu_title_">
+				Introducere în Ubuntu
+			</p>
+			<p class="_video_size_">
+				5.3MO
+			</p>
+			<p class="_video_date_">
+				Lun 11 oct, 2010
+			</p>
+			<!--
+				Files Details - Music
+			-->
+			<p class="_happyness_title_">
+				Fericire
+			</p>
+			<p class="_music_size_">
+				3.3MO
+			</p>
+			<p class="_music_date_">
+				Mie 14 Octombrie, 2010
+			</p>
+		</div>
+		<script type="text/javascript" src="../js/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="../js/lang.js"></script>
+		<script type="text/javascript" src="../js/scripts.js"></script>
+		<script type="text/javascript" src="../js/welcomesystem.js"></script>
+		<script type="text/javascript" src="../js/guidedtoursystem.js"></script>
+		<script type="text/javascript" src="../js/filesystem.js"></script>
+		<script type="text/javascript" src="../js/folders.js"></script>
+		<script type="text/javascript" src="../js/systemoverlay.js"></script>
+		<script type="text/javascript" src="../js/systemmenu.js"></script>
+		<script type="text/javascript" src="../js/internetsystem.js"></script>
+		<script type="text/javascript" src="../js/emailsystem.js"></script>
+		<script type="text/javascript" src="../js/systemsettings.js"></script>
+		<script type="text/javascript" src="../js/email.js"></script>
+		<script type="text/javascript" src="../js/errormessage.js"></script>
+		<script type="text/javascript" src="../js/ubuntuonesystem.js"></script>
+		<script type="text/javascript" src="../js/file.js"></script>
+		<script type="text/javascript" src="../js/shotwellsystem.js"></script>
+		<script type="text/javascript" src="../js/shutdownSystem.js"></script>
+		<script type="text/javascript" src="../js/movieplayersystem.js"></script>
+		<script type="text/javascript" src="../js/libresystem.js"></script>
+		<script type="text/javascript" src="../js/softwaresystem.js"></script>
+		<script type="text/javascript" src="../js/notificationsystem.js"></script>
+		<script type="text/javascript" src="../js/analytics.js"></script>
+	</body>
+</html>

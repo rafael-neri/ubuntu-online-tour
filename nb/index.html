@@ -1,0 +1,1512 @@
+﻿<!DOCTYPE html>
+<html lang="nb" dir="ltr">
+	<head>
+		<title>Ubuntu online-tur</title>
+		<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+		<meta charset="UTF-8" />
+		<meta name="description" content="Enjoy the simplicity of Ubuntu's stylish, intuitive interface. Take Ubuntu for a test drive with our online tour and download when you're ready!" />
+		<meta name="keywords" content="ubuntu, ubuntu online, ubuntu tour" />
+		<link rel="stylesheet" href="../css/loader.css" type="text/css" />
+		<link rel="stylesheet" href="../css/error.css" type="text/css" />
+		<link rel="stylesheet" href="../css/base.css" type="text/css" />
+		<link rel="stylesheet" href="../css/folder.css" type="text/css" />
+		<link rel="stylesheet" href="../css/firefox.css" type="text/css" />
+		<link rel="stylesheet" href="../css/email.css" type="text/css" />
+		<link rel="stylesheet" href="../css/systemoverlay.css" type="text/css" />
+		<link rel="stylesheet" href="../css/ubuntuone.css" type="text/css" />
+		<link rel="stylesheet" href="../css/shotwell.css" type="text/css" />
+		<link rel="stylesheet" href="../css/tourguide.css" type="text/css" />
+		<link rel="stylesheet" href="../css/welcome.css" type="text/css" />
+		<link rel="stylesheet" href="../css/shutdown.css" type="text/css" />
+		<link rel="stylesheet" href="../css/movieplayer.css" type="text/css" />
+		<link rel="stylesheet" href="../css/libre.css" type="text/css" />
+		<link rel="stylesheet" href="../css/notification.css" type="text/css" />
+		<link rel="stylesheet" href="../css/software-centre.css" type="text/css" />
+		<!--[if IE 8]>
+		<link rel="stylesheet" href="../css/iefix.css" type="text/css" />
+		<![endif]-->
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700' rel='stylesheet' type='text/css' />
+		<script type="text/javascript">
+			WebFontConfig = {
+				google : {
+					families : ['Ubuntu:400,700:latin']
+				}
+			}; (function() {
+				var wf = document.createElement('script');
+				wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+				wf.type = 'text/javascript';
+				wf.async = 'true';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(wf, s);
+			})();
+
+		</script>
+	</head>
+	<body>
+		<div id="loader">
+			<div id="dot-container">
+				<noscript>
+					<p>
+						This demo uses JavaScript. Either your browser doesn't support JavaScript, or it's currently switched off.
+						<br/>
+						<br/>
+						Don't panic. We've got <a href="/ubuntu/take-the-tour-gallery">a non-JavaScript version</a> of the online tour you can view instead. :)
+					</p>
+				</noscript>
+			</div>
+		</div>
+		<div id="top" class="dropShadow">
+			<div id="top-left">
+				<div id="control-buttons">
+					<div id="close"></div>
+					<div id="min"></div>
+					<div id="max"></div>
+				</div>
+				<div id="dash-control-buttons">
+					<div class="close"></div>
+					<div class="min"></div>
+					<div class="max"></div>
+				</div>
+				<div id="title"></div>
+			</div>
+			<div id="top-right">
+				<div id="connection"><img src="../img/top/connection.png" alt=""/>
+					<ul class="drop-down">
+						<li class="disabled">
+							Auto eth0
+						</li>
+						<li class="disabled">
+							Koble fra
+						</li>
+						<li class="divider"></li>
+						<!--<li class="disabled"><img src="../img/top/wireless-icon.png" alt=""/> My Wireless Connection</li>
+						<li class="disabled">Koble fra</li>
+						<li class="divider"></li>-->
+						<li class="disabled">
+							Tilkoblingsinformasjon
+						</li>
+						<li class="disabled">
+							Endre tilkoblinger…
+						</li>
+					</ul>
+				</div>
+				<div id="bluetooth"><img src="../img/top/bluetooth.png" alt=""/>
+					<ul class="drop-down">
+						<li class="disabled bluetooth">
+							Bluetooth på
+						</li>
+						<li>
+							Slå av Bluetooth
+						</li>
+						<li class="divider"></li>
+						<li class="disabled BtOn">
+							Synlig
+						</li>
+						<li class="divider BtOn"></li>
+						<li class="disabled BtOn">
+							Send filer til enhet...
+						</li>
+						<li class="disabled BtOn">
+							Utforsk filer på enheten…
+						</li>
+						<li class="divider"></li>
+						<li class="disabled BtOn">
+							Sett opp ny enhet...
+						</li>
+						<li class="divider BtOn"></li>
+						<li class="disabled">
+							Brukervalg
+						</li>
+					</ul>
+				</div>
+				<div id="message"><img src="../img/top/nomessage.jpg" class="message-logo" alt="" />
+					<ul class="drop-down">
+						<li class="system-message"></li>
+					</ul>
+				</div>
+				<div id="speakers"><img src="../img/top/speakers3.png" class="speakers-logo"  alt=""/>
+					<ul class="drop-down">
+						<li>
+							Demp
+						</li>
+						<li class="system-volume">
+							<div class="large-icon"></div><div class="small-icon"></div><div class="slider"></div><div class="slider-active"></div>
+						</li>
+						<li class="divider"></li>
+						<li class="disabled"><img src="../img/top/rhythmbox.png" alt=""/> Rhythmbox
+						</li>
+						<li class="banshee">
+							<div class="banshee-rewind"></div><div class="banshee-forward"></div><div class="banshee-play"></div>
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							Lydinnstllinger …
+						</li>
+					</ul>
+				</div>
+				<div id="time">
+					<p></p>
+					<ul class="drop-down">
+						<li class="system-calendar"></li>
+					</ul>
+				</div>
+				<div id="power"><img src="../img/top/power.png"  alt=""/>
+					<ul class="drop-down">
+						<li class="disabled">
+							About This Computer
+						</li>
+						<li class="disabled">
+							Ubuntu Help
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							System Settings&hellip;
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							Lock <span class="key-combo">Ctrl+Alt+L</span>
+						</li>
+						<li class="disabled user">
+							Guest Session
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							Logout
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							Sett i hvilemodus
+						</li>
+						<li class="disabled">
+							Restart&hellip;
+						</li>
+						<li>
+							Slå av…
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="tooltip">
+			<div class="shadow-arrow"></div>
+			<div class="arrow-right"></div>
+			<div id="tooltip-text"></div>
+		</div>
+		<div id="menu">
+			<ul>
+				<li class="dash">
+					<span>Dashbordet</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="home"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Hjemmemappe</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="firefox"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Firefox nettleser</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="writer"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>LibreOffice Writer</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="calc"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>LibreOffice Calc</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="impress"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>LibreOffice Impress</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="software"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Ubuntus programvaresenter</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="amazon"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Amazon</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="settings"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>System Settings</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="email temp"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""><span>Thunderbird Mail</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt="">
+				</li>
+				<li class="shotwell temp"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Shotwell fotobehandler</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="movieplayer temp"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Filmavspiller</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<!--<li class="workspace"><span>Workspace Switcher</span></li>-->
+				<li class="rubbish bottom">
+					<span>Papirkurv</span>
+				</li>
+			</ul>
+		</div>
+		<div id="systemOverlay">
+			<div class="copyDash"></div>
+			<div id="overlayContents">
+				<input type="text" name="search" value="Search your computer and online sources"/>
+				<div id="display-home" class="app-container">
+					<div class="recent-apps bottom"><img src="../img/overlay/recentapps.png" alt=""/> Programmer <div class="app-list"></div>
+					</div>
+					<div class="recent-files bottom"><img src="../img/overlay/recentfiles.png" alt=""/> Filer og mapper<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-apps" class="app-container">
+					<div class="frequently bottom"><img src="../img/overlay/recentapps.png" alt=""/> Nylig brukt <div class="app-list"></div>
+					</div>
+					<div class="installed"><img src="../img/overlay/installed.png" alt=""/> Installert<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-find-files" class="app-container">
+					<div class="files bottom"><img src="../img/overlay/recentfiles.png" alt=""/> Nylig<div class="app-list"></div>
+					</div>
+					<div class="downloads bottom"><img src="../img/overlay/downloaded.png" alt=""/> Nedlastinger<div class="app-list"></div>
+					</div>
+					<div class="folders"><img src="../img/overlay/folders.png" alt=""/> Mapper<div class="app-list"></div>
+					</div>
+
+				</div>
+				<div id="display-find-music" class="app-container">
+					<div class="songs bottom"><img src="../img/overlay/folders.png" alt=""/> Sanger<div class="app-list"></div>
+					</div>
+					<div class="albums"><img src="../img/overlay/folders.png" alt=""/> Album<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-find-video" class="app-container">
+					<div class="videos bottom"><img src="../img/overlay/folders.png" alt=""/> Videoer<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-find-photos" class="app-container">
+					<div class="photos bottom"><img src="../img/overlay/folders.png" alt=""/> My photos<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-chat" class="app-container">
+					<div class="message">
+						<p>Sorry, there is nothing that matches your search</p>
+					</div>
+				</div>
+				<div id="display-search" class="app-container">
+					<div class="applications bottom"><img src="../img/overlay/search-apps-logo.jpg" alt=""/> Programmer<div class="app-list"></div>
+					</div>
+					<div class="files"><img src="../img/overlay/search-files-logo.jpg" alt=""/> Filer og mapper<div class="app-list"></div>
+					</div>
+				</div>
+			</div>
+			<div id="dash-bottom-bar">
+				<div class="bottom-wrapper">
+					<div class="home-icon active"></div>
+					<div class="applications-icon"></div>
+					<div class="files-icon"></div>
+					<div class="music-icon"></div>
+					<div class="video-icon"></div>
+					<div class="photos-icon"></div>
+					<div class="chat-icon last"></div>
+				</div>
+			</div>
+			<div id="preview">
+				<div class="image"></div>
+				<div class="info"></div>
+				<div class="buttons">
+					<a class="email">E-mail</a>
+					<a class="showInFolder">Show in Folder</a>
+					<a class="open">Open</a>
+				</div>
+			</div>
+		</div>
+		<div id="ubuntuone-window" class="uone window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="window-title">
+					Ubuntu One kontrollpanel
+				</div>
+			</div>
+			<div class="content">
+				<div class="header"></div>
+				<div class="body">
+					<h1>The Power of Your Personal Cloud</h1>
+					<div class="features">
+						<div class="files-anywhere">
+							<span class="logo"></span>
+							<div>
+								<h3>Filer overalt</h3>
+								<p>
+									Ta sikkerhetskopi og få tilgang til filene dine fra Ubuntu, Windows, web eller mobil
+								</p>
+							</div>
+						</div>
+						<div class="rock-out">
+							<span class="logo"></span>
+							<div>
+								<h3>Rock Out</h3>
+								<p>
+									Hele musikksamlingen din følger med deg rundt med strømming av musikk til Android og iPhone
+								</p>
+							</div>
+						</div>
+						<div class="keep-connected">
+							<span class="logo"></span>
+							<div>
+								<h3>Forbli tilkoblet</h3>
+								<p>
+									Samordne dine kontakter på tvers av datamaskinen, mobilen og web
+								</p>
+							</div>
+						</div>
+						<div class="stay-productive">
+							<span class="logo"></span>
+							<div>
+								<h3>Forbli produktiv</h3>
+								<p>
+									Hold bokmerkene dine fra Firefox og notatene fra Tomboy synkronisert
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="ubuntuone-buttons">
+						<div class="learn-more"><img src="../img/ubuntuone/ubuntuone-logo.jpg" width="47" height="48" alt=""/>
+							<div>
+								Lær mer
+							</div>
+						</div>
+						<div class="join-now">
+							<h2>Bli med nå</h2>
+						</div>
+						<div class="have-account">
+							Jeg har allerede en konto!
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="libreoffice-calc-window" class="calc window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Uten tittel 1 - Libreoffice Calc
+				</div>
+			</div>
+			<div class="content">
+
+			</div>
+		</div>
+		<div id="libreoffice-writer-window" class="writer window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Uten tittel 1 - Libreoffice Writer
+				</div>
+			</div>
+			<div class="content">
+
+			</div>
+		</div>
+		<div id="libreoffice-impress-window" class="impress window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Uten tittel 1 - LibreOffice Impress
+				</div>
+			</div>
+			<div class="content">
+
+			</div>
+		</div>
+		<div class="error-window window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="window-title"></div>
+			</div>
+			<div class="error-container">
+				<h1>Takk for at du utforsker Ubuntu!</h1>
+				<a class="download"  href="http://www.ubuntu.com/download/ubuntu/download?utm_source=tour&utm_medium=online&utm_campaign=tour" target="_blank">Last ned Ubuntu</a>
+				<h2>Husk at dette bare er en demo. Du må laste ned for å nyte ekte vare!</h2>
+			</div>
+		</div>
+		<!--<div id="error-window" class="error-window window">
+		<div class="control">
+		<div class="close"></div>
+		<div class="window-title"></div>
+		</div>
+		<div class="content">
+		<img src="../img/error/warning.jpg"/>
+		<div class="message">
+		<p>Thanks for exploring Ubuntu</p>
+		<p>Husk at dette bare er en demo. Du må laste ned for å nyte ekte vare!</p>
+		</div>
+		<div class="error-buttons"><div class="download highlight">Last ned Ubuntu</div></div>
+		</div>
+		</div>-->
+		<!--<div id="workspaces">
+		<div id="void">
+		<div id="workspace-container">
+		<div id="workspace1"><div class="fadedOverlay"></div></div>
+		<div id="workspace2"><div class="fadedOverlay"></div></div>
+		<div id="workspace3"><div class="fadedOverlay"></div></div>
+		<div id="workspace4"><div class="fadedOverlay"></div></div>
+		<div class="reflection" style="clear:both;"></div>
+		<div class="reflection"></div>
+		</div>
+		</div>
+		</div>-->
+		<div id="email-window" class="email-window window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					E-post
+				</div>
+			</div>
+			<div class="buttons">
+				<div class="email-get-mail">
+					Hent e-post
+				</div>
+				<div class="email-divider"></div>
+				<div class="email-write">
+					Skriv
+				</div>
+				<!--<div class="email-address-book"></div>
+				<div class="email-divider"></div>
+				<div class="email-tag"></div>
+				<div class="email-search"><input type="text" name="submitEmailSearch" id="submitEmailSearch"/></div>-->
+			</div>
+			<div style="clear:both;"></div>
+			<div class="email-content">
+				<div class="folder-list">
+					<div class="bottom-buttons">
+						Alle mapper
+					</div>
+					<div style="clear:both;"></div>
+					<div class="list">
+						<div id="folder-inbox" class="selected"><img src="../img/email/inbox.png" alt=""/> Innboks
+						</div>
+						<div id="folder-draft"><img src="../img/email/drafts.png" alt=""/> Utkast
+						</div>
+						<div id="folder-sent"><img src="../img/email/sent.png" alt=""/> Sendt
+						</div>
+						<div id="folder-archive"><img src="../img/email/archive-logo.png" alt=""/> Arkiv
+						</div>
+						<div id="folder-trash"><img src="../img/email/trash.png" alt=""/> Papirkurv
+						</div>
+					</div>
+				</div>
+				<div class="email-contents">
+					<div class="email-categories">
+						<div><img src="../img/email/t.png" alt=""/>
+						</div>
+						<div><img src="../img/email/star.png" alt=""/>
+						</div>
+						<div><img src="../img/email/clip.png" alt=""/>
+						</div>
+						<div class="subject">
+							Emne
+						</div>
+						<div><img src="../img/email/glasses.png" alt=""/>
+						</div>
+						<div class="from">
+							Fra
+						</div>
+						<div><img src="../img/email/fire.png" alt=""/>
+						</div>
+						<div class="date">
+							Dato
+						</div>
+					</div>
+					<div style="clear:both;"></div>
+					<div class="email-list"></div>
+					<div class="email-body">
+						<div class="message-header">
+							<div class="email-buttons">
+								<div>
+									<span class="message-reply">svar</span>
+									<span class="message-forward">fremover</span>
+									<span class="message-archive">arkiv</span>
+									<span class="message-junk">søppel</span>
+									<span class="message-delete">slett</span>
+								</div>
+							</div>
+							<div style="clear:both;"></div>
+							<div class="date"></div>
+							<dl class="from">
+								<dt>
+									fra
+								</dt><dd></dd>
+							</dl>
+							<dl class="subject">
+								<dt>
+									emne
+								</dt><dd></dd>
+							</dl>
+							<dl class="to">
+								<dt>
+									til
+								</dt><dd></dd>
+							</dl>
+							<dl class="cc">
+								<dt>
+									cc
+								</dt><dd></dd>
+							</dl>
+						</div>
+						<div class="junk-mail-banner"><img src="../img/email/large-fire.jpg" alt=""/> Uønsket e-post
+							<div class="not-junk">
+								Ikke uønsket e-post
+							</div>
+						</div>
+						<div class="message-body"></div>
+					</div>
+				</div>
+				<div style="clear:both;"></div>
+				<div class="emails-info">
+					<div>
+						Ulest: <span id="details-unread">1</span> Totalt: <span id="details-total">1</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="email-write" class="email-write window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Skriv: (uten emne)
+				</div>
+			</div>
+			<div class="buttons">
+				<div id="write-send">
+					Send
+				</div>
+				<div class="email-divider"></div>
+				<div id="write-attach">
+					Legg ved
+				</div>
+			</div>
+			<div style="clear:both;"></div>
+			<div id="write-from">
+				<div>
+					Fra:
+				</div>
+				<input type="text" name="from" value="You"/>
+			</div>
+			<div id="write-to">
+				<div>
+					Til:
+				</div>
+				<input type="text" name="to"/>
+			</div>
+			<div id="write-subject">
+				<div>
+					Emne:
+				</div>
+				<input type="text" name="subject"/>
+			</div>
+			<div><img src="../img/email/disabled-format-buttons.jpg" width="853" height="32" alt=""/>
+			</div>
+			<div id="write-body">
+				<textarea name="body"></textarea>
+</div>			<div class="loading-bar">
+				<div class="progress"></div>
+			</div>
+		</div>
+		<div id="software-centre" class="software window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Ubuntus programvaresenter
+				</div>
+			</div>
+			<div class="top-panel">
+				<div class="back disabled"></div>
+				<div class="forward disabled"></div>
+				<div class="all-software selected"><img src="../img/software-centre/all-software.png" alt=""/>Alle programmer
+				</div>
+				<div class="installed"><img src="../img/software-centre/installed.png" alt=""/>Installert
+				</div>
+				<div class="history"><img src="../img/software-centre/history.png" alt=""/>Historikk
+				</div>
+			</div>
+			<div class="container detailed">
+				<div class="title"><img src="../img/software-centre/visolate.png" class="app-image" width="100" alt=""/><h1>Visolate</h1>
+					<p class="subheading">
+						PCB CNC-omformer
+					</p>
+					<p class="rating"><img src="../img/software-centre/rating.jpg" alt="" /> (91 vurderinger)
+					</p>
+				</div>
+				<div class="price">
+					<span class="theprice">Ledig</span><span class="button">Installer</span>
+					<div class="loading-bar">
+						<div class="progress"></div>
+					</div>
+				</div>
+				<div class="description-container">
+					<div class="description-image"><img src="../img/software-centre/screenshot-blender.jpg" alt="" />
+					</div>
+					<div class="description"><img src="../img/software-centre/screenshot-blender.jpg" alt="" />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quam augue, convallis id commodo id, tristique ac mi. Ut dapibus, neque eget elementum pretium, nunc turpis congue eros, et interdum nisi nisi at diam. Duis dictum, justo eget imperdiet pulvinar, dolor est fermentum nisl, luctus imperdiet metus elit a purus. Quisque nisl enim, lacinia ut venenatis in, porttitor eget orci. Quisque non nibh nec risus tincidunt sollicitudin vitae et nisl. Proin odio lacus, vulputate non auctor sit amet, dapibus quis tortor. Donec elit libero, pellentesque quis dictum sed, hendrerit non libero. Aliquam eu diam id leo auctor tincidunt. Phasellus cursus felis at nulla facilisis semper. Cras mauris urna, adipiscing sed scelerisque ut, gravida id neque. Mauris ut vestibulum justo. Curabitur convallis elementum pellentesque. Duis sit amet arcu ac eros pretium scelerisque. Nunc nec nisi nulla.
+					</div>
+					<div style="clear:both;"></div>
+				</div>
+			</div>
+			<div class="container home">
+				<div class="header-image">
+					<span class="header-title">Våre stjerneprogrammer</span>
+					<span class="header-subtitle">Utforsk våre favoritter</span>
+				</div>
+				<div class="navigation">
+					<ul>
+						<li>
+							Tilbehør
+						</li>
+						<li>
+							Utviklerverktøy
+						</li>
+						<li>
+							Opplæring
+						</li>
+						<li>
+							Skrifttyper
+						</li>
+						<li>
+							Spill
+						</li>
+						<li>
+							Grafikk
+						</li>
+						<li>
+							Internett
+						</li>
+						<li>
+							Kontorstøtte
+						</li>
+						<li>
+							Vitenskap og teknikk
+						</li>
+						<li>
+							Lyd og video
+						</li>
+						<li>
+							System
+						</li>
+						<li>
+							Temaer og modifiseringer
+						</li>
+					</ul>
+				</div>
+				<div class="whats-new">
+					<h2> Hva er nytt</h2>
+					<div class="app-container">
+						<div class="chromium">
+							<h3>Chromium</h3>
+							<p>
+								Internett
+							</p>
+							<p class="cost">
+								Ledig
+							</p>
+						</div>
+						<div class="beep">
+							<h3>BEEP</h3>
+							<p>
+								Spill
+							</p>
+							<p class="cost">
+								$9.99
+							</p>
+						</div>
+						<div class="inkscape">
+							<h3>Inkscape</h3>
+							<p>
+								Grafikk
+							</p>
+							<p class="cost">
+								Ledig
+							</p>
+						</div>
+						<div class="worldofgoo">
+							<h3>World of Goo</h3>
+							<p>
+								Spill
+							</p>
+							<p class="cost">
+								$19.99
+							</p>
+						</div>
+						<div class="blender">
+							<h3>Blender</h3>
+							<p>
+								Grafikk
+							</p>
+							<p class="cost">
+								Ledig
+							</p>
+						</div>
+						<div class="braid">
+							<h3>Braid</h3>
+							<p>
+								Spill
+							</p>
+							<p class="cost">
+								$9.99
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="whats-new">
+					<h2> Høyest vurderte</h2>
+					<div class="app-container">
+						<div class="beep">
+							<h3>BEEP</h3>
+							<p>
+								Spill
+							</p>
+							<p class="cost">
+								$9.99
+							</p>
+						</div>
+						<div class="chromium">
+							<h3>Chromium</h3>
+							<p>
+								Internett
+							</p>
+							<p class="cost">
+								Ledig
+							</p>
+						</div>
+						<div class="worldofgoo">
+							<h3>World of Goo</h3>
+							<p>
+								Spill
+							</p>
+							<p class="cost">
+								$19.99
+							</p>
+						</div>
+						<div class="braid">
+							<h3>Braid</h3>
+							<p>
+								Spill
+							</p>
+							<p class="cost">
+								$9.99
+							</p>
+						</div>
+						<div class="inkscape">
+							<h3>Inkscape</h3>
+							<p>
+								Grafikk
+							</p>
+							<p class="cost">
+								Ledig
+							</p>
+						</div>
+						<div class="blender">
+							<h3>Blender</h3>
+							<p>
+								Grafikk
+							</p>
+							<p class="cost">
+								Ledig
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="shotwell" class="shotwell window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Shotwell
+				</div>
+			</div>
+			<div class="sidebar">
+				<div class="nav">
+					<ul>
+						<li class="library">
+							Bibliotek
+						</li>
+					</ul>
+				</div>
+				<div class="details">
+					<div class="overall">
+						<div>
+							Oppføringer: <span class="items">16 Bilder</span>
+						</div>
+						<div>
+							Fra: <span class="from">Fre 26 Okt, 2001</span>
+						</div>
+						<div>
+							Til: <span class="to">Man 11. oktober, 2010</span>
+						</div>
+					</div>
+					<div class="single">
+						<div>
+							Tittel: <span class="title"></span>
+						</div>
+						<div>
+							Dato: <span class="date"></span>
+						</div>
+						<div>
+							Størrelse: <span class="size"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="images"></div>
+				<div class="tools">
+					<div class="jump-image">
+						<div class="next"></div><div class="prev"></div>
+					</div>
+					<div class="slider-container">
+						<div class="small-icon"></div><div class="slider"></div><div class="slider-active"></div><div class="large-icon"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="movieplayer" class="movieplayer window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Filmavspiller
+				</div>
+			</div>
+			<div class="container">
+				<div class="video"></div>
+			</div>
+		</div>
+		<div id="firefox-window" class="firefox-window window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Surf på nettet
+				</div>
+			</div>
+			<div class="buttons">
+				<div class="firefox-back"></div>
+				<div class="firefox-forward"></div>
+				<div class="firefox-url">
+					<input type="text" name="submitURL" id="submitURL" value="http://www.ubuntu.com"/>
+				</div>
+				<div class="firefox-search">
+					<input type="text" name="submitSearch" id="submitSearch" value="Wikipedia" class="fade-text"/>
+				</div>
+			</div>
+			<div style="clear:both;"></div>
+			<div class="firefox-internet">
+				<div class="web-overlay-tran"></div>
+				<div class="theIframe">
+					<iframe src="../http://www.ubuntu.com" id="firefoxInternet" >
+						<p>
+							Nettleseren din støtter ikke iframes (inkluderte småsider)
+						</p>
+					</iframe>
+				</div>
+			</div>
+		</div>
+		<div id="shutdown-window" class="window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="window-title">
+					Slå av maskinen
+				</div>
+			</div>
+			<div class="content">
+				<img src="../img/powerwarning.jpg" alt=""/>
+				<div class="message">
+					<p>
+						Ønsker du å avslutte alle programmer og skru av datamaskinen?
+					</p>
+				</div>
+				<div class="shutdown-buttons">
+					<div class="shutdown highlight">
+						Slå av maskinen
+					</div>
+					<div class="cancel">
+						Avbryt
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="folder-window" class="folder window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title"></div>
+			</div>
+
+			<div class="buttons">
+					<div class="folder-back"></div>
+					<div class="folder-forward"></div>
+				</div>
+				<div class="bottom-buttons"></div>
+				<div style="clear:both;"></div>
+			<div class="folder-list">
+				<div class="list">
+					<p>
+						Places
+					</p>
+					<ul>
+						<li class="home selected" data-folder="home">Hjem</li>
+						<li class="desktop" data-folder="5">Skrivebord</li>
+						<li class="documents" data-folder="0">Dokumenter</li>
+						<li class="downloads" data-folder="1">Nedlastinger</li>
+						<li class="music" data-folder="2">Musikk</li>
+						<li class="pictures" data-folder="4">Bilder</li>
+						<li class="videos" data-folder="3">Videoer</li>
+						<li class="rubbish" data-folder="bin">Papirkurv</li>
+					</ul>
+				</div>
+			</div>
+			<div class="folder-contents">
+				<div class="contents"></div>
+				<div class="selected-details"></div>
+			</div>
+		</div>
+		<div id="welcome">
+			<div id="welcome-screen" class="selected-window">
+				<div class="control">
+					<div class="window-title">Ubuntu tour</div>
+				</div>
+				<div class="welcome-header">
+					<h1>Welcome to the Ubuntu 14.04 tour!</h1>
+					<h2>Ta Ubuntu på en prøvetur med vår online-demo.</h2>
+				</div>
+				<ul>
+					<li>
+						<a class="browse-files" href="#browse-files">Utforsk filer</a>
+					</li>
+					<li>
+						<a class="check-email" href="#check-email">Sjekk epost</a>
+					</li>
+					<li>
+						<a class="surf-the-web" href="#surf-the-web">Surf på nettet</a>
+					</li>
+					<li>
+						<a class="find-apps" href="#find-apps">Finn programmer</a>
+					</li>
+					<li>
+						<a class="create-documents" href="#create-documents">Lag dokumenter</a>
+					</li>
+					<li>
+						<a class="view-photos" href="#view-photos">Se på bilder</a>
+					</li>
+					<li>
+						<a class="create-presentations" href="#create-presentations">Lag presentasjoner</a>
+					</li>
+					<li>
+						<a class="create-spreadsheets" href="#create-spreadsheets">Lage regneark</a>
+					</li>
+					<li>
+						<a class="watch-video" href="#watch-video">Watch videos</a>
+					</li>
+				</ul>
+				<div class="language-mode">
+					<span class="active">Engelsk</span>
+					<a href="/tour/zh-CN/">中文</a>
+				</div>
+				<a class="explore-mode primary" href="#">Vis deg selv rundt</a>
+				<a class="tour-mode" href="#">Ta en guidet tur</a>
+			</div>
+		</div>
+		<div id="tour-guide">
+			<div class="next-button">&rsaquo;</div>
+			<div class="prev-button">&lsaquo;</div>
+			<div class="guide-container welcome">
+				<div class="guide-logo"><img src="../img/tourguide/back-to-welcome.png" /></div>
+				<h3>Ubuntu online-tur</h3>
+				<p>
+					Vi håper du likte nettvisningen av Ubuntu. <a href="http://www.ubuntu.com/download/ubuntu/download?utm_source=tour&utm_medium=online&utm_campaign=tour" target="_blank">Klar til å laste ned?</a> eller <a href="/ubuntu/take-the-tour" >tilbake til nettstedet</a>
+				</p>
+			</div>
+			<div class="guide-container home">
+				<div class="guide-logo"><img src="../img/tourguide/file-small.png" />
+				</div>
+				<h3>Utforsk filer</h3>
+				<p>
+					Det er raskt og enkelt å bruke mapper og filer fra Ubuntus hjemmemappe.
+				</p>
+			</div>
+			<div class="guide-container firefox">
+				<div class="guide-logo"><img src="../img/tourguide/firefox-small.png" />
+				</div>
+				<h3>Surf på nettet</h3>
+				<p>
+					Å surfe på nettet er raskt og sikkert med Ubuntu og Firefox
+				</p>
+			</div>
+			<div class="guide-container email">
+				<div class="guide-logo"><img src="../img/tourguide/mail-small.png" />
+				</div>
+				<h3>Sjekk epost</h3>
+				<p>
+					Les, skriv og send epost med Thunderbird. Det er lett og raskt.
+				</p>
+			</div>
+			<div class="guide-container shotwell">
+				<div class="guide-logo"><img src="../img/tourguide/shotwell-small.png" />
+				</div>
+				<h3>Se på bilder</h3>
+				<p>
+					Du kan laste opp, organisere, redigere og dele dine bilder med Shotwell.
+				</p>
+			</div>
+			<div class="guide-container software">
+				<div class="guide-logo"><img src="../img/tourguide/apps-small.png" />
+				</div>
+				<h3>Finn programmer</h3>
+				<p>
+					Søk etter og last ned programmer fra Ubuntus programvaresenter.
+				</p>
+			</div>
+			<div class="guide-container writer">
+				<div class="guide-logo"><img src="../img/tourguide/document-small.png" />
+				</div>
+				<h3>Lag dokumenter</h3>
+				<p>
+					LibreOffice Writer gjør det lett å lage profesjonelle dokumenter.
+				</p>
+			</div>
+			<div class="guide-container calc">
+				<div class="guide-logo"><img src="../img/tourguide/calc-small.png" />
+				</div>
+				<h3>Lage regneark</h3>
+				<p>
+					Libreoffice Calc har alt du trenger for å lage tydelige og nøyaktige regneark.
+				</p>
+			</div>
+			<div class="guide-container impress">
+				<div class="guide-logo"><img src="../img/tourguide/impress-small.png" />
+				</div>
+				<h3>Lag presentasjoner</h3>
+				<p>
+					Gjør et godt inntrykk med LibreOffice Impress-presentasjonsverktøyet.
+				</p>
+			</div>
+			<div class="guide-container movieplayer">
+				<div class="guide-logo"><img src="../img/tourguide/video-small.png" />
+				</div>
+				<h3>Watch videos</h3>
+				<p>
+					You can watch all your favourite films and videos, DVDs, downloads or movies you've created yourself.
+				</p>
+			</div>
+			<div class=" tour-buttons">
+				<div class="explore-to-welcome">Welcome screen</div>
+				<div class="explore-to-download">Last ned Ubuntu</div>
+				<div class="explore-to-exit">Exit the Tour</div>
+			</div>
+		</div>
+		<div id="Translation-Strings">
+			<!--
+			* Email system
+			-->
+			<p class="_email_1_title_">
+				Tilgjengelig
+			</p>
+			<p class="_email_2_title_">
+				Rask
+			</p>
+			<p class="_email_3_title_">
+				Kompatibel
+			</p>
+			<p class="_email_4_title_">
+				Sikker
+			</p>
+			<p class="_email_5_title_">
+				Din Ubuntu, som du vil ha den
+			</p>
+			<p class="_email_1_body_">
+				Tilgjengelighet er en sentral del av Ubuntu-filosofien. Vi mener at data er for alle, uavhengig av nasjonalitet, rase, kjønn eller funksjonsevne.
+			</p>
+			<p class="_email_2_body_">
+				Ubuntu starter raskt på alle datamaskiner, men er veldig raskt på nyere maskinvare. Uten overflødige programmer som gjør maskinen tregere starter systemet raskt, og det tar få sekunder å åpne nettleseren. Dette skiller Ubuntu fra de fleste andre operativsystemer som lar deg stirre på skjermen mens du venter på å komme på nett. Ubuntu blir ikke tregere over tid, men er og forblir raskt.
+			</p>
+			<p class="_email_3_body_">
+				Ubuntu virker godt mot et utvalg enheter. Bare plugg i mp3-spilleren, kameraet eller skriveren og du vil kunne bruke det med én gang. Ingen installasjons-cd. Ikke noe tull. Og det er kompatibelt med Windows også, så du kan åpne, redigere og dele Microsoft Office-dokumenter med andre.
+			</p>
+			<p class="_email_4_body_">
+				Du kan surfe trygt med Ubuntu – i viten om at filene og informasjonen din forblir beskyttet. Innebygget brannmur og beskyttelse mot virus er standard. Og hvis en potensiell trussel dukker opp, sender vi ut automatiske oppdateringer som du kan installere med et enkelt klikk. Du får styrket sikkerhet med AppArmor, som beskytter dine viktige programmer så angripere ikke kan få tilgang til systemet ditt. Takket være Firefox og Gnome-keyring, hjelper Ubuntu deg å holde privat informasjon privat. Så enten du bruker nettbank eller deler sensitiv informasjon med venner eller kolleger, kan du føle deg helt trygg.
+			</p>
+			<p class="_email_5_body_">
+				Enjoy the simplicity of Ubuntu's stylish, intuitive interface. Fast, secure and with thousands of apps to choose from, Ubuntu gives you a clean and streamlined experience that you can really make your own.
+			</p>
+			<p class="_random_reply_">
+				Takk for at du utforsker Ubuntu! Husk at dette bare er en demo. Du må laste det ned for å få glede av den ekte varen!
+				<br/>
+				<br/>
+				<a href="http://www.ubuntu.com/download/ubuntu/download?utm_source=tour&utm_medium=online&utm_campaign=tour" target="_blank">Last ned Ubuntu</a>
+			</p>
+			<p class="_write_">
+				Skriv
+			</p>
+			<p class="_no_subject_">
+				intet emne
+			</p>
+			<p class="_recipient_">
+				Mottaker
+			</p>
+			<p class="_from_">
+				Fra
+			</p>
+			<p class="_you_">
+				Du
+			</p>
+			<p class="_on_">
+				På
+			</p>
+			<p class="_wrote_">
+				skrev
+			</p>
+			<p class="_original_message_">
+				Opprinnelig melding
+			</p>
+			<p class="_fwd_">
+				Videresend
+			</p>
+			<!--
+			* Folder System
+			-->
+			<p class="_home_folder_">
+				Hjem
+			</p>
+			<p class="_desktop_folder_">
+				Skrivebord
+			</p>
+			<p class="_pictures_folder_">
+				Bilder
+			</p>
+			<p class="_videos_folder_">
+				Videoer
+			</p>
+			<p class="_music_folder_">
+				Musikk
+			</p>
+			<p class="_downloads_folder_">
+				Nedlastinger
+			</p>
+			<p class="_documents_folder_">
+				Dokumenter
+			</p>
+			<p class="_canonical_folder_">
+				Canonical
+			</p>
+			<p class="_backup_folder_">
+				Sikkerhetskopi
+			</p>
+			<p class="_local_folder_">
+				Lokal
+			</p>
+			<p class="_work_folder_">
+				arbeid
+			</p>
+			<p class="_branches_folder_">
+				grener
+			</p>
+			<p class="_rubbish_bin_folder_">
+				Papirkurv
+			</p>
+			<!--
+			* Software Center System
+			-->
+			<p class="_remove_">
+				Fjern
+			</p>
+			<p class="_price_free_">
+				Ledig
+			</p>
+			<p class="_installed_">
+				Installert
+			</p>
+			<p class="_install_">
+				Installer
+			</p>
+			<p class="_installing_">
+				Installerer
+			</p>
+			<p class="_chromium_app_">
+				Chromium nettleser
+			</p>
+			<p class="_chromium_sub_">
+				Bruk internett
+			</p>
+			<p class="_chromium_desc_">
+				Chromium er en åpen kildekode-nettleser som sikter på å bygge en tryggere, raskere, og mer stabil måte for alle brukere å oppleve nettet.
+				<br/>
+				<br/>
+				Chromium serves as a base for Google Chrome, which is Chromium rebranded (name and logo) with very few additions such as usage tracking and an auto-updater system.
+				<br/>
+				<br/>
+				Denne pakken inneholder Chromium nettleser
+			</p>
+			<p class="_beep_app_">
+				BEEP
+			</p>
+			<p class="_beep_sub_">
+				Et platformskytespill i 2D med fysikkbaserte oppgaver
+			</p>
+			<p class="_beep_desc_">
+				BEEP is a 2D side-scrolling platformer with physics-based gameplay. You control a small robot equipped with an anti-gravity device, a jet-pack and a gun. Drive, jump, fly, swim and shoot your way through 24 levels scattered across 6 unique environments.
+				<br/>
+				<br/>
+				Use BEEP’s anti-gravity device to directly manipulate the physics-based environments. The anti-gravity device is both a tool and a weapon. Use it to smash enemy robots, build towers and solve puzzles.
+				<br/>
+				<br/>
+				BEEP har reist i tusenvis av år i rommet for å utforske galaksen. Reis gjennom fremmede solsystem med BEEP-skipet, og send roboter til planetoverflater.
+			</p>
+			<p class="_inkscape_app_">
+				Inkscape vektortegneprogram
+			</p>
+			<p class="_inkscape_sub_">
+				Lag og rediger skalerbare vektorgrafikk (SVG)
+			</p>
+			<p class="_inkscape_desc_">
+				Inkscape leser og lagrer deler av SVG-standarden.
+				<br/>
+				<br/>
+				Inkscape user interface should be familiar from CorelDraw and similar drawing programs. There are rectangles, ellipses, text items, bitmap images and freehand curves. As an added bonus, both vector and bitmap objects can have alpha transparency and can be arbitrarily transformed.
+				<br/>
+				<br/>
+				Inkscape støtter åpning av flere filer på en gang, og flere visninger per fil. Grafikk kan bli skrevet ut og eksportert til PNG-filer.
+				<br/>
+				<br/>
+				Noen av importerings- og eksporteringsegenskapene får du med pakkene dia, libwmf-bin, pstoedit, skencil, imagemagick, og perlmagick.
+				<br/>
+				<br/>
+				Andre utvidelser bruker ruby, libxml-xql-perl, python-numpy og python-lxml. Du må ha disse pakkene installert for å få fullt utbytte av alle utvidelser og effekter.
+				<br/>
+				<br/>
+				Hvis du vil bruke stavekontrollen, må du installere aspell og språkpakke, for eksempel aspell-no eller aspell-en.
+			</p>
+			<p class="_world_of_goo_app_">
+				World of Goo
+			</p>
+			<p class="_world_of_goo_sub_">
+				Fysikkbasert pusle- og byggespill
+			</p>
+			<p class="_world_of_goo_desc_">
+				Drag and drop living, squirming, talking globs of goo to build structures, bridges, cannonballs, zeppelins, and giant tongues. The millions of innocent goo balls that live in the beautiful World of Goo are curious to explore.
+				<br/>
+				<br/>
+				But they dont know that they are in a game, or that they are extremely delicious. The most addicting and awe-inspiring puzzle game will set you on an adventure that youll never forget!
+			</p>
+			<p class="_blender_app_">
+				Blender
+			</p>
+			<p class="_blender_sub_">
+				Lag og rediger 3D-modeller og -animasjoner
+			</p>
+			<p class="_blender_desc_">
+				Blender is an integrated 3d suite for modelling, animation, rendering, post-production, interactive creation and playback (games). Blender has its own particular user interface, which is implemented entirely in OpenGL and designed with speed in mind. Python bindings are available for scripting; import/export features for popular file formats like 3D Studio and Wavefront Obj are implemented as scripts by the community. Stills, animations, models for games or other third party engines and interactive content in the form of a standalone binary and/or a web plug-in are common products of Blender use.
+			</p>
+			<p class="_braid_app_">
+				Braid
+			</p>
+			<p class="_braid_sub_">
+				Manipuler tidsflyten for å løse oppgaver
+			</p>
+			<p class="_braid_desc_">
+				Manipulate the flow of time to solve puzzles Braid is a platform game in painterly style where you manipulate the flow of time to solve puzzles. Every puzzle in Braid is unique; there is no filler.
+				<br/>
+				<br/>
+				Braid treats your time and attention as precious, and it does everything it can to give you a mind-expanding experience.
+				<br/>
+				<br/>
+				All gameplay is based on time manipulation. Journey into worlds where time behaves strangely; observe, learn from, and then master these worlds.
+			</p>
+			<p class="_rhythmbox_app_">
+				Rhythmbox Media Player
+			</p>
+			<p class="_brasero_app_">
+				Brasero brenneprogram
+			</p>
+			<p class="_movie_player_app_">
+				Filmavspiller
+			</p>
+			<p class="_shotwell_app_">
+				Shotwell fotobehandler
+			</p>
+			<p class="_pitivi_app_">
+				PiTiVi Video-redigerer
+			</p>
+			<p class="_sound_recorder_app_">
+				Lydinnspilling
+			</p>
+			<p class="_empathy_app_">
+				Empathy hurtigmeldinger
+			</p>
+			<p class="_thunderbird_app_">
+				Thunderbird e-post og nyheter
+			</p>
+			<p class="_firefox_app_">
+				Firefox nettleser
+			</p>
+			<p class="_gwibber_app_">
+				Gwibber, klient for sosiale medier
+			</p>
+			<p class="_remote_desktop_app_">
+				Visning av eksternt skrivebord
+			</p>
+			<p class="_terminal_app_">
+				Terminalserver-klient
+			</p>
+			<p class="_ubuntu_one_app_">
+				Ubuntu One
+			</p>
+			<p class="_ubuntu_software_center_app_">
+				Ubuntu Software Center
+			</p>
+			<p class="_ubuntu_one_music_app_">
+				Ubuntu One Music
+			</p>
+			<p class="_amazon_app_">
+				Amazon
+			</p>
+			<p class="_about_me_app_">
+				Om meg
+			</p>
+			<p class="_additional_drivers_app_">
+				Tilleggsdrivere
+			</p>
+			<p class="_aisleroit_app_">
+				AisleRoit Solitaire
+			</p>
+			<p class="_appearance_app_">
+				Utseende
+			</p>
+			<p class="_bluetooth_app_">
+				Bluetooth
+			</p>
+			<!--
+			* Dash
+			-->
+			<p class="_search_">Search your computer and online sources</p>
+			<!--
+			* Notifications
+			-->
+			<p class="_turn_off_bluetooth_">
+				Slå av Bluetooth
+			</p>
+			<p class="_turn_on_bluetooth_">
+				Slå på Bluetooth
+			</p>
+			<p class="_visible_">
+				Synlig
+			</p>
+			<p class="_mute_">
+				Demp
+			</p>
+			<p class="_unmute_">
+				Lyd på
+			</p>
+			<p class="_shut_down_">
+				Slå av…
+			</p>
+			<!--
+				Files Details - Images
+			-->
+			<p class="_photo_size_">
+				15.2KB
+			</p>
+			<p class="_photo_date_">
+				Fre 26 Okt, 2001
+			</p>
+			<p class="_buck_off_title_">
+				Buck Off
+			</p>
+			<p class="_darkening_clockwork_title_">
+				Mørke tannhjul
+			</p>
+			<p class="_dybbølsbro_station_title_">
+				Dybbølsbro stasjon
+			</p>
+			<p class="_federica_miglio_title_">
+				Federica Miglio
+			</p>
+			<p class="_jardin_polar_title_">
+				Jardin Polar
+			</p>
+			<p class="_langelinie_alle_title_">
+				Langelinie Alle
+			</p>
+			<p class="_momiji_dream_title_">
+				Momiji Dream
+			</p>
+			<p class="_mount_snowdon_title_">
+				Mount Snowdon
+			</p>
+			<p class="_not_alone_title_">
+				Ikke alene
+			</p>
+			<p class="_power_of_words_title_">
+				Ordenes makt
+			</p>
+			<p class="_purple_dancers_title_">
+				Lilla dansere
+			</p>
+			<p class="_sand_maze_title_">
+				Sand Maze
+			</p>
+			<p class="_small_flowers_title_">
+				Små blomster
+			</p>
+			<p class="_stalking_ocelot_title_">
+				Stalking Ocelot
+			</p>
+			<p class="_the_grass_aint_greener_title_">
+				Gresset er ikke grønnere
+			</p>
+			<p class="_wildWheat_title_">
+				WildWheat
+			</p>
+			<!--
+				Files Details - Video
+			-->
+			<p class="_introduction_ubuntu_title_">
+				Introduksjon til Ubuntu
+			</p>
+			<p class="_video_size_">
+				5.3MB
+			</p>
+			<p class="_video_date_">
+				Man 11. oktober, 2010
+			</p>
+			<!--
+				Files Details - Music
+			-->
+			<p class="_happyness_title_">
+				Glede
+			</p>
+			<p class="_music_size_">
+				3.3MB
+			</p>
+			<p class="_music_date_">
+				Ons 14. Oktober, 2010
+			</p>
+		</div>
+		<script type="text/javascript" src="../js/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="../js/lang.js"></script>
+		<script type="text/javascript" src="../js/scripts.js"></script>
+		<script type="text/javascript" src="../js/welcomesystem.js"></script>
+		<script type="text/javascript" src="../js/guidedtoursystem.js"></script>
+		<script type="text/javascript" src="../js/filesystem.js"></script>
+		<script type="text/javascript" src="../js/folders.js"></script>
+		<script type="text/javascript" src="../js/systemoverlay.js"></script>
+		<script type="text/javascript" src="../js/systemmenu.js"></script>
+		<script type="text/javascript" src="../js/internetsystem.js"></script>
+		<script type="text/javascript" src="../js/emailsystem.js"></script>
+		<script type="text/javascript" src="../js/systemsettings.js"></script>
+		<script type="text/javascript" src="../js/email.js"></script>
+		<script type="text/javascript" src="../js/errormessage.js"></script>
+		<script type="text/javascript" src="../js/ubuntuonesystem.js"></script>
+		<script type="text/javascript" src="../js/file.js"></script>
+		<script type="text/javascript" src="../js/shotwellsystem.js"></script>
+		<script type="text/javascript" src="../js/shutdownSystem.js"></script>
+		<script type="text/javascript" src="../js/movieplayersystem.js"></script>
+		<script type="text/javascript" src="../js/libresystem.js"></script>
+		<script type="text/javascript" src="../js/softwaresystem.js"></script>
+		<script type="text/javascript" src="../js/notificationsystem.js"></script>
+		<script type="text/javascript" src="../js/analytics.js"></script>
+	</body>
+</html>

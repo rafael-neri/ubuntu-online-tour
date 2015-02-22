@@ -1,0 +1,1512 @@
+﻿<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+	<head>
+		<title>Ubuntu online tour</title>
+		<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+		<meta charset="UTF-8" />
+		<meta name="description" content="Enjoy the simplicity of Ubuntu's stylish, intuitive interface. Take Ubuntu for a test drive with our online tour and download when you're ready!" />
+		<meta name="keywords" content="ubuntu, ubuntu online, ubuntu tour" />
+		<link rel="stylesheet" href="../css/loader.css" type="text/css" />
+		<link rel="stylesheet" href="../css/error.css" type="text/css" />
+		<link rel="stylesheet" href="../css/base.css" type="text/css" />
+		<link rel="stylesheet" href="../css/folder.css" type="text/css" />
+		<link rel="stylesheet" href="../css/firefox.css" type="text/css" />
+		<link rel="stylesheet" href="../css/email.css" type="text/css" />
+		<link rel="stylesheet" href="../css/systemoverlay.css" type="text/css" />
+		<link rel="stylesheet" href="../css/ubuntuone.css" type="text/css" />
+		<link rel="stylesheet" href="../css/shotwell.css" type="text/css" />
+		<link rel="stylesheet" href="../css/tourguide.css" type="text/css" />
+		<link rel="stylesheet" href="../css/welcome.css" type="text/css" />
+		<link rel="stylesheet" href="../css/shutdown.css" type="text/css" />
+		<link rel="stylesheet" href="../css/movieplayer.css" type="text/css" />
+		<link rel="stylesheet" href="../css/libre.css" type="text/css" />
+		<link rel="stylesheet" href="../css/notification.css" type="text/css" />
+		<link rel="stylesheet" href="../css/software-centre.css" type="text/css" />
+		<!--[if IE 8]>
+		<link rel="stylesheet" href="../css/iefix.css" type="text/css" />
+		<![endif]-->
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700' rel='stylesheet' type='text/css' />
+		<script type="text/javascript">
+			WebFontConfig = {
+				google : {
+					families : ['Ubuntu:400,700:latin']
+				}
+			}; (function() {
+				var wf = document.createElement('script');
+				wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+				wf.type = 'text/javascript';
+				wf.async = 'true';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(wf, s);
+			})();
+
+		</script>
+	</head>
+	<body>
+		<div id="loader">
+			<div id="dot-container">
+				<noscript>
+					<p>
+						This demo uses JavaScript. Either your browser doesn't support JavaScript, or it's currently switched off.
+						<br/>
+						<br/>
+						Don't panic. We've got <a href="/ubuntu/take-the-tour-gallery">a non-JavaScript version</a> of the online tour you can view instead. :)
+					</p>
+				</noscript>
+			</div>
+		</div>
+		<div id="top" class="dropShadow">
+			<div id="top-left">
+				<div id="control-buttons">
+					<div id="close"></div>
+					<div id="min"></div>
+					<div id="max"></div>
+				</div>
+				<div id="dash-control-buttons">
+					<div class="close"></div>
+					<div class="min"></div>
+					<div class="max"></div>
+				</div>
+				<div id="title"></div>
+			</div>
+			<div id="top-right">
+				<div id="connection"><img src="../img/top/connection.png" alt=""/>
+					<ul class="drop-down">
+						<li class="disabled">
+							Auto eth0
+						</li>
+						<li class="disabled">
+							Verbinding verbreken
+						</li>
+						<li class="divider"></li>
+						<!--<li class="disabled"><img src="../img/top/wireless-icon.png" alt=""/> My Wireless Connection</li>
+						<li class="disabled">Verbinding verbreken</li>
+						<li class="divider"></li>-->
+						<li class="disabled">
+							Verbindingsinformatie
+						</li>
+						<li class="disabled">
+							Verbindingen bewerken…
+						</li>
+					</ul>
+				</div>
+				<div id="bluetooth"><img src="../img/top/bluetooth.png" alt=""/>
+					<ul class="drop-down">
+						<li class="disabled bluetooth">
+							Bluetooth aan
+						</li>
+						<li>
+							Bluetooth uitschakelen
+						</li>
+						<li class="divider"></li>
+						<li class="disabled BtOn">
+							Zichtbaar
+						</li>
+						<li class="divider BtOn"></li>
+						<li class="disabled BtOn">
+							Bestanden versturen naar apparaat…
+						</li>
+						<li class="disabled BtOn">
+							Door bestanden op het apparaat bladeren…
+						</li>
+						<li class="divider"></li>
+						<li class="disabled BtOn">
+							Nieuw apparaat instellen…
+						</li>
+						<li class="divider BtOn"></li>
+						<li class="disabled">
+							Voorkeuren
+						</li>
+					</ul>
+				</div>
+				<div id="message"><img src="../img/top/nomessage.jpg" class="message-logo" alt="" />
+					<ul class="drop-down">
+						<li class="system-message"></li>
+					</ul>
+				</div>
+				<div id="speakers"><img src="../img/top/speakers3.png" class="speakers-logo"  alt=""/>
+					<ul class="drop-down">
+						<li>
+							Dempen
+						</li>
+						<li class="system-volume">
+							<div class="large-icon"></div><div class="small-icon"></div><div class="slider"></div><div class="slider-active"></div>
+						</li>
+						<li class="divider"></li>
+						<li class="disabled"><img src="../img/top/rhythmbox.png" alt=""/> Rhythmbox
+						</li>
+						<li class="banshee">
+							<div class="banshee-rewind"></div><div class="banshee-forward"></div><div class="banshee-play"></div>
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							Geluidsinstellingen…
+						</li>
+					</ul>
+				</div>
+				<div id="time">
+					<p></p>
+					<ul class="drop-down">
+						<li class="system-calendar"></li>
+					</ul>
+				</div>
+				<div id="power"><img src="../img/top/power.png"  alt=""/>
+					<ul class="drop-down">
+						<li class="disabled">
+							Over deze computer
+						</li>
+						<li class="disabled">
+							Ubuntu Hulp
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							System Settings&hellip;
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							Vergrendelen <span class="key-combo">Crtl+Alt+L</span>
+						</li>
+						<li class="disabled user">
+							Gastsessie
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							Afmelden
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							Pauzestand
+						</li>
+						<li class="disabled">
+							Restart&hellip;
+						</li>
+						<li>
+							Afsluiten…
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="tooltip">
+			<div class="shadow-arrow"></div>
+			<div class="arrow-right"></div>
+			<div id="tooltip-text"></div>
+		</div>
+		<div id="menu">
+			<ul>
+				<li class="dash">
+					<span>Dash-startpagina</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="home"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Persoonlijke map</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="firefox"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Firefox webbrowser</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="writer"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>LibreOffice Tekstverwerker</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="calc"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>LibreOffice Rekenblad</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="impress"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>LibreOffice Presentatie</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="software"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Ubuntu softwarecentrum</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="amazon"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Amazon</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="settings"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Systeeminstellingen</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="email temp"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""><span>Thunderbird Mail</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt="">
+				</li>
+				<li class="shotwell temp"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Shotwell fotobeheer</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="movieplayer temp"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Mediaspeler</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<!--<li class="workspace"><span>Workspace Switcher</span></li>-->
+				<li class="rubbish bottom">
+					<span>Prullenbak</span>
+				</li>
+			</ul>
+		</div>
+		<div id="systemOverlay">
+			<div class="copyDash"></div>
+			<div id="overlayContents">
+				<input type="text" name="search" value="Search your computer and online sources"/>
+				<div id="display-home" class="app-container">
+					<div class="recent-apps bottom"><img src="../img/overlay/recentapps.png" alt=""/> Toepassingen <div class="app-list"></div>
+					</div>
+					<div class="recent-files bottom"><img src="../img/overlay/recentfiles.png" alt=""/> Bestanden &amp; Mappen<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-apps" class="app-container">
+					<div class="frequently bottom"><img src="../img/overlay/recentapps.png" alt=""/> Recent gebruikt <div class="app-list"></div>
+					</div>
+					<div class="installed"><img src="../img/overlay/installed.png" alt=""/> Geïnstalleerd<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-find-files" class="app-container">
+					<div class="files bottom"><img src="../img/overlay/recentfiles.png" alt=""/> Recent<div class="app-list"></div>
+					</div>
+					<div class="downloads bottom"><img src="../img/overlay/downloaded.png" alt=""/> Downloads<div class="app-list"></div>
+					</div>
+					<div class="folders"><img src="../img/overlay/folders.png" alt=""/> Mappen<div class="app-list"></div>
+					</div>
+
+				</div>
+				<div id="display-find-music" class="app-container">
+					<div class="songs bottom"><img src="../img/overlay/folders.png" alt=""/> Liedjes<div class="app-list"></div>
+					</div>
+					<div class="albums"><img src="../img/overlay/folders.png" alt=""/> Albums<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-find-video" class="app-container">
+					<div class="videos bottom"><img src="../img/overlay/folders.png" alt=""/> Video's<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-find-photos" class="app-container">
+					<div class="photos bottom"><img src="../img/overlay/folders.png" alt=""/> My photos<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-chat" class="app-container">
+					<div class="message">
+						<p>Sorry, there is nothing that matches your search</p>
+					</div>
+				</div>
+				<div id="display-search" class="app-container">
+					<div class="applications bottom"><img src="../img/overlay/search-apps-logo.jpg" alt=""/> Toepassingen<div class="app-list"></div>
+					</div>
+					<div class="files"><img src="../img/overlay/search-files-logo.jpg" alt=""/> Bestanden &amp; Mappen<div class="app-list"></div>
+					</div>
+				</div>
+			</div>
+			<div id="dash-bottom-bar">
+				<div class="bottom-wrapper">
+					<div class="home-icon active"></div>
+					<div class="applications-icon"></div>
+					<div class="files-icon"></div>
+					<div class="music-icon"></div>
+					<div class="video-icon"></div>
+					<div class="photos-icon"></div>
+					<div class="chat-icon last"></div>
+				</div>
+			</div>
+			<div id="preview">
+				<div class="image"></div>
+				<div class="info"></div>
+				<div class="buttons">
+					<a class="email">E-mail</a>
+					<a class="showInFolder">Show in Folder</a>
+					<a class="open">Open</a>
+				</div>
+			</div>
+		</div>
+		<div id="ubuntuone-window" class="uone window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="window-title">
+					Ubuntu One bedieningspaneel
+				</div>
+			</div>
+			<div class="content">
+				<div class="header"></div>
+				<div class="body">
+					<h1>De kracht van uw persoonlijke cloud</h1>
+					<div class="features">
+						<div class="files-anywhere">
+							<span class="logo"></span>
+							<div>
+								<h3>Overal bestanden</h3>
+								<p>
+									Toegang hebben tot uw bestanden, en er reservekopieën van maken vanuit Ubuntu, Windows, internet of mobiel
+								</p>
+							</div>
+						</div>
+						<div class="rock-out">
+							<span class="logo"></span>
+							<div>
+								<h3>Rocken</h3>
+								<p>
+									Met het streamen van muziek naar android en iPhone heeft u uw hele verzameling overal bij u.
+								</p>
+							</div>
+						</div>
+						<div class="keep-connected">
+							<span class="logo"></span>
+							<div>
+								<h3>Verbonden blijven</h3>
+								<p>
+									Uw contacten verenigen over PC, Mobiel en het web.
+								</p>
+							</div>
+						</div>
+						<div class="stay-productive">
+							<span class="logo"></span>
+							<div>
+								<h3>Blijf productief</h3>
+								<p>
+									Uw Firefox-bladwijzers en Tomboy-notities gesynchroniseerd houden
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="ubuntuone-buttons">
+						<div class="learn-more"><img src="../img/ubuntuone/ubuntuone-logo.jpg" width="47" height="48" alt=""/>
+							<div>
+								Meer informatie
+							</div>
+						</div>
+						<div class="join-now">
+							<h2>Lid worden</h2>
+						</div>
+						<div class="have-account">
+							Ik heb al een account!
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="libreoffice-calc-window" class="calc window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Naamloos 1 - LibreOffice Rekenblad
+				</div>
+			</div>
+			<div class="content">
+
+			</div>
+		</div>
+		<div id="libreoffice-writer-window" class="writer window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Naamloos 1 - LibreOffice Tekstverwerker
+				</div>
+			</div>
+			<div class="content">
+
+			</div>
+		</div>
+		<div id="libreoffice-impress-window" class="impress window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Naamloos 1 - LibreOffice Presentatie
+				</div>
+			</div>
+			<div class="content">
+
+			</div>
+		</div>
+		<div class="error-window window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="window-title"></div>
+			</div>
+			<div class="error-container">
+				<h1>Bedankt voor het verkennen van Ubuntu!</h1>
+				<a class="download"  href="http://www.ubuntu.com/download/ubuntu/download?utm_source=tour&utm_medium=online&utm_campaign=tour" target="_blank">Ubuntu downloaden</a>
+				<h2>Vergeet niet dat dit alleen maar een demo is. Om het echte werk te kunnen ervaren zult u het moeten downloaden.</h2>
+			</div>
+		</div>
+		<!--<div id="error-window" class="error-window window">
+		<div class="control">
+		<div class="close"></div>
+		<div class="window-title"></div>
+		</div>
+		<div class="content">
+		<img src="../img/error/warning.jpg"/>
+		<div class="message">
+		<p>Thanks for exploring Ubuntu</p>
+		<p>Vergeet niet dat dit alleen maar een demo is. Om het echte werk te kunnen ervaren zult u het moeten downloaden.</p>
+		</div>
+		<div class="error-buttons"><div class="download highlight">Ubuntu downloaden</div></div>
+		</div>
+		</div>-->
+		<!--<div id="workspaces">
+		<div id="void">
+		<div id="workspace-container">
+		<div id="workspace1"><div class="fadedOverlay"></div></div>
+		<div id="workspace2"><div class="fadedOverlay"></div></div>
+		<div id="workspace3"><div class="fadedOverlay"></div></div>
+		<div id="workspace4"><div class="fadedOverlay"></div></div>
+		<div class="reflection" style="clear:both;"></div>
+		<div class="reflection"></div>
+		</div>
+		</div>
+		</div>-->
+		<div id="email-window" class="email-window window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					E-mail
+				</div>
+			</div>
+			<div class="buttons">
+				<div class="email-get-mail">
+					E-mail ophalen
+				</div>
+				<div class="email-divider"></div>
+				<div class="email-write">
+					Schrijven
+				</div>
+				<!--<div class="email-address-book"></div>
+				<div class="email-divider"></div>
+				<div class="email-tag"></div>
+				<div class="email-search"><input type="text" name="submitEmailSearch" id="submitEmailSearch"/></div>-->
+			</div>
+			<div style="clear:both;"></div>
+			<div class="email-content">
+				<div class="folder-list">
+					<div class="bottom-buttons">
+						Alle mappen
+					</div>
+					<div style="clear:both;"></div>
+					<div class="list">
+						<div id="folder-inbox" class="selected"><img src="../img/email/inbox.png" alt=""/> Postvak IN
+						</div>
+						<div id="folder-draft"><img src="../img/email/drafts.png" alt=""/> Concept
+						</div>
+						<div id="folder-sent"><img src="../img/email/sent.png" alt=""/> Verzonden
+						</div>
+						<div id="folder-archive"><img src="../img/email/archive-logo.png" alt=""/> Archief
+						</div>
+						<div id="folder-trash"><img src="../img/email/trash.png" alt=""/> Prullenbak
+						</div>
+					</div>
+				</div>
+				<div class="email-contents">
+					<div class="email-categories">
+						<div><img src="../img/email/t.png" alt=""/>
+						</div>
+						<div><img src="../img/email/star.png" alt=""/>
+						</div>
+						<div><img src="../img/email/clip.png" alt=""/>
+						</div>
+						<div class="subject">
+							Onderwerp
+						</div>
+						<div><img src="../img/email/glasses.png" alt=""/>
+						</div>
+						<div class="from">
+							Van
+						</div>
+						<div><img src="../img/email/fire.png" alt=""/>
+						</div>
+						<div class="date">
+							Datum
+						</div>
+					</div>
+					<div style="clear:both;"></div>
+					<div class="email-list"></div>
+					<div class="email-body">
+						<div class="message-header">
+							<div class="email-buttons">
+								<div>
+									<span class="message-reply">beantwoorden</span>
+									<span class="message-forward">doorsturen</span>
+									<span class="message-archive">archief</span>
+									<span class="message-junk">rommel</span>
+									<span class="message-delete">Verwijderen</span>
+								</div>
+							</div>
+							<div style="clear:both;"></div>
+							<div class="date"></div>
+							<dl class="from">
+								<dt>
+									van
+								</dt><dd></dd>
+							</dl>
+							<dl class="subject">
+								<dt>
+									onderwerp
+								</dt><dd></dd>
+							</dl>
+							<dl class="to">
+								<dt>
+									aan
+								</dt><dd></dd>
+							</dl>
+							<dl class="cc">
+								<dt>
+									cc
+								</dt><dd></dd>
+							</dl>
+						</div>
+						<div class="junk-mail-banner"><img src="../img/email/large-fire.jpg" alt=""/> Ongewenste e-mail
+							<div class="not-junk">
+								Niet ongewenst
+							</div>
+						</div>
+						<div class="message-body"></div>
+					</div>
+				</div>
+				<div style="clear:both;"></div>
+				<div class="emails-info">
+					<div>
+						Ongelezen: <span id="details-unread">1</span> Totaal: <span id="details-total">1</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="email-write" class="email-write window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Nieuw bericht: (geen onderwerp)
+				</div>
+			</div>
+			<div class="buttons">
+				<div id="write-send">
+					Versturen
+				</div>
+				<div class="email-divider"></div>
+				<div id="write-attach">
+					Bijvoegen
+				</div>
+			</div>
+			<div style="clear:both;"></div>
+			<div id="write-from">
+				<div>
+					Van:
+				</div>
+				<input type="text" name="from" value="You"/>
+			</div>
+			<div id="write-to">
+				<div>
+					Aan:
+				</div>
+				<input type="text" name="to"/>
+			</div>
+			<div id="write-subject">
+				<div>
+					Onderwerp:
+				</div>
+				<input type="text" name="subject"/>
+			</div>
+			<div><img src="../img/email/disabled-format-buttons.jpg" width="853" height="32" alt=""/>
+			</div>
+			<div id="write-body">
+				<textarea name="body"></textarea>
+</div>			<div class="loading-bar">
+				<div class="progress"></div>
+			</div>
+		</div>
+		<div id="software-centre" class="software window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Ubuntu softwarecentrum
+				</div>
+			</div>
+			<div class="top-panel">
+				<div class="back disabled"></div>
+				<div class="forward disabled"></div>
+				<div class="all-software selected"><img src="../img/software-centre/all-software.png" alt=""/>Alle software
+				</div>
+				<div class="installed"><img src="../img/software-centre/installed.png" alt=""/>Geïnstalleerd
+				</div>
+				<div class="history"><img src="../img/software-centre/history.png" alt=""/>Geschiedenis
+				</div>
+			</div>
+			<div class="container detailed">
+				<div class="title"><img src="../img/software-centre/visolate.png" class="app-image" width="100" alt=""/><h1>Visolate</h1>
+					<p class="subheading">
+						PCB CNC converter
+					</p>
+					<p class="rating"><img src="../img/software-centre/rating.jpg" alt="" /> (91 beoordelingen)
+					</p>
+				</div>
+				<div class="price">
+					<span class="theprice">Vrij</span><span class="button">Installeren</span>
+					<div class="loading-bar">
+						<div class="progress"></div>
+					</div>
+				</div>
+				<div class="description-container">
+					<div class="description-image"><img src="../img/software-centre/screenshot-blender.jpg" alt="" />
+					</div>
+					<div class="description"><img src="../img/software-centre/screenshot-blender.jpg" alt="" />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quam augue, convallis id commodo id, tristique ac mi. Ut dapibus, neque eget elementum pretium, nunc turpis congue eros, et interdum nisi nisi at diam. Duis dictum, justo eget imperdiet pulvinar, dolor est fermentum nisl, luctus imperdiet metus elit a purus. Quisque nisl enim, lacinia ut venenatis in, porttitor eget orci. Quisque non nibh nec risus tincidunt sollicitudin vitae et nisl. Proin odio lacus, vulputate non auctor sit amet, dapibus quis tortor. Donec elit libero, pellentesque quis dictum sed, hendrerit non libero. Aliquam eu diam id leo auctor tincidunt. Phasellus cursus felis at nulla facilisis semper. Cras mauris urna, adipiscing sed scelerisque ut, gravida id neque. Mauris ut vestibulum justo. Curabitur convallis elementum pellentesque. Duis sit amet arcu ac eros pretium scelerisque. Nunc nec nisi nulla.
+					</div>
+					<div style="clear:both;"></div>
+				</div>
+			</div>
+			<div class="container home">
+				<div class="header-image">
+					<span class="header-title">Onze stertoepassingen</span>
+					<span class="header-subtitle">Ontdek onze favorieten</span>
+				</div>
+				<div class="navigation">
+					<ul>
+						<li>
+							Hulpmiddelen
+						</li>
+						<li>
+							Hulpmiddelen voor ontwikkelaars
+						</li>
+						<li>
+							Onderwijs
+						</li>
+						<li>
+							Lettertypes
+						</li>
+						<li>
+							Spelletjes
+						</li>
+						<li>
+							Grafisch
+						</li>
+						<li>
+							Internet
+						</li>
+						<li>
+							Kantoor
+						</li>
+						<li>
+							Wetenschap en techniek
+						</li>
+						<li>
+							Geluid &amp; video
+						</li>
+						<li>
+							Systeem
+						</li>
+						<li>
+							Thema's &amp aanpassingen
+						</li>
+					</ul>
+				</div>
+				<div class="whats-new">
+					<h2> Wat is er nieuw</h2>
+					<div class="app-container">
+						<div class="chromium">
+							<h3>Chromium</h3>
+							<p>
+								Internet
+							</p>
+							<p class="cost">
+								Vrij
+							</p>
+						</div>
+						<div class="beep">
+							<h3>BEEP</h3>
+							<p>
+								Spelletjes
+							</p>
+							<p class="cost">
+								$9.99
+							</p>
+						</div>
+						<div class="inkscape">
+							<h3>Inkscape</h3>
+							<p>
+								Grafisch
+							</p>
+							<p class="cost">
+								Vrij
+							</p>
+						</div>
+						<div class="worldofgoo">
+							<h3>World of Goo</h3>
+							<p>
+								Spelletjes
+							</p>
+							<p class="cost">
+								$19.99
+							</p>
+						</div>
+						<div class="blender">
+							<h3>Blender</h3>
+							<p>
+								Grafisch
+							</p>
+							<p class="cost">
+								Vrij
+							</p>
+						</div>
+						<div class="braid">
+							<h3>Braid</h3>
+							<p>
+								Spelletjes
+							</p>
+							<p class="cost">
+								$9.99
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="whats-new">
+					<h2> Best gewaardeerd</h2>
+					<div class="app-container">
+						<div class="beep">
+							<h3>BEEP</h3>
+							<p>
+								Spelletjes
+							</p>
+							<p class="cost">
+								$9.99
+							</p>
+						</div>
+						<div class="chromium">
+							<h3>Chromium</h3>
+							<p>
+								Internet
+							</p>
+							<p class="cost">
+								Vrij
+							</p>
+						</div>
+						<div class="worldofgoo">
+							<h3>World of Goo</h3>
+							<p>
+								Spelletjes
+							</p>
+							<p class="cost">
+								$19.99
+							</p>
+						</div>
+						<div class="braid">
+							<h3>Braid</h3>
+							<p>
+								Spelletjes
+							</p>
+							<p class="cost">
+								$9.99
+							</p>
+						</div>
+						<div class="inkscape">
+							<h3>Inkscape</h3>
+							<p>
+								Grafisch
+							</p>
+							<p class="cost">
+								Vrij
+							</p>
+						</div>
+						<div class="blender">
+							<h3>Blender</h3>
+							<p>
+								Grafisch
+							</p>
+							<p class="cost">
+								Vrij
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="shotwell" class="shotwell window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Shotwell
+				</div>
+			</div>
+			<div class="sidebar">
+				<div class="nav">
+					<ul>
+						<li class="library">
+							Bibliotheek
+						</li>
+					</ul>
+				</div>
+				<div class="details">
+					<div class="overall">
+						<div>
+							Items: <span class="items">16 foto's</span>
+						</div>
+						<div>
+							Van: <span class="from">Vr 26 Okt, 2001</span>
+						</div>
+						<div>
+							Aan: <span class="to">Maa 11 oktober 2010</span>
+						</div>
+					</div>
+					<div class="single">
+						<div>
+							Titel: <span class="title"></span>
+						</div>
+						<div>
+							Datum: <span class="date"></span>
+						</div>
+						<div>
+							Grootte: <span class="size"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="images"></div>
+				<div class="tools">
+					<div class="jump-image">
+						<div class="next"></div><div class="prev"></div>
+					</div>
+					<div class="slider-container">
+						<div class="small-icon"></div><div class="slider"></div><div class="slider-active"></div><div class="large-icon"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="movieplayer" class="movieplayer window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Mediaspeler
+				</div>
+			</div>
+			<div class="container">
+				<div class="video"></div>
+			</div>
+		</div>
+		<div id="firefox-window" class="firefox-window window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Het web verkennen
+				</div>
+			</div>
+			<div class="buttons">
+				<div class="firefox-back"></div>
+				<div class="firefox-forward"></div>
+				<div class="firefox-url">
+					<input type="text" name="submitURL" id="submitURL" value="http://www.ubuntu.com"/>
+				</div>
+				<div class="firefox-search">
+					<input type="text" name="submitSearch" id="submitSearch" value="Wikipedia" class="fade-text"/>
+				</div>
+			</div>
+			<div style="clear:both;"></div>
+			<div class="firefox-internet">
+				<div class="web-overlay-tran"></div>
+				<div class="theIframe">
+					<iframe src="../http://www.ubuntu.com" id="firefoxInternet" >
+						<p>
+							Uw browser ondersteunt geen iframes.
+						</p>
+					</iframe>
+				</div>
+			</div>
+		</div>
+		<div id="shutdown-window" class="window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="window-title">
+					Afsluiten
+				</div>
+			</div>
+			<div class="content">
+				<img src="../img/powerwarning.jpg" alt=""/>
+				<div class="message">
+					<p>
+						Weet u zeker dat u alle programma's wilt afsluiten en de computer wilt uitzetten?
+					</p>
+				</div>
+				<div class="shutdown-buttons">
+					<div class="shutdown highlight">
+						Afsluiten
+					</div>
+					<div class="cancel">
+						Annuleren
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="folder-window" class="folder window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title"></div>
+			</div>
+
+			<div class="buttons">
+					<div class="folder-back"></div>
+					<div class="folder-forward"></div>
+				</div>
+				<div class="bottom-buttons"></div>
+				<div style="clear:both;"></div>
+			<div class="folder-list">
+				<div class="list">
+					<p>
+						Locaties
+					</p>
+					<ul>
+						<li class="home selected" data-folder="home">Persoonlijke map</li>
+						<li class="desktop" data-folder="5">Bureaublad</li>
+						<li class="documents" data-folder="0">Documenten</li>
+						<li class="downloads" data-folder="1">Downloads</li>
+						<li class="music" data-folder="2">Muziek</li>
+						<li class="pictures" data-folder="4">Afbeeldingen</li>
+						<li class="videos" data-folder="3">Video's</li>
+						<li class="rubbish" data-folder="bin">Prullenbak</li>
+					</ul>
+				</div>
+			</div>
+			<div class="folder-contents">
+				<div class="contents"></div>
+				<div class="selected-details"></div>
+			</div>
+		</div>
+		<div id="welcome">
+			<div id="welcome-screen" class="selected-window">
+				<div class="control">
+					<div class="window-title">Ubuntu rondleiding</div>
+				</div>
+				<div class="welcome-header">
+					<h1>Welkom bij de Ubuntu 14.04-rondleiding</h1>
+					<h2>Ubuntu uitproberen in onze online demo.</h2>
+				</div>
+				<ul>
+					<li>
+						<a class="browse-files" href="#browse-files">Door bestanden bladeren</a>
+					</li>
+					<li>
+						<a class="check-email" href="#check-email">E-mail ophalen</a>
+					</li>
+					<li>
+						<a class="surf-the-web" href="#surf-the-web">Op het web surfen</a>
+					</li>
+					<li>
+						<a class="find-apps" href="#find-apps">Toepassingen zoeken</a>
+					</li>
+					<li>
+						<a class="create-documents" href="#create-documents">Documenten</a>
+					</li>
+					<li>
+						<a class="view-photos" href="#view-photos">Foto's bekijken</a>
+					</li>
+					<li>
+						<a class="create-presentations" href="#create-presentations">Presentaties</a>
+					</li>
+					<li>
+						<a class="create-spreadsheets" href="#create-spreadsheets">Rekenbladen</a>
+					</li>
+					<li>
+						<a class="watch-video" href="#watch-video">Video's bekijken</a>
+					</li>
+				</ul>
+				<div class="language-mode">
+					<span class="active">Engels</span>
+					<a href="/tour/zh-CN/">中文</a>
+				</div>
+				<a class="explore-mode primary" href="#">Kijk zelf rond</a>
+				<a class="tour-mode" href="#">Neem de rondleiding</a>
+			</div>
+		</div>
+		<div id="tour-guide">
+			<div class="next-button">&rsaquo;</div>
+			<div class="prev-button">&lsaquo;</div>
+			<div class="guide-container welcome">
+				<div class="guide-logo"><img src="../img/tourguide/back-to-welcome.png" /></div>
+				<h3>Ubuntu online tour</h3>
+				<p>
+					We hopen dat u heeft genoten van de Ubuntu online tour. <a href="http://www.ubuntu.com/download/ubuntu/download?utm_source=tour&utm_medium=online&utm_campaign=tour" target="_blank">Klaar om te downloaden?</a> of <a href="/ubuntu/take-the-tour" >Terug naar de website</a>
+				</p>
+			</div>
+			<div class="guide-container home">
+				<div class="guide-logo"><img src="../img/tourguide/file-small.png" />
+				</div>
+				<h3>Door bestanden bladeren</h3>
+				<p>
+					Snel en gemakkelijk toegang tot uw mappen en bestanden in uw persoonlijke map.
+				</p>
+			</div>
+			<div class="guide-container firefox">
+				<div class="guide-logo"><img src="../img/tourguide/firefox-small.png" />
+				</div>
+				<h3>Op het web surfen</h3>
+				<p>
+					Het web verkennen gaat snel en veilig met Ubuntu en Firefox
+				</p>
+			</div>
+			<div class="guide-container email">
+				<div class="guide-logo"><img src="../img/tourguide/mail-small.png" />
+				</div>
+				<h3>E-mail ophalen</h3>
+				<p>
+					Lees, schrijf en verstuur e-mail met Thunderbird. Gemakkelijk en snel.
+				</p>
+			</div>
+			<div class="guide-container shotwell">
+				<div class="guide-logo"><img src="../img/tourguide/shotwell-small.png" />
+				</div>
+				<h3>Foto's bekijken</h3>
+				<p>
+					U kunt uw foto's uploaden, organiseren, bewerken en delen met Shotwell.
+				</p>
+			</div>
+			<div class="guide-container software">
+				<div class="guide-logo"><img src="../img/tourguide/apps-small.png" />
+				</div>
+				<h3>Toepassingen zoeken</h3>
+				<p>
+					Snel toepassingen zoeken en downloaden in het Ubuntu softwarecentrum
+				</p>
+			</div>
+			<div class="guide-container writer">
+				<div class="guide-logo"><img src="../img/tourguide/document-small.png" />
+				</div>
+				<h3>Documenten</h3>
+				<p>
+					LibreOffice tekstverwerker maakt het makkelijk om professionele documenten te maken.
+				</p>
+			</div>
+			<div class="guide-container calc">
+				<div class="guide-logo"><img src="../img/tourguide/calc-small.png" />
+				</div>
+				<h3>Rekenbladen</h3>
+				<p>
+					LibreOffice Rekenblad bevat alles wat u nodig heeft om duidelijke en nauwkeurige rekenbladen te maken.
+				</p>
+			</div>
+			<div class="guide-container impress">
+				<div class="guide-logo"><img src="../img/tourguide/impress-small.png" />
+				</div>
+				<h3>Presentaties</h3>
+				<p>
+					Maak een goede indruk met het intuïtieve LibreOffce Presentatie
+				</p>
+			</div>
+			<div class="guide-container movieplayer">
+				<div class="guide-logo"><img src="../img/tourguide/video-small.png" />
+				</div>
+				<h3>Video's bekijken</h3>
+				<p>
+					U kunt al uw favoriete films en video's, dvd's, downloads of films die u zelf gemaakt heeft bekijken.
+				</p>
+			</div>
+			<div class=" tour-buttons">
+				<div class="explore-to-welcome">Welkomstscherm</div>
+				<div class="explore-to-download">Ubuntu downloaden</div>
+				<div class="explore-to-exit">Rondleiding verlaten</div>
+			</div>
+		</div>
+		<div id="Translation-Strings">
+			<!--
+			* Email system
+			-->
+			<p class="_email_1_title_">
+				Toegankelijk
+			</p>
+			<p class="_email_2_title_">
+				Snel
+			</p>
+			<p class="_email_3_title_">
+				Compatibel
+			</p>
+			<p class="_email_4_title_">
+				Veilig
+			</p>
+			<p class="_email_5_title_">
+				Uw Ubuntu, uw manier
+			</p>
+			<p class="_email_1_body_">
+				Toegankelijkheid staat centraal in de Ubuntu filosofie. Wij zijn van mening dat computergebruik voor iedereen toegankelijk moet zijn, ongeacht nationaliteit, ras, geslacht of beperking. Ubuntu is volledig vertaald in 38 talen en bevat ook essentiële assisterende technologieën, die, uiteraard, volledig gratis zijn.
+			</p>
+			<p class="_email_2_body_">
+				Ubuntu start snel op elke computer en zelfs supersnel op nieuwere computers. Er is geen vertraging door onnodige programma's of proefversies van software, waardoor het slechts enkele seconden duurt om de computer op te starten en een browser te openen; dit in tegenstelling tot andere besturingssystemen die u laten staren naar het scherm, wachtend om online te gaan. Ook na verloop van tijd wordt Ubuntu niet trager. Het is snel en blijft snel.
+			</p>
+			<p class="_email_3_body_">
+				Ubuntu werkt perfect met vele soorten apparaten. Plug eenvoudigweg uw MP3-speler, camera of printer in, en u kunt deze direct gebruiken, zonder gedoe met installatie-cd´s. Het is tevens compatibel met Windows! U kunt dus zonder problemen Microsoft Office-documenten openen, bewerken en delen.
+			</p>
+			<p class="_email_4_body_">
+				U kunt veilig surfen met Ubuntu – u kunt erop vertrouwen dat uw bestanden en gegevens veilig zijn. Standaard worden een firewall en virusbescherming meegeleverd. En als er een mogelijke bedreiging is, dan bieden wij automatische updates die u met één klik kunt installeren. U kunt zich extra beveiligen met AppArmor, dat uw belangrijke toepassingen beschermt zodat aanvallers geen toegang krijgen tot uw systeem. En dankzij Firefox en de gnome-sleutelbos helpt Ubuntu u uw privé-informatie privé te houden. Dus, of het nu gaat om toegang tot uw bankrekening of het delen van gevoelige gegevens met vrienden of collega's, u kunt altijd gerust zijn.
+			</p>
+			<p class="_email_5_body_">
+				Geniet van de eenvoud van Ubuntu's gestileerde, intuïtieve interface. Doordat Ubuntu snel en veilig is, en duizenden toepassingen heeft waaruit u kunt kiezen, zult  u het ervaren als opgeruimd en gestroomlijnd en kunt u het helemaal naar uw hand zetten.
+			</p>
+			<p class="_random_reply_">
+				Bedankt voor het verkennen van Ubuntu! Vergeet niet dat dit alleen maar een demo is. Om het echte werk te kunnen ervaren zult u het moeten downloaden.
+				<br/>
+				<br/>
+				<a href="http://www.ubuntu.com/download/ubuntu/download?utm_source=tour&utm_medium=online&utm_campaign=tour" target="_blank">Ubuntu downloaden</a>
+			</p>
+			<p class="_write_">
+				Schrijven
+			</p>
+			<p class="_no_subject_">
+				Geen onderwerp
+			</p>
+			<p class="_recipient_">
+				Ontvanger
+			</p>
+			<p class="_from_">
+				Van
+			</p>
+			<p class="_you_">
+				Uzelf
+			</p>
+			<p class="_on_">
+				Op
+			</p>
+			<p class="_wrote_">
+				schreef
+			</p>
+			<p class="_original_message_">
+				Oorspronkelijke bericht
+			</p>
+			<p class="_fwd_">
+				Doorsturen
+			</p>
+			<!--
+			* Folder System
+			-->
+			<p class="_home_folder_">
+				Persoonlijke map
+			</p>
+			<p class="_desktop_folder_">
+				Bureaublad
+			</p>
+			<p class="_pictures_folder_">
+				Afbeeldingen
+			</p>
+			<p class="_videos_folder_">
+				Video's
+			</p>
+			<p class="_music_folder_">
+				Muziek
+			</p>
+			<p class="_downloads_folder_">
+				Downloads
+			</p>
+			<p class="_documents_folder_">
+				Documenten
+			</p>
+			<p class="_canonical_folder_">
+				Canonical
+			</p>
+			<p class="_backup_folder_">
+				Reservekopie
+			</p>
+			<p class="_local_folder_">
+				Lokaal
+			</p>
+			<p class="_work_folder_">
+				werk
+			</p>
+			<p class="_branches_folder_">
+				branches
+			</p>
+			<p class="_rubbish_bin_folder_">
+				Prullenbak
+			</p>
+			<!--
+			* Software Center System
+			-->
+			<p class="_remove_">
+				Verwijderen
+			</p>
+			<p class="_price_free_">
+				Vrij
+			</p>
+			<p class="_installed_">
+				Geïnstalleerd
+			</p>
+			<p class="_install_">
+				Installeren
+			</p>
+			<p class="_installing_">
+				Installeren
+			</p>
+			<p class="_chromium_app_">
+				Chromium webbrowser
+			</p>
+			<p class="_chromium_sub_">
+				Toegang tot het Internet
+			</p>
+			<p class="_chromium_desc_">
+				Chromium is een opensource browserproject dat gebruikers het internet sneller, veiliger en stabieler wil laten ervaren.
+				<br/>
+				<br/>
+				Chromium dient als basis voor Google Chrome, een aangepaste versie van Chromium (andere naam en logo). Google Chrome heeft een aantal aanpassingen, zoals gebruikers-monitoring en een automatisch update-systeem.
+				<br/>
+				<br/>
+				Dit pakket bevat de Chromium-browser
+			</p>
+			<p class="_beep_app_">
+				BEEP
+			</p>
+			<p class="_beep_sub_">
+				Een 2D platformer/schietspel met natuurkundige puzzels
+			</p>
+			<p class="_beep_desc_">
+				BEEP is een 2D-platformer met natuurkundige puzzels. U bestuurt een kleine robot bewapend met een antizwaartekrachtapparaat, een jet-pack en een pistool. Rijd, spring, vlieg en zwem uw weg door 24 levels verdeeld over 6 unieke omgevingen.
+				<br/>
+				<br/>
+				Gebruik BEEPs antizwaartekrachtapparaat om direct omgevingen te manipuleren. Het antizwaartekrachtapparaat is zowel een gereedschap als een wapen. Gebruik het om vijandige robots te vernietigen, om torens te bouwen en om puzzels op te lossen.
+				<br/>
+				<br/>
+				BEEP heeft duizenden jaren door de ruimte gereisd om de Melkweg te ontdekken. Doorkruis een vreemd sterrenstelsel met het BEEP-schip en stuur robots naar de planeten.
+			</p>
+			<p class="_inkscape_app_">
+				Inkscape grafische vector-bewerker
+			</p>
+			<p class="_inkscape_sub_">
+				SVG-tekeningen (Scalable Vector Graphics) maken en bewerken
+			</p>
+			<p class="_inkscape_desc_">
+				Inkscape kan een subset van het SVG (Scalable Vector Format)-formaat laden en opslaan, een standaard die onderhouden wordt door het WWW-consortium.
+				<br/>
+				<br/>
+				Inkscape's gebruikersinterface is vergelijkbaar met die van CorelDraw en andere tekenprogramma's. Vierkanten, ellipsen, tekstvelden, bitmapafbeeldingen en vrije vormen zijn beschikbaar. Tevens kunnen zowel vector- als bitmapobjecten alfa-transparantie hebben en naar wens vervormd worden.
+				<br/>
+				<br/>
+				Inkscape kan meerdere bestanden tegelijkertijd openen, en ondersteunt meerdere weergaven van een bestand. Afbeeldingen kunnen afgedrukt worden en geëxporteerd worden naar png-bitmaps.
+				<br/>
+				<br/>
+				Sommige van de import-/exportfuncties worden voorzien door de pakketten dia, libwmf-bin, pstoedit, skencil, imagemagick en perlmagick.
+				<br/>
+				<br/>
+				Andere uitbreidingen gebruiken ruby, libxml-xql-perl, python-numpy en python-lxml. U dient deze pakketten te installeren om gebruik te maken van alle uitbreidingen en effecten.
+				<br/>
+				<br/>
+				Indien u de spellingcontrole wilt gebruiken, dient u aspell en het bijbehorende taalpakket installeren, bijvoorbeeld aspell-en of aspell-de.
+			</p>
+			<p class="_world_of_goo_app_">
+				World of Goo
+			</p>
+			<p class="_world_of_goo_sub_">
+				Puzzel-/bouwspel
+			</p>
+			<p class="_world_of_goo_desc_">
+				Versleep levende, kronkelende en pratende Goo-ballen om bouwwerken, bruggen, kanonskogels, zeppelins en gigantische tongen te construeren. De miljoenen onschuldige Goo-ballen die in deze prachtige World of Goo leven zijn nieuwsgierig om deze te gaan verkennen.
+				<br/>
+				<br/>
+				Maar ze weten niet dat ze in een spel zitten, of dat ze erg lekker zijn. Het meest verslavende en ontzagwekkende puzzelspel dat u op een avontuur neemt dat u nooit zult vergeten!
+			</p>
+			<p class="_blender_app_">
+				Blender
+			</p>
+			<p class="_blender_sub_">
+				3d-modellen en -animaties ontwerpen en bewerken
+			</p>
+			<p class="_blender_desc_">
+				Blender is een geïntegreerd pakket voor modelleren, renderen, post-productie en game-ontwikkeling met 3d-modellen. Blender heeft een unieke gebruikersinterface, geheel in OpenGL geïmplementeerd, en ontworpen met snelheid in het achterhoofd. Python-bindings zijn beschikbaar om te scripten; importeren/exporteren van populaire bestandsformaten zoals 3D Studio en Wavefront Obj is mogelijk via door de gemeenschap verzorgde scripts. Stillevens, game-modellen of andere engines van een derde partij en interactieve inhoud in de vorm van een uitvoerbaar bestand en/of een web-plug-in zijn typische voorbeelden van met Blender gemaakte producten.
+			</p>
+			<p class="_braid_app_">
+				Braid
+			</p>
+			<p class="_braid_sub_">
+				Het tijdsverloop om puzzels op te lossen bewerken
+			</p>
+			<p class="_braid_desc_">
+				Braid is een platformspel in schilderkunstige stijl waar u de tijd kunt manipuleren om puzzels op te lossen. Elke puzzel in Braid is uniek.
+				<br/>
+				<br/>
+				Braid behandelt uw tijd en aandacht als kostbaar. Verder doet het alles om u een geestverruimende ervaring te geven.
+				<br/>
+				<br/>
+				De gameplay is gebaseerd op manipulatie van tijd. Reis door werelden waar tijd zich vreemd gedraagt; observeer, leer ervan, en overmeester uiteindelijk deze werelden.
+			</p>
+			<p class="_rhythmbox_app_">
+				Rhythmbox mediaspeler
+			</p>
+			<p class="_brasero_app_">
+				Brasero cd's branden
+			</p>
+			<p class="_movie_player_app_">
+				Mediaspeler
+			</p>
+			<p class="_shotwell_app_">
+				Shotwell fotobeheer
+			</p>
+			<p class="_pitivi_app_">
+				PiTiVi videobewerking
+			</p>
+			<p class="_sound_recorder_app_">
+				Geluid opnemen
+			</p>
+			<p class="_empathy_app_">
+				Empathy chatprogramma
+			</p>
+			<p class="_thunderbird_app_">
+				Thunderbird e-mail/nieuws
+			</p>
+			<p class="_firefox_app_">
+				Firefox webbrowser
+			</p>
+			<p class="_gwibber_app_">
+				Gwibber microblog-programma
+			</p>
+			<p class="_remote_desktop_app_">
+				Werkplek op afstand
+			</p>
+			<p class="_terminal_app_">
+				Terminal Server Client
+			</p>
+			<p class="_ubuntu_one_app_">
+				Ubuntu One
+			</p>
+			<p class="_ubuntu_software_center_app_">
+				Ubuntu softwarecentrum
+			</p>
+			<p class="_ubuntu_one_music_app_">
+				Ubuntu One Muziek
+			</p>
+			<p class="_amazon_app_">
+				Amazon
+			</p>
+			<p class="_about_me_app_">
+				Over Mij
+			</p>
+			<p class="_additional_drivers_app_">
+				Extra stuurprogramma's
+			</p>
+			<p class="_aisleroit_app_">
+				AisleRoit Patience
+			</p>
+			<p class="_appearance_app_">
+				Uiterlijk
+			</p>
+			<p class="_bluetooth_app_">
+				Bluetooth
+			</p>
+			<!--
+			* Dash
+			-->
+			<p class="_search_">Uw computer en internetbronnen doorzoeken</p>
+			<!--
+			* Notifications
+			-->
+			<p class="_turn_off_bluetooth_">
+				Bluetooth uitschakelen
+			</p>
+			<p class="_turn_on_bluetooth_">
+				Bluetooth inschakelen
+			</p>
+			<p class="_visible_">
+				Zichtbaar
+			</p>
+			<p class="_mute_">
+				Dempen
+			</p>
+			<p class="_unmute_">
+				Niet dempen
+			</p>
+			<p class="_shut_down_">
+				Afsluiten…
+			</p>
+			<!--
+				Files Details - Images
+			-->
+			<p class="_photo_size_">
+				15.2KB
+			</p>
+			<p class="_photo_date_">
+				Vr 26 Okt, 2001
+			</p>
+			<p class="_buck_off_title_">
+				Buck Off
+			</p>
+			<p class="_darkening_clockwork_title_">
+				Darkening Clockwork
+			</p>
+			<p class="_dybbølsbro_station_title_">
+				Dybbølsbro Station
+			</p>
+			<p class="_federica_miglio_title_">
+				Federica Miglio
+			</p>
+			<p class="_jardin_polar_title_">
+				Jardin Polar
+			</p>
+			<p class="_langelinie_alle_title_">
+				Langelinie Alle
+			</p>
+			<p class="_momiji_dream_title_">
+				Momiji Dream
+			</p>
+			<p class="_mount_snowdon_title_">
+				Mount Snowdon
+			</p>
+			<p class="_not_alone_title_">
+				Not Alone
+			</p>
+			<p class="_power_of_words_title_">
+				Power Of Words
+			</p>
+			<p class="_purple_dancers_title_">
+				Purple Dancers
+			</p>
+			<p class="_sand_maze_title_">
+				Sand Maze
+			</p>
+			<p class="_small_flowers_title_">
+				Kleine bloemen
+			</p>
+			<p class="_stalking_ocelot_title_">
+				Stalking Ocelot
+			</p>
+			<p class="_the_grass_aint_greener_title_">
+				Het gras is niet groener
+			</p>
+			<p class="_wildWheat_title_">
+				WildWheat
+			</p>
+			<!--
+				Files Details - Video
+			-->
+			<p class="_introduction_ubuntu_title_">
+				Inleiding tot Ubuntu
+			</p>
+			<p class="_video_size_">
+				5.3MB
+			</p>
+			<p class="_video_date_">
+				Maa 11 oktober 2010
+			</p>
+			<!--
+				Files Details - Music
+			-->
+			<p class="_happyness_title_">
+				Geluk
+			</p>
+			<p class="_music_size_">
+				3.3MB
+			</p>
+			<p class="_music_date_">
+				Woe 14 Oktober 2012
+			</p>
+		</div>
+		<script type="text/javascript" src="../js/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="../js/lang.js"></script>
+		<script type="text/javascript" src="../js/scripts.js"></script>
+		<script type="text/javascript" src="../js/welcomesystem.js"></script>
+		<script type="text/javascript" src="../js/guidedtoursystem.js"></script>
+		<script type="text/javascript" src="../js/filesystem.js"></script>
+		<script type="text/javascript" src="../js/folders.js"></script>
+		<script type="text/javascript" src="../js/systemoverlay.js"></script>
+		<script type="text/javascript" src="../js/systemmenu.js"></script>
+		<script type="text/javascript" src="../js/internetsystem.js"></script>
+		<script type="text/javascript" src="../js/emailsystem.js"></script>
+		<script type="text/javascript" src="../js/systemsettings.js"></script>
+		<script type="text/javascript" src="../js/email.js"></script>
+		<script type="text/javascript" src="../js/errormessage.js"></script>
+		<script type="text/javascript" src="../js/ubuntuonesystem.js"></script>
+		<script type="text/javascript" src="../js/file.js"></script>
+		<script type="text/javascript" src="../js/shotwellsystem.js"></script>
+		<script type="text/javascript" src="../js/shutdownSystem.js"></script>
+		<script type="text/javascript" src="../js/movieplayersystem.js"></script>
+		<script type="text/javascript" src="../js/libresystem.js"></script>
+		<script type="text/javascript" src="../js/softwaresystem.js"></script>
+		<script type="text/javascript" src="../js/notificationsystem.js"></script>
+		<script type="text/javascript" src="../js/analytics.js"></script>
+	</body>
+</html>

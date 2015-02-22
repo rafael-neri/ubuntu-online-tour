@@ -1,0 +1,1512 @@
+﻿<!DOCTYPE html>
+<html lang="fi" dir="ltr">
+	<head>
+		<title>Ubuntun verkkoesittely</title>
+		<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+		<meta charset="UTF-8" />
+		<meta name="description" content="Enjoy the simplicity of Ubuntu's stylish, intuitive interface. Take Ubuntu for a test drive with our online tour and download when you're ready!" />
+		<meta name="keywords" content="ubuntu, ubuntu online, ubuntu tour" />
+		<link rel="stylesheet" href="../css/loader.css" type="text/css" />
+		<link rel="stylesheet" href="../css/error.css" type="text/css" />
+		<link rel="stylesheet" href="../css/base.css" type="text/css" />
+		<link rel="stylesheet" href="../css/folder.css" type="text/css" />
+		<link rel="stylesheet" href="../css/firefox.css" type="text/css" />
+		<link rel="stylesheet" href="../css/email.css" type="text/css" />
+		<link rel="stylesheet" href="../css/systemoverlay.css" type="text/css" />
+		<link rel="stylesheet" href="../css/ubuntuone.css" type="text/css" />
+		<link rel="stylesheet" href="../css/shotwell.css" type="text/css" />
+		<link rel="stylesheet" href="../css/tourguide.css" type="text/css" />
+		<link rel="stylesheet" href="../css/welcome.css" type="text/css" />
+		<link rel="stylesheet" href="../css/shutdown.css" type="text/css" />
+		<link rel="stylesheet" href="../css/movieplayer.css" type="text/css" />
+		<link rel="stylesheet" href="../css/libre.css" type="text/css" />
+		<link rel="stylesheet" href="../css/notification.css" type="text/css" />
+		<link rel="stylesheet" href="../css/software-centre.css" type="text/css" />
+		<!--[if IE 8]>
+		<link rel="stylesheet" href="../css/iefix.css" type="text/css" />
+		<![endif]-->
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700' rel='stylesheet' type='text/css' />
+		<script type="text/javascript">
+			WebFontConfig = {
+				google : {
+					families : ['Ubuntu:400,700:latin']
+				}
+			}; (function() {
+				var wf = document.createElement('script');
+				wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+				wf.type = 'text/javascript';
+				wf.async = 'true';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(wf, s);
+			})();
+
+		</script>
+	</head>
+	<body>
+		<div id="loader">
+			<div id="dot-container">
+				<noscript>
+					<p>
+						This demo uses JavaScript. Either your browser doesn't support JavaScript, or it's currently switched off.
+						<br/>
+						<br/>
+						Don't panic. We've got <a href="/ubuntu/take-the-tour-gallery">a non-JavaScript version</a> of the online tour you can view instead. :)
+					</p>
+				</noscript>
+			</div>
+		</div>
+		<div id="top" class="dropShadow">
+			<div id="top-left">
+				<div id="control-buttons">
+					<div id="close"></div>
+					<div id="min"></div>
+					<div id="max"></div>
+				</div>
+				<div id="dash-control-buttons">
+					<div class="close"></div>
+					<div class="min"></div>
+					<div class="max"></div>
+				</div>
+				<div id="title"></div>
+			</div>
+			<div id="top-right">
+				<div id="connection"><img src="../img/top/connection.png" alt=""/>
+					<ul class="drop-down">
+						<li class="disabled">
+							Auto eth0
+						</li>
+						<li class="disabled">
+							Katkaise yhteys
+						</li>
+						<li class="divider"></li>
+						<!--<li class="disabled"><img src="../img/top/wireless-icon.png" alt=""/> My Wireless Connection</li>
+						<li class="disabled">Katkaise yhteys</li>
+						<li class="divider"></li>-->
+						<li class="disabled">
+							Tietoja yhteydestä
+						</li>
+						<li class="disabled">
+							Muokkaa yhteyksiä...
+						</li>
+					</ul>
+				</div>
+				<div id="bluetooth"><img src="../img/top/bluetooth.png" alt=""/>
+					<ul class="drop-down">
+						<li class="disabled bluetooth">
+							Bluetooth käytössä
+						</li>
+						<li>
+							Kytke Bluetooth pois päältä
+						</li>
+						<li class="divider"></li>
+						<li class="disabled BtOn">
+							Näkyvä
+						</li>
+						<li class="divider BtOn"></li>
+						<li class="disabled BtOn">
+							Lähetä tiedostoja...
+						</li>
+						<li class="disabled BtOn">
+							Selaa laitteen tiedostoja...
+						</li>
+						<li class="divider"></li>
+						<li class="disabled BtOn">
+							Asenna uusi laite...
+						</li>
+						<li class="divider BtOn"></li>
+						<li class="disabled">
+							Asetukset
+						</li>
+					</ul>
+				</div>
+				<div id="message"><img src="../img/top/nomessage.jpg" class="message-logo" alt="" />
+					<ul class="drop-down">
+						<li class="system-message"></li>
+					</ul>
+				</div>
+				<div id="speakers"><img src="../img/top/speakers3.png" class="speakers-logo"  alt=""/>
+					<ul class="drop-down">
+						<li>
+							Vaimenna
+						</li>
+						<li class="system-volume">
+							<div class="large-icon"></div><div class="small-icon"></div><div class="slider"></div><div class="slider-active"></div>
+						</li>
+						<li class="divider"></li>
+						<li class="disabled"><img src="../img/top/rhythmbox.png" alt=""/> Rytmilaatikko
+						</li>
+						<li class="banshee">
+							<div class="banshee-rewind"></div><div class="banshee-forward"></div><div class="banshee-play"></div>
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							Ääniasetukset...
+						</li>
+					</ul>
+				</div>
+				<div id="time">
+					<p></p>
+					<ul class="drop-down">
+						<li class="system-calendar"></li>
+					</ul>
+				</div>
+				<div id="power"><img src="../img/top/power.png"  alt=""/>
+					<ul class="drop-down">
+						<li class="disabled">
+							Tietoja laitteesta
+						</li>
+						<li class="disabled">
+							Ohjekeskus
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							System Settings&hellip;
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							Lukitse <span class="key-combo">Ctrl+Alt+L</span>
+						</li>
+						<li class="disabled user">
+							Vierasistunto
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							Kirjaudu ulos
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							Valmiustila
+						</li>
+						<li class="disabled">
+							Restart&hellip;
+						</li>
+						<li>
+							Sammuta...
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="tooltip">
+			<div class="shadow-arrow"></div>
+			<div class="arrow-right"></div>
+			<div id="tooltip-text"></div>
+		</div>
+		<div id="menu">
+			<ul>
+				<li class="dash">
+					<span>Unity-valikko</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="home"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Kotikansio</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="firefox"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Firefox-selain</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="writer"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>LibreOffice Writer</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="calc"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>LibreOffice Calc</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="impress"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>LibreOffice Impress</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="software"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Ubuntun sovellusvalikoima</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="amazon"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Amazon</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="settings"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Järjestelmäasetukset...</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="email temp"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""><span>Thunderbird Mail</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt="">
+				</li>
+				<li class="shotwell temp"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Shotwell - valokuvien hallinta</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="movieplayer temp"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Elokuvasoitin</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<!--<li class="workspace"><span>Workspace Switcher</span></li>-->
+				<li class="rubbish bottom">
+					<span>Roskakori</span>
+				</li>
+			</ul>
+		</div>
+		<div id="systemOverlay">
+			<div class="copyDash"></div>
+			<div id="overlayContents">
+				<input type="text" name="search" value="Search your computer and online sources"/>
+				<div id="display-home" class="app-container">
+					<div class="recent-apps bottom"><img src="../img/overlay/recentapps.png" alt=""/> Sovellukset <div class="app-list"></div>
+					</div>
+					<div class="recent-files bottom"><img src="../img/overlay/recentfiles.png" alt=""/> Tiedostot ja kansiot<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-apps" class="app-container">
+					<div class="frequently bottom"><img src="../img/overlay/recentapps.png" alt=""/> Äskettäin käytetyt <div class="app-list"></div>
+					</div>
+					<div class="installed"><img src="../img/overlay/installed.png" alt=""/> Asennettu<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-find-files" class="app-container">
+					<div class="files bottom"><img src="../img/overlay/recentfiles.png" alt=""/> Viimeisimmät<div class="app-list"></div>
+					</div>
+					<div class="downloads bottom"><img src="../img/overlay/downloaded.png" alt=""/> Lataukset<div class="app-list"></div>
+					</div>
+					<div class="folders"><img src="../img/overlay/folders.png" alt=""/> Kansiot<div class="app-list"></div>
+					</div>
+
+				</div>
+				<div id="display-find-music" class="app-container">
+					<div class="songs bottom"><img src="../img/overlay/folders.png" alt=""/> Kappaleet<div class="app-list"></div>
+					</div>
+					<div class="albums"><img src="../img/overlay/folders.png" alt=""/> Levyt<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-find-video" class="app-container">
+					<div class="videos bottom"><img src="../img/overlay/folders.png" alt=""/> Videot<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-find-photos" class="app-container">
+					<div class="photos bottom"><img src="../img/overlay/folders.png" alt=""/> My photos<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-chat" class="app-container">
+					<div class="message">
+						<p>Sorry, there is nothing that matches your search</p>
+					</div>
+				</div>
+				<div id="display-search" class="app-container">
+					<div class="applications bottom"><img src="../img/overlay/search-apps-logo.jpg" alt=""/> Sovellukset<div class="app-list"></div>
+					</div>
+					<div class="files"><img src="../img/overlay/search-files-logo.jpg" alt=""/> Tiedostot ja kansiot<div class="app-list"></div>
+					</div>
+				</div>
+			</div>
+			<div id="dash-bottom-bar">
+				<div class="bottom-wrapper">
+					<div class="home-icon active"></div>
+					<div class="applications-icon"></div>
+					<div class="files-icon"></div>
+					<div class="music-icon"></div>
+					<div class="video-icon"></div>
+					<div class="photos-icon"></div>
+					<div class="chat-icon last"></div>
+				</div>
+			</div>
+			<div id="preview">
+				<div class="image"></div>
+				<div class="info"></div>
+				<div class="buttons">
+					<a class="email">E-mail</a>
+					<a class="showInFolder">Show in Folder</a>
+					<a class="open">Open</a>
+				</div>
+			</div>
+		</div>
+		<div id="ubuntuone-window" class="uone window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="window-title">
+					Ubuntu One -hallintapaneeli
+				</div>
+			</div>
+			<div class="content">
+				<div class="header"></div>
+				<div class="body">
+					<h1>Henkilökohtaisen pilvesi voima</h1>
+					<div class="features">
+						<div class="files-anywhere">
+							<span class="logo"></span>
+							<div>
+								<h3>Tiedostot kaikkialla</h3>
+								<p>
+									Varmuuskopioi ja käytä tiedostojasi Ubuntun, Windowsin, internetin ja mobiililaitteiden välityksellä
+								</p>
+							</div>
+						</div>
+						<div class="rock-out">
+							<span class="logo"></span>
+							<div>
+								<h3>Anna palaa!</h3>
+								<p>
+									Musiikkikokoelmasi suoratoisto on aina mukanasi Android- ja iPhone-puhelimilla.
+								</p>
+							</div>
+						</div>
+						<div class="keep-connected">
+							<span class="logo"></span>
+							<div>
+								<h3>Pysy yhteydessä</h3>
+								<p>
+									Yhtenäistä kontaktisi työpöydän, mobiililaitteiden ja verkon välillä
+								</p>
+							</div>
+						</div>
+						<div class="stay-productive">
+							<span class="logo"></span>
+							<div>
+								<h3>Pysy tuotteliaana</h3>
+								<p>
+									Synkronoi Firefox-kirjanmerkkisi ja Tomboy-muistilappusi
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="ubuntuone-buttons">
+						<div class="learn-more"><img src="../img/ubuntuone/ubuntuone-logo.jpg" width="47" height="48" alt=""/>
+							<div>
+								Lue lisää
+							</div>
+						</div>
+						<div class="join-now">
+							<h2>Liity nyt</h2>
+						</div>
+						<div class="have-account">
+							Minulla on jo tili!
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="libreoffice-calc-window" class="calc window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Nimetön 1 - LibreOffice Calc
+				</div>
+			</div>
+			<div class="content">
+
+			</div>
+		</div>
+		<div id="libreoffice-writer-window" class="writer window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Nimetön 1 - LibreOffice Writer
+				</div>
+			</div>
+			<div class="content">
+
+			</div>
+		</div>
+		<div id="libreoffice-impress-window" class="impress window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Nimetön 1 - LibreOffice Impress
+				</div>
+			</div>
+			<div class="content">
+
+			</div>
+		</div>
+		<div class="error-window window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="window-title"></div>
+			</div>
+			<div class="error-container">
+				<h1>Kiitos kun tutustuit Ubuntuun!</h1>
+				<a class="download"  href="http://www.ubuntu.com/download/ubuntu/download?utm_source=tour&utm_medium=online&utm_campaign=tour" target="_blank">Lataa Ubuntu</a>
+				<h2>Muistathan, että tämä on vain esittely. Lataa Ubuntu, niin pääset oikeasti kokemaan mistä on kyse.</h2>
+			</div>
+		</div>
+		<!--<div id="error-window" class="error-window window">
+		<div class="control">
+		<div class="close"></div>
+		<div class="window-title"></div>
+		</div>
+		<div class="content">
+		<img src="../img/error/warning.jpg"/>
+		<div class="message">
+		<p>Thanks for exploring Ubuntu</p>
+		<p>Muistathan, että tämä on vain esittely. Lataa Ubuntu, niin pääset oikeasti kokemaan mistä on kyse.</p>
+		</div>
+		<div class="error-buttons"><div class="download highlight">Lataa Ubuntu</div></div>
+		</div>
+		</div>-->
+		<!--<div id="workspaces">
+		<div id="void">
+		<div id="workspace-container">
+		<div id="workspace1"><div class="fadedOverlay"></div></div>
+		<div id="workspace2"><div class="fadedOverlay"></div></div>
+		<div id="workspace3"><div class="fadedOverlay"></div></div>
+		<div id="workspace4"><div class="fadedOverlay"></div></div>
+		<div class="reflection" style="clear:both;"></div>
+		<div class="reflection"></div>
+		</div>
+		</div>
+		</div>-->
+		<div id="email-window" class="email-window window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Sähköposti
+				</div>
+			</div>
+			<div class="buttons">
+				<div class="email-get-mail">
+					Nouda viestit
+				</div>
+				<div class="email-divider"></div>
+				<div class="email-write">
+					Kirjoita
+				</div>
+				<!--<div class="email-address-book"></div>
+				<div class="email-divider"></div>
+				<div class="email-tag"></div>
+				<div class="email-search"><input type="text" name="submitEmailSearch" id="submitEmailSearch"/></div>-->
+			</div>
+			<div style="clear:both;"></div>
+			<div class="email-content">
+				<div class="folder-list">
+					<div class="bottom-buttons">
+						Kaikki kansiot
+					</div>
+					<div style="clear:both;"></div>
+					<div class="list">
+						<div id="folder-inbox" class="selected"><img src="../img/email/inbox.png" alt=""/> Saapuneet
+						</div>
+						<div id="folder-draft"><img src="../img/email/drafts.png" alt=""/> Luonnos
+						</div>
+						<div id="folder-sent"><img src="../img/email/sent.png" alt=""/> Lähetetyt
+						</div>
+						<div id="folder-archive"><img src="../img/email/archive-logo.png" alt=""/> Arkisto
+						</div>
+						<div id="folder-trash"><img src="../img/email/trash.png" alt=""/> Roskakori
+						</div>
+					</div>
+				</div>
+				<div class="email-contents">
+					<div class="email-categories">
+						<div><img src="../img/email/t.png" alt=""/>
+						</div>
+						<div><img src="../img/email/star.png" alt=""/>
+						</div>
+						<div><img src="../img/email/clip.png" alt=""/>
+						</div>
+						<div class="subject">
+							Otsikko
+						</div>
+						<div><img src="../img/email/glasses.png" alt=""/>
+						</div>
+						<div class="from">
+							Lähettäjä
+						</div>
+						<div><img src="../img/email/fire.png" alt=""/>
+						</div>
+						<div class="date">
+							Päivä
+						</div>
+					</div>
+					<div style="clear:both;"></div>
+					<div class="email-list"></div>
+					<div class="email-body">
+						<div class="message-header">
+							<div class="email-buttons">
+								<div>
+									<span class="message-reply">vastaa</span>
+									<span class="message-forward">välitä</span>
+									<span class="message-archive">arkistoi</span>
+									<span class="message-junk">roskaposti</span>
+									<span class="message-delete">poista</span>
+								</div>
+							</div>
+							<div style="clear:both;"></div>
+							<div class="date"></div>
+							<dl class="from">
+								<dt>
+									lähettäjä
+								</dt><dd></dd>
+							</dl>
+							<dl class="subject">
+								<dt>
+									aihe
+								</dt><dd></dd>
+							</dl>
+							<dl class="to">
+								<dt>
+									vastaanottaja
+								</dt><dd></dd>
+							</dl>
+							<dl class="cc">
+								<dt>
+									kopio
+								</dt><dd></dd>
+							</dl>
+						</div>
+						<div class="junk-mail-banner"><img src="../img/email/large-fire.jpg" alt=""/> Roskaposti
+							<div class="not-junk">
+								Ei roskapostia
+							</div>
+						</div>
+						<div class="message-body"></div>
+					</div>
+				</div>
+				<div style="clear:both;"></div>
+				<div class="emails-info">
+					<div>
+						Lukematta: <span id="details-unread">1</span> Yhteensä: <span id="details-total">1</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="email-write" class="email-write window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Kirjoita: (ei aihetta)
+				</div>
+			</div>
+			<div class="buttons">
+				<div id="write-send">
+					Lähetä
+				</div>
+				<div class="email-divider"></div>
+				<div id="write-attach">
+					Liitä
+				</div>
+			</div>
+			<div style="clear:both;"></div>
+			<div id="write-from">
+				<div>
+					Lähettäjä:
+				</div>
+				<input type="text" name="from" value="You"/>
+			</div>
+			<div id="write-to">
+				<div>
+					Vastaanottaja:
+				</div>
+				<input type="text" name="to"/>
+			</div>
+			<div id="write-subject">
+				<div>
+					Aihe:
+				</div>
+				<input type="text" name="subject"/>
+			</div>
+			<div><img src="../img/email/disabled-format-buttons.jpg" width="853" height="32" alt=""/>
+			</div>
+			<div id="write-body">
+				<textarea name="body"></textarea>
+</div>			<div class="loading-bar">
+				<div class="progress"></div>
+			</div>
+		</div>
+		<div id="software-centre" class="software window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Ubuntun sovellusvalikoima
+				</div>
+			</div>
+			<div class="top-panel">
+				<div class="back disabled"></div>
+				<div class="forward disabled"></div>
+				<div class="all-software selected"><img src="../img/software-centre/all-software.png" alt=""/>Kaikki sovellukset
+				</div>
+				<div class="installed"><img src="../img/software-centre/installed.png" alt=""/>Asennettu
+				</div>
+				<div class="history"><img src="../img/software-centre/history.png" alt=""/>Historia
+				</div>
+			</div>
+			<div class="container detailed">
+				<div class="title"><img src="../img/software-centre/visolate.png" class="app-image" width="100" alt=""/><h1>Visolate</h1>
+					<p class="subheading">
+						PBC CNC -muunnin
+					</p>
+					<p class="rating"><img src="../img/software-centre/rating.jpg" alt="" /> (91 arviota)
+					</p>
+				</div>
+				<div class="price">
+					<span class="theprice">Ilmainen</span><span class="button">Asenna</span>
+					<div class="loading-bar">
+						<div class="progress"></div>
+					</div>
+				</div>
+				<div class="description-container">
+					<div class="description-image"><img src="../img/software-centre/screenshot-blender.jpg" alt="" />
+					</div>
+					<div class="description"><img src="../img/software-centre/screenshot-blender.jpg" alt="" />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quam augue, convallis id commodo id, tristique ac mi. Ut dapibus, neque eget elementum pretium, nunc turpis congue eros, et interdum nisi nisi at diam. Duis dictum, justo eget imperdiet pulvinar, dolor est fermentum nisl, luctus imperdiet metus elit a purus. Quisque nisl enim, lacinia ut venenatis in, porttitor eget orci. Quisque non nibh nec risus tincidunt sollicitudin vitae et nisl. Proin odio lacus, vulputate non auctor sit amet, dapibus quis tortor. Donec elit libero, pellentesque quis dictum sed, hendrerit non libero. Aliquam eu diam id leo auctor tincidunt. Phasellus cursus felis at nulla facilisis semper. Cras mauris urna, adipiscing sed scelerisque ut, gravida id neque. Mauris ut vestibulum justo. Curabitur convallis elementum pellentesque. Duis sit amet arcu ac eros pretium scelerisque. Nunc nec nisi nulla.
+					</div>
+					<div style="clear:both;"></div>
+				</div>
+			</div>
+			<div class="container home">
+				<div class="header-image">
+					<span class="header-title">Tähtisovellukset</span>
+					<span class="header-subtitle">Tutustu Sovellusvalikoiman suosituimpiin sovelluksiin</span>
+				</div>
+				<div class="navigation">
+					<ul>
+						<li>
+							Apuohjelmat
+						</li>
+						<li>
+							Kehitystyökalut
+						</li>
+						<li>
+							Opetusohjelmat
+						</li>
+						<li>
+							Kirjasimet
+						</li>
+						<li>
+							Pelit
+						</li>
+						<li>
+							Grafiikka
+						</li>
+						<li>
+							Internet
+						</li>
+						<li>
+							Toimisto
+						</li>
+						<li>
+							Tieteet ja suunnittelu
+						</li>
+						<li>
+							Ääni ja video
+						</li>
+						<li>
+							Järjestelmä
+						</li>
+						<li>
+							Teemat ja muutokset
+						</li>
+					</ul>
+				</div>
+				<div class="whats-new">
+					<h2> Mitä uutta</h2>
+					<div class="app-container">
+						<div class="chromium">
+							<h3>Chromium</h3>
+							<p>
+								Internet
+							</p>
+							<p class="cost">
+								Ilmainen
+							</p>
+						</div>
+						<div class="beep">
+							<h3>BEEP</h3>
+							<p>
+								Pelit
+							</p>
+							<p class="cost">
+								$9.99
+							</p>
+						</div>
+						<div class="inkscape">
+							<h3>Inkscape</h3>
+							<p>
+								Grafiikka
+							</p>
+							<p class="cost">
+								Ilmainen
+							</p>
+						</div>
+						<div class="worldofgoo">
+							<h3>World of Goo</h3>
+							<p>
+								Pelit
+							</p>
+							<p class="cost">
+								$19.99
+							</p>
+						</div>
+						<div class="blender">
+							<h3>Blender</h3>
+							<p>
+								Grafiikka
+							</p>
+							<p class="cost">
+								Ilmainen
+							</p>
+						</div>
+						<div class="braid">
+							<h3>Braid</h3>
+							<p>
+								Pelit
+							</p>
+							<p class="cost">
+								$9.99
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="whats-new">
+					<h2> Parhaimmat arvosanat</h2>
+					<div class="app-container">
+						<div class="beep">
+							<h3>BEEP</h3>
+							<p>
+								Pelit
+							</p>
+							<p class="cost">
+								$9.99
+							</p>
+						</div>
+						<div class="chromium">
+							<h3>Chromium</h3>
+							<p>
+								Internet
+							</p>
+							<p class="cost">
+								Ilmainen
+							</p>
+						</div>
+						<div class="worldofgoo">
+							<h3>World of Goo</h3>
+							<p>
+								Pelit
+							</p>
+							<p class="cost">
+								$19.99
+							</p>
+						</div>
+						<div class="braid">
+							<h3>Braid</h3>
+							<p>
+								Pelit
+							</p>
+							<p class="cost">
+								$9.99
+							</p>
+						</div>
+						<div class="inkscape">
+							<h3>Inkscape</h3>
+							<p>
+								Grafiikka
+							</p>
+							<p class="cost">
+								Ilmainen
+							</p>
+						</div>
+						<div class="blender">
+							<h3>Blender</h3>
+							<p>
+								Grafiikka
+							</p>
+							<p class="cost">
+								Ilmainen
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="shotwell" class="shotwell window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Shotwell
+				</div>
+			</div>
+			<div class="sidebar">
+				<div class="nav">
+					<ul>
+						<li class="library">
+							Kirjasto
+						</li>
+					</ul>
+				</div>
+				<div class="details">
+					<div class="overall">
+						<div>
+							Kohteet: <span class="items">16 valokuvaa</span>
+						</div>
+						<div>
+							Lähettäjä: <span class="from">Perjantai 26. lokakuuta 2001</span>
+						</div>
+						<div>
+							Vastaanottaja: <span class="to">Maanantai 11. lokakuuta 2010</span>
+						</div>
+					</div>
+					<div class="single">
+						<div>
+							Otsikko: <span class="title"></span>
+						</div>
+						<div>
+							Päivämäärä: <span class="date"></span>
+						</div>
+						<div>
+							Koko: <span class="size"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="images"></div>
+				<div class="tools">
+					<div class="jump-image">
+						<div class="next"></div><div class="prev"></div>
+					</div>
+					<div class="slider-container">
+						<div class="small-icon"></div><div class="slider"></div><div class="slider-active"></div><div class="large-icon"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="movieplayer" class="movieplayer window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Elokuvasoitin
+				</div>
+			</div>
+			<div class="container">
+				<div class="video"></div>
+			</div>
+		</div>
+		<div id="firefox-window" class="firefox-window window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Selaa nettiä
+				</div>
+			</div>
+			<div class="buttons">
+				<div class="firefox-back"></div>
+				<div class="firefox-forward"></div>
+				<div class="firefox-url">
+					<input type="text" name="submitURL" id="submitURL" value="http://www.ubuntu.com"/>
+				</div>
+				<div class="firefox-search">
+					<input type="text" name="submitSearch" id="submitSearch" value="Wikipedia" class="fade-text"/>
+				</div>
+			</div>
+			<div style="clear:both;"></div>
+			<div class="firefox-internet">
+				<div class="web-overlay-tran"></div>
+				<div class="theIframe">
+					<iframe src="../http://www.ubuntu.com" id="firefoxInternet" >
+						<p>
+							Selaimesi ei tue iframes-ominaisuutta.
+						</p>
+					</iframe>
+				</div>
+			</div>
+		</div>
+		<div id="shutdown-window" class="window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="window-title">
+					Sammuta
+				</div>
+			</div>
+			<div class="content">
+				<img src="../img/powerwarning.jpg" alt=""/>
+				<div class="message">
+					<p>
+						Haluatko todella sulkea kaikki ohjelmat ja sammuttaa tietokoneen?
+					</p>
+				</div>
+				<div class="shutdown-buttons">
+					<div class="shutdown highlight">
+						Sammuta
+					</div>
+					<div class="cancel">
+						Peru
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="folder-window" class="folder window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title"></div>
+			</div>
+
+			<div class="buttons">
+					<div class="folder-back"></div>
+					<div class="folder-forward"></div>
+				</div>
+				<div class="bottom-buttons"></div>
+				<div style="clear:both;"></div>
+			<div class="folder-list">
+				<div class="list">
+					<p>
+						Sijainnit
+					</p>
+					<ul>
+						<li class="home selected" data-folder="home">Koti</li>
+						<li class="desktop" data-folder="5">Työpöytä</li>
+						<li class="documents" data-folder="0">Asiakirjat</li>
+						<li class="downloads" data-folder="1">Lataukset</li>
+						<li class="music" data-folder="2">Musiikki</li>
+						<li class="pictures" data-folder="4">Kuvat</li>
+						<li class="videos" data-folder="3">Videot</li>
+						<li class="rubbish" data-folder="bin">Roskakori</li>
+					</ul>
+				</div>
+			</div>
+			<div class="folder-contents">
+				<div class="contents"></div>
+				<div class="selected-details"></div>
+			</div>
+		</div>
+		<div id="welcome">
+			<div id="welcome-screen" class="selected-window">
+				<div class="control">
+					<div class="window-title">Ubuntun esittely</div>
+				</div>
+				<div class="welcome-header">
+					<h1>Tervetuloa Ubuntu 14.04:n esittelyyn!</h1>
+					<h2>Kokeile Ubuntua verkkoesittelyn avulla.</h2>
+				</div>
+				<ul>
+					<li>
+						<a class="browse-files" href="#browse-files">Selaa tiedostoja</a>
+					</li>
+					<li>
+						<a class="check-email" href="#check-email">Lue sähköposti</a>
+					</li>
+					<li>
+						<a class="surf-the-web" href="#surf-the-web">Surffaa netissä</a>
+					</li>
+					<li>
+						<a class="find-apps" href="#find-apps">Löydä sovelluksia</a>
+					</li>
+					<li>
+						<a class="create-documents" href="#create-documents">Luo asiakirjoja</a>
+					</li>
+					<li>
+						<a class="view-photos" href="#view-photos">Katso kuvia</a>
+					</li>
+					<li>
+						<a class="create-presentations" href="#create-presentations">Luo esityksiä</a>
+					</li>
+					<li>
+						<a class="create-spreadsheets" href="#create-spreadsheets">Luo taulukoita</a>
+					</li>
+					<li>
+						<a class="watch-video" href="#watch-video">Katso videoita</a>
+					</li>
+				</ul>
+				<div class="language-mode">
+					<span class="active">English</span>
+					<a href="/tour/zh-CN/">中文</a>
+				</div>
+				<a class="explore-mode primary" href="#">Tutki vapaasti</a>
+				<a class="tour-mode" href="#">Siirry ohjattuun esittelyyn</a>
+			</div>
+		</div>
+		<div id="tour-guide">
+			<div class="next-button">&rsaquo;</div>
+			<div class="prev-button">&lsaquo;</div>
+			<div class="guide-container welcome">
+				<div class="guide-logo"><img src="../img/tourguide/back-to-welcome.png" /></div>
+				<h3>Ubuntun verkkoesittely</h3>
+				<p>
+					Toivottavasti nautit Ubuntun verkkoesittelystä. <a href="http://www.ubuntu.com/download/ubuntu/download?utm_source=tour&utm_medium=online&utm_campaign=tour" target="_blank">Valmiina lataamaan?</a> tai <a href="/ubuntu/take-the-tour" >siirry takaisin sivustolle</a>
+				</p>
+			</div>
+			<div class="guide-container home">
+				<div class="guide-logo"><img src="../img/tourguide/file-small.png" />
+				</div>
+				<h3>Selaa tiedostoja</h3>
+				<p>
+					Ubuntun kotikansion kautta pääset helposti ja nopeasti käsiksi kansioihisi ja tiedostoihisi.
+				</p>
+			</div>
+			<div class="guide-container firefox">
+				<div class="guide-logo"><img src="../img/tourguide/firefox-small.png" />
+				</div>
+				<h3>Surffaa netissä</h3>
+				<p>
+					Internetissä surffaus on nopeaa ja turvallista Ubuntua sekä Firefoxia käyttäen.
+				</p>
+			</div>
+			<div class="guide-container email">
+				<div class="guide-logo"><img src="../img/tourguide/mail-small.png" />
+				</div>
+				<h3>Lue sähköposti</h3>
+				<p>
+					Thunderbird-sovelluksella sähköpostien lukeminen, kirjoittaminen sekä lähettäminen käy helposti ja nopeasti.
+				</p>
+			</div>
+			<div class="guide-container shotwell">
+				<div class="guide-logo"><img src="../img/tourguide/shotwell-small.png" />
+				</div>
+				<h3>Katso kuvia</h3>
+				<p>
+					Shotwell-sovelluksella voit lähettää, järjestellä, muokata ja jakaa valokuviasi.
+				</p>
+			</div>
+			<div class="guide-container software">
+				<div class="guide-logo"><img src="../img/tourguide/apps-small.png" />
+				</div>
+				<h3>Löydä sovelluksia</h3>
+				<p>
+					Etsi ja lataa sovelluksia nopeasti Ubuntun sovellusvalikoimasta.
+				</p>
+			</div>
+			<div class="guide-container writer">
+				<div class="guide-logo"><img src="../img/tourguide/document-small.png" />
+				</div>
+				<h3>Luo asiakirjoja</h3>
+				<p>
+					LibreOffice Writer -tekstinkäsittelyllä luot ammattilaistason asiakirjoja vaivattomasti.
+				</p>
+			</div>
+			<div class="guide-container calc">
+				<div class="guide-logo"><img src="../img/tourguide/calc-small.png" />
+				</div>
+				<h3>Luo taulukoita</h3>
+				<p>
+					LibreOffice Calc sisältää kaiken tarpeellisen selkeiden ja tarkkojen taulukoiden luomiseksi.
+				</p>
+			</div>
+			<div class="guide-container impress">
+				<div class="guide-logo"><img src="../img/tourguide/impress-small.png" />
+				</div>
+				<h3>Luo esityksiä</h3>
+				<p>
+					Tee hyvä vaikutus intuitiivisella LibreOffice Impress -esitystyökalulla.
+				</p>
+			</div>
+			<div class="guide-container movieplayer">
+				<div class="guide-logo"><img src="../img/tourguide/video-small.png" />
+				</div>
+				<h3>Katso videoita</h3>
+				<p>
+					Voit katsella suosikkielokuviasi DVD:iltä, internetistä tai tietokoneelta.
+				</p>
+			</div>
+			<div class=" tour-buttons">
+				<div class="explore-to-welcome">Alkuun</div>
+				<div class="explore-to-download">Lataa Ubuntu</div>
+				<div class="explore-to-exit">Poistu esittelystä</div>
+			</div>
+		</div>
+		<div id="Translation-Strings">
+			<!--
+			* Email system
+			-->
+			<p class="_email_1_title_">
+				Esteetön
+			</p>
+			<p class="_email_2_title_">
+				Nopea
+			</p>
+			<p class="_email_3_title_">
+				Yhteensopiva
+			</p>
+			<p class="_email_4_title_">
+				Turvallinen
+			</p>
+			<p class="_email_5_title_">
+				Sinun Ubuntu, sinun tavat
+			</p>
+			<p class="_email_1_body_">
+				Helppokäyttöisyys on yksi Ubuntun keskeisistä päämääristä. Uskomme, että tietokoneiden käyttö on tarkoitettu kaikille kansallisuudesta, rodusta, sukupuolesta tai rajoittuneisuudesta riippumatta. Ubuntu-käyttöjärjestelmä on myös käännetty täysin jo 38 eri kielelle, minkä lisäksi Ubuntu tukee useita käyttöä helpottavia esteettömyystoimintoja, jotka ovat saatavilla tietenkin ilmaiseksi.
+			</p>
+			<p class="_email_2_body_">
+				Ubuntu on nopea millä tahansa tietokoneella, mutta vieläkin nopeampi uudemmilla koneilla. Koneen käynnistyminen ja internetin selaamisen aloittaminen kestävät vain sekunteja, sillä taustalla ei ole ylimääräisiä ohjelmia hidastamassa koneen toimintaa. Toisin kuin muut käyttöjärjestelmät, Ubuntun toiminta ei hidastu ajan myötä - se on nopea, ja pysyy aina nopeana.
+			</p>
+			<p class="_email_3_body_">
+				Ubuntu toimii loistavasti yhteen useiden eri laitteiden kanssa. Kytke vain esimerkiksi mp3-soittimesi, kamerasi tai tulostimesi kiinni koneeseen ja laite on käyttövalmis - et tarvitse asennuslevyjä, eikä tarvitse hermoilla turhaan. Ubuntu on myös yhteensopiva Windowsin kanssa! Voit siis avata, muokata ja jakaa Microsoft Office -tiedostoja ilman turhaa päänvaivaa.
+			</p>
+			<p class="_email_4_body_">
+				Ubuntulla voit selata nettiä turvallisesti ja huolettomasti. Voit nimittäin luottaa siihen, että tiedostosi pysyvät suojattuna, sillä palomuuri ja virusturva tulevat sisäänrakennettuna. Mikäli tietoturvariskejä jostain syystä tulee, tarjoamme täysin automaattiset päivitykset, jotka voit asentaa helposti yhdellä klikkauksella. AppArmor tarjoaa myös lisäturvaa suojaamalla tärkeimpiä sovelluksiasi niin, etteivät hyökkääjät pääse järjestelmääsi käsiksi. Näiden kaikkien lisäksi Firefox ja gnome-avainnippu yhdessä Ubuntu -käyttöjärjestelmän kanssa pitävät tietosi aina turvassa. Olipa kyseessä siis pankkitietosi tai henkilökohtaisen tiedon jakaminen ystävien tai kollegoidesi kanssa, voit Ubuntun kanssa olla aina levollisin mielin.
+			</p>
+			<p class="_email_5_body_">
+				Nauti Ubuntun yksinkertaisen tyylikkäästä ja intuitiivisesta käyttöliittymästä. Ubuntu tarjoaa sinulle miellyttävän nopean ja turvallisen käyttökokemuksen, sekä tuhansia sovelluksia, joilla voit muokata Ubuntusta täysin omanlaisesi!
+			</p>
+			<p class="_random_reply_">
+				Kiitos kun tutustuit Ubuntuun! Muistathan, että tämä on vain esittely. Lataa Ubuntu, niin pääset oikeasti kokemaan mistä on kyse.
+				<br/>
+				<br/>
+				<a href="http://www.ubuntu.com/download/ubuntu/download?utm_source=tour&utm_medium=online&utm_campaign=tour" target="_blank">Lataa Ubuntu</a>
+			</p>
+			<p class="_write_">
+				Kirjoita
+			</p>
+			<p class="_no_subject_">
+				ei aihetta
+			</p>
+			<p class="_recipient_">
+				Vastaanottaja
+			</p>
+			<p class="_from_">
+				Lähettäjä
+			</p>
+			<p class="_you_">
+				Sinä
+			</p>
+			<p class="_on_">
+				Päällä
+			</p>
+			<p class="_wrote_">
+				kirjoitti
+			</p>
+			<p class="_original_message_">
+				Alkuperäinen viesti
+			</p>
+			<p class="_fwd_">
+				Välitä
+			</p>
+			<!--
+			* Folder System
+			-->
+			<p class="_home_folder_">
+				Koti
+			</p>
+			<p class="_desktop_folder_">
+				Työpöytä
+			</p>
+			<p class="_pictures_folder_">
+				Kuvat
+			</p>
+			<p class="_videos_folder_">
+				Videot
+			</p>
+			<p class="_music_folder_">
+				Musiikki
+			</p>
+			<p class="_downloads_folder_">
+				Lataukset
+			</p>
+			<p class="_documents_folder_">
+				Asiakirjat
+			</p>
+			<p class="_canonical_folder_">
+				Canonical
+			</p>
+			<p class="_backup_folder_">
+				Varmuuskopio
+			</p>
+			<p class="_local_folder_">
+				Paikallinen
+			</p>
+			<p class="_work_folder_">
+				työ
+			</p>
+			<p class="_branches_folder_">
+				haarat
+			</p>
+			<p class="_rubbish_bin_folder_">
+				Roskakori
+			</p>
+			<!--
+			* Software Center System
+			-->
+			<p class="_remove_">
+				Poista
+			</p>
+			<p class="_price_free_">
+				Ilmainen
+			</p>
+			<p class="_installed_">
+				Asennettu
+			</p>
+			<p class="_install_">
+				Asenna
+			</p>
+			<p class="_installing_">
+				Asennetaan
+			</p>
+			<p class="_chromium_app_">
+				Chromium-selain
+			</p>
+			<p class="_chromium_sub_">
+				Käytä internetiä
+			</p>
+			<p class="_chromium_desc_">
+				Chromium on avoimen lähdekoodin internet-selain, jonka tavoitteena on tarjota netin käyttäjille turvallinen, nopea ja vakaa tapa kokea internet kaikkine sisältöineen.
+				<br/>
+				<br/>
+				Chromium toimii perustana Google Chrome -selaimelle, joka on muunnos Chromiumista. Eri nimen ja logon lisäksi muita eroja ovat Google Chromessa muun muassa käytön seuranta ja selaimen automaattinen päivitysjärjestelmä.
+				<br/>
+				<br/>
+				Tämä paketti sisältää Chromium-selaimen
+			</p>
+			<p class="_beep_app_">
+				BEEP
+			</p>
+			<p class="_beep_sub_">
+				2D-tasohyppely- ja ammuskelupeli fysiikkaan perustuvin pulmatehtävin varustettuna
+			</p>
+			<p class="_beep_desc_">
+				BEEP on fysiikkapohjanen sivustapäin kuvattu tasohyppely. Aja, hypi, lennä, ui ja ammu pienen robotin tie halki 24:n tason ja kuuden yksilöllisen ympäristön läpi käyttämällä apunasi painovoiman kumoavaa laitetta, joka toimii sekä työkaluna että aseena.
+				<br/>
+				<br/>
+				Käytä BEEP:n painovoiman kumoavaa laitetta muokataksesi ympäristöäsi. Muista myös, että laite on sekä ase että työkalu - käytä sitä murskataksesi vihollisesi, rakentaaksesi torneja ja ratkaistaksesi vastaan tulevat pulmatehtävät.
+				<br/>
+				<br/>
+				BEEP on matkustanut avaruudessa jo tuhansien vuosien ajan kartoittaen galaksia. Matkaa halki tuntemattomien aurinkokuntien BEEP-aluksella ja kartoita uusia planeettoja tutkimalla näitä robottien avulla.
+			</p>
+			<p class="_inkscape_app_">
+				Inkscape-vektorikuvitus
+			</p>
+			<p class="_inkscape_sub_">
+				Luo ja muokkaa Scalable Vector Graphics -piirroksia
+			</p>
+			<p class="_inkscape_desc_">
+				Inkscape lataa ja tallentaa tiedostoja tukien osaa SVG (Scalable Vector Graphics) -muodon ominaisuuksista. SVG-standardia ylläpitää WWW-konsortio W3C.
+				<br/>
+				<br/>
+				Inkscapen käyttöliittymän on tuttu CorelDrawin ja muiden vastaavien ohjelmien käyttäjille. Käytettävissä ovat suorakulmiot, ellipsit, tekstit, bittikarttakuvat ja käsivaraisesti piirrettävät kaaret. Lisäksi sekä vektori- että bittikarttakohteiden peittävyys voidaan määritellä ja niitä voidaan muuntaa mielivaltaisesti.
+				<br/>
+				<br/>
+				Inkscape tukee usean tiedoston avausta ja kunkin tiedoston sisällön tarkastelua useassa eri näkymässä. Kuvat voidaan tulostaa tai viedä PNG-bittikarttakuviksi.
+				<br/>
+				<br/>
+				Jotkin tuonti- ja vientiominaisuuksista tarjotaan pakettien dia, libwmf-bin, pstoedit, skencil, imagemagick ja perlmagick avulla.
+				<br/>
+				<br/>
+				Eräät muut laajennokset käyttävät paketteja ruby, libxml-xql-perl, python-numpy ja python-lxml. Kaikki nämä paketit tulee olla asennettu, jotta kaikkia laajennoksia ja tehosteita voitaisiin käyttää.
+				<br/>
+				<br/>
+				Mikäli haluat käyttää kirjoituksen ulkoasun tarkistusta, sinun tulee asentaa aspell -paketti ja vastaava kielipaketti, esim. aspell-en tai aspell-fi.
+			</p>
+			<p class="_world_of_goo_app_">
+				World of Goo
+			</p>
+			<p class="_world_of_goo_sub_">
+				Fysiikkapohjainen arvoitus-/rakennuspeli
+			</p>
+			<p class="_world_of_goo_desc_">
+				Drag and drop living, squirming, talking globs of goo to build structures, bridges, cannonballs, zeppelins, and giant tongues. The millions of innocent goo balls that live in the beautiful World of Goo are curious to explore.
+				<br/>
+				<br/>
+				But they dont know that they are in a game, or that they are extremely delicious. The most addicting and awe-inspiring puzzle game will set you on an adventure that youll never forget!
+			</p>
+			<p class="_blender_app_">
+				Blender
+			</p>
+			<p class="_blender_sub_">
+				Luo ja muokkaa 3D-malleja ja animaatioita
+			</p>
+			<p class="_blender_desc_">
+				Blender yhdistää 3D-mallintamisen, animaation teon, renderöinnin ja jälkikäsittelyn yhteen ohjelmistoon. Se soveltuu myös vuorovaikutteisten luomusten tekoon kuten peleihin. Blenderin oma käyttöliittymä on suunniteltu nopeaksi ja se on täysin OpenGL pohjainen. Python-sidokset mahdollistavat komentojonojen käytön; tuominen ja vieminen muihin käytettyihin formaatteihin kuten 3D Studio ja Wavefront Obj on toteutettu käyttäjäyhteisön laatimilla komentojonoilla. Blenderin yleisiä käyttökohteita ovat still-kuvat, animaatiot, mallit peleihin tai muihin kolmansien osapuolten moottoreihin, vuorovaikutteiset itsenäiset ohjelmat sekä WWW-selainten liitännäiset.
+			</p>
+			<p class="_braid_app_">
+				Braid
+			</p>
+			<p class="_braid_sub_">
+				Manipuloi ajan kulkua ratkaistaksesi ongelmakohdat
+			</p>
+			<p class="_braid_desc_">
+				Manipulate the flow of time to solve puzzles Braid is a platform game in painterly style where you manipulate the flow of time to solve puzzles. Every puzzle in Braid is unique; there is no filler.
+				<br/>
+				<br/>
+				Braid treats your time and attention as precious, and it does everything it can to give you a mind-expanding experience.
+				<br/>
+				<br/>
+				All gameplay is based on time manipulation. Journey into worlds where time behaves strangely; observe, learn from, and then master these worlds.
+			</p>
+			<p class="_rhythmbox_app_">
+				Rytmilaatikko-musiikkisoitin
+			</p>
+			<p class="_brasero_app_">
+				Brasero-levynkirjoittaja
+			</p>
+			<p class="_movie_player_app_">
+				Elokuvasoitin
+			</p>
+			<p class="_shotwell_app_">
+				Shotwell - valokuvien hallinta
+			</p>
+			<p class="_pitivi_app_">
+				PiTiVi -videoeditori
+			</p>
+			<p class="_sound_recorder_app_">
+				Ääninauhuri
+			</p>
+			<p class="_empathy_app_">
+				Empathy-pikaviestin
+			</p>
+			<p class="_thunderbird_app_">
+				Thunderbird-sähköposti
+			</p>
+			<p class="_firefox_app_">
+				Firefox-selain
+			</p>
+			<p class="_gwibber_app_">
+				Gwibber – sosiaaliset mediat
+			</p>
+			<p class="_remote_desktop_app_">
+				Etätyöpöytien käyttö
+			</p>
+			<p class="_terminal_app_">
+				Terminal Server -asiakas
+			</p>
+			<p class="_ubuntu_one_app_">
+				Ubuntu One
+			</p>
+			<p class="_ubuntu_software_center_app_">
+				Ubuntun sovellusvalikoima
+			</p>
+			<p class="_ubuntu_one_music_app_">
+				Ubuntu One -musiikki
+			</p>
+			<p class="_amazon_app_">
+				Amazon
+			</p>
+			<p class="_about_me_app_">
+				Omat tiedot
+			</p>
+			<p class="_additional_drivers_app_">
+				Lisäajurit
+			</p>
+			<p class="_aisleroit_app_">
+				AisleRoit-pasianssi
+			</p>
+			<p class="_appearance_app_">
+				Ulkoasu
+			</p>
+			<p class="_bluetooth_app_">
+				Bluetooth
+			</p>
+			<!--
+			* Dash
+			-->
+			<p class="_search_">Etsi tietokoneelta ja verkkolähteistä</p>
+			<!--
+			* Notifications
+			-->
+			<p class="_turn_off_bluetooth_">
+				Kytke Bluetooth pois päältä
+			</p>
+			<p class="_turn_on_bluetooth_">
+				Kytke Bluetooth päälle
+			</p>
+			<p class="_visible_">
+				Näkyvä
+			</p>
+			<p class="_mute_">
+				Vaimenna
+			</p>
+			<p class="_unmute_">
+				Palauta äänet
+			</p>
+			<p class="_shut_down_">
+				Sammuta...
+			</p>
+			<!--
+				Files Details - Images
+			-->
+			<p class="_photo_size_">
+				15.2 Kt
+			</p>
+			<p class="_photo_date_">
+				Perjantai 26. lokakuuta 2001
+			</p>
+			<p class="_buck_off_title_">
+				Hirvi
+			</p>
+			<p class="_darkening_clockwork_title_">
+				Pimenevä kellonratas
+			</p>
+			<p class="_dybbølsbro_station_title_">
+				Dybbølsbron asema
+			</p>
+			<p class="_federica_miglio_title_">
+				Federica Miglio
+			</p>
+			<p class="_jardin_polar_title_">
+				Vuorenhuippu
+			</p>
+			<p class="_langelinie_alle_title_">
+				Langelinie Alle
+			</p>
+			<p class="_momiji_dream_title_">
+				Syksyn unelmia
+			</p>
+			<p class="_mount_snowdon_title_">
+				Snowdon-vuori
+			</p>
+			<p class="_not_alone_title_">
+				Yksinäinen kukka
+			</p>
+			<p class="_power_of_words_title_">
+				Sanojen voima
+			</p>
+			<p class="_purple_dancers_title_">
+				Violetit tanssijat
+			</p>
+			<p class="_sand_maze_title_">
+				Hiekkasokkelo
+			</p>
+			<p class="_small_flowers_title_">
+				Pieniä kukkia
+			</p>
+			<p class="_stalking_ocelot_title_">
+				Vaaniva oselotti
+			</p>
+			<p class="_the_grass_aint_greener_title_">
+				Ruoho ei ole vihreämpää
+			</p>
+			<p class="_wildWheat_title_">
+				Vehnä
+			</p>
+			<!--
+				Files Details - Video
+			-->
+			<p class="_introduction_ubuntu_title_">
+				Johdanto Ubuntuun
+			</p>
+			<p class="_video_size_">
+				5.3 Mt
+			</p>
+			<p class="_video_date_">
+				Maanantai 11. lokakuuta 2010
+			</p>
+			<!--
+				Files Details - Music
+			-->
+			<p class="_happyness_title_">
+				Onnellisuus
+			</p>
+			<p class="_music_size_">
+				3.3 Mt
+			</p>
+			<p class="_music_date_">
+				Keskiviikko 14. lokakuuta 2010
+			</p>
+		</div>
+		<script type="text/javascript" src="../js/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="../js/lang.js"></script>
+		<script type="text/javascript" src="../js/scripts.js"></script>
+		<script type="text/javascript" src="../js/welcomesystem.js"></script>
+		<script type="text/javascript" src="../js/guidedtoursystem.js"></script>
+		<script type="text/javascript" src="../js/filesystem.js"></script>
+		<script type="text/javascript" src="../js/folders.js"></script>
+		<script type="text/javascript" src="../js/systemoverlay.js"></script>
+		<script type="text/javascript" src="../js/systemmenu.js"></script>
+		<script type="text/javascript" src="../js/internetsystem.js"></script>
+		<script type="text/javascript" src="../js/emailsystem.js"></script>
+		<script type="text/javascript" src="../js/systemsettings.js"></script>
+		<script type="text/javascript" src="../js/email.js"></script>
+		<script type="text/javascript" src="../js/errormessage.js"></script>
+		<script type="text/javascript" src="../js/ubuntuonesystem.js"></script>
+		<script type="text/javascript" src="../js/file.js"></script>
+		<script type="text/javascript" src="../js/shotwellsystem.js"></script>
+		<script type="text/javascript" src="../js/shutdownSystem.js"></script>
+		<script type="text/javascript" src="../js/movieplayersystem.js"></script>
+		<script type="text/javascript" src="../js/libresystem.js"></script>
+		<script type="text/javascript" src="../js/softwaresystem.js"></script>
+		<script type="text/javascript" src="../js/notificationsystem.js"></script>
+		<script type="text/javascript" src="../js/analytics.js"></script>
+	</body>
+</html>

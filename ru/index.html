@@ -1,0 +1,1512 @@
+﻿<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+	<head>
+		<title>Онлайн-тур по Ubuntu</title>
+		<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+		<meta charset="UTF-8" />
+		<meta name="description" content="Enjoy the simplicity of Ubuntu's stylish, intuitive interface. Take Ubuntu for a test drive with our online tour and download when you're ready!" />
+		<meta name="keywords" content="ubuntu, ubuntu online, ubuntu tour" />
+		<link rel="stylesheet" href="../css/loader.css" type="text/css" />
+		<link rel="stylesheet" href="../css/error.css" type="text/css" />
+		<link rel="stylesheet" href="../css/base.css" type="text/css" />
+		<link rel="stylesheet" href="../css/folder.css" type="text/css" />
+		<link rel="stylesheet" href="../css/firefox.css" type="text/css" />
+		<link rel="stylesheet" href="../css/email.css" type="text/css" />
+		<link rel="stylesheet" href="../css/systemoverlay.css" type="text/css" />
+		<link rel="stylesheet" href="../css/ubuntuone.css" type="text/css" />
+		<link rel="stylesheet" href="../css/shotwell.css" type="text/css" />
+		<link rel="stylesheet" href="../css/tourguide.css" type="text/css" />
+		<link rel="stylesheet" href="../css/welcome.css" type="text/css" />
+		<link rel="stylesheet" href="../css/shutdown.css" type="text/css" />
+		<link rel="stylesheet" href="../css/movieplayer.css" type="text/css" />
+		<link rel="stylesheet" href="../css/libre.css" type="text/css" />
+		<link rel="stylesheet" href="../css/notification.css" type="text/css" />
+		<link rel="stylesheet" href="../css/software-centre.css" type="text/css" />
+		<!--[if IE 8]>
+		<link rel="stylesheet" href="../css/iefix.css" type="text/css" />
+		<![endif]-->
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700' rel='stylesheet' type='text/css' />
+		<script type="text/javascript">
+			WebFontConfig = {
+				google : {
+					families : ['Ubuntu:400,700:latin']
+				}
+			}; (function() {
+				var wf = document.createElement('script');
+				wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+				wf.type = 'text/javascript';
+				wf.async = 'true';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(wf, s);
+			})();
+
+		</script>
+	</head>
+	<body>
+		<div id="loader">
+			<div id="dot-container">
+				<noscript>
+					<p>
+						This demo uses JavaScript. Either your browser doesn't support JavaScript, or it's currently switched off.
+						<br/>
+						<br/>
+						Don't panic. We've got <a href="/ubuntu/take-the-tour-gallery">a non-JavaScript version</a> of the online tour you can view instead. :)
+					</p>
+				</noscript>
+			</div>
+		</div>
+		<div id="top" class="dropShadow">
+			<div id="top-left">
+				<div id="control-buttons">
+					<div id="close"></div>
+					<div id="min"></div>
+					<div id="max"></div>
+				</div>
+				<div id="dash-control-buttons">
+					<div class="close"></div>
+					<div class="min"></div>
+					<div class="max"></div>
+				</div>
+				<div id="title"></div>
+			</div>
+			<div id="top-right">
+				<div id="connection"><img src="../img/top/connection.png" alt=""/>
+					<ul class="drop-down">
+						<li class="disabled">
+							Auto eth0
+						</li>
+						<li class="disabled">
+							Отключить
+						</li>
+						<li class="divider"></li>
+						<!--<li class="disabled"><img src="../img/top/wireless-icon.png" alt=""/> My Wireless Connection</li>
+						<li class="disabled">Отключить</li>
+						<li class="divider"></li>-->
+						<li class="disabled">
+							Сведения о соединении
+						</li>
+						<li class="disabled">
+							Изменить соединения…
+						</li>
+					</ul>
+				</div>
+				<div id="bluetooth"><img src="../img/top/bluetooth.png" alt=""/>
+					<ul class="drop-down">
+						<li class="disabled bluetooth">
+							Bluetooth: включен
+						</li>
+						<li>
+							Выключить Bluetooth
+						</li>
+						<li class="divider"></li>
+						<li class="disabled BtOn">
+							Видимый
+						</li>
+						<li class="divider BtOn"></li>
+						<li class="disabled BtOn">
+							Отправить файлы на устройство…
+						</li>
+						<li class="disabled BtOn">
+							Просмотреть файлы на устройстве...
+						</li>
+						<li class="divider"></li>
+						<li class="disabled BtOn">
+							Настроить новое устройство…
+						</li>
+						<li class="divider BtOn"></li>
+						<li class="disabled">
+							Параметры
+						</li>
+					</ul>
+				</div>
+				<div id="message"><img src="../img/top/nomessage.jpg" class="message-logo" alt="" />
+					<ul class="drop-down">
+						<li class="system-message"></li>
+					</ul>
+				</div>
+				<div id="speakers"><img src="../img/top/speakers3.png" class="speakers-logo"  alt=""/>
+					<ul class="drop-down">
+						<li>
+							Выключить звук
+						</li>
+						<li class="system-volume">
+							<div class="large-icon"></div><div class="small-icon"></div><div class="slider"></div><div class="slider-active"></div>
+						</li>
+						<li class="divider"></li>
+						<li class="disabled"><img src="../img/top/rhythmbox.png" alt=""/> Rhythmbox
+						</li>
+						<li class="banshee">
+							<div class="banshee-rewind"></div><div class="banshee-forward"></div><div class="banshee-play"></div>
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							Параметры звука…
+						</li>
+					</ul>
+				</div>
+				<div id="time">
+					<p></p>
+					<ul class="drop-down">
+						<li class="system-calendar"></li>
+					</ul>
+				</div>
+				<div id="power"><img src="../img/top/power.png"  alt=""/>
+					<ul class="drop-down">
+						<li class="disabled">
+							About This Computer
+						</li>
+						<li class="disabled">
+							Ubuntu Help
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							System Settings&hellip;
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							Lock <span class="key-combo">Ctrl+Alt+L</span>
+						</li>
+						<li class="disabled user">
+							Guest Session
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							Logout
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							Ждущий режим
+						</li>
+						<li class="disabled">
+							Restart&hellip;
+						</li>
+						<li>
+							Выключить…
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="tooltip">
+			<div class="shadow-arrow"></div>
+			<div class="arrow-right"></div>
+			<div id="tooltip-text"></div>
+		</div>
+		<div id="menu">
+			<ul>
+				<li class="dash">
+					<span>Главное меню</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="home"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Домашняя папка</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="firefox"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Веб-браузер Firefox</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="writer"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>LibreOffice Writer</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="calc"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>LibreOffice Calc</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="impress"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>LibreOffice Impress</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="software"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Центр приложений Ubuntu</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="amazon"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Amazon</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="settings"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Параметры системы</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="email temp"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""><span>Thunderbird Mail</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt="">
+				</li>
+				<li class="shotwell temp"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Менеджер фотографий Shotwell</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="movieplayer temp"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Видеопроигрыватель</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<!--<li class="workspace"><span>Workspace Switcher</span></li>-->
+				<li class="rubbish bottom">
+					<span>Корзина</span>
+				</li>
+			</ul>
+		</div>
+		<div id="systemOverlay">
+			<div class="copyDash"></div>
+			<div id="overlayContents">
+				<input type="text" name="search" value="Search your computer and online sources"/>
+				<div id="display-home" class="app-container">
+					<div class="recent-apps bottom"><img src="../img/overlay/recentapps.png" alt=""/> Приложения <div class="app-list"></div>
+					</div>
+					<div class="recent-files bottom"><img src="../img/overlay/recentfiles.png" alt=""/> Файлы и папки<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-apps" class="app-container">
+					<div class="frequently bottom"><img src="../img/overlay/recentapps.png" alt=""/> Недавно использовавшиеся <div class="app-list"></div>
+					</div>
+					<div class="installed"><img src="../img/overlay/installed.png" alt=""/> Установлено<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-find-files" class="app-container">
+					<div class="files bottom"><img src="../img/overlay/recentfiles.png" alt=""/> Недавние<div class="app-list"></div>
+					</div>
+					<div class="downloads bottom"><img src="../img/overlay/downloaded.png" alt=""/> Загрузки<div class="app-list"></div>
+					</div>
+					<div class="folders"><img src="../img/overlay/folders.png" alt=""/> Папки<div class="app-list"></div>
+					</div>
+
+				</div>
+				<div id="display-find-music" class="app-container">
+					<div class="songs bottom"><img src="../img/overlay/folders.png" alt=""/> Композиции<div class="app-list"></div>
+					</div>
+					<div class="albums"><img src="../img/overlay/folders.png" alt=""/> Альбомы<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-find-video" class="app-container">
+					<div class="videos bottom"><img src="../img/overlay/folders.png" alt=""/> Видео<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-find-photos" class="app-container">
+					<div class="photos bottom"><img src="../img/overlay/folders.png" alt=""/> My photos<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-chat" class="app-container">
+					<div class="message">
+						<p>Sorry, there is nothing that matches your search</p>
+					</div>
+				</div>
+				<div id="display-search" class="app-container">
+					<div class="applications bottom"><img src="../img/overlay/search-apps-logo.jpg" alt=""/> Приложения<div class="app-list"></div>
+					</div>
+					<div class="files"><img src="../img/overlay/search-files-logo.jpg" alt=""/> Файлы и папки<div class="app-list"></div>
+					</div>
+				</div>
+			</div>
+			<div id="dash-bottom-bar">
+				<div class="bottom-wrapper">
+					<div class="home-icon active"></div>
+					<div class="applications-icon"></div>
+					<div class="files-icon"></div>
+					<div class="music-icon"></div>
+					<div class="video-icon"></div>
+					<div class="photos-icon"></div>
+					<div class="chat-icon last"></div>
+				</div>
+			</div>
+			<div id="preview">
+				<div class="image"></div>
+				<div class="info"></div>
+				<div class="buttons">
+					<a class="email">E-mail</a>
+					<a class="showInFolder">Show in Folder</a>
+					<a class="open">Open</a>
+				</div>
+			</div>
+		</div>
+		<div id="ubuntuone-window" class="uone window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="window-title">
+					Панель управления Ubuntu One
+				</div>
+			</div>
+			<div class="content">
+				<div class="header"></div>
+				<div class="body">
+					<h1>Вся сила вашего личного облака</h1>
+					<div class="features">
+						<div class="files-anywhere">
+							<span class="logo"></span>
+							<div>
+								<h3>Файлы, доступные везде</h3>
+								<p>
+									Создавайте резервные копии, получайте доступ к вашим файлам из Ubuntu, Windows, Веб или Мобильных устройств
+								</p>
+							</div>
+						</div>
+						<div class="rock-out">
+							<span class="logo"></span>
+							<div>
+								<h3>Наслаждайтесь музыкой</h3>
+								<p>
+									Потоковая передача музыки на Android и iPhone позволяет вашей музыкальной коллекции быть с вами повсюду
+								</p>
+							</div>
+						</div>
+						<div class="keep-connected">
+							<span class="logo"></span>
+							<div>
+								<h3>Оставайтесь на связи</h3>
+								<p>
+									Объедините ваши контакты между компьютером, мобильным телефоном и Интернетом
+								</p>
+							</div>
+						</div>
+						<div class="stay-productive">
+							<span class="logo"></span>
+							<div>
+								<h3>Не отрывайтесь от дел</h3>
+								<p>
+									Синхронизируйте ваши закладки Firefox и заметки Tomboy
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="ubuntuone-buttons">
+						<div class="learn-more"><img src="../img/ubuntuone/ubuntuone-logo.jpg" width="47" height="48" alt=""/>
+							<div>
+								Узнать больше
+							</div>
+						</div>
+						<div class="join-now">
+							<h2>Присоединиться</h2>
+						</div>
+						<div class="have-account">
+							Я уже зарегистрирован!
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="libreoffice-calc-window" class="calc window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Без имени 1 - LibreOffice Calc
+				</div>
+			</div>
+			<div class="content">
+
+			</div>
+		</div>
+		<div id="libreoffice-writer-window" class="writer window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Без имени 1 - LibreOffice Writer
+				</div>
+			</div>
+			<div class="content">
+
+			</div>
+		</div>
+		<div id="libreoffice-impress-window" class="impress window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Без имени 1 - LibreOffice Impress
+				</div>
+			</div>
+			<div class="content">
+
+			</div>
+		</div>
+		<div class="error-window window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="window-title"></div>
+			</div>
+			<div class="error-container">
+				<h1>Спасибо, что исследуете Ubuntu!</h1>
+				<a class="download"  href="http://www.ubuntu.com/download/ubuntu/download?utm_source=tour&utm_medium=online&utm_campaign=tour" target="_blank">Загрузить Ubuntu</a>
+				<h2>Помните, это всего лишь демонстрация. Чтобы насладиться работой в настоящей операционной системе, нужно скачать её!</h2>
+			</div>
+		</div>
+		<!--<div id="error-window" class="error-window window">
+		<div class="control">
+		<div class="close"></div>
+		<div class="window-title"></div>
+		</div>
+		<div class="content">
+		<img src="../img/error/warning.jpg"/>
+		<div class="message">
+		<p>Thanks for exploring Ubuntu</p>
+		<p>Помните, это всего лишь демонстрация. Чтобы насладиться работой в настоящей операционной системе, нужно скачать её!</p>
+		</div>
+		<div class="error-buttons"><div class="download highlight">Загрузить Ubuntu</div></div>
+		</div>
+		</div>-->
+		<!--<div id="workspaces">
+		<div id="void">
+		<div id="workspace-container">
+		<div id="workspace1"><div class="fadedOverlay"></div></div>
+		<div id="workspace2"><div class="fadedOverlay"></div></div>
+		<div id="workspace3"><div class="fadedOverlay"></div></div>
+		<div id="workspace4"><div class="fadedOverlay"></div></div>
+		<div class="reflection" style="clear:both;"></div>
+		<div class="reflection"></div>
+		</div>
+		</div>
+		</div>-->
+		<div id="email-window" class="email-window window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Электронная почта
+				</div>
+			</div>
+			<div class="buttons">
+				<div class="email-get-mail">
+					Получить
+				</div>
+				<div class="email-divider"></div>
+				<div class="email-write">
+					Создать
+				</div>
+				<!--<div class="email-address-book"></div>
+				<div class="email-divider"></div>
+				<div class="email-tag"></div>
+				<div class="email-search"><input type="text" name="submitEmailSearch" id="submitEmailSearch"/></div>-->
+			</div>
+			<div style="clear:both;"></div>
+			<div class="email-content">
+				<div class="folder-list">
+					<div class="bottom-buttons">
+						Все папки
+					</div>
+					<div style="clear:both;"></div>
+					<div class="list">
+						<div id="folder-inbox" class="selected"><img src="../img/email/inbox.png" alt=""/> Входящие
+						</div>
+						<div id="folder-draft"><img src="../img/email/drafts.png" alt=""/> Черновики
+						</div>
+						<div id="folder-sent"><img src="../img/email/sent.png" alt=""/> Отправленные
+						</div>
+						<div id="folder-archive"><img src="../img/email/archive-logo.png" alt=""/> Архивировать
+						</div>
+						<div id="folder-trash"><img src="../img/email/trash.png" alt=""/> Удалённые
+						</div>
+					</div>
+				</div>
+				<div class="email-contents">
+					<div class="email-categories">
+						<div><img src="../img/email/t.png" alt=""/>
+						</div>
+						<div><img src="../img/email/star.png" alt=""/>
+						</div>
+						<div><img src="../img/email/clip.png" alt=""/>
+						</div>
+						<div class="subject">
+							Тема
+						</div>
+						<div><img src="../img/email/glasses.png" alt=""/>
+						</div>
+						<div class="from">
+							От
+						</div>
+						<div><img src="../img/email/fire.png" alt=""/>
+						</div>
+						<div class="date">
+							Дата
+						</div>
+					</div>
+					<div style="clear:both;"></div>
+					<div class="email-list"></div>
+					<div class="email-body">
+						<div class="message-header">
+							<div class="email-buttons">
+								<div>
+									<span class="message-reply">Ответить</span>
+									<span class="message-forward">Переслать</span>
+									<span class="message-archive">Архивировать</span>
+									<span class="message-junk">Спам</span>
+									<span class="message-delete">Удалить</span>
+								</div>
+							</div>
+							<div style="clear:both;"></div>
+							<div class="date"></div>
+							<dl class="from">
+								<dt>
+									От
+								</dt><dd></dd>
+							</dl>
+							<dl class="subject">
+								<dt>
+									Тема
+								</dt><dd></dd>
+							</dl>
+							<dl class="to">
+								<dt>
+									Кому
+								</dt><dd></dd>
+							</dl>
+							<dl class="cc">
+								<dt>
+									Копия
+								</dt><dd></dd>
+							</dl>
+						</div>
+						<div class="junk-mail-banner"><img src="../img/email/large-fire.jpg" alt=""/> Спам
+							<div class="not-junk">
+								Не спам
+							</div>
+						</div>
+						<div class="message-body"></div>
+					</div>
+				</div>
+				<div style="clear:both;"></div>
+				<div class="emails-info">
+					<div>
+						Непрочитанных: <span id="details-unread">1</span> Всего: <span id="details-total">1</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="email-write" class="email-write window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Создание сообщения: (без темы)
+				</div>
+			</div>
+			<div class="buttons">
+				<div id="write-send">
+					Отправить
+				</div>
+				<div class="email-divider"></div>
+				<div id="write-attach">
+					Вложить
+				</div>
+			</div>
+			<div style="clear:both;"></div>
+			<div id="write-from">
+				<div>
+					От:
+				</div>
+				<input type="text" name="from" value="You"/>
+			</div>
+			<div id="write-to">
+				<div>
+					Кому:
+				</div>
+				<input type="text" name="to"/>
+			</div>
+			<div id="write-subject">
+				<div>
+					Тема:
+				</div>
+				<input type="text" name="subject"/>
+			</div>
+			<div><img src="../img/email/disabled-format-buttons.jpg" width="853" height="32" alt=""/>
+			</div>
+			<div id="write-body">
+				<textarea name="body"></textarea>
+</div>			<div class="loading-bar">
+				<div class="progress"></div>
+			</div>
+		</div>
+		<div id="software-centre" class="software window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Центр приложений Ubuntu
+				</div>
+			</div>
+			<div class="top-panel">
+				<div class="back disabled"></div>
+				<div class="forward disabled"></div>
+				<div class="all-software selected"><img src="../img/software-centre/all-software.png" alt=""/>Все приложения
+				</div>
+				<div class="installed"><img src="../img/software-centre/installed.png" alt=""/>Установлено
+				</div>
+				<div class="history"><img src="../img/software-centre/history.png" alt=""/>История
+				</div>
+			</div>
+			<div class="container detailed">
+				<div class="title"><img src="../img/software-centre/visolate.png" class="app-image" width="100" alt=""/><h1>Visolate</h1>
+					<p class="subheading">
+						PCB CNC конвертер
+					</p>
+					<p class="rating"><img src="../img/software-centre/rating.jpg" alt="" /> (91 Рейтинг)
+					</p>
+				</div>
+				<div class="price">
+					<span class="theprice">Бесплатно</span><span class="button">Установить</span>
+					<div class="loading-bar">
+						<div class="progress"></div>
+					</div>
+				</div>
+				<div class="description-container">
+					<div class="description-image"><img src="../img/software-centre/screenshot-blender.jpg" alt="" />
+					</div>
+					<div class="description"><img src="../img/software-centre/screenshot-blender.jpg" alt="" />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quam augue, convallis id commodo id, tristique ac mi. Ut dapibus, neque eget elementum pretium, nunc turpis congue eros, et interdum nisi nisi at diam. Duis dictum, justo eget imperdiet pulvinar, dolor est fermentum nisl, luctus imperdiet metus elit a purus. Quisque nisl enim, lacinia ut venenatis in, porttitor eget orci. Quisque non nibh nec risus tincidunt sollicitudin vitae et nisl. Proin odio lacus, vulputate non auctor sit amet, dapibus quis tortor. Donec elit libero, pellentesque quis dictum sed, hendrerit non libero. Aliquam eu diam id leo auctor tincidunt. Phasellus cursus felis at nulla facilisis semper. Cras mauris urna, adipiscing sed scelerisque ut, gravida id neque. Mauris ut vestibulum justo. Curabitur convallis elementum pellentesque. Duis sit amet arcu ac eros pretium scelerisque. Nunc nec nisi nulla.
+					</div>
+					<div style="clear:both;"></div>
+				</div>
+			</div>
+			<div class="container home">
+				<div class="header-image">
+					<span class="header-title">Наш выбор</span>
+					<span class="header-subtitle">Посмотрите на приложения, выбранные нами</span>
+				</div>
+				<div class="navigation">
+					<ul>
+						<li>
+							Стандартные
+						</li>
+						<li>
+							Средства разработки
+						</li>
+						<li>
+							Образовательные
+						</li>
+						<li>
+							Шрифты
+						</li>
+						<li>
+							Игры
+						</li>
+						<li>
+							Графика
+						</li>
+						<li>
+							Интернет
+						</li>
+						<li>
+							Офисные
+						</li>
+						<li>
+							Наука и проектирование
+						</li>
+						<li>
+							Аудио и видео
+						</li>
+						<li>
+							Системные
+						</li>
+						<li>
+							Темы и расширенные настройки
+						</li>
+					</ul>
+				</div>
+				<div class="whats-new">
+					<h2> Что нового</h2>
+					<div class="app-container">
+						<div class="chromium">
+							<h3>Chromium</h3>
+							<p>
+								Интернет
+							</p>
+							<p class="cost">
+								Бесплатно
+							</p>
+						</div>
+						<div class="beep">
+							<h3>BEEP</h3>
+							<p>
+								Игры
+							</p>
+							<p class="cost">
+								$9.99
+							</p>
+						</div>
+						<div class="inkscape">
+							<h3>Inkscape</h3>
+							<p>
+								Графика
+							</p>
+							<p class="cost">
+								Бесплатно
+							</p>
+						</div>
+						<div class="worldofgoo">
+							<h3>World of Goo</h3>
+							<p>
+								Игры
+							</p>
+							<p class="cost">
+								$19.99
+							</p>
+						</div>
+						<div class="blender">
+							<h3>Blender</h3>
+							<p>
+								Графика
+							</p>
+							<p class="cost">
+								Бесплатно
+							</p>
+						</div>
+						<div class="braid">
+							<h3>Braid</h3>
+							<p>
+								Игры
+							</p>
+							<p class="cost">
+								$9.99
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="whats-new">
+					<h2> Лучшие оценки</h2>
+					<div class="app-container">
+						<div class="beep">
+							<h3>BEEP</h3>
+							<p>
+								Игры
+							</p>
+							<p class="cost">
+								$9.99
+							</p>
+						</div>
+						<div class="chromium">
+							<h3>Chromium</h3>
+							<p>
+								Интернет
+							</p>
+							<p class="cost">
+								Бесплатно
+							</p>
+						</div>
+						<div class="worldofgoo">
+							<h3>World of Goo</h3>
+							<p>
+								Игры
+							</p>
+							<p class="cost">
+								$19.99
+							</p>
+						</div>
+						<div class="braid">
+							<h3>Braid</h3>
+							<p>
+								Игры
+							</p>
+							<p class="cost">
+								$9.99
+							</p>
+						</div>
+						<div class="inkscape">
+							<h3>Inkscape</h3>
+							<p>
+								Графика
+							</p>
+							<p class="cost">
+								Бесплатно
+							</p>
+						</div>
+						<div class="blender">
+							<h3>Blender</h3>
+							<p>
+								Графика
+							</p>
+							<p class="cost">
+								Бесплатно
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="shotwell" class="shotwell window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Shotwell
+				</div>
+			</div>
+			<div class="sidebar">
+				<div class="nav">
+					<ul>
+						<li class="library">
+							Библиотека
+						</li>
+					</ul>
+				</div>
+				<div class="details">
+					<div class="overall">
+						<div>
+							Элементы: <span class="items">16 фотографий</span>
+						</div>
+						<div>
+							От: <span class="from">Пятница, 26 Октября 2001</span>
+						</div>
+						<div>
+							Кому: <span class="to">Понедельник, 11 Октября 2010</span>
+						</div>
+					</div>
+					<div class="single">
+						<div>
+							Тема: <span class="title"></span>
+						</div>
+						<div>
+							Дата: <span class="date"></span>
+						</div>
+						<div>
+							Размер: <span class="size"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="images"></div>
+				<div class="tools">
+					<div class="jump-image">
+						<div class="next"></div><div class="prev"></div>
+					</div>
+					<div class="slider-container">
+						<div class="small-icon"></div><div class="slider"></div><div class="slider-active"></div><div class="large-icon"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="movieplayer" class="movieplayer window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Видеопроигрыватель
+				</div>
+			</div>
+			<div class="container">
+				<div class="video"></div>
+			</div>
+		</div>
+		<div id="firefox-window" class="firefox-window window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Исследуйте интернет
+				</div>
+			</div>
+			<div class="buttons">
+				<div class="firefox-back"></div>
+				<div class="firefox-forward"></div>
+				<div class="firefox-url">
+					<input type="text" name="submitURL" id="submitURL" value="http://www.ubuntu.com"/>
+				</div>
+				<div class="firefox-search">
+					<input type="text" name="submitSearch" id="submitSearch" value="Wikipedia" class="fade-text"/>
+				</div>
+			</div>
+			<div style="clear:both;"></div>
+			<div class="firefox-internet">
+				<div class="web-overlay-tran"></div>
+				<div class="theIframe">
+					<iframe src="../http://www.ubuntu.com" id="firefoxInternet" >
+						<p>
+							Ваш браузер не поддерживает iframes.
+						</p>
+					</iframe>
+				</div>
+			</div>
+		</div>
+		<div id="shutdown-window" class="window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="window-title">
+					Выключение
+				</div>
+			</div>
+			<div class="content">
+				<img src="../img/powerwarning.jpg" alt=""/>
+				<div class="message">
+					<p>
+						Вы действительно хотите закрыть все приложения и выключить компьютер?
+					</p>
+				</div>
+				<div class="shutdown-buttons">
+					<div class="shutdown highlight">
+						Выключение
+					</div>
+					<div class="cancel">
+						Отменить
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="folder-window" class="folder window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title"></div>
+			</div>
+
+			<div class="buttons">
+					<div class="folder-back"></div>
+					<div class="folder-forward"></div>
+				</div>
+				<div class="bottom-buttons"></div>
+				<div style="clear:both;"></div>
+			<div class="folder-list">
+				<div class="list">
+					<p>
+						Places
+					</p>
+					<ul>
+						<li class="home selected" data-folder="home">Домашняя папка</li>
+						<li class="desktop" data-folder="5">Рабочий стол</li>
+						<li class="documents" data-folder="0">Документы</li>
+						<li class="downloads" data-folder="1">Загрузки</li>
+						<li class="music" data-folder="2">Музыка</li>
+						<li class="pictures" data-folder="4">Изображения</li>
+						<li class="videos" data-folder="3">Видео</li>
+						<li class="rubbish" data-folder="bin">Корзина</li>
+					</ul>
+				</div>
+			</div>
+			<div class="folder-contents">
+				<div class="contents"></div>
+				<div class="selected-details"></div>
+			</div>
+		</div>
+		<div id="welcome">
+			<div id="welcome-screen" class="selected-window">
+				<div class="control">
+					<div class="window-title">Онлайн-тур по Ubuntu</div>
+				</div>
+				<div class="welcome-header">
+					<h1>Welcome to the Ubuntu 14.04 tour!</h1>
+					<h2>Попробуйте Ubuntu с помощью нашей онлайн-демонстрации.</h2>
+				</div>
+				<ul>
+					<li>
+						<a class="browse-files" href="#browse-files">Просматривайте файлы</a>
+					</li>
+					<li>
+						<a class="check-email" href="#check-email">Проверяйте почту</a>
+					</li>
+					<li>
+						<a class="surf-the-web" href="#surf-the-web">Исследуйте Интернет</a>
+					</li>
+					<li>
+						<a class="find-apps" href="#find-apps">Находите приложения</a>
+					</li>
+					<li>
+						<a class="create-documents" href="#create-documents">Создавайте документы</a>
+					</li>
+					<li>
+						<a class="view-photos" href="#view-photos">Просматривайте фотографии</a>
+					</li>
+					<li>
+						<a class="create-presentations" href="#create-presentations">Создавайте презентации</a>
+					</li>
+					<li>
+						<a class="create-spreadsheets" href="#create-spreadsheets">Создавайте таблицы</a>
+					</li>
+					<li>
+						<a class="watch-video" href="#watch-video">Watch videos</a>
+					</li>
+				</ul>
+				<div class="language-mode">
+					<span class="active">Английский</span>
+					<a href="/tour/zh-CN/">中文</a>
+				</div>
+				<a class="explore-mode primary" href="#">Самостоятельный обзор</a>
+				<a class="tour-mode" href="#">Экскурсия с гидом</a>
+			</div>
+		</div>
+		<div id="tour-guide">
+			<div class="next-button">&rsaquo;</div>
+			<div class="prev-button">&lsaquo;</div>
+			<div class="guide-container welcome">
+				<div class="guide-logo"><img src="../img/tourguide/back-to-welcome.png" /></div>
+				<h3>Онлайн-тур по Ubuntu</h3>
+				<p>
+					Надеемся, вам понравился онлайн-тур по Ubuntu. <a href="http://www.ubuntu.com/download/ubuntu/download?utm_source=tour&utm_medium=online&utm_campaign=tour" target="_blank">Готовы к загрузке?</a> или <a href="/ubuntu/take-the-tour" >вернуться на сайт</a>
+				</p>
+			</div>
+			<div class="guide-container home">
+				<div class="guide-logo"><img src="../img/tourguide/file-small.png" />
+				</div>
+				<h3>Просматривайте файлы</h3>
+				<p>
+					Домашняя папка Ubuntu позволяет быстро и легко получить доступ к вашим папкам и файлам.
+				</p>
+			</div>
+			<div class="guide-container firefox">
+				<div class="guide-logo"><img src="../img/tourguide/firefox-small.png" />
+				</div>
+				<h3>Исследуйте Интернет</h3>
+				<p>
+					Путешествовать по Интернету с Ubuntu и Firefox быстро и просто.
+				</p>
+			</div>
+			<div class="guide-container email">
+				<div class="guide-logo"><img src="../img/tourguide/mail-small.png" />
+				</div>
+				<h3>Проверяйте почту</h3>
+				<p>
+					Читайте, пишите и отправляйте сообщения электронной почты с помощью Thunderbird. Это легко и быстро.
+				</p>
+			</div>
+			<div class="guide-container shotwell">
+				<div class="guide-logo"><img src="../img/tourguide/shotwell-small.png" />
+				</div>
+				<h3>Просматривайте фотографии</h3>
+				<p>
+					Загружайте на сайты, упорядочивайте, редактируйте и обменивайтесь фотографиями в Shotwell.
+				</p>
+			</div>
+			<div class="guide-container software">
+				<div class="guide-logo"><img src="../img/tourguide/apps-small.png" />
+				</div>
+				<h3>Находите приложения</h3>
+				<p>
+					Быстро находите и загружайте приложения в Центре приложений Ubuntu
+				</p>
+			</div>
+			<div class="guide-container writer">
+				<div class="guide-logo"><img src="../img/tourguide/document-small.png" />
+				</div>
+				<h3>Создавайте документы</h3>
+				<p>
+					LibreOffice Writer упрощает подготовку профессионально выглядящих документов.
+				</p>
+			</div>
+			<div class="guide-container calc">
+				<div class="guide-logo"><img src="../img/tourguide/calc-small.png" />
+				</div>
+				<h3>Создавайте таблицы</h3>
+				<p>
+					В LibreOffice Calc есть всё для создания привлекательных и точных электронных таблиц.
+				</p>
+			</div>
+			<div class="guide-container impress">
+				<div class="guide-logo"><img src="../img/tourguide/impress-small.png" />
+				</div>
+				<h3>Создавайте презентации</h3>
+				<p>
+					Произведите хорошее впечатление с помощью инструмента подготовки презентаций LibreOffice Impress.
+				</p>
+			</div>
+			<div class="guide-container movieplayer">
+				<div class="guide-logo"><img src="../img/tourguide/video-small.png" />
+				</div>
+				<h3>Watch videos</h3>
+				<p>
+					You can watch all your favourite films and videos, DVDs, downloads or movies you've created yourself.
+				</p>
+			</div>
+			<div class=" tour-buttons">
+				<div class="explore-to-welcome">Welcome screen</div>
+				<div class="explore-to-download">Загрузить Ubuntu</div>
+				<div class="explore-to-exit">Exit the Tour</div>
+			</div>
+		</div>
+		<div id="Translation-Strings">
+			<!--
+			* Email system
+			-->
+			<p class="_email_1_title_">
+				Доступный
+			</p>
+			<p class="_email_2_title_">
+				Быстрый
+			</p>
+			<p class="_email_3_title_">
+				Совместимый
+			</p>
+			<p class="_email_4_title_">
+				Безопасный
+			</p>
+			<p class="_email_5_title_">
+				Ваш Ubuntu, ваш путь
+			</p>
+			<p class="_email_1_body_">
+				Доступность занимает центральное место в философии Ubuntu. Мы считаем, что компьютеры должны быть доступны для всех, независимо от национальности, расы, пола или физических ограничений. Полностью переведённая на 38 языков, Ubuntu также включает существенный набор вспомогательных технологий, которые предоставляются, конечно же, совершенно бесплатно.
+			</p>
+			<p class="_email_2_body_">
+				Ubuntu загружается быстро на любом компьютере, но делает это супер быстро на новейших машинах. При отсутствии замедляющих работу ненужных программ и пробного программного обеспечения, загрузка и открытие браузера занимает несколько секунд. В отличие от других операционных систем, которые заставляют Вас смотреть в экран, ожидая, что Вы рано или поздно выйдите в Интернет. И время загрузки в Ubuntu не будет увеличиваться с течением времени. Ubuntu загружается быстро. Всегда.
+			</p>
+			<p class="_email_3_body_">
+				Ubuntu отлично работает со многими устройствами. Просто подключите ваш mp3-плеер, камеру или принтер, и они начнут работать. Никаких установочных CD. Никакой суеты. И еще она совместима с Windows! Так что вы можете без проблем открывать, редактировать документы Microsoft Office и обмениваться ими с другими пользователями.
+			</p>
+			<p class="_email_4_body_">
+				В Ubuntu вы можете безопасно путешествовать по Интернету и быть уверенным, что ваши файлы и данные остаются защищёнными. Встроенный межсетевой экран и защита от вирусов являются стандартом. А если появляется потенциальная угроза, мы предоставляем автоматические обновления, которые можно установить одним щелчком мыши. AppArmor обеспечивает дополнительную безопасность, защищая важные приложения, чтобы атакующие не могли получить доступ к вашей системе. И, благодаря Firefox и gnome-keyring, Ubuntu помогает вам хранить свою личную информацию в секрете. Таким образом, при доступе к своему банковскому счёту или обмене секретными данными с друзьями или коллегами вы можете не беспокоиться о безопасности.
+			</p>
+			<p class="_email_5_body_">
+				Наслаждайтесь простотой стильного и интуитивного интерфейса Ubuntu. Быстрый, безопасный и предоставляющий тысячи приложений на выбор, Ubuntu предлагает вам чистый и рационализированный опыт который может стать вашим.
+			</p>
+			<p class="_random_reply_">
+				Спасибо за ознакомление с Ubuntu! Помните: это всего лишь демонстрация. Чтобы насладиться работой в настоящей операционной системе, нужно скачать её!
+				<br/>
+				<br/>
+				<a href="http://www.ubuntu.com/download/ubuntu/download?utm_source=tour&utm_medium=online&utm_campaign=tour" target="_blank">Загрузить Ubuntu</a>
+			</p>
+			<p class="_write_">
+				Создать
+			</p>
+			<p class="_no_subject_">
+				без темы
+			</p>
+			<p class="_recipient_">
+				Адресат
+			</p>
+			<p class="_from_">
+				От
+			</p>
+			<p class="_you_">
+				Вы
+			</p>
+			<p class="_on_">
+				Включить
+			</p>
+			<p class="_wrote_">
+				писал(а)
+			</p>
+			<p class="_original_message_">
+				Исходное сообщение
+			</p>
+			<p class="_fwd_">
+				Переслать
+			</p>
+			<!--
+			* Folder System
+			-->
+			<p class="_home_folder_">
+				Домашняя папка
+			</p>
+			<p class="_desktop_folder_">
+				Рабочий стол
+			</p>
+			<p class="_pictures_folder_">
+				Изображения
+			</p>
+			<p class="_videos_folder_">
+				Видео
+			</p>
+			<p class="_music_folder_">
+				Музыка
+			</p>
+			<p class="_downloads_folder_">
+				Загрузки
+			</p>
+			<p class="_documents_folder_">
+				Документы
+			</p>
+			<p class="_canonical_folder_">
+				Canonical
+			</p>
+			<p class="_backup_folder_">
+				Резервное копирование
+			</p>
+			<p class="_local_folder_">
+				Локальные
+			</p>
+			<p class="_work_folder_">
+				работа
+			</p>
+			<p class="_branches_folder_">
+				ветви
+			</p>
+			<p class="_rubbish_bin_folder_">
+				Корзина
+			</p>
+			<!--
+			* Software Center System
+			-->
+			<p class="_remove_">
+				Удалить
+			</p>
+			<p class="_price_free_">
+				Бесплатно
+			</p>
+			<p class="_installed_">
+				Установлено
+			</p>
+			<p class="_install_">
+				Установить
+			</p>
+			<p class="_installing_">
+				Устанавливается
+			</p>
+			<p class="_chromium_app_">
+				Веб-браузер Chromium
+			</p>
+			<p class="_chromium_sub_">
+				Доступ в Интернет
+			</p>
+			<p class="_chromium_desc_">
+				Chromium – это проект по разработке браузера с открытым исходным кодом, целью которого является предоставление всем интернет-пользователям инструмента для более безопасной, быстрой и стабильной работы с глобальной сетью.
+				<br/>
+				<br/>
+				Chromium используется в качестве основы для Google Chrome, который является результатом ребрендинга Chromium (изменены название и логотип) с небольшими дополнениями, такими как отслеживание использования и автообновление.
+				<br/>
+				<br/>
+				Пакет содержит браузер Chromium.
+			</p>
+			<p class="_beep_app_">
+				BEEP
+			</p>
+			<p class="_beep_sub_">
+				Двухмерный платформер/стрелялка с головоломками, основанными на физике
+			</p>
+			<p class="_beep_desc_">
+				BEEP — двумерная игра-платформер с боковой прокруткой, основанная на законах физики. Вы управляете небольшим роботом, оснащённым антигравитационным устройством, реактивным двигателем и пушкой. Ездите, прыгайте, летайте, плавайте и стреляйте, чтобы пройти через 24 уровня, разбросанные по 6 уникальным мирам.
+				<br/>
+				<br/>
+				Используйте антигравитационное устройство BEEP для непосредственного управления основанной на физических законах средой. Антигравитационное устройство — инструмент и оружие одновременно. Используйте его, чтобы уничтожать вражеских роботов, строить башни и решать головоломки.
+				<br/>
+				<br/>
+				BEEP путешествовал в космосе для изучения Галактики на протяжении тысяч лет. Исследуйте чужую звездную систему вместе с кораблем BEEP и отправляйте роботов на поверхность планет.
+			</p>
+			<p class="_inkscape_app_">
+				Редактор векторной графики Inkscape
+			</p>
+			<p class="_inkscape_sub_">
+				Создание и редактирование масштабируемой векторной графики в формате SVG
+			</p>
+			<p class="_inkscape_desc_">
+				Inkscape загружает и сохраняет файлы формата SVG (Scalable Vector Graphics — Масштабируемая Векторная Графика), стандарта, разработанного WWW- консорциумом.
+				<br/>
+				<br/>
+				Пользовательский интерфейс Inkscape близок к CorelDraw и другим аналогам. Есть возможность рисовать прямоугольники, эллипсы, текстовые вставки, растровые рисунки и кривые произвольной формы. Отметим, что векторные и растровые объекты могут иметь альфа-прозрачность и к ним могут быть применены различные преобразования.
+				<br/>
+				<br/>
+				Inkscape поддерживает возможность открытия нескольких файлов и многократное открытие одного файла. Графику можно распечатывать и экспортировать в png-файлы.
+				<br/>
+				<br/>
+				Некоторые возможности импорта и экспорта реализованы посредством использования пакетов dia, libwmf-bin, pstoedit, skencil, imagemagick и perlmagick.
+				<br/>
+				<br/>
+				Другие расширения используют ruby, libxml-xql-perl, python-numpy и python- lxml. Для получения полной функциональности нужно установить эти пакеты.
+				<br/>
+				<br/>
+				Для работы функции проверки правописания установите пакет aspell и словарь для своего языка, например aspell-en, aspell-ru, aspell-uk.
+			</p>
+			<p class="_world_of_goo_app_">
+				World of Goo
+			</p>
+			<p class="_world_of_goo_sub_">
+				Игра головоломка основанная на законах физики
+			</p>
+			<p class="_world_of_goo_desc_">
+				Перетаскивайте живые, извивающиеся, говорящие липкие шарики, чтобы создать из них структуры, мосты, пушечные ядра, дирижабли и гигантские языки. Миллионы наивных шариков, живущих в красивом мире Goo горят желанием его исследовать.
+				<br/>
+				<br/>
+				Но они не знают, что участвуют в игре, и что они очень забавны. Эта увлекательная и впечатляющая головоломка обеспечит вам приключение, которое вы никогда не забудете!
+			</p>
+			<p class="_blender_app_">
+				Blender
+			</p>
+			<p class="_blender_sub_">
+				Создание, редактирование 3D-моделей и анимации
+			</p>
+			<p class="_blender_desc_">
+				Blender - это комплекс 3D моделирования, анимации, рендеринга, пост-обработки, интерактивного создания и воспроизведения (игры). Blender имеет свой, необычный интерфейс, полностью реализованный на OpenGL, при его создании делался упор на скорость. Возможна автоматизация работы программы с помощью сценариев на Python. В частности, в виде сценариев реализованы импорт и экспорт в популярные форматы файлов, типа 3D Studio и Wavefront Obj. С помощью пакета создаются статические картинки, анимация, модели для игр, а также интерактивное информационное наполнение в виде самостоятельных программ и веб-модулей.
+			</p>
+			<p class="_braid_app_">
+				Braid
+			</p>
+			<p class="_braid_sub_">
+				Управляйте течением времени, чтобы решить головоломки
+			</p>
+			<p class="_braid_desc_">
+				Braid — игра-платформер с графикой в стиле живописи, в которой вы управляете течением времени, решая головоломки. Каждая головоломка в Braid уникальна, здесь нет повторений.
+				<br/>
+				<br/>
+				Braid ценит ваше время и внимание, и делает все возможное, чтобы дать вам опыт расширяющий разум.
+				<br/>
+				<br/>
+				Весь ход игры основан на управлении временем. Путешествуйте в миры, где время ведёт себя странно; наблюдайте, учитесь, а затем управляйте этими мирами.
+			</p>
+			<p class="_rhythmbox_app_">
+				Rhythmbox Media Player
+			</p>
+			<p class="_brasero_app_">
+				Приложение для записи дисков Brasero
+			</p>
+			<p class="_movie_player_app_">
+				Видеопроигрыватель
+			</p>
+			<p class="_shotwell_app_">
+				Менеджер фотографий Shotwell
+			</p>
+			<p class="_pitivi_app_">
+				Видеоредактор PiTiVi
+			</p>
+			<p class="_sound_recorder_app_">
+				Звукозапись
+			</p>
+			<p class="_empathy_app_">
+				Программа обмена сообщениями Empathy
+			</p>
+			<p class="_thunderbird_app_">
+				Почта и новости Thunderbird
+			</p>
+			<p class="_firefox_app_">
+				Веб-браузер Firefox
+			</p>
+			<p class="_gwibber_app_">
+				Клиент микроблогов Gwibber
+			</p>
+			<p class="_remote_desktop_app_">
+				Просмотр удалённых рабочих столов
+			</p>
+			<p class="_terminal_app_">
+				Клиент Терминального сервера
+			</p>
+			<p class="_ubuntu_one_app_">
+				Ubuntu One
+			</p>
+			<p class="_ubuntu_software_center_app_">
+				Центр приложений Ubuntu
+			</p>
+			<p class="_ubuntu_one_music_app_">
+				Ubuntu One Music
+			</p>
+			<p class="_amazon_app_">
+				Amazon
+			</p>
+			<p class="_about_me_app_">
+				Обо мне
+			</p>
+			<p class="_additional_drivers_app_">
+				Драйверы устройств
+			</p>
+			<p class="_aisleroit_app_">
+				Пасьянс Айслериот
+			</p>
+			<p class="_appearance_app_">
+				Внешний вид
+			</p>
+			<p class="_bluetooth_app_">
+				Bluetooth
+			</p>
+			<!--
+			* Dash
+			-->
+			<p class="_search_">Search your computer and online sources</p>
+			<!--
+			* Notifications
+			-->
+			<p class="_turn_off_bluetooth_">
+				Выключить Bluetooth
+			</p>
+			<p class="_turn_on_bluetooth_">
+				Включить Bluetooth
+			</p>
+			<p class="_visible_">
+				Видимый
+			</p>
+			<p class="_mute_">
+				Выключить звук
+			</p>
+			<p class="_unmute_">
+				Включить звук
+			</p>
+			<p class="_shut_down_">
+				Выключить…
+			</p>
+			<!--
+				Files Details - Images
+			-->
+			<p class="_photo_size_">
+				15.2КБ
+			</p>
+			<p class="_photo_date_">
+				Пятница, 26 Октября 2001
+			</p>
+			<p class="_buck_off_title_">
+				Buck Off
+			</p>
+			<p class="_darkening_clockwork_title_">
+				Часовой механизм
+			</p>
+			<p class="_dybbølsbro_station_title_">
+				Станция Dybbølsbro
+			</p>
+			<p class="_federica_miglio_title_">
+				Federica Miglio
+			</p>
+			<p class="_jardin_polar_title_">
+				Полюс
+			</p>
+			<p class="_langelinie_alle_title_">
+				Langelinie Alle
+			</p>
+			<p class="_momiji_dream_title_">
+				Кленовый сон
+			</p>
+			<p class="_mount_snowdon_title_">
+				Mount Snowdon
+			</p>
+			<p class="_not_alone_title_">
+				Цветы
+			</p>
+			<p class="_power_of_words_title_">
+				Power Of Words
+			</p>
+			<p class="_purple_dancers_title_">
+				Пурпурные танцоры
+			</p>
+			<p class="_sand_maze_title_">
+				Sand Maze
+			</p>
+			<p class="_small_flowers_title_">
+				Small Flowers
+			</p>
+			<p class="_stalking_ocelot_title_">
+				Оцелот преследует добычу
+			</p>
+			<p class="_the_grass_aint_greener_title_">
+				The Grass Aint Greener
+			</p>
+			<p class="_wildWheat_title_">
+				WildWheat
+			</p>
+			<!--
+				Files Details - Video
+			-->
+			<p class="_introduction_ubuntu_title_">
+				Введение в Ubuntu
+			</p>
+			<p class="_video_size_">
+				5.3МБ
+			</p>
+			<p class="_video_date_">
+				Понедельник, 11 Октября 2010
+			</p>
+			<!--
+				Files Details - Music
+			-->
+			<p class="_happyness_title_">
+				Счастье
+			</p>
+			<p class="_music_size_">
+				3.3МБ
+			</p>
+			<p class="_music_date_">
+				Среда, 14 Октября 2010
+			</p>
+		</div>
+		<script type="text/javascript" src="../js/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="../js/lang.js"></script>
+		<script type="text/javascript" src="../js/scripts.js"></script>
+		<script type="text/javascript" src="../js/welcomesystem.js"></script>
+		<script type="text/javascript" src="../js/guidedtoursystem.js"></script>
+		<script type="text/javascript" src="../js/filesystem.js"></script>
+		<script type="text/javascript" src="../js/folders.js"></script>
+		<script type="text/javascript" src="../js/systemoverlay.js"></script>
+		<script type="text/javascript" src="../js/systemmenu.js"></script>
+		<script type="text/javascript" src="../js/internetsystem.js"></script>
+		<script type="text/javascript" src="../js/emailsystem.js"></script>
+		<script type="text/javascript" src="../js/systemsettings.js"></script>
+		<script type="text/javascript" src="../js/email.js"></script>
+		<script type="text/javascript" src="../js/errormessage.js"></script>
+		<script type="text/javascript" src="../js/ubuntuonesystem.js"></script>
+		<script type="text/javascript" src="../js/file.js"></script>
+		<script type="text/javascript" src="../js/shotwellsystem.js"></script>
+		<script type="text/javascript" src="../js/shutdownSystem.js"></script>
+		<script type="text/javascript" src="../js/movieplayersystem.js"></script>
+		<script type="text/javascript" src="../js/libresystem.js"></script>
+		<script type="text/javascript" src="../js/softwaresystem.js"></script>
+		<script type="text/javascript" src="../js/notificationsystem.js"></script>
+		<script type="text/javascript" src="../js/analytics.js"></script>
+	</body>
+</html>

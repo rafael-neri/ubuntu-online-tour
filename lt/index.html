@@ -1,0 +1,1512 @@
+﻿<!DOCTYPE html>
+<html lang="lt" dir="ltr">
+	<head>
+		<title>Ubuntu ekskursija internete</title>
+		<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+		<meta charset="UTF-8" />
+		<meta name="description" content="Enjoy the simplicity of Ubuntu's stylish, intuitive interface. Take Ubuntu for a test drive with our online tour and download when you're ready!" />
+		<meta name="keywords" content="ubuntu, ubuntu online, ubuntu tour" />
+		<link rel="stylesheet" href="../css/loader.css" type="text/css" />
+		<link rel="stylesheet" href="../css/error.css" type="text/css" />
+		<link rel="stylesheet" href="../css/base.css" type="text/css" />
+		<link rel="stylesheet" href="../css/folder.css" type="text/css" />
+		<link rel="stylesheet" href="../css/firefox.css" type="text/css" />
+		<link rel="stylesheet" href="../css/email.css" type="text/css" />
+		<link rel="stylesheet" href="../css/systemoverlay.css" type="text/css" />
+		<link rel="stylesheet" href="../css/ubuntuone.css" type="text/css" />
+		<link rel="stylesheet" href="../css/shotwell.css" type="text/css" />
+		<link rel="stylesheet" href="../css/tourguide.css" type="text/css" />
+		<link rel="stylesheet" href="../css/welcome.css" type="text/css" />
+		<link rel="stylesheet" href="../css/shutdown.css" type="text/css" />
+		<link rel="stylesheet" href="../css/movieplayer.css" type="text/css" />
+		<link rel="stylesheet" href="../css/libre.css" type="text/css" />
+		<link rel="stylesheet" href="../css/notification.css" type="text/css" />
+		<link rel="stylesheet" href="../css/software-centre.css" type="text/css" />
+		<!--[if IE 8]>
+		<link rel="stylesheet" href="../css/iefix.css" type="text/css" />
+		<![endif]-->
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700' rel='stylesheet' type='text/css' />
+		<script type="text/javascript">
+			WebFontConfig = {
+				google : {
+					families : ['Ubuntu:400,700:latin']
+				}
+			}; (function() {
+				var wf = document.createElement('script');
+				wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+				wf.type = 'text/javascript';
+				wf.async = 'true';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(wf, s);
+			})();
+
+		</script>
+	</head>
+	<body>
+		<div id="loader">
+			<div id="dot-container">
+				<noscript>
+					<p>
+						This demo uses JavaScript. Either your browser doesn't support JavaScript, or it's currently switched off.
+						<br/>
+						<br/>
+						Don't panic. We've got <a href="/ubuntu/take-the-tour-gallery">a non-JavaScript version</a> of the online tour you can view instead. :)
+					</p>
+				</noscript>
+			</div>
+		</div>
+		<div id="top" class="dropShadow">
+			<div id="top-left">
+				<div id="control-buttons">
+					<div id="close"></div>
+					<div id="min"></div>
+					<div id="max"></div>
+				</div>
+				<div id="dash-control-buttons">
+					<div class="close"></div>
+					<div class="min"></div>
+					<div class="max"></div>
+				</div>
+				<div id="title"></div>
+			</div>
+			<div id="top-right">
+				<div id="connection"><img src="../img/top/connection.png" alt=""/>
+					<ul class="drop-down">
+						<li class="disabled">
+							Automatinis laidinis tinklas
+						</li>
+						<li class="disabled">
+							Atjungti
+						</li>
+						<li class="divider"></li>
+						<!--<li class="disabled"><img src="../img/top/wireless-icon.png" alt=""/> My Wireless Connection</li>
+						<li class="disabled">Atjungti</li>
+						<li class="divider"></li>-->
+						<li class="disabled">
+							Ryšio informacija
+						</li>
+						<li class="disabled">
+							Keisti prisijungimus...
+						</li>
+					</ul>
+				</div>
+				<div id="bluetooth"><img src="../img/top/bluetooth.png" alt=""/>
+					<ul class="drop-down">
+						<li class="disabled bluetooth">
+							Bluetooth įjungtas
+						</li>
+						<li>
+							Išjungti Bluetooth
+						</li>
+						<li class="divider"></li>
+						<li class="disabled BtOn">
+							Matomas
+						</li>
+						<li class="divider BtOn"></li>
+						<li class="disabled BtOn">
+							Siųskite failus į įrenginį...
+						</li>
+						<li class="disabled BtOn">
+							Naršyti failus įrenginyje...
+						</li>
+						<li class="divider"></li>
+						<li class="disabled BtOn">
+							Nustatyti naują įrenginį...
+						</li>
+						<li class="divider BtOn"></li>
+						<li class="disabled">
+							Nustatymai
+						</li>
+					</ul>
+				</div>
+				<div id="message"><img src="../img/top/nomessage.jpg" class="message-logo" alt="" />
+					<ul class="drop-down">
+						<li class="system-message"></li>
+					</ul>
+				</div>
+				<div id="speakers"><img src="../img/top/speakers3.png" class="speakers-logo"  alt=""/>
+					<ul class="drop-down">
+						<li>
+							Nutildyti
+						</li>
+						<li class="system-volume">
+							<div class="large-icon"></div><div class="small-icon"></div><div class="slider"></div><div class="slider-active"></div>
+						</li>
+						<li class="divider"></li>
+						<li class="disabled"><img src="../img/top/rhythmbox.png" alt=""/> Rhythmbox
+						</li>
+						<li class="banshee">
+							<div class="banshee-rewind"></div><div class="banshee-forward"></div><div class="banshee-play"></div>
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							Garso nustatymai...
+						</li>
+					</ul>
+				</div>
+				<div id="time">
+					<p></p>
+					<ul class="drop-down">
+						<li class="system-calendar"></li>
+					</ul>
+				</div>
+				<div id="power"><img src="../img/top/power.png"  alt=""/>
+					<ul class="drop-down">
+						<li class="disabled">
+							About This Computer
+						</li>
+						<li class="disabled">
+							Ubuntu Help
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							System Settings&hellip;
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							Lock <span class="key-combo">Ctrl+Alt+L</span>
+						</li>
+						<li class="disabled user">
+							Guest Session
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							Logout
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							Užmigdyti
+						</li>
+						<li class="disabled">
+							Restart&hellip;
+						</li>
+						<li>
+							Išjungti…
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="tooltip">
+			<div class="shadow-arrow"></div>
+			<div class="arrow-right"></div>
+			<div id="tooltip-text"></div>
+		</div>
+		<div id="menu">
+			<ul>
+				<li class="dash">
+					<span>Programų paleidimas, failų atvėrimas</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="home"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Asmeninis aplankas</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="firefox"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Interneto naršyklė „Firefox“</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="writer"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>LibreOffice Writer</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="calc"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>LibreOffice Calc</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="impress"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>LibreOffice Impress</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="software"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Ubuntu programų centras</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="amazon"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Amazon</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="settings"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>System Settings</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="email temp"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""><span>Thunderbird Mail</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt="">
+				</li>
+				<li class="shotwell temp"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Nuotraukų tvarkytuvė „Shotwell“</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="movieplayer temp"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Filmų grotuvas</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<!--<li class="workspace"><span>Workspace Switcher</span></li>-->
+				<li class="rubbish bottom">
+					<span>Šiukšliadėžė</span>
+				</li>
+			</ul>
+		</div>
+		<div id="systemOverlay">
+			<div class="copyDash"></div>
+			<div id="overlayContents">
+				<input type="text" name="search" value="Search your computer and online sources"/>
+				<div id="display-home" class="app-container">
+					<div class="recent-apps bottom"><img src="../img/overlay/recentapps.png" alt=""/> Programos <div class="app-list"></div>
+					</div>
+					<div class="recent-files bottom"><img src="../img/overlay/recentfiles.png" alt=""/> Failai ir Aplankai<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-apps" class="app-container">
+					<div class="frequently bottom"><img src="../img/overlay/recentapps.png" alt=""/> Paskiausiai naudoti <div class="app-list"></div>
+					</div>
+					<div class="installed"><img src="../img/overlay/installed.png" alt=""/> Įdiegta<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-find-files" class="app-container">
+					<div class="files bottom"><img src="../img/overlay/recentfiles.png" alt=""/> Vėliausi<div class="app-list"></div>
+					</div>
+					<div class="downloads bottom"><img src="../img/overlay/downloaded.png" alt=""/> Atsiuntimai<div class="app-list"></div>
+					</div>
+					<div class="folders"><img src="../img/overlay/folders.png" alt=""/> Aplankai<div class="app-list"></div>
+					</div>
+
+				</div>
+				<div id="display-find-music" class="app-container">
+					<div class="songs bottom"><img src="../img/overlay/folders.png" alt=""/> Dainos<div class="app-list"></div>
+					</div>
+					<div class="albums"><img src="../img/overlay/folders.png" alt=""/> Albumai<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-find-video" class="app-container">
+					<div class="videos bottom"><img src="../img/overlay/folders.png" alt=""/> Vaizdo įrašai<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-find-photos" class="app-container">
+					<div class="photos bottom"><img src="../img/overlay/folders.png" alt=""/> My photos<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-chat" class="app-container">
+					<div class="message">
+						<p>Sorry, there is nothing that matches your search</p>
+					</div>
+				</div>
+				<div id="display-search" class="app-container">
+					<div class="applications bottom"><img src="../img/overlay/search-apps-logo.jpg" alt=""/> Programos<div class="app-list"></div>
+					</div>
+					<div class="files"><img src="../img/overlay/search-files-logo.jpg" alt=""/> Failai ir Aplankai<div class="app-list"></div>
+					</div>
+				</div>
+			</div>
+			<div id="dash-bottom-bar">
+				<div class="bottom-wrapper">
+					<div class="home-icon active"></div>
+					<div class="applications-icon"></div>
+					<div class="files-icon"></div>
+					<div class="music-icon"></div>
+					<div class="video-icon"></div>
+					<div class="photos-icon"></div>
+					<div class="chat-icon last"></div>
+				</div>
+			</div>
+			<div id="preview">
+				<div class="image"></div>
+				<div class="info"></div>
+				<div class="buttons">
+					<a class="email">E-mail</a>
+					<a class="showInFolder">Show in Folder</a>
+					<a class="open">Open</a>
+				</div>
+			</div>
+		</div>
+		<div id="ubuntuone-window" class="uone window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="window-title">
+					Ubuntu One valdymo skydelis
+				</div>
+			</div>
+			<div class="content">
+				<div class="header"></div>
+				<div class="body">
+					<h1>Jūsų asmeninio debesies galia</h1>
+					<div class="features">
+						<div class="files-anywhere">
+							<span class="logo"></span>
+							<div>
+								<h3>Failai visur</h3>
+								<p>
+									Išsisaugokite ir naudokitės savo failais kituose kompiuteriuose su Ubuntu Linux ar Windows, taip pat per interneto naršyklę ar telefoną.
+								</p>
+							</div>
+						</div>
+						<div class="rock-out">
+							<span class="logo"></span>
+							<div>
+								<h3>Šėlk</h3>
+								<p>
+									Jūsų visa muzikos kolekcija seks paskui jus transliuodama į Android ir iPhone įrenginius
+								</p>
+							</div>
+						</div>
+						<div class="keep-connected">
+							<span class="logo"></span>
+							<div>
+								<h3>Likti prisijungus</h3>
+								<p>
+									Apjungia jūsų kontaktus iš darbalaukio, mobilaus ir interneto
+								</p>
+							</div>
+						</div>
+						<div class="stay-productive">
+							<span class="logo"></span>
+							<div>
+								<h3>Išlik produktyvus</h3>
+								<p>
+									Laikykit Firefox žymas ir Tomboy užrašus sinchronizuotus
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="ubuntuone-buttons">
+						<div class="learn-more"><img src="../img/ubuntuone/ubuntuone-logo.jpg" width="47" height="48" alt=""/>
+							<div>
+								Sužinok daugiau
+							</div>
+						</div>
+						<div class="join-now">
+							<h2>Prisijunkite dabar</h2>
+						</div>
+						<div class="have-account">
+							Aš jau turiu paskyrą!
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="libreoffice-calc-window" class="calc window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Nepavadintas 1 - LibreOffice Calc
+				</div>
+			</div>
+			<div class="content">
+
+			</div>
+		</div>
+		<div id="libreoffice-writer-window" class="writer window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Nepavadintas 1 - LibreOffice Writer
+				</div>
+			</div>
+			<div class="content">
+
+			</div>
+		</div>
+		<div id="libreoffice-impress-window" class="impress window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Be pavadinimo 1 - LibreOffice Impress
+				</div>
+			</div>
+			<div class="content">
+
+			</div>
+		</div>
+		<div class="error-window window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="window-title"></div>
+			</div>
+			<div class="error-container">
+				<h1>Dėkojame besidomintiems Ubuntu Linux!</h1>
+				<a class="download"  href="http://www.ubuntu.com/download/ubuntu/download?utm_source=tour&utm_medium=online&utm_campaign=tour" target="_blank">Atsisiųskite Ubuntu</a>
+				<h2>Atminkite, tai tik demonstracija. Jūs turite atsisiusti Ubuntu, kad mėgautumėtės tikru dalyku!</h2>
+			</div>
+		</div>
+		<!--<div id="error-window" class="error-window window">
+		<div class="control">
+		<div class="close"></div>
+		<div class="window-title"></div>
+		</div>
+		<div class="content">
+		<img src="../img/error/warning.jpg"/>
+		<div class="message">
+		<p>Thanks for exploring Ubuntu</p>
+		<p>Atminkite, tai tik demonstracija. Jūs turite atsisiusti Ubuntu, kad mėgautumėtės tikru dalyku!</p>
+		</div>
+		<div class="error-buttons"><div class="download highlight">Atsisiųskite Ubuntu</div></div>
+		</div>
+		</div>-->
+		<!--<div id="workspaces">
+		<div id="void">
+		<div id="workspace-container">
+		<div id="workspace1"><div class="fadedOverlay"></div></div>
+		<div id="workspace2"><div class="fadedOverlay"></div></div>
+		<div id="workspace3"><div class="fadedOverlay"></div></div>
+		<div id="workspace4"><div class="fadedOverlay"></div></div>
+		<div class="reflection" style="clear:both;"></div>
+		<div class="reflection"></div>
+		</div>
+		</div>
+		</div>-->
+		<div id="email-window" class="email-window window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					El. paštas
+				</div>
+			</div>
+			<div class="buttons">
+				<div class="email-get-mail">
+					Gaukite laiškus
+				</div>
+				<div class="email-divider"></div>
+				<div class="email-write">
+					Įrašyti
+				</div>
+				<!--<div class="email-address-book"></div>
+				<div class="email-divider"></div>
+				<div class="email-tag"></div>
+				<div class="email-search"><input type="text" name="submitEmailSearch" id="submitEmailSearch"/></div>-->
+			</div>
+			<div style="clear:both;"></div>
+			<div class="email-content">
+				<div class="folder-list">
+					<div class="bottom-buttons">
+						Visi aplankai
+					</div>
+					<div style="clear:both;"></div>
+					<div class="list">
+						<div id="folder-inbox" class="selected"><img src="../img/email/inbox.png" alt=""/> Gauti laiškai
+						</div>
+						<div id="folder-draft"><img src="../img/email/drafts.png" alt=""/> Juodraštis
+						</div>
+						<div id="folder-sent"><img src="../img/email/sent.png" alt=""/> Išsiųsti
+						</div>
+						<div id="folder-archive"><img src="../img/email/archive-logo.png" alt=""/> Archyvas
+						</div>
+						<div id="folder-trash"><img src="../img/email/trash.png" alt=""/> Šiukšliadėžė
+						</div>
+					</div>
+				</div>
+				<div class="email-contents">
+					<div class="email-categories">
+						<div><img src="../img/email/t.png" alt=""/>
+						</div>
+						<div><img src="../img/email/star.png" alt=""/>
+						</div>
+						<div><img src="../img/email/clip.png" alt=""/>
+						</div>
+						<div class="subject">
+							Tema
+						</div>
+						<div><img src="../img/email/glasses.png" alt=""/>
+						</div>
+						<div class="from">
+							Nuo
+						</div>
+						<div><img src="../img/email/fire.png" alt=""/>
+						</div>
+						<div class="date">
+							Data
+						</div>
+					</div>
+					<div style="clear:both;"></div>
+					<div class="email-list"></div>
+					<div class="email-body">
+						<div class="message-header">
+							<div class="email-buttons">
+								<div>
+									<span class="message-reply">atsakyti</span>
+									<span class="message-forward">priekin</span>
+									<span class="message-archive">archyvas</span>
+									<span class="message-junk">šlamštas</span>
+									<span class="message-delete">ištrinti</span>
+								</div>
+							</div>
+							<div style="clear:both;"></div>
+							<div class="date"></div>
+							<dl class="from">
+								<dt>
+									Nuo
+								</dt><dd></dd>
+							</dl>
+							<dl class="subject">
+								<dt>
+									tema
+								</dt><dd></dd>
+							</dl>
+							<dl class="to">
+								<dt>
+									kam
+								</dt><dd></dd>
+							</dl>
+							<dl class="cc">
+								<dt>
+									cc
+								</dt><dd></dd>
+							</dl>
+						</div>
+						<div class="junk-mail-banner"><img src="../img/email/large-fire.jpg" alt=""/> Šlamštas
+							<div class="not-junk">
+								Ne šlamštas
+							</div>
+						</div>
+						<div class="message-body"></div>
+					</div>
+				</div>
+				<div style="clear:both;"></div>
+				<div class="emails-info">
+					<div>
+						Neskaitytas: <span id="details-unread">1</span> Viso: <span id="details-total">1</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="email-write" class="email-write window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Rašyti: (be temos)
+				</div>
+			</div>
+			<div class="buttons">
+				<div id="write-send">
+					Siųsti
+				</div>
+				<div class="email-divider"></div>
+				<div id="write-attach">
+					Prisegti
+				</div>
+			</div>
+			<div style="clear:both;"></div>
+			<div id="write-from">
+				<div>
+					Nuo:
+				</div>
+				<input type="text" name="from" value="You"/>
+			</div>
+			<div id="write-to">
+				<div>
+					Kam:
+				</div>
+				<input type="text" name="to"/>
+			</div>
+			<div id="write-subject">
+				<div>
+					Tema:
+				</div>
+				<input type="text" name="subject"/>
+			</div>
+			<div><img src="../img/email/disabled-format-buttons.jpg" width="853" height="32" alt=""/>
+			</div>
+			<div id="write-body">
+				<textarea name="body"></textarea>
+</div>			<div class="loading-bar">
+				<div class="progress"></div>
+			</div>
+		</div>
+		<div id="software-centre" class="software window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Ubuntu programų centras
+				</div>
+			</div>
+			<div class="top-panel">
+				<div class="back disabled"></div>
+				<div class="forward disabled"></div>
+				<div class="all-software selected"><img src="../img/software-centre/all-software.png" alt=""/>Visa programinė įranga
+				</div>
+				<div class="installed"><img src="../img/software-centre/installed.png" alt=""/>Įdiegta
+				</div>
+				<div class="history"><img src="../img/software-centre/history.png" alt=""/>Istorija
+				</div>
+			</div>
+			<div class="container detailed">
+				<div class="title"><img src="../img/software-centre/visolate.png" class="app-image" width="100" alt=""/><h1>Visolate</h1>
+					<p class="subheading">
+						PCB CNC keitiklis
+					</p>
+					<p class="rating"><img src="../img/software-centre/rating.jpg" alt="" /> (91 reitingas)
+					</p>
+				</div>
+				<div class="price">
+					<span class="theprice">Laisva</span><span class="button">Įdiegti</span>
+					<div class="loading-bar">
+						<div class="progress"></div>
+					</div>
+				</div>
+				<div class="description-container">
+					<div class="description-image"><img src="../img/software-centre/screenshot-blender.jpg" alt="" />
+					</div>
+					<div class="description"><img src="../img/software-centre/screenshot-blender.jpg" alt="" />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quam augue, convallis id commodo id, tristique ac mi. Ut dapibus, neque eget elementum pretium, nunc turpis congue eros, et interdum nisi nisi at diam. Duis dictum, justo eget imperdiet pulvinar, dolor est fermentum nisl, luctus imperdiet metus elit a purus. Quisque nisl enim, lacinia ut venenatis in, porttitor eget orci. Quisque non nibh nec risus tincidunt sollicitudin vitae et nisl. Proin odio lacus, vulputate non auctor sit amet, dapibus quis tortor. Donec elit libero, pellentesque quis dictum sed, hendrerit non libero. Aliquam eu diam id leo auctor tincidunt. Phasellus cursus felis at nulla facilisis semper. Cras mauris urna, adipiscing sed scelerisque ut, gravida id neque. Mauris ut vestibulum justo. Curabitur convallis elementum pellentesque. Duis sit amet arcu ac eros pretium scelerisque. Nunc nec nisi nulla.
+					</div>
+					<div style="clear:both;"></div>
+				</div>
+			</div>
+			<div class="container home">
+				<div class="header-image">
+					<span class="header-title">Mūsų rekomenduojamos programos</span>
+					<span class="header-subtitle">Spustelėkite ir išbandykite mūsų mėgstamiausias</span>
+				</div>
+				<div class="navigation">
+					<ul>
+						<li>
+							Reikmenys
+						</li>
+						<li>
+							Programuotojų įrankiai
+						</li>
+						<li>
+							Švietimas
+						</li>
+						<li>
+							Šriftai
+						</li>
+						<li>
+							Žaidimai
+						</li>
+						<li>
+							Grafika
+						</li>
+						<li>
+							Internetas
+						</li>
+						<li>
+							Biuras
+						</li>
+						<li>
+							Mokslas ir inžinerija
+						</li>
+						<li>
+							Garsas ir vaizdas
+						</li>
+						<li>
+							Sistema
+						</li>
+						<li>
+							Temos ir pagerinimai
+						</li>
+					</ul>
+				</div>
+				<div class="whats-new">
+					<h2> Kas naujo</h2>
+					<div class="app-container">
+						<div class="chromium">
+							<h3>Chromium naršyklė</h3>
+							<p>
+								Internetas
+							</p>
+							<p class="cost">
+								Laisva
+							</p>
+						</div>
+						<div class="beep">
+							<h3>BEEP</h3>
+							<p>
+								Žaidimai
+							</p>
+							<p class="cost">
+								9,99 $
+							</p>
+						</div>
+						<div class="inkscape">
+							<h3>Inkscape</h3>
+							<p>
+								Grafika
+							</p>
+							<p class="cost">
+								Laisva
+							</p>
+						</div>
+						<div class="worldofgoo">
+							<h3>World of Goo</h3>
+							<p>
+								Žaidimai
+							</p>
+							<p class="cost">
+								19,99 $
+							</p>
+						</div>
+						<div class="blender">
+							<h3>Blender</h3>
+							<p>
+								Grafika
+							</p>
+							<p class="cost">
+								Laisva
+							</p>
+						</div>
+						<div class="braid">
+							<h3>Braid</h3>
+							<p>
+								Žaidimai
+							</p>
+							<p class="cost">
+								9,99 $
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="whats-new">
+					<h2> Geriausiai įvertinta</h2>
+					<div class="app-container">
+						<div class="beep">
+							<h3>BEEP</h3>
+							<p>
+								Žaidimai
+							</p>
+							<p class="cost">
+								9,99 $
+							</p>
+						</div>
+						<div class="chromium">
+							<h3>Chromium naršyklė</h3>
+							<p>
+								Internetas
+							</p>
+							<p class="cost">
+								Laisva
+							</p>
+						</div>
+						<div class="worldofgoo">
+							<h3>World of Goo</h3>
+							<p>
+								Žaidimai
+							</p>
+							<p class="cost">
+								19,99 $
+							</p>
+						</div>
+						<div class="braid">
+							<h3>Braid</h3>
+							<p>
+								Žaidimai
+							</p>
+							<p class="cost">
+								9,99 $
+							</p>
+						</div>
+						<div class="inkscape">
+							<h3>Inkscape</h3>
+							<p>
+								Grafika
+							</p>
+							<p class="cost">
+								Laisva
+							</p>
+						</div>
+						<div class="blender">
+							<h3>Blender</h3>
+							<p>
+								Grafika
+							</p>
+							<p class="cost">
+								Laisva
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="shotwell" class="shotwell window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Shotwell
+				</div>
+			</div>
+			<div class="sidebar">
+				<div class="nav">
+					<ul>
+						<li class="library">
+							Biblioteka
+						</li>
+					</ul>
+				</div>
+				<div class="details">
+					<div class="overall">
+						<div>
+							Objektai: <span class="items">16 nuotraukų</span>
+						</div>
+						<div>
+							Nuo: <span class="from">Penk, spalio 26, 2001</span>
+						</div>
+						<div>
+							Kam: <span class="to">Pir 11 Spalis, 2010</span>
+						</div>
+					</div>
+					<div class="single">
+						<div>
+							Antraštė: <span class="title"></span>
+						</div>
+						<div>
+							Data: <span class="date"></span>
+						</div>
+						<div>
+							Dydis: <span class="size"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="images"></div>
+				<div class="tools">
+					<div class="jump-image">
+						<div class="next"></div><div class="prev"></div>
+					</div>
+					<div class="slider-container">
+						<div class="small-icon"></div><div class="slider"></div><div class="slider-active"></div><div class="large-icon"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="movieplayer" class="movieplayer window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Filmų grotuvas
+				</div>
+			</div>
+			<div class="container">
+				<div class="video"></div>
+			</div>
+		</div>
+		<div id="firefox-window" class="firefox-window window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Naršykite internete
+				</div>
+			</div>
+			<div class="buttons">
+				<div class="firefox-back"></div>
+				<div class="firefox-forward"></div>
+				<div class="firefox-url">
+					<input type="text" name="submitURL" id="submitURL" value="http://www.ubuntu.com"/>
+				</div>
+				<div class="firefox-search">
+					<input type="text" name="submitSearch" id="submitSearch" value="Wikipedia" class="fade-text"/>
+				</div>
+			</div>
+			<div style="clear:both;"></div>
+			<div class="firefox-internet">
+				<div class="web-overlay-tran"></div>
+				<div class="theIframe">
+					<iframe src="../http://www.ubuntu.com" id="firefoxInternet" >
+						<p>
+							Jūsų naršyklė nepalaiko „iframe“.
+						</p>
+					</iframe>
+				</div>
+			</div>
+		</div>
+		<div id="shutdown-window" class="window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="window-title">
+					Išjungti
+				</div>
+			</div>
+			<div class="content">
+				<img src="../img/powerwarning.jpg" alt=""/>
+				<div class="message">
+					<p>
+						Ar tikrai norite užverti visas programas ir išjungti kompiuterį?
+					</p>
+				</div>
+				<div class="shutdown-buttons">
+					<div class="shutdown highlight">
+						Išjungti
+					</div>
+					<div class="cancel">
+						Atsisakyti
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="folder-window" class="folder window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title"></div>
+			</div>
+
+			<div class="buttons">
+					<div class="folder-back"></div>
+					<div class="folder-forward"></div>
+				</div>
+				<div class="bottom-buttons"></div>
+				<div style="clear:both;"></div>
+			<div class="folder-list">
+				<div class="list">
+					<p>
+						Places
+					</p>
+					<ul>
+						<li class="home selected" data-folder="home">Pradžia</li>
+						<li class="desktop" data-folder="5">Darbastalis</li>
+						<li class="documents" data-folder="0">Dokumentai</li>
+						<li class="downloads" data-folder="1">Atsiuntimai</li>
+						<li class="music" data-folder="2">Muzika</li>
+						<li class="pictures" data-folder="4">Paveikslėliai</li>
+						<li class="videos" data-folder="3">Vaizdo įrašai</li>
+						<li class="rubbish" data-folder="bin">Šiukšliadėžė</li>
+					</ul>
+				</div>
+			</div>
+			<div class="folder-contents">
+				<div class="contents"></div>
+				<div class="selected-details"></div>
+			</div>
+		</div>
+		<div id="welcome">
+			<div id="welcome-screen" class="selected-window">
+				<div class="control">
+					<div class="window-title">Ubuntu apžiūrėjimas</div>
+				</div>
+				<div class="welcome-header">
+					<h1>Welcome to the Ubuntu 14.04 tour!</h1>
+					<h2>Išbandykite Ubuntu mūsų internetinėje demonstracijoje.</h2>
+				</div>
+				<ul>
+					<li>
+						<a class="browse-files" href="#browse-files">Tvarkykite failus ir aplankus</a>
+					</li>
+					<li>
+						<a class="check-email" href="#check-email">Naudokitės el. paštu</a>
+					</li>
+					<li>
+						<a class="surf-the-web" href="#surf-the-web">Naršykite internete</a>
+					</li>
+					<li>
+						<a class="find-apps" href="#find-apps">Raskite ir įdiekite programas</a>
+					</li>
+					<li>
+						<a class="create-documents" href="#create-documents">Rašykite dokumentus</a>
+					</li>
+					<li>
+						<a class="view-photos" href="#view-photos">Žiūrėkite nuotraukas</a>
+					</li>
+					<li>
+						<a class="create-presentations" href="#create-presentations">Kurkite pateiktis (skaidres)</a>
+					</li>
+					<li>
+						<a class="create-spreadsheets" href="#create-spreadsheets">Kurkite skaičiuoklės lenteles</a>
+					</li>
+					<li>
+						<a class="watch-video" href="#watch-video">Žiūrėti vaizdo įrašus</a>
+					</li>
+				</ul>
+				<div class="language-mode">
+					<span class="active">Anglų</span>
+					<a href="/tour/zh-CN/">中文</a>
+				</div>
+				<a class="explore-mode primary" href="#">Noriu patyrinėti pats</a>
+				<a class="tour-mode" href="#">Take the guided tour</a>
+			</div>
+		</div>
+		<div id="tour-guide">
+			<div class="next-button">&rsaquo;</div>
+			<div class="prev-button">&lsaquo;</div>
+			<div class="guide-container welcome">
+				<div class="guide-logo"><img src="../img/tourguide/back-to-welcome.png" /></div>
+				<h3>Ubuntu ekskursija internete</h3>
+				<p>
+					Tikimės, kad jums patiko Ubuntu Linux demonstracija internete. <a href="http://www.ubuntu.com/download/ubuntu/download?utm_source=tour&utm_medium=online&utm_campaign=tour" target="_blank">Pasirengę atsisiųsti?</a> arba <a href="/ubuntu/take-the-tour" >atgal į svetainę</a>
+				</p>
+			</div>
+			<div class="guide-container home">
+				<div class="guide-logo"><img src="../img/tourguide/file-small.png" />
+				</div>
+				<h3>Tvarkykite failus ir aplankus</h3>
+				<p>
+					It’s quick and easy to access your folders and files from Ubuntu’s home folder.
+				</p>
+			</div>
+			<div class="guide-container firefox">
+				<div class="guide-logo"><img src="../img/tourguide/firefox-small.png" />
+				</div>
+				<h3>Naršykite internete</h3>
+				<p>
+					Interneto naršymas yra greitas ir saugus su Ubuntu ir Firefox.
+				</p>
+			</div>
+			<div class="guide-container email">
+				<div class="guide-logo"><img src="../img/tourguide/mail-small.png" />
+				</div>
+				<h3>Naudokitės el. paštu</h3>
+				<p>
+					Skaitykite, rašykite ir siųskite el. laiškus su Thunderbird programa. Tai paprasta ir greita.
+				</p>
+			</div>
+			<div class="guide-container shotwell">
+				<div class="guide-logo"><img src="../img/tourguide/shotwell-small.png" />
+				</div>
+				<h3>Žiūrėkite nuotraukas</h3>
+				<p>
+					Jūs galite tvarkyti, taisyti, įkelti ir dalintis savo nuotraukomis internete su „Shotwell“.
+				</p>
+			</div>
+			<div class="guide-container software">
+				<div class="guide-logo"><img src="../img/tourguide/apps-small.png" />
+				</div>
+				<h3>Raskite ir įdiekite programas</h3>
+				<p>
+					Raskite bei siųskitės programas paprastai ir greitai iš Ubuntu Programų centro.
+				</p>
+			</div>
+			<div class="guide-container writer">
+				<div class="guide-logo"><img src="../img/tourguide/document-small.png" />
+				</div>
+				<h3>Rašykite dokumentus</h3>
+				<p>
+					LibreOffice Writer leidžia lengvai projektuoti profesionalius dokumentus.
+				</p>
+			</div>
+			<div class="guide-container calc">
+				<div class="guide-logo"><img src="../img/tourguide/calc-small.png" />
+				</div>
+				<h3>Kurkite skaičiuoklės lenteles</h3>
+				<p>
+					LibreOffice Calc turi viską ko reikia, kad sukurti aiškias ir tikslias skaičiuoklės lenteles.
+				</p>
+			</div>
+			<div class="guide-container impress">
+				<div class="guide-logo"><img src="../img/tourguide/impress-small.png" />
+				</div>
+				<h3>Kurkite pateiktis (skaidres)</h3>
+				<p>
+					Padarykite gerą pristatymą su sąmoningu LibreOffice Impress pristatymų įrankiu.
+				</p>
+			</div>
+			<div class="guide-container movieplayer">
+				<div class="guide-logo"><img src="../img/tourguide/video-small.png" />
+				</div>
+				<h3>Žiūrėti vaizdo įrašus</h3>
+				<p>
+					Galite žiūrėti visus savo mėgstamus filmus ir vaizdo įrašus. DVD, atsisiųstus ar filmus sukurtus pačių.
+				</p>
+			</div>
+			<div class=" tour-buttons">
+				<div class="explore-to-welcome">Welcome screen</div>
+				<div class="explore-to-download">Atsisiųskite Ubuntu</div>
+				<div class="explore-to-exit">Exit the Tour</div>
+			</div>
+		</div>
+		<div id="Translation-Strings">
+			<!--
+			* Email system
+			-->
+			<p class="_email_1_title_">
+				Pasiekiamas
+			</p>
+			<p class="_email_2_title_">
+				Greitas
+			</p>
+			<p class="_email_3_title_">
+				Suderinamumas
+			</p>
+			<p class="_email_4_title_">
+				Saugumas
+			</p>
+			<p class="_email_5_title_">
+				Jūsų Ubuntu, Jūsų kelias
+			</p>
+			<p class="_email_1_body_">
+				Pasiekiamumas yra Ubuntu filosofijos centre. Mes tikime, kad kompiuteriai yra kiekvienam nepaisant tautybės, rasės, lyties ar neįgalumo. Pilnai išversta į 38 kalbas, Ubuntu taip pat turi esmines pagalbos technologijas, kurios žinoma yra nemokamos.
+			</p>
+			<p class="_email_2_body_">
+				Ubuntu Linux operacinė sistema pasileidžia greitai bet kuriame kompiuteryje, o naujesniuose veikia ypač greitai. Be nereikalingų, startavimą lėtinančių programų, sistemos paleidimas ir naršyklės atvėrimas užtrunka keliolika sekundžių - kitaip nei kitose operacinėse sistemose, kur Jums telieka spoksoti į ekraną, laukiant kol pasileis sistema bei interneto naršyklė. Taip pat Ubuntu nelėtėja ilgai ją naudojant viename kompiuteryje. Ubuntu yra sparti ir ji tokia lieka visuomet.
+			</p>
+			<p class="_email_3_body_">
+				Ubuntu works brilliantly with a range of devices. Simply plug in your mp3 player, camera or printer and you’ll be up and running straight away. No installation CDs. No fuss. And it’s compatible with Windows too! So you can open, edit and share Microsoft Office documents stress-free.
+			</p>
+			<p class="_email_4_body_">
+				You can surf in safety with Ubuntu – confident that your files and data will stay protected. A built-in firewall and virus protection come as standard. And if a potential threat appears, we provide automatic updates which you can install in a single click. You get added security with AppArmor, which protects your important applications so attackers can’t access your system. And thanks to Firefox and gnome-keyring, Ubuntu helps you keep your private information private. So whether it’s accessing your bank account or sharing sensitive data with friends or colleagues, you’ll have peace of mind when you need it the most.
+			</p>
+			<p class="_email_5_body_">
+				Mėgaukis stilingos bei intuityvios Ubuntu grafinės sąsajos paprastumu. Greita, saugi ir turinti tūkstančius papildomų programų įvairiausiems poreikiams, Ubuntu Linux operacinė sistema padės įgyvendinti visus Jūsų norus.
+			</p>
+			<p class="_random_reply_">
+				Dėkojame besidomintiems Ubuntu Linux! Atminkite, čia tik demonstracija. Jei norite mėgautis tikra operacine sistema, turite atsisiųsti Ubuntu!
+				<br/>
+				<br/>
+				<a href="http://www.ubuntu.com/download/ubuntu/download?utm_source=tour&utm_medium=online&utm_campaign=tour" target="_blank">Atsisiųskite Ubuntu</a>
+			</p>
+			<p class="_write_">
+				Įrašyti
+			</p>
+			<p class="_no_subject_">
+				be temos
+			</p>
+			<p class="_recipient_">
+				Gavėjas
+			</p>
+			<p class="_from_">
+				Nuo
+			</p>
+			<p class="_you_">
+				Jūs
+			</p>
+			<p class="_on_">
+				Įjungta
+			</p>
+			<p class="_wrote_">
+				rašė
+			</p>
+			<p class="_original_message_">
+				Originalus laiškas
+			</p>
+			<p class="_fwd_">
+				Fwd
+			</p>
+			<!--
+			* Folder System
+			-->
+			<p class="_home_folder_">
+				Pradžia
+			</p>
+			<p class="_desktop_folder_">
+				Darbastalis
+			</p>
+			<p class="_pictures_folder_">
+				Paveikslėliai
+			</p>
+			<p class="_videos_folder_">
+				Vaizdo įrašai
+			</p>
+			<p class="_music_folder_">
+				Muzika
+			</p>
+			<p class="_downloads_folder_">
+				Atsiuntimai
+			</p>
+			<p class="_documents_folder_">
+				Dokumentai
+			</p>
+			<p class="_canonical_folder_">
+				Canonical
+			</p>
+			<p class="_backup_folder_">
+				Atsarginė kopija
+			</p>
+			<p class="_local_folder_">
+				Vietinis
+			</p>
+			<p class="_work_folder_">
+				darbo
+			</p>
+			<p class="_branches_folder_">
+				šakos
+			</p>
+			<p class="_rubbish_bin_folder_">
+				Šiukšliadėžė
+			</p>
+			<!--
+			* Software Center System
+			-->
+			<p class="_remove_">
+				Pašalinti
+			</p>
+			<p class="_price_free_">
+				Laisva
+			</p>
+			<p class="_installed_">
+				Įdiegta
+			</p>
+			<p class="_install_">
+				Įdiegti
+			</p>
+			<p class="_installing_">
+				Diegiama
+			</p>
+			<p class="_chromium_app_">
+				Interneto naršyklė „Chromium“
+			</p>
+			<p class="_chromium_sub_">
+				Pasiekti internetą
+			</p>
+			<p class="_chromium_desc_">
+				Chromium - tai laisvos interneto naršyklės projektas, siekiantis sukurti saugesnį, greitesnį ir stabilesnį būdą visiems Interneto naudotojams naudotis Internetu.
+				<br/>
+				<br/>
+				Chromium serves as a base for Google Chrome, which is Chromium rebranded (name and logo) with very few additions such as usage tracking and an auto-updater system.
+				<br/>
+				<br/>
+				Šiame pakete yra Interneto naršyklė „Chromium“
+			</p>
+			<p class="_beep_app_">
+				BEEP
+			</p>
+			<p class="_beep_sub_">
+				2D platformos/šaudyklės stiliaus galvosūkių žaidimas su fizikos dėsniais
+			</p>
+			<p class="_beep_desc_">
+				BEEP is a 2D side-scrolling platformer with physics-based gameplay. You control a small robot equipped with an anti-gravity device, a jet-pack and a gun. Drive, jump, fly, swim and shoot your way through 24 levels scattered across 6 unique environments.
+				<br/>
+				<br/>
+				Use BEEP’s anti-gravity device to directly manipulate the physics-based environments. The anti-gravity device is both a tool and a weapon. Use it to smash enemy robots, build towers and solve puzzles.
+				<br/>
+				<br/>
+				Bypas keliavo tūkstančius metų beribėje erdvėje naršydamas galaktiką. Skriekite per žvaigždžių sistemas su Bypo erdvėlaiviu ir siuskite robotus į planetų paviršius.
+			</p>
+			<p class="_inkscape_app_">
+				Vektorinės grafikos iliustratorius „Inkscape“
+			</p>
+			<p class="_inkscape_sub_">
+				Kurkite bei tobulinkite vektorinius grafinius piešinius ar brėžinius
+			</p>
+			<p class="_inkscape_desc_">
+				Inkscape loads and saves a subset of the SVG (Scalable Vector Graphics) format, a standard maintained by the WWW consortium.
+				<br/>
+				<br/>
+				Inkscape naudotojo aplinka turėtų priminti CorelDraw bei kitų panašių piešimo programų aplinkas. Yra kvadratai, eklipsės, teksto vienetai, rastariniai paveikslėliai bei kreivės. Papildomai tiek vektoriniai tiek rastariniai objektai gali palaikyti alfa permatomumą ir įvairiais transformacijas.
+				<br/>
+				<br/>
+				Su „Inkscape“ vienu metu galite dirbti su daug failų bei matyti tą patį paveikslo failą skirtingomis peržiūromis. Darbai gali būti atspausdinti ar išsaugoti populiariu PNG paveikslėlių formatu.
+				<br/>
+				<br/>
+				Kai kurios importavimo ir eksportavimo funkcijos yra pateikiamos kartu su paketais dia, libwmf-bin, pstoedit, skencil, imagemagick, ir perlmagick.
+				<br/>
+				<br/>
+				Kiti plėtiniai naudoja ruby, libxml-xql-perl, python-numpy, ir python-lxml. Jus turite turėti šiuos paketus, kad galėtumėte naudotis visais plėtiniais ir efektais.
+				<br/>
+				<br/>
+				Jei jus norite naudotis rašybos tikrintuvu, turite įdiegti aspell ir atitinkamą kalbos paketą, pav. aspell-en ar aspell-de.
+			</p>
+			<p class="_world_of_goo_app_">
+				World of Goo
+			</p>
+			<p class="_world_of_goo_sub_">
+				Fizikos dėsniais paremtas dėlionės/konstruktoriaus žaidimas
+			</p>
+			<p class="_world_of_goo_desc_">
+				Griebkit ir temkit gyvus, besirangančius, kalbančius "Goo" burbulus. Statykite iš jų struktūras, tiltus, patrankas, zepelinus ir gigantiškus liežuvius. Milijonai smalsių "Goo" kamuoliukų  nekantrauja tyrinėti savo pasaulį.
+				<br/>
+				<br/>
+				But they dont know that they are in a game, or that they are extremely delicious. The most addicting and awe-inspiring puzzle game will set you on an adventure that youll never forget!
+			</p>
+			<p class="_blender_app_">
+				Blender
+			</p>
+			<p class="_blender_sub_">
+				Kurkite ir redaguokite 3D modelius ir animacijas
+			</p>
+			<p class="_blender_desc_">
+				Blender is an integrated 3d suite for modelling, animation, rendering, post-production, interactive creation and playback (games). Blender has its own particular user interface, which is implemented entirely in OpenGL and designed with speed in mind. Python bindings are available for scripting; import/export features for popular file formats like 3D Studio and Wavefront Obj are implemented as scripts by the community. Stills, animations, models for games or other third party engines and interactive content in the form of a standalone binary and/or a web plug-in are common products of Blender use.
+			</p>
+			<p class="_braid_app_">
+				Braid
+			</p>
+			<p class="_braid_sub_">
+				Valdykite laiko tėkmę, kad išspręstumėte galvosūkius
+			</p>
+			<p class="_braid_desc_">
+				Manipulate the flow of time to solve puzzles Braid is a platform game in painterly style where you manipulate the flow of time to solve puzzles. Every puzzle in Braid is unique; there is no filler.
+				<br/>
+				<br/>
+				Žaidimas Braid brangins jūsų laiką bei dėmesį ir darys viską ką gali, kad duotų jums išmonę plečiančią patirtį.
+				<br/>
+				<br/>
+				Visas žaidimo veiksmas paremtas laiko manipuliavimo modeliu. Kelionės po pasaulius kur laikas elgiasi keistai. Jums teks stebėti ir mokytis, kad galėtumėte įvaldyti šiuos pasaulius.
+			</p>
+			<p class="_rhythmbox_app_">
+				Rhythmbox Media Player
+			</p>
+			<p class="_brasero_app_">
+				CD/DVD rašymas bei kopijavimas - „Brasero“
+			</p>
+			<p class="_movie_player_app_">
+				Filmų grotuvas
+			</p>
+			<p class="_shotwell_app_">
+				Nuotraukų tvarkytuvė „Shotwell“
+			</p>
+			<p class="_pitivi_app_">
+				Video redagavimas su PiTiVi
+			</p>
+			<p class="_sound_recorder_app_">
+				Garso įrašinėtojas
+			</p>
+			<p class="_empathy_app_">
+				Empathy susirašinėjimo programa
+			</p>
+			<p class="_thunderbird_app_">
+				Thunderbird paštas/naujienos
+			</p>
+			<p class="_firefox_app_">
+				Interneto naršyklė „Firefox“
+			</p>
+			<p class="_gwibber_app_">
+				Gwibber socialinių tinklų klientas
+			</p>
+			<p class="_remote_desktop_app_">
+				Nutolusių kompiuterių valdymo programa
+			</p>
+			<p class="_terminal_app_">
+				Terminalo serverio klientas
+			</p>
+			<p class="_ubuntu_one_app_">
+				Ubuntu One
+			</p>
+			<p class="_ubuntu_software_center_app_">
+				Ubuntu Software Center
+			</p>
+			<p class="_ubuntu_one_music_app_">
+				Ubuntu One Music
+			</p>
+			<p class="_amazon_app_">
+				Amazon
+			</p>
+			<p class="_about_me_app_">
+				Apie mane
+			</p>
+			<p class="_additional_drivers_app_">
+				Papildomos tvarkyklės
+			</p>
+			<p class="_aisleroit_app_">
+				Pasjansas AisleRiot
+			</p>
+			<p class="_appearance_app_">
+				Išvaizda
+			</p>
+			<p class="_bluetooth_app_">
+				Bluetooth
+			</p>
+			<!--
+			* Dash
+			-->
+			<p class="_search_">Search your computer and online sources</p>
+			<!--
+			* Notifications
+			-->
+			<p class="_turn_off_bluetooth_">
+				Išjungti Bluetooth
+			</p>
+			<p class="_turn_on_bluetooth_">
+				Įjungti Bluetooth
+			</p>
+			<p class="_visible_">
+				Matomas
+			</p>
+			<p class="_mute_">
+				Nutildyti
+			</p>
+			<p class="_unmute_">
+				Įjungti garsą
+			</p>
+			<p class="_shut_down_">
+				Išjungti…
+			</p>
+			<!--
+				Files Details - Images
+			-->
+			<p class="_photo_size_">
+				15.2 KB
+			</p>
+			<p class="_photo_date_">
+				Penk, spalio 26, 2001
+			</p>
+			<p class="_buck_off_title_">
+				Numesk
+			</p>
+			<p class="_darkening_clockwork_title_">
+				Laikrodžio mechanizmas
+			</p>
+			<p class="_dybbølsbro_station_title_">
+				Dybolsbro stotis
+			</p>
+			<p class="_federica_miglio_title_">
+				Federica Miglio
+			</p>
+			<p class="_jardin_polar_title_">
+				Poliarinis sodas
+			</p>
+			<p class="_langelinie_alle_title_">
+				Langelino alėja
+			</p>
+			<p class="_momiji_dream_title_">
+				Japoniško klevo sapnas
+			</p>
+			<p class="_mount_snowdon_title_">
+				Snoudono kalnas
+			</p>
+			<p class="_not_alone_title_">
+				Ne vienas
+			</p>
+			<p class="_power_of_words_title_">
+				Žodžių galia
+			</p>
+			<p class="_purple_dancers_title_">
+				Violetiniai šokėjai
+			</p>
+			<p class="_sand_maze_title_">
+				Smėlio labirintas
+			</p>
+			<p class="_small_flowers_title_">
+				Mažos gėlės
+			</p>
+			<p class="_stalking_ocelot_title_">
+				Sėlinantis ocelotas
+			</p>
+			<p class="_the_grass_aint_greener_title_">
+				The Grass Aint Greener
+			</p>
+			<p class="_wildWheat_title_">
+				Laukiniai kviečiai
+			</p>
+			<!--
+				Files Details - Video
+			-->
+			<p class="_introduction_ubuntu_title_">
+				Įžanga Ubuntu
+			</p>
+			<p class="_video_size_">
+				5.3 MB
+			</p>
+			<p class="_video_date_">
+				Pir 11 Spalis, 2010
+			</p>
+			<!--
+				Files Details - Music
+			-->
+			<p class="_happyness_title_">
+				Linksmybės
+			</p>
+			<p class="_music_size_">
+				3.3 MB
+			</p>
+			<p class="_music_date_">
+				Treč. spalio 14, 2010
+			</p>
+		</div>
+		<script type="text/javascript" src="../js/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="../js/lang.js"></script>
+		<script type="text/javascript" src="../js/scripts.js"></script>
+		<script type="text/javascript" src="../js/welcomesystem.js"></script>
+		<script type="text/javascript" src="../js/guidedtoursystem.js"></script>
+		<script type="text/javascript" src="../js/filesystem.js"></script>
+		<script type="text/javascript" src="../js/folders.js"></script>
+		<script type="text/javascript" src="../js/systemoverlay.js"></script>
+		<script type="text/javascript" src="../js/systemmenu.js"></script>
+		<script type="text/javascript" src="../js/internetsystem.js"></script>
+		<script type="text/javascript" src="../js/emailsystem.js"></script>
+		<script type="text/javascript" src="../js/systemsettings.js"></script>
+		<script type="text/javascript" src="../js/email.js"></script>
+		<script type="text/javascript" src="../js/errormessage.js"></script>
+		<script type="text/javascript" src="../js/ubuntuonesystem.js"></script>
+		<script type="text/javascript" src="../js/file.js"></script>
+		<script type="text/javascript" src="../js/shotwellsystem.js"></script>
+		<script type="text/javascript" src="../js/shutdownSystem.js"></script>
+		<script type="text/javascript" src="../js/movieplayersystem.js"></script>
+		<script type="text/javascript" src="../js/libresystem.js"></script>
+		<script type="text/javascript" src="../js/softwaresystem.js"></script>
+		<script type="text/javascript" src="../js/notificationsystem.js"></script>
+		<script type="text/javascript" src="../js/analytics.js"></script>
+	</body>
+</html>

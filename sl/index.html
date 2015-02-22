@@ -1,0 +1,1512 @@
+﻿<!DOCTYPE html>
+<html lang="sl" dir="ltr">
+	<head>
+		<title>Spletni ogled Ubuntu</title>
+		<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+		<meta charset="UTF-8" />
+		<meta name="description" content="Enjoy the simplicity of Ubuntu's stylish, intuitive interface. Take Ubuntu for a test drive with our online tour and download when you're ready!" />
+		<meta name="keywords" content="ubuntu, ubuntu online, ubuntu tour" />
+		<link rel="stylesheet" href="../css/loader.css" type="text/css" />
+		<link rel="stylesheet" href="../css/error.css" type="text/css" />
+		<link rel="stylesheet" href="../css/base.css" type="text/css" />
+		<link rel="stylesheet" href="../css/folder.css" type="text/css" />
+		<link rel="stylesheet" href="../css/firefox.css" type="text/css" />
+		<link rel="stylesheet" href="../css/email.css" type="text/css" />
+		<link rel="stylesheet" href="../css/systemoverlay.css" type="text/css" />
+		<link rel="stylesheet" href="../css/ubuntuone.css" type="text/css" />
+		<link rel="stylesheet" href="../css/shotwell.css" type="text/css" />
+		<link rel="stylesheet" href="../css/tourguide.css" type="text/css" />
+		<link rel="stylesheet" href="../css/welcome.css" type="text/css" />
+		<link rel="stylesheet" href="../css/shutdown.css" type="text/css" />
+		<link rel="stylesheet" href="../css/movieplayer.css" type="text/css" />
+		<link rel="stylesheet" href="../css/libre.css" type="text/css" />
+		<link rel="stylesheet" href="../css/notification.css" type="text/css" />
+		<link rel="stylesheet" href="../css/software-centre.css" type="text/css" />
+		<!--[if IE 8]>
+		<link rel="stylesheet" href="../css/iefix.css" type="text/css" />
+		<![endif]-->
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700' rel='stylesheet' type='text/css' />
+		<script type="text/javascript">
+			WebFontConfig = {
+				google : {
+					families : ['Ubuntu:400,700:latin']
+				}
+			}; (function() {
+				var wf = document.createElement('script');
+				wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+				wf.type = 'text/javascript';
+				wf.async = 'true';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(wf, s);
+			})();
+
+		</script>
+	</head>
+	<body>
+		<div id="loader">
+			<div id="dot-container">
+				<noscript>
+					<p>
+						This demo uses JavaScript. Either your browser doesn't support JavaScript, or it's currently switched off.
+						<br/>
+						<br/>
+						Don't panic. We've got <a href="/ubuntu/take-the-tour-gallery">a non-JavaScript version</a> of the online tour you can view instead. :)
+					</p>
+				</noscript>
+			</div>
+		</div>
+		<div id="top" class="dropShadow">
+			<div id="top-left">
+				<div id="control-buttons">
+					<div id="close"></div>
+					<div id="min"></div>
+					<div id="max"></div>
+				</div>
+				<div id="dash-control-buttons">
+					<div class="close"></div>
+					<div class="min"></div>
+					<div class="max"></div>
+				</div>
+				<div id="title"></div>
+			</div>
+			<div id="top-right">
+				<div id="connection"><img src="../img/top/connection.png" alt=""/>
+					<ul class="drop-down">
+						<li class="disabled">
+							Auto eth0
+						</li>
+						<li class="disabled">
+							Prekini povezavo
+						</li>
+						<li class="divider"></li>
+						<!--<li class="disabled"><img src="../img/top/wireless-icon.png" alt=""/> My Wireless Connection</li>
+						<li class="disabled">Prekini povezavo</li>
+						<li class="divider"></li>-->
+						<li class="disabled">
+							Podatki o povezavi
+						</li>
+						<li class="disabled">
+							Urejanje povezav ...
+						</li>
+					</ul>
+				</div>
+				<div id="bluetooth"><img src="../img/top/bluetooth.png" alt=""/>
+					<ul class="drop-down">
+						<li class="disabled bluetooth">
+							Bluetooth vklopljen
+						</li>
+						<li>
+							Izklopi Bluetooth
+						</li>
+						<li class="divider"></li>
+						<li class="disabled BtOn">
+							Vidno
+						</li>
+						<li class="divider BtOn"></li>
+						<li class="disabled BtOn">
+							Pošlji datoteke na napravo ...
+						</li>
+						<li class="disabled BtOn">
+							Brskajte datoteke na napravi ...
+						</li>
+						<li class="divider"></li>
+						<li class="disabled BtOn">
+							Nastavi novo napravo ...
+						</li>
+						<li class="divider BtOn"></li>
+						<li class="disabled">
+							Možnosti
+						</li>
+					</ul>
+				</div>
+				<div id="message"><img src="../img/top/nomessage.jpg" class="message-logo" alt="" />
+					<ul class="drop-down">
+						<li class="system-message"></li>
+					</ul>
+				</div>
+				<div id="speakers"><img src="../img/top/speakers3.png" class="speakers-logo"  alt=""/>
+					<ul class="drop-down">
+						<li>
+							Utišaj
+						</li>
+						<li class="system-volume">
+							<div class="large-icon"></div><div class="small-icon"></div><div class="slider"></div><div class="slider-active"></div>
+						</li>
+						<li class="divider"></li>
+						<li class="disabled"><img src="../img/top/rhythmbox.png" alt=""/> Rhythmbox
+						</li>
+						<li class="banshee">
+							<div class="banshee-rewind"></div><div class="banshee-forward"></div><div class="banshee-play"></div>
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							Nastavitve zvoka ...
+						</li>
+					</ul>
+				</div>
+				<div id="time">
+					<p></p>
+					<ul class="drop-down">
+						<li class="system-calendar"></li>
+					</ul>
+				</div>
+				<div id="power"><img src="../img/top/power.png"  alt=""/>
+					<ul class="drop-down">
+						<li class="disabled">
+							O tem računalniku
+						</li>
+						<li class="disabled">
+							Ubuntu pomoč
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							System Settings&hellip;
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							Zaklep <span class="key-combo">Ctrl+Alt+L</span>
+						</li>
+						<li class="disabled user">
+							Seja gosta
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							Odjava
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							V pripravljenost
+						</li>
+						<li class="disabled">
+							Restart&hellip;
+						</li>
+						<li>
+							Izklop ...
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="tooltip">
+			<div class="shadow-arrow"></div>
+			<div class="arrow-right"></div>
+			<div id="tooltip-text"></div>
+		</div>
+		<div id="menu">
+			<ul>
+				<li class="dash">
+					<span>Dom pregledne plošče</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="home"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Domača mapa</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="firefox"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Spletni brskalnik Firefox</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="writer"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>LibreOffice Writer</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="calc"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>LibreOffice Calc</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="impress"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>LibreOffice Impress</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="software"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Programsko središče Ubuntu</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="amazon"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Amazon</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="settings"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Sistemske nastavitve</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="email temp"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""><span>Thunderbird Mail</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt="">
+				</li>
+				<li class="shotwell temp"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Upravljalnik fotografij Shotwell</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="movieplayer temp"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Predvajalnik filmov</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<!--<li class="workspace"><span>Workspace Switcher</span></li>-->
+				<li class="rubbish bottom">
+					<span>Smeti</span>
+				</li>
+			</ul>
+		</div>
+		<div id="systemOverlay">
+			<div class="copyDash"></div>
+			<div id="overlayContents">
+				<input type="text" name="search" value="Search your computer and online sources"/>
+				<div id="display-home" class="app-container">
+					<div class="recent-apps bottom"><img src="../img/overlay/recentapps.png" alt=""/> Programi <div class="app-list"></div>
+					</div>
+					<div class="recent-files bottom"><img src="../img/overlay/recentfiles.png" alt=""/> Mape in datoteke<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-apps" class="app-container">
+					<div class="frequently bottom"><img src="../img/overlay/recentapps.png" alt=""/> Nedavno uporabljeno <div class="app-list"></div>
+					</div>
+					<div class="installed"><img src="../img/overlay/installed.png" alt=""/> Nameščeno<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-find-files" class="app-container">
+					<div class="files bottom"><img src="../img/overlay/recentfiles.png" alt=""/> Nedavno<div class="app-list"></div>
+					</div>
+					<div class="downloads bottom"><img src="../img/overlay/downloaded.png" alt=""/> Prejeto<div class="app-list"></div>
+					</div>
+					<div class="folders"><img src="../img/overlay/folders.png" alt=""/> Mape<div class="app-list"></div>
+					</div>
+
+				</div>
+				<div id="display-find-music" class="app-container">
+					<div class="songs bottom"><img src="../img/overlay/folders.png" alt=""/> Skladbe<div class="app-list"></div>
+					</div>
+					<div class="albums"><img src="../img/overlay/folders.png" alt=""/> Albumi<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-find-video" class="app-container">
+					<div class="videos bottom"><img src="../img/overlay/folders.png" alt=""/> Video<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-find-photos" class="app-container">
+					<div class="photos bottom"><img src="../img/overlay/folders.png" alt=""/> My photos<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-chat" class="app-container">
+					<div class="message">
+						<p>Sorry, there is nothing that matches your search</p>
+					</div>
+				</div>
+				<div id="display-search" class="app-container">
+					<div class="applications bottom"><img src="../img/overlay/search-apps-logo.jpg" alt=""/> Programi<div class="app-list"></div>
+					</div>
+					<div class="files"><img src="../img/overlay/search-files-logo.jpg" alt=""/> Mape in datoteke<div class="app-list"></div>
+					</div>
+				</div>
+			</div>
+			<div id="dash-bottom-bar">
+				<div class="bottom-wrapper">
+					<div class="home-icon active"></div>
+					<div class="applications-icon"></div>
+					<div class="files-icon"></div>
+					<div class="music-icon"></div>
+					<div class="video-icon"></div>
+					<div class="photos-icon"></div>
+					<div class="chat-icon last"></div>
+				</div>
+			</div>
+			<div id="preview">
+				<div class="image"></div>
+				<div class="info"></div>
+				<div class="buttons">
+					<a class="email">E-mail</a>
+					<a class="showInFolder">Show in Folder</a>
+					<a class="open">Open</a>
+				</div>
+			</div>
+		</div>
+		<div id="ubuntuone-window" class="uone window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="window-title">
+					Nadzorna plošča Ubuntu One
+				</div>
+			</div>
+			<div class="content">
+				<div class="header"></div>
+				<div class="body">
+					<h1>Moč svojega osebnega oblaka</h1>
+					<div class="features">
+						<div class="files-anywhere">
+							<span class="logo"></span>
+							<div>
+								<h3>Datoteke povsod</h3>
+								<p>
+									Ustvarite varnostno kopijo ter dostopajte do datotek iz Ubuntuja, Windowsov, spleta ali mobilnika
+								</p>
+							</div>
+						</div>
+						<div class="rock-out">
+							<span class="logo"></span>
+							<div>
+								<h3>Rock Out</h3>
+								<p>
+									Vaša celotna zbirka vas spremlja povsod z glasbenim pretakanjem na Android ali iPhone telefone
+								</p>
+							</div>
+						</div>
+						<div class="keep-connected">
+							<span class="logo"></span>
+							<div>
+								<h3>Ostanite povezani</h3>
+								<p>
+									Poenotite svoje kontakte na namizju, spletu ter mobilniku
+								</p>
+							</div>
+						</div>
+						<div class="stay-productive">
+							<span class="logo"></span>
+							<div>
+								<h3>Ostanite produktivni</h3>
+								<p>
+									Obdržite Firefox zaznamke ter Tomboy opombe usklajene
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="ubuntuone-buttons">
+						<div class="learn-more"><img src="../img/ubuntuone/ubuntuone-logo.jpg" width="47" height="48" alt=""/>
+							<div>
+								Več
+							</div>
+						</div>
+						<div class="join-now">
+							<h2>Pridružite se</h2>
+						</div>
+						<div class="have-account">
+							Že imam račun!
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="libreoffice-calc-window" class="calc window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Neimenovano 1 - LibreOffice Calc
+				</div>
+			</div>
+			<div class="content">
+
+			</div>
+		</div>
+		<div id="libreoffice-writer-window" class="writer window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Neimenovano 1 - LibreOffice Writer
+				</div>
+			</div>
+			<div class="content">
+
+			</div>
+		</div>
+		<div id="libreoffice-impress-window" class="impress window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Neimenovano 1 - LibreOffice Impress
+				</div>
+			</div>
+			<div class="content">
+
+			</div>
+		</div>
+		<div class="error-window window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="window-title"></div>
+			</div>
+			<div class="error-container">
+				<h1>Hvala, ker ste raziskali Ubuntu!</h1>
+				<a class="download"  href="http://www.ubuntu.com/download/ubuntu/download?utm_source=tour&utm_medium=online&utm_campaign=tour" target="_blank">Prejmite Ubuntu</a>
+				<h2>Zapomnite si, to je samo predstavitev. Morali boste prejeti in uživati v pravi stvari!</h2>
+			</div>
+		</div>
+		<!--<div id="error-window" class="error-window window">
+		<div class="control">
+		<div class="close"></div>
+		<div class="window-title"></div>
+		</div>
+		<div class="content">
+		<img src="../img/error/warning.jpg"/>
+		<div class="message">
+		<p>Thanks for exploring Ubuntu</p>
+		<p>Zapomnite si, to je samo predstavitev. Morali boste prejeti in uživati v pravi stvari!</p>
+		</div>
+		<div class="error-buttons"><div class="download highlight">Prejmite Ubuntu</div></div>
+		</div>
+		</div>-->
+		<!--<div id="workspaces">
+		<div id="void">
+		<div id="workspace-container">
+		<div id="workspace1"><div class="fadedOverlay"></div></div>
+		<div id="workspace2"><div class="fadedOverlay"></div></div>
+		<div id="workspace3"><div class="fadedOverlay"></div></div>
+		<div id="workspace4"><div class="fadedOverlay"></div></div>
+		<div class="reflection" style="clear:both;"></div>
+		<div class="reflection"></div>
+		</div>
+		</div>
+		</div>-->
+		<div id="email-window" class="email-window window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					E-pošta
+				</div>
+			</div>
+			<div class="buttons">
+				<div class="email-get-mail">
+					Prejmite pošto
+				</div>
+				<div class="email-divider"></div>
+				<div class="email-write">
+					Sestavi
+				</div>
+				<!--<div class="email-address-book"></div>
+				<div class="email-divider"></div>
+				<div class="email-tag"></div>
+				<div class="email-search"><input type="text" name="submitEmailSearch" id="submitEmailSearch"/></div>-->
+			</div>
+			<div style="clear:both;"></div>
+			<div class="email-content">
+				<div class="folder-list">
+					<div class="bottom-buttons">
+						Vse mape
+					</div>
+					<div style="clear:both;"></div>
+					<div class="list">
+						<div id="folder-inbox" class="selected"><img src="../img/email/inbox.png" alt=""/> Prejeto
+						</div>
+						<div id="folder-draft"><img src="../img/email/drafts.png" alt=""/> Osnutek
+						</div>
+						<div id="folder-sent"><img src="../img/email/sent.png" alt=""/> Poslano
+						</div>
+						<div id="folder-archive"><img src="../img/email/archive-logo.png" alt=""/> Arhiv
+						</div>
+						<div id="folder-trash"><img src="../img/email/trash.png" alt=""/> Smeti
+						</div>
+					</div>
+				</div>
+				<div class="email-contents">
+					<div class="email-categories">
+						<div><img src="../img/email/t.png" alt=""/>
+						</div>
+						<div><img src="../img/email/star.png" alt=""/>
+						</div>
+						<div><img src="../img/email/clip.png" alt=""/>
+						</div>
+						<div class="subject">
+							Zadeva
+						</div>
+						<div><img src="../img/email/glasses.png" alt=""/>
+						</div>
+						<div class="from">
+							Od
+						</div>
+						<div><img src="../img/email/fire.png" alt=""/>
+						</div>
+						<div class="date">
+							Datum
+						</div>
+					</div>
+					<div style="clear:both;"></div>
+					<div class="email-list"></div>
+					<div class="email-body">
+						<div class="message-header">
+							<div class="email-buttons">
+								<div>
+									<span class="message-reply">odgovori</span>
+									<span class="message-forward">posreduj</span>
+									<span class="message-archive">arhiv</span>
+									<span class="message-junk">neželeno</span>
+									<span class="message-delete">izbriši</span>
+								</div>
+							</div>
+							<div style="clear:both;"></div>
+							<div class="date"></div>
+							<dl class="from">
+								<dt>
+									od
+								</dt><dd></dd>
+							</dl>
+							<dl class="subject">
+								<dt>
+									zadeva
+								</dt><dd></dd>
+							</dl>
+							<dl class="to">
+								<dt>
+									za
+								</dt><dd></dd>
+							</dl>
+							<dl class="cc">
+								<dt>
+									kp
+								</dt><dd></dd>
+							</dl>
+						</div>
+						<div class="junk-mail-banner"><img src="../img/email/large-fire.jpg" alt=""/> Neželena pošta
+							<div class="not-junk">
+								Ni neželeno
+							</div>
+						</div>
+						<div class="message-body"></div>
+					</div>
+				</div>
+				<div style="clear:both;"></div>
+				<div class="emails-info">
+					<div>
+						Neprebrano: <span id="details-unread">1</span> Skupaj: <span id="details-total">1</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="email-write" class="email-write window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Napiši: (brez zadeve)
+				</div>
+			</div>
+			<div class="buttons">
+				<div id="write-send">
+					Pošlji
+				</div>
+				<div class="email-divider"></div>
+				<div id="write-attach">
+					Pripni
+				</div>
+			</div>
+			<div style="clear:both;"></div>
+			<div id="write-from">
+				<div>
+					Od:
+				</div>
+				<input type="text" name="from" value="You"/>
+			</div>
+			<div id="write-to">
+				<div>
+					Za:
+				</div>
+				<input type="text" name="to"/>
+			</div>
+			<div id="write-subject">
+				<div>
+					Zadeva:
+				</div>
+				<input type="text" name="subject"/>
+			</div>
+			<div><img src="../img/email/disabled-format-buttons.jpg" width="853" height="32" alt=""/>
+			</div>
+			<div id="write-body">
+				<textarea name="body"></textarea>
+</div>			<div class="loading-bar">
+				<div class="progress"></div>
+			</div>
+		</div>
+		<div id="software-centre" class="software window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Programsko središče Ubuntu
+				</div>
+			</div>
+			<div class="top-panel">
+				<div class="back disabled"></div>
+				<div class="forward disabled"></div>
+				<div class="all-software selected"><img src="../img/software-centre/all-software.png" alt=""/>Vsi programi
+				</div>
+				<div class="installed"><img src="../img/software-centre/installed.png" alt=""/>Nameščeno
+				</div>
+				<div class="history"><img src="../img/software-centre/history.png" alt=""/>Zgodovina
+				</div>
+			</div>
+			<div class="container detailed">
+				<div class="title"><img src="../img/software-centre/visolate.png" class="app-image" width="100" alt=""/><h1>Visolate</h1>
+					<p class="subheading">
+						PCB CNC pretvornik
+					</p>
+					<p class="rating"><img src="../img/software-centre/rating.jpg" alt="" /> (91 Ocen)
+					</p>
+				</div>
+				<div class="price">
+					<span class="theprice">Brezplačno</span><span class="button">Namesti</span>
+					<div class="loading-bar">
+						<div class="progress"></div>
+					</div>
+				</div>
+				<div class="description-container">
+					<div class="description-image"><img src="../img/software-centre/screenshot-blender.jpg" alt="" />
+					</div>
+					<div class="description"><img src="../img/software-centre/screenshot-blender.jpg" alt="" />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quam augue, convallis id commodo id, tristique ac mi. Ut dapibus, neque eget elementum pretium, nunc turpis congue eros, et interdum nisi nisi at diam. Duis dictum, justo eget imperdiet pulvinar, dolor est fermentum nisl, luctus imperdiet metus elit a purus. Quisque nisl enim, lacinia ut venenatis in, porttitor eget orci. Quisque non nibh nec risus tincidunt sollicitudin vitae et nisl. Proin odio lacus, vulputate non auctor sit amet, dapibus quis tortor. Donec elit libero, pellentesque quis dictum sed, hendrerit non libero. Aliquam eu diam id leo auctor tincidunt. Phasellus cursus felis at nulla facilisis semper. Cras mauris urna, adipiscing sed scelerisque ut, gravida id neque. Mauris ut vestibulum justo. Curabitur convallis elementum pellentesque. Duis sit amet arcu ac eros pretium scelerisque. Nunc nec nisi nulla.
+					</div>
+					<div style="clear:both;"></div>
+				</div>
+			</div>
+			<div class="container home">
+				<div class="header-image">
+					<span class="header-title">Naši najbolj priljubljeni programi</span>
+					<span class="header-subtitle">Pridite in raziščite naše priljubljene programe</span>
+				</div>
+				<div class="navigation">
+					<ul>
+						<li>
+							Pripomočki
+						</li>
+						<li>
+							Razvijalska orodja
+						</li>
+						<li>
+							Izobrazba
+						</li>
+						<li>
+							Pisave
+						</li>
+						<li>
+							Igre
+						</li>
+						<li>
+							Grafika
+						</li>
+						<li>
+							Internet
+						</li>
+						<li>
+							Pisarna
+						</li>
+						<li>
+							Znanost in inženirstvo
+						</li>
+						<li>
+							Zvok in video
+						</li>
+						<li>
+							Sistem
+						</li>
+						<li>
+							Teme in prilagoditve
+						</li>
+					</ul>
+				</div>
+				<div class="whats-new">
+					<h2> Kaj je novega</h2>
+					<div class="app-container">
+						<div class="chromium">
+							<h3>Chromium</h3>
+							<p>
+								Internet
+							</p>
+							<p class="cost">
+								Brezplačno
+							</p>
+						</div>
+						<div class="beep">
+							<h3>BEEP</h3>
+							<p>
+								Igre
+							</p>
+							<p class="cost">
+								$9.99
+							</p>
+						</div>
+						<div class="inkscape">
+							<h3>Inkscape</h3>
+							<p>
+								Grafika
+							</p>
+							<p class="cost">
+								Brezplačno
+							</p>
+						</div>
+						<div class="worldofgoo">
+							<h3>World of Goo</h3>
+							<p>
+								Igre
+							</p>
+							<p class="cost">
+								$19.99
+							</p>
+						</div>
+						<div class="blender">
+							<h3>Blender</h3>
+							<p>
+								Grafika
+							</p>
+							<p class="cost">
+								Brezplačno
+							</p>
+						</div>
+						<div class="braid">
+							<h3>Braid</h3>
+							<p>
+								Igre
+							</p>
+							<p class="cost">
+								$9.99
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="whats-new">
+					<h2> Najbolje ocenjeno</h2>
+					<div class="app-container">
+						<div class="beep">
+							<h3>BEEP</h3>
+							<p>
+								Igre
+							</p>
+							<p class="cost">
+								$9.99
+							</p>
+						</div>
+						<div class="chromium">
+							<h3>Chromium</h3>
+							<p>
+								Internet
+							</p>
+							<p class="cost">
+								Brezplačno
+							</p>
+						</div>
+						<div class="worldofgoo">
+							<h3>World of Goo</h3>
+							<p>
+								Igre
+							</p>
+							<p class="cost">
+								$19.99
+							</p>
+						</div>
+						<div class="braid">
+							<h3>Braid</h3>
+							<p>
+								Igre
+							</p>
+							<p class="cost">
+								$9.99
+							</p>
+						</div>
+						<div class="inkscape">
+							<h3>Inkscape</h3>
+							<p>
+								Grafika
+							</p>
+							<p class="cost">
+								Brezplačno
+							</p>
+						</div>
+						<div class="blender">
+							<h3>Blender</h3>
+							<p>
+								Grafika
+							</p>
+							<p class="cost">
+								Brezplačno
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="shotwell" class="shotwell window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Shotwell
+				</div>
+			</div>
+			<div class="sidebar">
+				<div class="nav">
+					<ul>
+						<li class="library">
+							Knjižnica
+						</li>
+					</ul>
+				</div>
+				<div class="details">
+					<div class="overall">
+						<div>
+							Predmeti: <span class="items">16 fotografij</span>
+						</div>
+						<div>
+							Od: <span class="from">Petek 26. okt., 2001</span>
+						</div>
+						<div>
+							Za: <span class="to">Pon 11. oktober, 2010</span>
+						</div>
+					</div>
+					<div class="single">
+						<div>
+							Naslov: <span class="title"></span>
+						</div>
+						<div>
+							Datum: <span class="date"></span>
+						</div>
+						<div>
+							Velikost: <span class="size"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="images"></div>
+				<div class="tools">
+					<div class="jump-image">
+						<div class="next"></div><div class="prev"></div>
+					</div>
+					<div class="slider-container">
+						<div class="small-icon"></div><div class="slider"></div><div class="slider-active"></div><div class="large-icon"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="movieplayer" class="movieplayer window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Predvajalnik filmov
+				</div>
+			</div>
+			<div class="container">
+				<div class="video"></div>
+			</div>
+		</div>
+		<div id="firefox-window" class="firefox-window window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Brskajte po spletu
+				</div>
+			</div>
+			<div class="buttons">
+				<div class="firefox-back"></div>
+				<div class="firefox-forward"></div>
+				<div class="firefox-url">
+					<input type="text" name="submitURL" id="submitURL" value="http://www.ubuntu.com"/>
+				</div>
+				<div class="firefox-search">
+					<input type="text" name="submitSearch" id="submitSearch" value="Wikipedia" class="fade-text"/>
+				</div>
+			</div>
+			<div style="clear:both;"></div>
+			<div class="firefox-internet">
+				<div class="web-overlay-tran"></div>
+				<div class="theIframe">
+					<iframe src="../http://www.ubuntu.com" id="firefoxInternet" >
+						<p>
+							Vaš brskalnik ne podpira iframeov.
+						</p>
+					</iframe>
+				</div>
+			</div>
+		</div>
+		<div id="shutdown-window" class="window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="window-title">
+					Izklop
+				</div>
+			</div>
+			<div class="content">
+				<img src="../img/powerwarning.jpg" alt=""/>
+				<div class="message">
+					<p>
+						Ali ste prepričani, da želite zapreti vse programe in izklopiti računalnik?
+					</p>
+				</div>
+				<div class="shutdown-buttons">
+					<div class="shutdown highlight">
+						Izklop
+					</div>
+					<div class="cancel">
+						Prekliči
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="folder-window" class="folder window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title"></div>
+			</div>
+
+			<div class="buttons">
+					<div class="folder-back"></div>
+					<div class="folder-forward"></div>
+				</div>
+				<div class="bottom-buttons"></div>
+				<div style="clear:both;"></div>
+			<div class="folder-list">
+				<div class="list">
+					<p>
+						Mesta
+					</p>
+					<ul>
+						<li class="home selected" data-folder="home">Domov</li>
+						<li class="desktop" data-folder="5">Namizje</li>
+						<li class="documents" data-folder="0">Dokumenti</li>
+						<li class="downloads" data-folder="1">Prejeto</li>
+						<li class="music" data-folder="2">Glasba</li>
+						<li class="pictures" data-folder="4">Slike</li>
+						<li class="videos" data-folder="3">Video</li>
+						<li class="rubbish" data-folder="bin">Smeti</li>
+					</ul>
+				</div>
+			</div>
+			<div class="folder-contents">
+				<div class="contents"></div>
+				<div class="selected-details"></div>
+			</div>
+		</div>
+		<div id="welcome">
+			<div id="welcome-screen" class="selected-window">
+				<div class="control">
+					<div class="window-title">Ogled Ubuntuja</div>
+				</div>
+				<div class="welcome-header">
+					<h1>Dobrodošli na ogledu Ubuntuja 14.04!</h1>
+					<h2>Preizkusite Ubuntu z našo spletno predstavitvijo.</h2>
+				</div>
+				<ul>
+					<li>
+						<a class="browse-files" href="#browse-files">Brskajte po datotekah</a>
+					</li>
+					<li>
+						<a class="check-email" href="#check-email">Preverite e-pošto</a>
+					</li>
+					<li>
+						<a class="surf-the-web" href="#surf-the-web">Brskajte po spletu</a>
+					</li>
+					<li>
+						<a class="find-apps" href="#find-apps">Najdite programe</a>
+					</li>
+					<li>
+						<a class="create-documents" href="#create-documents">Ustvarite dokumente</a>
+					</li>
+					<li>
+						<a class="view-photos" href="#view-photos">Oglejte si fotografije</a>
+					</li>
+					<li>
+						<a class="create-presentations" href="#create-presentations">Ustvarite predstavitve</a>
+					</li>
+					<li>
+						<a class="create-spreadsheets" href="#create-spreadsheets">Ustvarite preglednice</a>
+					</li>
+					<li>
+						<a class="watch-video" href="#watch-video">Poglejte video posnetke</a>
+					</li>
+				</ul>
+				<div class="language-mode">
+					<span class="active">angleščina</span>
+					<a href="/tour/zh-CN/">中文</a>
+				</div>
+				<a class="explore-mode primary" href="#">Samostojno raziskovanje</a>
+				<a class="tour-mode" href="#">Vodeni ogled</a>
+			</div>
+		</div>
+		<div id="tour-guide">
+			<div class="next-button">&rsaquo;</div>
+			<div class="prev-button">&lsaquo;</div>
+			<div class="guide-container welcome">
+				<div class="guide-logo"><img src="../img/tourguide/back-to-welcome.png" /></div>
+				<h3>Spletni ogled Ubuntu</h3>
+				<p>
+					Upamo, da ste uživali v spletnem ogledu Ubuntuja. <a href="http://www.ubuntu.com/download/ubuntu/download?utm_source=tour&utm_medium=online&utm_campaign=tour" target="_blank">Pripravljeni na prejem?</a> ali <a href="/ubuntu/take-the-tour" >nazaj na stran</a>
+				</p>
+			</div>
+			<div class="guide-container home">
+				<div class="guide-logo"><img src="../img/tourguide/file-small.png" />
+				</div>
+				<h3>Brskajte po datotekah</h3>
+				<p>
+					Hitro ter enostavno dostopate do map in datotek iz domače mape Ubuntu.
+				</p>
+			</div>
+			<div class="guide-container firefox">
+				<div class="guide-logo"><img src="../img/tourguide/firefox-small.png" />
+				</div>
+				<h3>Brskajte po spletu</h3>
+				<p>
+					Brskanje po spletu je hitro in varno z Ubuntujem in Firefoxom.
+				</p>
+			</div>
+			<div class="guide-container email">
+				<div class="guide-logo"><img src="../img/tourguide/mail-small.png" />
+				</div>
+				<h3>Preverite e-pošto</h3>
+				<p>
+					Preberite, napišite ter pošljite e-pošto s Thunderbirdom. Je preprosto ter hitro.
+				</p>
+			</div>
+			<div class="guide-container shotwell">
+				<div class="guide-logo"><img src="../img/tourguide/shotwell-small.png" />
+				</div>
+				<h3>Oglejte si fotografije</h3>
+				<p>
+					Lahko pošiljate, organizirate, urejate in delite svoje fotografije s Shotwellom.
+				</p>
+			</div>
+			<div class="guide-container software">
+				<div class="guide-logo"><img src="../img/tourguide/apps-small.png" />
+				</div>
+				<h3>Najdite programe</h3>
+				<p>
+					Iščite ter hitro prejmite programe iz Programskega središča Ubuntu.
+				</p>
+			</div>
+			<div class="guide-container writer">
+				<div class="guide-logo"><img src="../img/tourguide/document-small.png" />
+				</div>
+				<h3>Ustvarite dokumente</h3>
+				<p>
+					Z LibreOffice Writer zlahka pripravite strokovne dokumente.
+				</p>
+			</div>
+			<div class="guide-container calc">
+				<div class="guide-logo"><img src="../img/tourguide/calc-small.png" />
+				</div>
+				<h3>Ustvarite preglednice</h3>
+				<p>
+					LibreOffice Calc ima vse, kar potrebujete za izdelavo jasnih ter natančnih preglednic.
+				</p>
+			</div>
+			<div class="guide-container impress">
+				<div class="guide-logo"><img src="../img/tourguide/impress-small.png" />
+				</div>
+				<h3>Ustvarite predstavitve</h3>
+				<p>
+					Ustvarite dober vtis z inuitivnim predstavitvenim orodjem LibreOffice Impress.
+				</p>
+			</div>
+			<div class="guide-container movieplayer">
+				<div class="guide-logo"><img src="../img/tourguide/video-small.png" />
+				</div>
+				<h3>Poglejte video posnetke</h3>
+				<p>
+					Pogledate lahko svoje priljubljene filme in video posnetke, DVDje, prejeme ali filme, ki ste jih sami ustvarili.
+				</p>
+			</div>
+			<div class=" tour-buttons">
+				<div class="explore-to-welcome">Pozdravni zaslon</div>
+				<div class="explore-to-download">Prejmite Ubuntu</div>
+				<div class="explore-to-exit">Končaj ogled</div>
+			</div>
+		</div>
+		<div id="Translation-Strings">
+			<!--
+			* Email system
+			-->
+			<p class="_email_1_title_">
+				Dostopno
+			</p>
+			<p class="_email_2_title_">
+				Hitro
+			</p>
+			<p class="_email_3_title_">
+				Združljivo
+			</p>
+			<p class="_email_4_title_">
+				Varno
+			</p>
+			<p class="_email_5_title_">
+				Vaš Ubuntu, vaš način
+			</p>
+			<p class="_email_1_body_">
+				Dostopnost je osrednja Ubuntu filozofija. Verjamemo, da je računalništvo za vsakogar neodvisno od državljanstva, rase, spola ali invalidnosti. Popolnoma preveden v 38 jezikov,  Ubuntu prav tako vključuje pomembne podporne tehnologije, katere so seveda,  popolnoma brezplačne.
+			</p>
+			<p class="_email_2_body_">
+				Ubuntu se hitro zažene na vseh računalnikih, ampak je še posebej hiter na novejših. Ker ni nepotrebnih ter preizkusnih programov, ki bi upočasnjevali računalnik, potrebujete za zagon računalnika ter odpiranje brskalnika nekaj sekund. Za razliko od drugih operacijskih sistemov, kateri vas pustijo strmeti v zaslon, medtem ko čakate, da se povežete. In Ubuntu ne bo postal počasen čez čas. Je hiter. In ostane hiter.
+			</p>
+			<p class="_email_3_body_">
+				Ubuntu odlično dela z velikim obsegom naprav. Preprosto priključite svoj predvajalnik mp3, kamero ali tiskalnik in bo takoj pripravljen za uporabo. Brez namestitvenih zgoščenk. Brez razburjanja. Združljiv je tudi z Windowsi! Tako da lahko odprete, urejate ter delite dokumente Microsoft Office brez stresa.
+			</p>
+			<p class="_email_4_body_">
+				Z Ubuntujem lahko varno brskate, prepričani, da bodo vaše datoteke ter podatki ostali zaščiteni. Vgrajen požarni zid ter protivirusna zaščita sta vključena. Če se pa pojavi morebitna grožnja, zagotavljamo samodejne posodobitve, katere lahko namestite z enim klikom. Dodatno zaščito zagotavlja AppArmor, kateri ščiti vaše pomembne programe tako, da napadalci ne morejo dostopati do vašega sistema. In zahvaljujoč Firefoxu ter Geslom in ključem, vam Ubuntu pomaga obdržati zasebne podatke zasebne. To pomeni, da boste imeli duševni mir, če dostopate do svojega bančnega računa ali delite občutljive podatke s prijatelji ali sodelavci.
+			</p>
+			<p class="_email_5_body_">
+				Uživajte v enostavnosti Ubuntujevega elegantnega ter intuitivnega vmesnika. Hiter, varen in z več tisoč programi, med katerimi lahko izbirate, Ubuntu vam ponuja čisto ter poenostavljeno izkušnjo.
+			</p>
+			<p class="_random_reply_">
+				Hvala, ker ste raziskali Ubuntu! Zapomnite si, to je samo predstavitev. Morali boste prejeti in uživati v pravi stvari!
+				<br/>
+				<br/>
+				<a href="http://www.ubuntu.com/download/ubuntu/download?utm_source=tour&utm_medium=online&utm_campaign=tour" target="_blank">Prejmite Ubuntu</a>
+			</p>
+			<p class="_write_">
+				Sestavi
+			</p>
+			<p class="_no_subject_">
+				brez zadeve
+			</p>
+			<p class="_recipient_">
+				Prejemnik
+			</p>
+			<p class="_from_">
+				Od
+			</p>
+			<p class="_you_">
+				Vi
+			</p>
+			<p class="_on_">
+				Vključeno
+			</p>
+			<p class="_wrote_">
+				napisal
+			</p>
+			<p class="_original_message_">
+				Izvirno sporočilo
+			</p>
+			<p class="_fwd_">
+				Fwd
+			</p>
+			<!--
+			* Folder System
+			-->
+			<p class="_home_folder_">
+				Domov
+			</p>
+			<p class="_desktop_folder_">
+				Namizje
+			</p>
+			<p class="_pictures_folder_">
+				Slike
+			</p>
+			<p class="_videos_folder_">
+				Video
+			</p>
+			<p class="_music_folder_">
+				Glasba
+			</p>
+			<p class="_downloads_folder_">
+				Prejeto
+			</p>
+			<p class="_documents_folder_">
+				Dokumenti
+			</p>
+			<p class="_canonical_folder_">
+				Canonical
+			</p>
+			<p class="_backup_folder_">
+				Varnostna kopija
+			</p>
+			<p class="_local_folder_">
+				Krajevno
+			</p>
+			<p class="_work_folder_">
+				delo
+			</p>
+			<p class="_branches_folder_">
+				vaje
+			</p>
+			<p class="_rubbish_bin_folder_">
+				Smeti
+			</p>
+			<!--
+			* Software Center System
+			-->
+			<p class="_remove_">
+				Odstrani
+			</p>
+			<p class="_price_free_">
+				Brezplačno
+			</p>
+			<p class="_installed_">
+				Nameščeno
+			</p>
+			<p class="_install_">
+				Namesti
+			</p>
+			<p class="_installing_">
+				Nameščanje
+			</p>
+			<p class="_chromium_app_">
+				Spletni brskalnik Chromium
+			</p>
+			<p class="_chromium_sub_">
+				Dostopajte do interneta
+			</p>
+			<p class="_chromium_desc_">
+				Chromium je projekt odprtokodnega brskalnika, ki poskuša iznajti hitrejši, varnejši in stabilnejši način za izkušanje spleta za vse uporabnike interneta.
+				<br/>
+				<br/>
+				Chromium služi kot osnova za Google Chrome, ki je Chromium z drugo blagovno znamko (ime in logotip) in zelo malo dodatki kot je sledenje uporabe in sistem samodejnega posodabljanja.
+				<br/>
+				<br/>
+				Ta paket vsebuje brskalnik Chromium
+			</p>
+			<p class="_beep_app_">
+				BEEP
+			</p>
+			<p class="_beep_sub_">
+				2D streljaška igra z na fiziki temelječimi ugankami
+			</p>
+			<p class="_beep_desc_">
+				Igra BEEP je 2D na fiziki temelječ način igranja. Nadzirate majhnega robota, opremljenega z anti gravitacijsko napravo, raketni pogon ter pištolo. Vozite, skačite, letite, plavajte ter streljajte, da bi se prebili čez 24 stopenj razpršenih čez 6 edinstvenih okolij.
+				<br/>
+				<br/>
+				Uporabite anti gravitacijsko napravo, da neposredno vplivate na fiziki temelječa okolja. Anti gravitacijska naprava je hkrati orodje ter orožje. Uporabite jo za uničevanje nasprotnikovih robotov, grajenje stolpov in reševanje ugank.
+				<br/>
+				<br/>
+				BEEP je prepotoval tisoče let skozi vesolje, da bi raziskoval galaksijo. Prečkajte neznani sistem zvezd z ladjo BEEP in pošljite robote na površino planetov.
+			</p>
+			<p class="_inkscape_app_">
+				Urejevalnik vektorskih slik Inkscape
+			</p>
+			<p class="_inkscape_sub_">
+				Ustvarjajte in urejajte slike raztegljive vektorske grafike (svg)
+			</p>
+			<p class="_inkscape_desc_">
+				Inkscape naloži in shrani podniz vrste SVG (raztegljiva vektorska grafika), standarda, ki ga vzdržuje konzorcij WWW.
+				<br/>
+				<br/>
+				Uporabniški vmesnik Inkscape bi moral biti znan iz CorelDraw in podobnih risarskih programov. Na voljo so pravokotniki, besedilni predmeti, bitne slike in prostoročne krivulje. Kot dodan bonus imajo lahko tako vektorski predmeti kot predmeti bitnih slik alfa prozornost in jih je mogoče poljubno preoblikovati.
+				<br/>
+				<br/>
+				Inkscape podpira več odprtih datotek in več pogledov na datoteko. Grafiko je mogoče natisniti in izvoziti v bitne slike png.
+				<br/>
+				<br/>
+				Nekatere zmožnosti uvoza in izvoza zagotavljajo paketi dia, libwmf-bin, pstoedit, skencil, imagemagick in perlmagick.
+				<br/>
+				<br/>
+				Druge razširitve uporabljajo ruby, libxml-xql-perl, python-numpy in python-lxml. Za polno uporabo vseh razširitev in učinkov morate imeti te pakete.
+				<br/>
+				<br/>
+				Če želite uporabiti črkovalnik, morate namestiti aspell in ustrezen jezikovni paket, na primer aspell-en ali aspell-de.
+			</p>
+			<p class="_world_of_goo_app_">
+				World of Goo
+			</p>
+			<p class="_world_of_goo_sub_">
+				Na fiziki temelječa igra ugank/gradbeništva
+			</p>
+			<p class="_world_of_goo_desc_">
+				Povlecite ter spustite žive, zvijajoče, govoreče lepljive kepice za izgradnjo konstrukcij, mostov, topovskih krogel, cepelinov in orjaških jezikov. Milijone nedolžnih lepljivih kepic, katere živijo v čudovitem Lepljivem svetu, je radovednih in želijo raziskovati.
+				<br/>
+				<br/>
+				Ampak oni ne vedo da so v igri in da so izjemno okusni. Najbolj zasvajajoča ugankarska igra, vas bo poslala na pustolovščino, katero ne boste pozabili!
+			</p>
+			<p class="_blender_app_">
+				Blender
+			</p>
+			<p class="_blender_sub_">
+				Ustvarjajte in urejajte 3D modele in animacije
+			</p>
+			<p class="_blender_desc_">
+				Blender je enovita 3d zbirka za modeliranje, animacijo, izrisovanje, nadaljnjo obdelovanje, vzajemno ustvarjanje in predvajanje (iger). Blender in svoj lasten uporabniški vmesnik, ki je izveden popolnoma v OpenGL in zasnovan s hitrostjo v mislih. Na voljo so vezave Python za skriptanja. Zmožnosti uvoza/izvoza za priljubljene vrste datotek kot sta 3D Studio in Wavefront Obj so izvedene kot skripti, ki jih je napisala skupnost. Slogi, animacije, modeli za igre ali drugi programniki tretjih oseb in vzajemna vsebina v obliki samodejne binarne datoteke in/ali spletnega vstavka so pogosti izdelki, ustvarjeni s programom Blender.
+			</p>
+			<p class="_braid_app_">
+				Braid
+			</p>
+			<p class="_braid_sub_">
+				Za razrešitev uganke vplivajte na tok časa
+			</p>
+			<p class="_braid_desc_">
+				Braid je igra, kjer ravnate s tokom časa, da bi rešili uganke. Vsaka uganka v Braidu je edinstvena.
+				<br/>
+				<br/>
+				Braid obravnava vaš čas in pozornost kot dragocenost, in počne vse kar lahko, da bi vam omogočil enkratno izkušnjo.
+				<br/>
+				<br/>
+				Način igranja temelji na rokovanju časa. Potovanja v svetove, kjer se čas čudno obnaša; opazujte, naučite se in nato obvladajte te svetove.
+			</p>
+			<p class="_rhythmbox_app_">
+				Predvajalnik predstavnosti Rhythmbox
+			</p>
+			<p class="_brasero_app_">
+				Zapisovalnik diskov Brasero
+			</p>
+			<p class="_movie_player_app_">
+				Predvajalnik filmov
+			</p>
+			<p class="_shotwell_app_">
+				Upravljalnik fotografij Shotwell
+			</p>
+			<p class="_pitivi_app_">
+				Video urejevalnik PiTiVi
+			</p>
+			<p class="_sound_recorder_app_">
+				Snemalnik zvoka
+			</p>
+			<p class="_empathy_app_">
+				Internetno sporočanje Empathy
+			</p>
+			<p class="_thunderbird_app_">
+				Odjemalec pošte in novic Thunderbird
+			</p>
+			<p class="_firefox_app_">
+				Spletni brskalnik Firefox
+			</p>
+			<p class="_gwibber_app_">
+				Program za družabna omrežja Gwibber
+			</p>
+			<p class="_remote_desktop_app_">
+				Pregledovalnik oddaljenih namizij
+			</p>
+			<p class="_terminal_app_">
+				Strežniški terminalski odjemalec
+			</p>
+			<p class="_ubuntu_one_app_">
+				Ubuntu One
+			</p>
+			<p class="_ubuntu_software_center_app_">
+				Programsko središče Ubuntu
+			</p>
+			<p class="_ubuntu_one_music_app_">
+				Glasba Ubuntu One
+			</p>
+			<p class="_amazon_app_">
+				Amazon
+			</p>
+			<p class="_about_me_app_">
+				O meni
+			</p>
+			<p class="_additional_drivers_app_">
+				Dodatni gonilniki
+			</p>
+			<p class="_aisleroit_app_">
+				Pasjansa AisleRoit
+			</p>
+			<p class="_appearance_app_">
+				Videz
+			</p>
+			<p class="_bluetooth_app_">
+				Bluetooth
+			</p>
+			<!--
+			* Dash
+			-->
+			<p class="_search_">Iskanje po računalniku in spletnih virih</p>
+			<!--
+			* Notifications
+			-->
+			<p class="_turn_off_bluetooth_">
+				Izklopi Bluetooth
+			</p>
+			<p class="_turn_on_bluetooth_">
+				Vklopi Bluetooth
+			</p>
+			<p class="_visible_">
+				Vidno
+			</p>
+			<p class="_mute_">
+				Utišaj
+			</p>
+			<p class="_unmute_">
+				Prekliči utišanje
+			</p>
+			<p class="_shut_down_">
+				Izklop ...
+			</p>
+			<!--
+				Files Details - Images
+			-->
+			<p class="_photo_size_">
+				15.2KB
+			</p>
+			<p class="_photo_date_">
+				Petek 26. okt., 2001
+			</p>
+			<p class="_buck_off_title_">
+				Buck Off
+			</p>
+			<p class="_darkening_clockwork_title_">
+				Temna ura
+			</p>
+			<p class="_dybbølsbro_station_title_">
+				Postaja Dybbølsbro
+			</p>
+			<p class="_federica_miglio_title_">
+				Federica Miglio
+			</p>
+			<p class="_jardin_polar_title_">
+				Jardin Polar
+			</p>
+			<p class="_langelinie_alle_title_">
+				Langelinie Alle
+			</p>
+			<p class="_momiji_dream_title_">
+				Sanje v Monijiju
+			</p>
+			<p class="_mount_snowdon_title_">
+				Gora Snowdon
+			</p>
+			<p class="_not_alone_title_">
+				Niste sami
+			</p>
+			<p class="_power_of_words_title_">
+				Moč besed
+			</p>
+			<p class="_purple_dancers_title_">
+				Vijolični plesalci
+			</p>
+			<p class="_sand_maze_title_">
+				Peščeni labirint
+			</p>
+			<p class="_small_flowers_title_">
+				Majhno cvetje
+			</p>
+			<p class="_stalking_ocelot_title_">
+				Zalezujoči ozelot
+			</p>
+			<p class="_the_grass_aint_greener_title_">
+				Trava ni bolj zelena
+			</p>
+			<p class="_wildWheat_title_">
+				Divja pšenica
+			</p>
+			<!--
+				Files Details - Video
+			-->
+			<p class="_introduction_ubuntu_title_">
+				Ubuntu uvod
+			</p>
+			<p class="_video_size_">
+				5.3MB
+			</p>
+			<p class="_video_date_">
+				Pon 11. oktober, 2010
+			</p>
+			<!--
+				Files Details - Music
+			-->
+			<p class="_happyness_title_">
+				Sreča
+			</p>
+			<p class="_music_size_">
+				3.3MB
+			</p>
+			<p class="_music_date_">
+				Sre 14. oktober, 2010
+			</p>
+		</div>
+		<script type="text/javascript" src="../js/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="../js/lang.js"></script>
+		<script type="text/javascript" src="../js/scripts.js"></script>
+		<script type="text/javascript" src="../js/welcomesystem.js"></script>
+		<script type="text/javascript" src="../js/guidedtoursystem.js"></script>
+		<script type="text/javascript" src="../js/filesystem.js"></script>
+		<script type="text/javascript" src="../js/folders.js"></script>
+		<script type="text/javascript" src="../js/systemoverlay.js"></script>
+		<script type="text/javascript" src="../js/systemmenu.js"></script>
+		<script type="text/javascript" src="../js/internetsystem.js"></script>
+		<script type="text/javascript" src="../js/emailsystem.js"></script>
+		<script type="text/javascript" src="../js/systemsettings.js"></script>
+		<script type="text/javascript" src="../js/email.js"></script>
+		<script type="text/javascript" src="../js/errormessage.js"></script>
+		<script type="text/javascript" src="../js/ubuntuonesystem.js"></script>
+		<script type="text/javascript" src="../js/file.js"></script>
+		<script type="text/javascript" src="../js/shotwellsystem.js"></script>
+		<script type="text/javascript" src="../js/shutdownSystem.js"></script>
+		<script type="text/javascript" src="../js/movieplayersystem.js"></script>
+		<script type="text/javascript" src="../js/libresystem.js"></script>
+		<script type="text/javascript" src="../js/softwaresystem.js"></script>
+		<script type="text/javascript" src="../js/notificationsystem.js"></script>
+		<script type="text/javascript" src="../js/analytics.js"></script>
+	</body>
+</html>
